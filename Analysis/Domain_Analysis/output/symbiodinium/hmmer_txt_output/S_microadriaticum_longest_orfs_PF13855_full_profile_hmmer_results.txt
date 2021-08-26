@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LSRX01000025.1.p86   -          PF13855_full         -              2e-29  102.4  15.6   1.5e-10   41.4   0.1   4.2   2   1   2   4   4   4   4 type:complete len:413 gc:universal LSRX01000025.1:555098-556336(+)
+LSRX01000007.1.p102  -          PF13855_full         -            7.4e-26   90.8  66.7   6.1e-08   32.9  13.8   5.2   1   1   4   5   5   5   5 type:complete len:403 gc:universal LSRX01000007.1:635253-634045(-)
+LSRX01000001.1.p147  -          PF13855_full         -              3e-09   37.1   1.8   0.00039   20.6   0.2   2.5   1   1   1   2   2   2   2 type:complete len:398 gc:universal LSRX01000001.1:340879-342072(+)
+LSRX01000007.1.p48   -          PF13855_full         -               0.33   11.1   0.0      0.51   10.5   0.0   1.2   1   0   0   1   1   1   0 type:complete len:775 gc:universal LSRX01000007.1:772323-769999(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13855_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_microadriaticum_longest_orfs_PF13855_full_profile_hmmer_results.txt ../output/domains/PF13855_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:17:18 2021
+# [ok]

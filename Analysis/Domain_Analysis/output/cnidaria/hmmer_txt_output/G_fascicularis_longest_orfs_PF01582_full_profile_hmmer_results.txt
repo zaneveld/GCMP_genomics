@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Sc0000172.p2         -          PF01582_full         -            5.4e-33  117.3   1.0     1e-32  116.4   1.0   1.4   1   0   0   1   1   1   1 type:complete len:1003 gc:universal Sc0000172:165260-162252(-)
+xfSc0001581.p2       -          PF01582_full         -            9.8e-27   96.8   4.8   1.2e-26   96.4   4.8   1.1   1   0   0   1   1   1   1 type:complete len:215 gc:universal xfSc0001581:6671-6027(-)
+xfSc0003385.p1       -          PF01582_full         -            1.6e-18   69.7   0.4     2e-18   69.5   0.4   1.2   1   0   0   1   1   1   1 type:complete len:167 gc:universal xfSc0003385:4690-4190(-)
+Sc0000277.p6         -          PF01582_full         -            2.7e-16   62.4   0.5   2.7e-16   62.4   0.5   1.4   2   0   0   2   2   2   1 type:complete len:176 gc:universal Sc0000277:63592-64119(+)
+Sc0000277.p4         -          PF01582_full         -            5.1e-15   58.3   2.0     6e-15   58.0   2.0   1.1   1   0   0   1   1   1   1 type:complete len:181 gc:universal Sc0000277:8958-9500(+)
+xfSc0009112.p1       -          PF01582_full         -            1.4e-14   56.9   0.5   1.4e-14   56.9   0.5   1.2   1   0   0   1   1   1   1 type:5prime_partial len:175 gc:universal xfSc0009112:1-525(+)
+xfSc0006973.p1       -          PF01582_full         -            1.6e-14   56.6   2.2   1.9e-14   56.4   2.2   1.1   1   0   0   1   1   1   1 type:complete len:181 gc:universal xfSc0006973:129-671(+)
+xfSc0001817.p2       -          PF01582_full         -            4.1e-13   52.0   0.9     6e-13   51.5   0.9   1.4   1   1   0   1   1   1   1 type:complete len:166 gc:universal xfSc0001817:13697-14194(+)
+xfSc0000959.p4       -          PF01582_full         -            9.4e-11   44.3   0.2   1.6e-10   43.5   0.1   1.4   1   1   0   1   1   1   1 type:complete len:131 gc:universal xfSc0000959:22023-22415(+)
+xfSc0000984.p9       -          PF01582_full         -            2.4e-09   39.6   0.1   2.4e-09   39.6   0.1   1.1   1   0   0   1   1   1   1 type:complete len:102 gc:universal xfSc0000984:2478-2783(+)
+xfSc0003746.p3       -          PF01582_full         -              6e-09   38.3   0.0     6e-09   38.3   0.0   1.1   1   0   0   1   1   1   1 type:complete len:101 gc:universal xfSc0003746:1328-1026(-)
+Sc0002040.p3         -          PF01582_full         -            1.7e-07   33.6   0.3   2.3e-07   33.1   0.3   1.4   1   1   0   1   1   1   1 type:complete len:112 gc:universal Sc0002040:15535-15200(-)
+xfSc0009328.p1       -          PF01582_full         -            7.9e-07   31.4   0.2   8.8e-07   31.2   0.2   1.1   1   0   0   1   1   1   1 type:complete len:149 gc:universal xfSc0009328:536-90(-)
+Sc0000277.p9         -          PF01582_full         -            1.1e-06   30.9   1.5   1.1e-06   30.9   1.5   1.2   1   1   0   1   1   1   1 type:complete len:150 gc:universal Sc0000277:41667-42116(+)
+xfSc0000137.p12      -          PF01582_full         -            3.2e-06   29.4   0.1   3.8e-06   29.1   0.1   1.1   1   0   0   1   1   1   1 type:complete len:144 gc:universal xfSc0000137:53223-53654(+)
+Sc0002811.p3         -          PF01582_full         -             0.0043   19.1   0.0    0.0065   18.5   0.0   1.3   1   0   0   1   1   1   1 type:complete len:297 gc:universal Sc0002811:5732-6622(+)
+Sc0002811.p1         -          PF01582_full         -              0.013   17.5   0.6     0.033   16.2   0.0   1.9   2   0   0   2   2   2   0 type:complete len:675 gc:universal Sc0002811:967-2991(+)
+xfSc0000137.p1       -          PF01582_full         -              0.046   15.7   1.6      0.08   14.9   0.0   2.0   2   1   0   2   2   2   0 type:complete len:360 gc:universal xfSc0000137:57185-58264(+)
+xfSc0004465.p2       -          PF01582_full         -              0.082   14.9   0.0      0.14   14.2   0.0   1.4   1   0   0   1   1   1   0 type:complete len:314 gc:universal xfSc0004465:2585-3526(+)
+Sc0003534.p1         -          PF01582_full         -               0.12   14.3   0.0      0.13   14.2   0.0   1.2   1   0   0   1   1   1   0 type:5prime_partial len:232 gc:universal Sc0003534:2-697(+)
+xfSc0000952.p8       -          PF01582_full         -               0.13   14.3   0.0      0.14   14.1   0.0   1.1   1   0   0   1   1   1   0 type:complete len:116 gc:universal xfSc0000952:10885-10538(-)
+xfSc0000718.p3       -          PF01582_full         -               0.88   11.5  15.0       1.4   10.8  15.0   1.3   1   0   0   1   1   1   0 type:complete len:263 gc:universal xfSc0000718:27024-26236(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/G_fascicularis_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/G_fascicularis_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/G_fascicularis_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:44 2021
+# [ok]

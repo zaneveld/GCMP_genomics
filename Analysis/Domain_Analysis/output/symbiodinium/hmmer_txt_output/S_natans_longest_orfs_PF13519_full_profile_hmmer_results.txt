@@ -1,0 +1,58 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNDS010000465.1.p14  -          PF13519_full         -            1.6e-22   85.5   2.5   2.4e-22   84.9   2.5   1.2   1   0   0   1   1   1   1 type:complete len:313 gc:universal CAJNDS010000465.1:62194-63132(+)
+CAJNDS010002316.1.p12  -          PF13519_full         -            7.2e-20   76.7   0.4     2e-19   75.3   0.4   1.7   1   0   0   1   1   1   1 type:complete len:614 gc:universal CAJNDS010002316.1:20940-19099(-)
+CAJNDS010002611.1.p12  -          PF13519_full         -            2.4e-19   75.0   3.5   3.9e-19   74.3   3.5   1.3   1   0   0   1   1   1   1 type:complete len:461 gc:universal CAJNDS010002611.1:245174-246556(+)
+CAJNDS010000169.1.p7   -          PF13519_full         -              5e-19   74.0   0.6   1.3e-18   72.6   0.6   1.6   1   0   0   1   1   1   1 type:complete len:762 gc:universal CAJNDS010000169.1:728356-730641(+)
+CAJNDS010000169.1.p8   -          PF13519_full         -            4.8e-17   67.5   2.1   4.8e-17   67.5   2.1   1.8   2   0   0   2   2   1   1 type:complete len:726 gc:universal CAJNDS010000169.1:465294-467471(+)
+CAJNDS010000258.1.p72  -          PF13519_full         -            7.9e-17   66.8   1.0     1e-16   66.4   1.0   1.2   1   0   0   1   1   1   1 type:complete len:262 gc:universal CAJNDS010000258.1:681958-681173(-)
+CAJNDS010002428.1.p14  -          PF13519_full         -            6.1e-16   63.9   0.6   9.7e-16   63.2   0.6   1.2   1   0   0   1   1   1   1 type:complete len:423 gc:universal CAJNDS010002428.1:37631-38899(+)
+CAJNDS010000946.1.p57  -          PF13519_full         -            6.5e-14   57.2   0.0   1.6e-13   56.0   0.0   1.6   1   1   0   1   1   1   1 type:complete len:275 gc:universal CAJNDS010000946.1:470417-471241(+)
+CAJNDS010002788.1.p16  -          PF13519_full         -            1.7e-13   55.9   0.1   1.7e-13   55.9   0.1   1.8   2   0   0   2   2   1   1 type:complete len:529 gc:universal CAJNDS010002788.1:266356-267942(+)
+CAJNDS010002747.1.p50  -          PF13519_full         -            2.6e-13   55.2   0.0   3.8e-13   54.7   0.0   1.1   1   0   0   1   1   1   1 type:complete len:245 gc:universal CAJNDS010002747.1:276086-276820(+)
+CAJNDS010001079.1.p30  -          PF13519_full         -            6.4e-13   54.0   0.1   1.1e-12   53.2   0.1   1.3   1   0   0   1   1   1   1 type:complete len:478 gc:universal CAJNDS010001079.1:574498-575931(+)
+CAJNDS010000669.1.p32  -          PF13519_full         -            2.7e-11   48.7   0.1   3.9e-11   48.1   0.1   1.2   1   0   0   1   1   1   1 type:complete len:442 gc:universal CAJNDS010000669.1:662319-663644(+)
+CAJNDS010000285.1.p12  -          PF13519_full         -            5.8e-11   47.6   0.3   1.1e-10   46.6   0.3   1.4   1   0   0   1   1   1   1 type:complete len:307 gc:universal CAJNDS010000285.1:159906-160826(+)
+CAJNDS010001324.1.p49  -          PF13519_full         -            9.6e-11   46.8   0.0   1.5e-10   46.3   0.0   1.2   1   0   0   1   1   1   1 type:complete len:336 gc:universal CAJNDS010001324.1:112326-111319(-)
+CAJNDS010002820.1.p9   -          PF13519_full         -            1.5e-10   46.2   0.0     3e-10   45.2   0.0   1.5   1   0   0   1   1   1   1 type:complete len:540 gc:universal CAJNDS010002820.1:188688-190307(+)
+CAJNDS010002734.1.p78  -          PF13519_full         -            1.6e-09   42.8   0.2   2.2e-09   42.4   0.2   1.2   1   0   0   1   1   1   1 type:complete len:264 gc:universal CAJNDS010002734.1:3186-2395(-)
+CAJNDS010001780.1.p27  -          PF13519_full         -            1.7e-08   39.5   0.0   8.1e-08   37.3   0.0   2.1   1   1   0   1   1   1   1 type:complete len:475 gc:universal CAJNDS010001780.1:178587-180011(+)
+CAJNDS010002429.1.p230 -          PF13519_full         -            9.6e-08   37.0   0.1   1.3e-07   36.6   0.1   1.1   1   0   0   1   1   1   1 type:complete len:146 gc:universal CAJNDS010002429.1:256320-255883(-)
+CAJNDS010000253.1.p4   -          PF13519_full         -              1e-07   36.9   0.0   2.6e-07   35.6   0.0   1.7   1   1   1   2   2   2   1 type:complete len:422 gc:universal CAJNDS010000253.1:86462-87727(+)
+CAJNDS010000395.1.p18  -          PF13519_full         -              2e-07   36.0   0.6     3e-07   35.4   0.6   1.3   1   0   0   1   1   1   1 type:complete len:250 gc:universal CAJNDS010000395.1:53617-52868(-)
+CAJNDS010000680.1.p21  -          PF13519_full         -            9.5e-07   33.8   0.5   2.1e-06   32.6   0.5   1.5   1   0   0   1   1   1   1 type:complete len:653 gc:universal CAJNDS010000680.1:444195-442237(-)
+CAJNDS010000487.1.p13  -          PF13519_full         -              1e-06   33.7   0.0   1.4e-06   33.2   0.0   1.2   1   0   0   1   1   1   1 type:complete len:265 gc:universal CAJNDS010000487.1:15629-16423(+)
+CAJNDS010000292.1.p4   -          PF13519_full         -            1.8e-06   32.8   0.0   4.2e-06   31.6   0.0   1.6   1   0   0   1   1   1   1 type:complete len:722 gc:universal CAJNDS010000292.1:65465-63300(-)
+CAJNDS010000150.1.p18  -          PF13519_full         -            4.6e-06   31.5   0.0   2.2e-05   29.3   0.0   1.9   1   1   0   1   1   1   1 type:complete len:286 gc:universal CAJNDS010000150.1:211378-212235(+)
+CAJNDS010001079.1.p157 -          PF13519_full         -            1.1e-05   30.3   0.1   1.3e-05   30.0   0.1   1.1   1   0   0   1   1   1   1 type:complete len:172 gc:universal CAJNDS010001079.1:322642-322127(-)
+CAJNDS010002130.1.p38  -          PF13519_full         -            1.6e-05   29.8   0.0   3.9e-05   28.5   0.0   1.6   2   0   0   2   2   2   1 type:complete len:285 gc:universal CAJNDS010002130.1:616821-617675(+)
+CAJNDS010002703.1.p6   -          PF13519_full         -            2.5e-05   29.1   0.0   5.1e-05   28.1   0.0   1.4   1   0   0   1   1   1   1 type:complete len:734 gc:universal CAJNDS010002703.1:67748-65547(-)
+CAJNDS010002143.1.p22  -          PF13519_full         -             0.0085   20.8   0.3     0.018   19.7   0.3   1.6   1   1   0   1   1   1   1 type:complete len:454 gc:universal CAJNDS010002143.1:302987-301626(-)
+CAJNDS010000420.1.p21  -          PF13519_full         -              0.077   17.7   0.0      0.13   17.0   0.0   1.4   1   0   0   1   1   1   0 type:complete len:237 gc:universal CAJNDS010000420.1:85881-86591(+)
+CAJNDS010000668.1.p93  -          PF13519_full         -              0.091   17.4   1.3      0.11   17.2   0.2   1.7   2   0   0   2   2   1   0 type:complete len:269 gc:universal CAJNDS010000668.1:1708924-1709730(+)
+CAJNDS010001791.1.p358 -          PF13519_full         -                0.1   17.3   0.0      0.12   17.0   0.0   1.1   1   0   0   1   1   1   0 type:complete len:143 gc:universal CAJNDS010001791.1:489609-490037(+)
+CAJNDS010000369.1.p118 -          PF13519_full         -               0.11   17.2   0.0      0.17   16.6   0.0   1.3   1   0   0   1   1   1   0 type:complete len:199 gc:universal CAJNDS010000369.1:69831-69235(-)
+CAJNDS010000579.1.p17  -          PF13519_full         -               0.16   16.6   0.1      0.27   15.9   0.1   1.3   1   0   0   1   1   1   0 type:complete len:287 gc:universal CAJNDS010000579.1:2343-1483(-)
+CAJNDS010001202.1.p40  -          PF13519_full         -               0.16   16.6   0.1      0.27   15.9   0.1   1.3   1   0   0   1   1   1   0 type:complete len:287 gc:universal CAJNDS010001202.1:21247-22107(+)
+CAJNDS010002158.1.p19  -          PF13519_full         -               0.25   16.0   0.1        21    9.7   0.0   2.1   2   0   0   2   2   2   0 type:complete len:421 gc:universal CAJNDS010002158.1:286644-285382(-)
+CAJNDS010002117.1.p95  -          PF13519_full         -               0.89   14.2   5.6       1.3   13.6   5.6   1.3   1   0   0   1   1   1   0 type:complete len:220 gc:universal CAJNDS010002117.1:4692-5351(+)
+CAJNDS010001446.1.p309 -          PF13519_full         -                3.4   12.3   4.5       4.2   12.0   4.5   1.2   1   0   0   1   1   1   0 type:complete len:165 gc:universal CAJNDS010001446.1:1317063-1316569(-)
+CAJNDS010002800.1.p151 -          PF13519_full         -                3.8   12.1   0.2        18   10.0   0.2   1.8   1   1   0   1   1   1   0 type:complete len:131 gc:universal CAJNDS010002800.1:89196-89588(+)
+CAJNDS010000337.1.p60  -          PF13519_full         -                3.9   12.1   0.2       7.1   11.3   0.1   1.5   2   0   0   2   2   2   0 type:complete len:166 gc:universal CAJNDS010000337.1:77165-77662(+)
+CAJNDS010002046.1.p567 -          PF13519_full         -                4.3   12.0   0.0       6.4   11.4   0.0   1.2   1   0   0   1   1   1   0 type:complete len:115 gc:universal CAJNDS010002046.1:107097-106753(-)
+CAJNDS010000624.1.p275 -          PF13519_full         -                5.5   11.6   0.0       9.7   10.8   0.0   1.4   1   1   0   1   1   1   0 type:complete len:150 gc:universal CAJNDS010000624.1:734421-734870(+)
+CAJNDS010002035.1.p12  -          PF13519_full         -                7.9   11.1   2.5        81    7.8   0.2   2.3   2   0   0   2   2   2   0 type:complete len:554 gc:universal CAJNDS010002035.1:170848-172509(+)
+CAJNDS010000444.1.p26  -          PF13519_full         -                8.9   10.9   2.5       7.7   11.1   1.0   1.6   2   0   0   2   2   2   0 type:complete len:250 gc:universal CAJNDS010000444.1:4480-3731(-)
+CAJNDS010001065.1.p19  -          PF13519_full         -                8.9   10.9   2.5       7.7   11.1   1.0   1.6   2   0   0   2   2   2   0 type:complete len:250 gc:universal CAJNDS010001065.1:9178-9927(+)
+CAJNDS010002118.1.p65  -          PF13519_full         -                8.9   10.9   2.5       7.7   11.1   1.0   1.6   2   0   0   2   2   2   0 type:complete len:250 gc:universal CAJNDS010002118.1:648825-649574(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13519_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_natans_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_natans_longest_orfs_PF13519_full_profile_hmmer_results.txt ../output/domains/PF13519_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_natans_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:33 2021
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+VSDK01006181.1.p41   -          PF00047_full         -              0.011   20.6   0.0   1.1e+03    4.4   0.0   5.5   2   2   2   4   4   4   0 type:complete len:306 gc:universal VSDK01006181.1:2282-3199(+)
+VSDK01020373.1.p99   -          PF00047_full         -               0.57   15.0   0.0      0.75   14.6   0.0   1.1   1   0   0   1   1   1   0 type:complete len:118 gc:universal VSDK01020373.1:230974-231327(+)
+VSDK01027036.1.p75   -          PF00047_full         -                1.1   14.1   1.0       1.6   13.6   0.7   1.4   1   1   0   1   1   1   0 type:complete len:169 gc:universal VSDK01027036.1:79446-78940(-)
+VSDK01006943.1.p270  -          PF00047_full         -                1.2   13.9   0.5       1.2   13.9   0.5   1.5   2   0   0   2   2   2   0 type:complete len:125 gc:universal VSDK01006943.1:709424-709050(-)
+VSDK01005065.1.p53   -          PF00047_full         -                1.8   13.4   1.3       3.6   12.4   0.4   1.8   1   1   1   2   2   2   0 type:complete len:111 gc:universal VSDK01005065.1:100354-100022(-)
+VSDK01022142.1.p110  -          PF00047_full         -                3.6   12.4   0.7         5   12.0   0.7   1.2   1   0   0   1   1   1   0 type:complete len:109 gc:universal VSDK01022142.1:171280-171606(+)
+VSDK01002883.1.p43   -          PF00047_full         -                4.8   12.0   0.3       7.2   11.4   0.3   1.4   1   1   0   1   1   1   0 type:complete len:103 gc:universal VSDK01002883.1:34635-34943(+)
+VSDK01023156.1.p40   -          PF00047_full         -                7.1   11.4   2.9        45    8.8   2.9   2.0   1   1   0   1   1   1   0 type:complete len:260 gc:universal VSDK01023156.1:331900-332679(+)
+VSDK01010577.1.p170  -          PF00047_full         -                8.1   11.3  10.9        11   10.8  10.9   1.1   1   0   0   1   1   1   0 type:complete len:105 gc:universal VSDK01010577.1:223158-223472(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00047_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_kawagutii_longest_orfs_PF00047_full_profile_hmmer_results.txt ../output/domains/PF00047_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:54 2021
+# [ok]

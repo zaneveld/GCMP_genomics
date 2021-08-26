@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HiC_scaffold_20.p1710 -          PF01582_full         -            1.8e-23   85.3   2.2     2e-23   85.1   2.2   1.1   1   0   0   1   1   1   1 type:complete len:182 gc:universal HiC_scaffold_20:15279007-15278462(-)
+HiC_scaffold_1.p772   -          PF01582_full         -              3e-19   71.4   3.2   3.1e-19   71.4   3.2   1.2   1   0   0   1   1   1   1 type:complete len:186 gc:universal HiC_scaffold_1:1194856-1195413(+)
+HiC_scaffold_21.p207  -          PF01582_full         -            4.6e-13   51.1   7.2   4.6e-13   51.1   7.2   1.9   1   1   1   2   2   2   1 type:complete len:380 gc:universal HiC_scaffold_21:7488478-7487339(-)
+HiC_scaffold_1.p1225  -          PF01582_full         -            9.3e-10   40.2   1.4   1.6e-07   32.9   0.3   2.1   1   1   1   2   2   2   2 type:complete len:150 gc:universal HiC_scaffold_1:1188247-1188696(+)
+HiC_scaffold_2.p559   -          PF01582_full         -            6.9e-09   37.4   4.3   7.6e-09   37.2   4.3   1.1   1   0   0   1   1   1   1 type:complete len:186 gc:universal HiC_scaffold_2:8807750-8807193(-)
+HiC_scaffold_22.p4823 -          PF01582_full         -            6.8e-05   24.3   0.1   7.4e-05   24.1   0.1   1.0   1   0   0   1   1   1   1 type:complete len:102 gc:universal HiC_scaffold_22:16582713-16582408(-)
+HiC_scaffold_21.p873  -          PF01582_full         -              0.066   14.4   0.1      0.11   13.7   0.1   1.3   1   0   0   1   1   1   0 type:complete len:185 gc:universal HiC_scaffold_21:493514-492960(-)
+HiC_scaffold_22.p4047 -          PF01582_full         -               0.21   12.8   0.2      0.35   12.1   0.1   1.4   2   0   0   2   2   2   0 type:complete len:110 gc:universal HiC_scaffold_22:8730870-8730541(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/Xen_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/Xen_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/Xen_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:46 2021
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                 accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#         ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Stri_CCMP2592.scaffold2.p1394 -          PF07725_full         -              0.092   14.7   2.0        12    8.0   0.2   2.6   2   0   0   2   2   2   0 type:complete len:114 gc:universal Stri_CCMP2592.scaffold2:458942-459283(+)
+Stri_CCMP2592.scaffold9.p124  -          PF07725_full         -                6.4    8.8   3.7   2.1e+02    4.0   0.1   3.2   3   0   0   3   3   3   0 type:complete len:264 gc:universal Stri_CCMP2592.scaffold9:205209-206000(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF07725_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_tridacnidorum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_tridacnidorum_longest_orfs_PF07725_full_profile_hmmer_results.txt ../output/domains/PF07725_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_tridacnidorum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:26 2021
+# [ok]

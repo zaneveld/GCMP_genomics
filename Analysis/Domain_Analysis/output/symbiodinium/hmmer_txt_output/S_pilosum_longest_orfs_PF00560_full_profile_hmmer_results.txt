@@ -1,0 +1,48 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNIZ010022647.1.p3   -          PF00560_full         -            1.3e-18   71.4  50.3   1.3e-05   29.6   1.4   8.0   4   2   3   7   7   7   6 type:complete len:854 gc:universal CAJNIZ010022647.1:35134-32573(-)
+CAJNIZ010000525.1.p56  -          PF00560_full         -            1.5e-12   51.9   8.0    0.0055   21.2   4.0   3.6   2   1   1   3   3   3   3 type:complete len:137 gc:universal CAJNIZ010000525.1:134970-134560(-)
+CAJNIZ010046140.1.p18  -          PF00560_full         -            2.2e-10   45.0  22.7       0.3   15.6   0.6   5.2   1   1   5   6   6   6   5 type:complete len:253 gc:universal CAJNIZ010046140.1:13322-12564(-)
+CAJNIZ010002886.1.p1   -          PF00560_full         -            4.8e-10   43.9  15.8    0.0035   21.8   5.8   3.9   1   1   3   4   4   4   3 type:complete len:242 gc:universal CAJNIZ010002886.1:9122-8397(-)
+CAJNIZ010027500.1.p1   -          PF00560_full         -            3.9e-08   37.7  56.2      0.44   15.1   3.4   7.2   1   1   6   7   7   7   3 type:5prime_partial len:514 gc:universal CAJNIZ010027500.1:2504-963(-)
+CAJNIZ010000525.1.p96  -          PF00560_full         -              2e-07   35.5   6.9      0.91   14.1   0.7   3.1   1   1   2   3   3   3   3 type:complete len:109 gc:universal CAJNIZ010000525.1:134501-134175(-)
+CAJNIZ010024335.1.p3   -          PF00560_full         -            6.7e-05   27.3   5.9     0.035   18.6   0.3   3.3   4   0   0   4   4   2   2 type:complete len:563 gc:universal CAJNIZ010024335.1:50166-51854(+)
+CAJNIZ010005043.1.p17  -          PF00560_full         -            0.00013   26.5   5.3      0.45   15.1   0.4   3.5   1   1   2   3   3   3   2 type:complete len:192 gc:universal CAJNIZ010005043.1:18100-17525(-)
+CAJNIZ010013449.1.p2   -          PF00560_full         -             0.0014   23.1  31.9       1.1   13.9   1.8   6.5   2   1   2   5   5   5   3 type:3prime_partial len:237 gc:universal CAJNIZ010013449.1:709-2(-)
+CAJNIZ010003917.1.p15  -          PF00560_full         -             0.0048   21.4   8.1     0.095   17.2   0.4   2.3   1   1   1   2   2   2   1 type:complete len:117 gc:universal CAJNIZ010003917.1:3541-3191(-)
+CAJNIZ010022572.1.p2   -          PF00560_full         -             0.0054   21.2  36.9       1.2   13.7   1.9   6.5   3   1   3   6   6   5   2 type:complete len:332 gc:universal CAJNIZ010022572.1:1687-2682(+)
+CAJNIZ010036113.1.p27  -          PF00560_full         -             0.0063   21.0   9.9      0.45   15.1   3.0   2.9   2   1   0   2   2   2   2 type:complete len:210 gc:universal CAJNIZ010036113.1:160919-160290(-)
+CAJNIZ010028583.1.p2   -          PF00560_full         -              0.014   19.9   2.2     0.039   18.5   0.6   2.0   2   0   0   2   2   2   0 type:complete len:278 gc:universal CAJNIZ010028583.1:226-1059(+)
+CAJNIZ010046289.1.p21  -          PF00560_full         -              0.018   19.5   4.6        12   10.5   3.0   2.5   1   1   1   2   2   2   0 type:complete len:132 gc:universal CAJNIZ010046289.1:20136-19741(-)
+CAJNIZ010001076.1.p1   -          PF00560_full         -              0.023   19.2  24.7       0.4   15.2   0.7   5.7   3   2   1   4   4   4   0 type:complete len:471 gc:universal CAJNIZ010001076.1:1517-2929(+)
+CAJNIZ010031879.1.p7   -          PF00560_full         -               0.03   18.8   0.4     0.044   18.3   0.4   1.3   1   0   0   1   1   1   0 type:complete len:137 gc:universal CAJNIZ010031879.1:38465-38055(-)
+CAJNIZ010042571.1.p153 -          PF00560_full         -               0.11   17.1   4.0      0.11   17.1   4.0   2.4   1   1   1   2   2   2   0 type:complete len:107 gc:universal CAJNIZ010042571.1:96130-95810(-)
+CAJNIZ010002742.1.p2   -          PF00560_full         -               0.14   16.7   8.8      0.19   16.3   0.6   3.1   2   1   1   3   3   3   0 type:complete len:225 gc:universal CAJNIZ010002742.1:3721-4395(+)
+CAJNIZ010035014.1.p3   -          PF00560_full         -               0.26   15.8  28.0        27    9.4   0.5   6.2   2   1   2   5   5   5   0 type:complete len:316 gc:universal CAJNIZ010035014.1:42806-41859(-)
+CAJNIZ010043225.1.p13  -          PF00560_full         -               0.33   15.5   3.0      0.44   15.1   3.0   1.2   1   0   0   1   1   1   0 type:complete len:114 gc:universal CAJNIZ010043225.1:35534-35875(+)
+CAJNIZ010019925.1.p1   -          PF00560_full         -               0.54   14.8   0.0      0.63   14.6   0.0   1.1   1   0   0   1   1   1   0 type:complete len:102 gc:universal CAJNIZ010019925.1:4521-4216(-)
+CAJNIZ010026091.1.p1   -          PF00560_full         -               0.56   14.8   0.5       1.4   13.5   0.1   1.9   1   1   0   1   1   1   0 type:complete len:306 gc:universal CAJNIZ010026091.1:10447-11364(+)
+CAJNIZ010047093.1.p59  -          PF00560_full         -               0.79   14.3   0.8      0.79   14.3   0.8   2.0   1   1   1   2   2   2   0 type:3prime_partial len:100 gc:universal CAJNIZ010047093.1:145317-145613(+)
+CAJNIZ010041935.1.p3   -          PF00560_full         -               0.86   14.2   0.0       1.3   13.6   0.0   1.2   1   0   0   1   1   1   0 type:complete len:138 gc:universal CAJNIZ010041935.1:20886-21299(+)
+CAJNIZ010012847.1.p2   -          PF00560_full         -                1.1   13.8  13.9      0.81   14.2   6.3   2.6   1   1   1   2   2   2   0 type:complete len:326 gc:universal CAJNIZ010012847.1:22710-21733(-)
+CAJNIZ010018868.1.p3   -          PF00560_full         -                1.4   13.5   0.1       2.3   12.8   0.1   1.3   1   0   0   1   1   1   0 type:complete len:146 gc:universal CAJNIZ010018868.1:1512-1949(+)
+CAJNIZ010031646.1.p4   -          PF00560_full         -                1.6   13.3   0.6       2.2   12.8   0.6   1.3   1   0   0   1   1   1   0 type:complete len:124 gc:universal CAJNIZ010031646.1:2170-2541(+)
+CAJNIZ010006958.1.p4   -          PF00560_full         -                1.6   13.3   0.5       3.4   12.2   0.5   1.6   1   0   0   1   1   1   0 type:complete len:158 gc:universal CAJNIZ010006958.1:18670-19143(+)
+CAJNIZ010045861.1.p29  -          PF00560_full         -                1.8   13.1   0.0       2.8   12.5   0.0   1.3   1   0   0   1   1   1   0 type:complete len:111 gc:universal CAJNIZ010045861.1:23904-23572(-)
+CAJNIZ010004243.1.p14  -          PF00560_full         -                1.9   13.0   3.8       2.5   12.7   3.8   1.3   1   0   0   1   1   1   0 type:complete len:100 gc:universal CAJNIZ010004243.1:882-1181(+)
+CAJNIZ010037358.1.p8   -          PF00560_full         -                2.1   12.9   2.2        18   10.0   0.6   2.6   2   1   0   2   2   2   0 type:complete len:152 gc:universal CAJNIZ010037358.1:38859-38404(-)
+CAJNIZ010042737.1.p2   -          PF00560_full         -                2.1   12.9   0.1       2.1   12.9   0.1   4.8   7   0   0   7   7   3   0 type:complete len:639 gc:universal CAJNIZ010042737.1:139144-141060(+)
+CAJNIZ010021446.1.p194 -          PF00560_full         -                2.7   12.5   0.0       4.3   11.9   0.0   1.3   1   0   0   1   1   1   0 type:complete len:109 gc:universal CAJNIZ010021446.1:69436-69110(-)
+CAJNIZ010045415.1.p141 -          PF00560_full         -                5.4   11.6   1.5       9.7   10.8   0.6   1.8   1   1   1   2   2   2   0 type:complete len:109 gc:universal CAJNIZ010045415.1:150342-150016(-)
+CAJNIZ010044990.1.p3   -          PF00560_full         -                7.8   11.1   0.3       7.8   11.1   0.3   1.6   2   0   0   2   2   2   0 type:complete len:133 gc:universal CAJNIZ010044990.1:35199-34801(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00560_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_pilosum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_pilosum_longest_orfs_PF00560_full_profile_hmmer_results.txt ../output/domains/PF00560_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_pilosum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:55 2021
+# [ok]

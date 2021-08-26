@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+VSDK01027036.1.p75   -          PF18452_full         -               0.37   15.4   3.0      0.68   14.6   2.4   1.7   1   1   0   1   1   1   0 type:complete len:169 gc:universal VSDK01027036.1:79446-78940(-)
+VSDK01029851.1.p393  -          PF18452_full         -               0.64   14.7   0.1      0.69   14.5   0.1   1.1   1   0   0   1   1   1   0 type:complete len:100 gc:universal VSDK01029851.1:268715-268416(-)
+VSDK01016892.1.p107  -          PF18452_full         -                1.2   13.8   0.0       1.4   13.6   0.0   1.1   1   0   0   1   1   1   0 type:complete len:117 gc:universal VSDK01016892.1:35529-35879(+)
+VSDK01007050.1.p253  -          PF18452_full         -                2.8   12.6   0.0       3.1   12.4   0.0   1.1   1   0   0   1   1   1   0 type:complete len:114 gc:universal VSDK01007050.1:169250-168909(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18452_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_kawagutii_longest_orfs_PF18452_full_profile_hmmer_results.txt ../output/domains/PF18452_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:34 2021
+# [ok]

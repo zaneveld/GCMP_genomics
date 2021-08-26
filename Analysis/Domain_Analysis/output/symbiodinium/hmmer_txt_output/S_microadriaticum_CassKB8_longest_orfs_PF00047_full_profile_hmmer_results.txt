@@ -1,0 +1,17 @@
+#                                                                         --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                  accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#          ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Smic_CassKB8.scaffold15585.p12 -          PF00047_full         -              0.042   18.9   0.2      0.05   18.7   0.2   1.1   1   0   0   1   1   1   0 type:complete len:118 gc:universal Smic_CassKB8.scaffold15585:1376-1729(+)
+Smic_CassKB8.scaffold24102.p3  -          PF00047_full         -                2.4   13.2   5.0         3   12.9   5.0   1.2   1   0   0   1   1   1   0 type:5prime_partial len:130 gc:universal Smic_CassKB8.scaffold24102:1-390(+)
+Smic_CassKB8.scaffold5704.p36  -          PF00047_full         -                2.5   13.1   0.0       2.5   13.1   0.0   1.2   1   0   0   1   1   1   0 type:complete len:106 gc:universal Smic_CassKB8.scaffold5704:38277-37960(-)
+Smic_CassKB8.scaffold1671.p34  -          PF00047_full         -                  5   12.1   0.3       7.7   11.5   0.3   1.2   1   0   0   1   1   1   0 type:complete len:109 gc:universal Smic_CassKB8.scaffold1671:38950-39276(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00047_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_CassKB8_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_microadriaticum_CassKB8_longest_orfs_PF00047_full_profile_hmmer_results.txt ../output/domains/PF00047_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_CassKB8_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:59 2021
+# [ok]

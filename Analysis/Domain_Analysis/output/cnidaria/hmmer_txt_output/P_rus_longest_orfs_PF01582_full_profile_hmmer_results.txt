@@ -1,0 +1,47 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OKRP01000126.1.p23   -          PF01582_full         -              2e-29  106.0   0.7   3.3e-29  105.3   0.7   1.2   1   0   0   1   1   1   1 type:complete len:899 gc:universal OKRP01000126.1:42637-45333(+)
+OKRP01000126.1.p21   -          PF01582_full         -            5.5e-28  101.3   1.2     9e-28  100.6   1.2   1.2   1   0   0   1   1   1   1 type:complete len:991 gc:universal OKRP01000126.1:37756-40728(+)
+OKRP01000361.1.p25   -          PF01582_full         -            2.7e-27   99.0   0.3   2.9e-27   98.9   0.3   1.1   1   0   0   1   1   1   1 type:complete len:162 gc:universal OKRP01000361.1:152474-151989(-)
+OKRP01000670.1.p39   -          PF01582_full         -            6.5e-24   87.9   0.7   9.4e-24   87.4   0.7   1.3   1   1   0   1   1   1   1 type:complete len:199 gc:universal OKRP01000670.1:69235-68639(-)
+OKRP01000080.1.p81   -          PF01582_full         -            4.1e-18   68.9   0.6   4.6e-18   68.7   0.6   1.2   1   0   0   1   1   1   1 type:complete len:133 gc:universal OKRP01000080.1:348693-348295(-)
+OKRP01000777.1.p32   -          PF01582_full         -            1.8e-16   63.4   0.4   3.2e-16   62.6   0.1   1.4   2   0   0   2   2   2   1 type:complete len:169 gc:universal OKRP01000777.1:68467-67961(-)
+OKRP01000212.1.p70   -          PF01582_full         -            4.2e-13   52.4   0.1     5e-13   52.2   0.1   1.1   1   0   0   1   1   1   1 type:complete len:128 gc:universal OKRP01000212.1:286867-286484(-)
+OKRP01000777.1.p28   -          PF01582_full         -            2.3e-12   50.0   4.9   3.6e-12   49.4   4.9   1.3   1   1   0   1   1   1   1 type:complete len:203 gc:universal OKRP01000777.1:128425-127817(-)
+OKRP01000212.1.p71   -          PF01582_full         -            4.4e-12   49.1   0.1   5.2e-12   48.8   0.1   1.1   1   0   0   1   1   1   1 type:complete len:128 gc:universal OKRP01000212.1:283847-283464(-)
+OKRP01001519.1.p30   -          PF01582_full         -            8.8e-11   44.8   0.2   8.8e-11   44.8   0.2   1.1   1   0   0   1   1   1   1 type:complete len:101 gc:universal OKRP01001519.1:21084-20782(-)
+OKRP01004806.1.p5    -          PF01582_full         -            2.2e-10   43.5   0.1   2.2e-10   43.5   0.1   1.1   1   0   0   1   1   1   1 type:complete len:101 gc:universal OKRP01004806.1:658-356(-)
+OKRP01001294.1.p33   -          PF01582_full         -            2.4e-09   40.0   0.0   2.5e-09   40.0   0.0   1.2   1   0   0   1   1   1   1 type:complete len:101 gc:universal OKRP01001294.1:16244-16546(+)
+OKRP01000524.1.p34   -          PF01582_full         -            3.3e-09   39.6   0.6   3.7e-09   39.5   0.6   1.1   1   0   0   1   1   1   1 type:complete len:205 gc:universal OKRP01000524.1:98426-97812(-)
+OKRP01003704.1.p11   -          PF01582_full         -            8.7e-09   38.2   0.0   9.6e-09   38.1   0.0   1.1   1   0   0   1   1   1   1 type:complete len:101 gc:universal OKRP01003704.1:23785-24087(+)
+OKRP01001409.1.p22   -          PF01582_full         -            2.4e-08   36.8   0.1   2.6e-08   36.6   0.1   1.1   1   0   0   1   1   1   1 type:complete len:110 gc:universal OKRP01001409.1:32960-33289(+)
+OKRP01000080.1.p123  -          PF01582_full         -            2.5e-08   36.7   0.2   4.5e-08   35.9   0.2   1.4   2   0   0   2   2   2   1 type:complete len:101 gc:universal OKRP01000080.1:10694-10996(+)
+OKRP01001131.1.p43   -          PF01582_full         -            2.8e-08   36.5   0.1   3.4e-08   36.3   0.1   1.0   1   0   0   1   1   1   1 type:complete len:101 gc:universal OKRP01001131.1:9264-9566(+)
+OKRP01000912.1.p37   -          PF01582_full         -            8.7e-08   34.9   1.2   1.1e-07   34.6   1.2   1.3   1   1   0   1   1   1   1 type:complete len:115 gc:universal OKRP01000912.1:126504-126160(-)
+OKRP01001518.1.p10   -          PF01582_full         -            8.9e-08   34.9   0.2     1e-07   34.7   0.2   1.3   1   1   0   1   1   1   1 type:complete len:138 gc:universal OKRP01001518.1:49735-49322(-)
+OKRP01006165.1.p3    -          PF01582_full         -              1e-07   34.7   0.1   1.2e-07   34.5   0.1   1.3   1   1   0   1   1   1   1 type:complete len:116 gc:universal OKRP01006165.1:1566-1219(-)
+OKRP01000307.1.p75   -          PF01582_full         -            6.2e-07   32.1   0.7   7.6e-07   31.8   0.7   1.5   1   1   0   1   1   1   1 type:complete len:108 gc:universal OKRP01000307.1:221183-221506(+)
+OKRP01000307.1.p76   -          PF01582_full         -            7.5e-07   31.9   1.2     1e-06   31.4   1.2   1.5   1   1   0   1   1   1   1 type:complete len:108 gc:universal OKRP01000307.1:223730-224053(+)
+OKRP01000080.1.p124  -          PF01582_full         -            4.9e-06   29.2   0.1   8.8e-06   28.3   0.1   1.4   2   0   0   2   2   2   1 type:complete len:101 gc:universal OKRP01000080.1:33905-34207(+)
+OKRP01000777.1.p37   -          PF01582_full         -            2.6e-05   26.8   0.4   3.1e-05   26.5   0.4   1.3   1   1   0   1   1   1   1 type:complete len:124 gc:universal OKRP01000777.1:89681-89310(-)
+OKRP01000777.1.p34   -          PF01582_full         -            6.5e-05   25.5   1.2    0.0001   24.9   1.2   1.4   1   1   0   1   1   1   1 type:complete len:156 gc:universal OKRP01000777.1:106643-106176(-)
+OKRP01000026.1.p154  -          PF01582_full         -             0.0018   20.8   0.1    0.0022   20.5   0.1   1.0   1   0   0   1   1   1   1 type:complete len:113 gc:universal OKRP01000026.1:476751-476413(-)
+OKRP01001215.1.p25   -          PF01582_full         -              0.015   17.8   5.6     0.016   17.6   5.6   1.1   1   0   0   1   1   1   0 type:complete len:124 gc:universal OKRP01001215.1:85037-84666(-)
+OKRP01000018.1.p69   -          PF01582_full         -              0.018   17.5   0.0     0.034   16.6   0.0   1.4   1   0   0   1   1   1   0 type:complete len:660 gc:universal OKRP01000018.1:314525-312546(-)
+OKRP01001912.1.p4    -          PF01582_full         -              0.032   16.7   1.6     0.049   16.0   0.0   2.0   2   0   0   2   2   2   0 type:complete len:672 gc:universal OKRP01001912.1:19621-17606(-)
+OKRP01000018.1.p74   -          PF01582_full         -               0.28   13.6   1.7       1.4   11.3   0.0   2.4   2   1   0   2   2   2   0 type:complete len:593 gc:universal OKRP01000018.1:289070-287292(-)
+OKRP01000251.1.p74   -          PF01582_full         -               0.61   12.4   0.0      0.78   12.1   0.0   1.1   1   0   0   1   1   1   0 type:complete len:149 gc:universal OKRP01000251.1:149109-149555(+)
+OKRP01000018.1.p82   -          PF01582_full         -               0.74   12.2   2.1       1.6   11.1   0.0   2.2   2   1   0   2   2   2   0 type:complete len:565 gc:universal OKRP01000018.1:282397-280703(-)
+OKRP01003398.1.p6    -          PF01582_full         -                3.4   10.0   7.1       4.4    9.6   7.1   1.1   1   0   0   1   1   1   0 type:complete len:201 gc:universal OKRP01003398.1:20791-20189(-)
+OKRP01000042.1.p146  -          PF01582_full         -                4.3    9.7  10.9       4.7    9.5  10.9   1.0   1   0   0   1   1   1   0 type:complete len:118 gc:universal OKRP01000042.1:153193-152840(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/P_rus_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/P_rus_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/P_rus_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:44 2021
+# [ok]

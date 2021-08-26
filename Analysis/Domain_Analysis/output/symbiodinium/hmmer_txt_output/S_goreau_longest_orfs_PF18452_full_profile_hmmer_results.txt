@@ -1,0 +1,21 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SymbC1.scaffold7.p5183   -          PF18452_full         -               0.15   17.2   0.0      0.24   16.5   0.0   1.3   1   0   0   1   1   1   0 type:complete len:179 gc:universal SymbC1.scaffold7:2822987-2822451(-)
+SymbC1.scaffold13941.p11 -          PF18452_full         -               0.36   15.9   0.1      0.44   15.6   0.1   1.1   1   0   0   1   1   1   0 type:complete len:136 gc:universal SymbC1.scaffold13941:6268-6675(+)
+SymbC1.scaffold1218.p84  -          PF18452_full         -               0.55   15.3   0.2       1.2   14.2   0.0   1.6   2   0   0   2   2   2   0 type:complete len:141 gc:universal SymbC1.scaffold1218:19117-19539(+)
+SymbC1.scaffold3555.p47  -          PF18452_full         -                1.7   13.7   0.0         2   13.5   0.0   1.1   1   0   0   1   1   1   0 type:complete len:141 gc:universal SymbC1.scaffold3555:11060-11482(+)
+SymbC1.scaffold7219.p19  -          PF18452_full         -                2.7   13.0   0.1       3.9   12.5   0.1   1.2   1   0   0   1   1   1   0 type:complete len:148 gc:universal SymbC1.scaffold7219:33853-33410(-)
+SymbC1.scaffold7224.p18  -          PF18452_full         -                5.1   12.1   0.0        10   11.1   0.0   1.5   1   0   0   1   1   1   0 type:complete len:229 gc:universal SymbC1.scaffold7224:10972-11658(+)
+SymbC1.scaffold5570.p30  -          PF18452_full         -                7.2   11.6   0.0       7.2   11.6   0.0   1.1   1   0   0   1   1   1   0 type:complete len:107 gc:universal SymbC1.scaffold5570:36863-37183(+)
+SymbC1.scaffold17.p1096  -          PF18452_full         -                8.3   11.4   0.0        13   10.8   0.0   1.4   1   0   0   1   1   1   0 type:complete len:154 gc:universal SymbC1.scaffold17:1470077-1469616(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18452_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_goreau_longest_orfs_PF18452_full_profile_hmmer_results.txt ../output/domains/PF18452_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:36 2021
+# [ok]

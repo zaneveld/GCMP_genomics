@@ -1,0 +1,57 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNJA010026286.1.p3  -          PF00560_full         -            1.2e-37  132.9   7.1   1.3e-05   30.1   0.1   7.1   1   1   5   6   6   6   6 type:complete len:252 gc:universal CAJNJA010026286.1:31224-30469(-)
+CAJNJA010016301.1.p1  -          PF00560_full         -            3.8e-33  118.4  26.0   1.2e-06   33.4   0.3   8.7   2   2   6   8   8   8   6 type:complete len:404 gc:universal CAJNJA010016301.1:5612-6823(+)
+CAJNJA010010702.1.p1  -          PF00560_full         -            1.6e-31  113.2  49.6    0.0087   20.9   5.1  12.1   5   3   6  11  11  11   8 type:complete len:650 gc:universal CAJNJA010010702.1:8732-10681(+)
+CAJNJA010039642.1.p2  -          PF00560_full         -            2.4e-27   99.8  49.2     1e-05   30.3   6.1   8.1   2   2   6   8   8   8   7 type:complete len:423 gc:universal CAJNJA010039642.1:15951-17219(+)
+CAJNJA010020739.1.p1  -          PF00560_full         -            7.4e-19   72.5  11.4    0.0023   22.8   0.5   6.1   2   1   4   6   6   6   4 type:complete len:333 gc:universal CAJNJA010020739.1:7501-6503(-)
+CAJNJA010009445.1.p6  -          PF00560_full         -            2.7e-15   61.1   4.7   6.1e-05   27.8   1.3   4.3   2   1   2   4   4   4   3 type:complete len:143 gc:universal CAJNJA010009445.1:8587-9015(+)
+CAJNJA010009445.1.p13 -          PF00560_full         -            5.4e-06   31.2   0.1   7.3e-06   30.8   0.1   1.2   1   0   0   1   1   1   1 type:complete len:116 gc:universal CAJNJA010009445.1:7821-8168(+)
+CAJNJA010038777.1.p8  -          PF00560_full         -             0.0019   23.0  27.2       5.5   12.0   9.3   4.7   1   1   3   4   4   4   2 type:5prime_partial len:119 gc:universal CAJNJA010038777.1:5531-5175(-)
+CAJNJA010010610.1.p2  -          PF00560_full         -             0.0065   21.3   5.8      0.41   15.6   0.0   2.9   3   0   0   3   3   2   1 type:complete len:347 gc:universal CAJNJA010010610.1:5358-4318(-)
+CAJNJA010006203.1.p8  -          PF00560_full         -               0.01   20.7   0.0        20   10.1   0.0   2.1   2   0   0   2   2   2   0 type:complete len:168 gc:universal CAJNJA010006203.1:557-54(-)
+CAJNJA010039675.1.p6  -          PF00560_full         -              0.024   19.6  23.3       8.1   11.4   5.9   5.3   1   1   2   4   4   4   0 type:complete len:261 gc:universal CAJNJA010039675.1:21282-20500(-)
+CAJNJA010028731.1.p1  -          PF00560_full         -              0.034   19.0  13.3        13   10.7   0.1   4.8   2   1   1   3   3   3   0 type:complete len:1263 gc:universal CAJNJA010028731.1:8968-5180(-)
+CAJNJA010060254.1.p2  -          PF00560_full         -              0.038   18.9   2.4      0.35   15.8   0.0   2.8   3   0   0   3   3   2   0 type:complete len:291 gc:universal CAJNJA010060254.1:13001-13873(+)
+CAJNJA010081586.1.p14 -          PF00560_full         -              0.041   18.8   2.4        20   10.2   0.0   2.8   2   1   0   2   2   2   0 type:complete len:124 gc:universal CAJNJA010081586.1:5504-5875(+)
+CAJNJA010092251.1.p2  -          PF00560_full         -              0.053   18.4  15.7        22   10.0   0.3   4.2   2   1   1   3   3   3   0 type:complete len:382 gc:universal CAJNJA010092251.1:8260-9405(+)
+CAJNJA010014753.1.p1  -          PF00560_full         -              0.081   17.8   0.0        42    9.1   0.0   2.8   2   0   0   2   2   2   0 type:complete len:566 gc:universal CAJNJA010014753.1:3104-4801(+)
+CAJNJA010016290.1.p1  -          PF00560_full         -              0.087   17.7   4.8   3.4e+02    6.2   0.2   5.0   4   1   1   5   5   5   0 type:complete len:736 gc:universal CAJNJA010016290.1:7953-10160(+)
+CAJNJA010018981.1.p3  -          PF00560_full         -              0.089   17.7   7.6      0.12   17.2   7.6   1.3   1   0   0   1   1   1   0 type:complete len:134 gc:universal CAJNJA010018981.1:3269-2868(-)
+CAJNJA010074908.1.p1  -          PF00560_full         -               0.13   17.2   5.2        33    9.4   2.1   3.4   3   1   0   3   3   3   0 type:complete len:586 gc:universal CAJNJA010074908.1:14015-15772(+)
+CAJNJA010024082.1.p5  -          PF00560_full         -               0.22   16.4   0.8      0.37   15.7   0.8   1.4   1   0   0   1   1   1   0 type:5prime_partial len:183 gc:universal CAJNJA010024082.1:8803-8255(-)
+CAJNJA010083475.1.p1  -          PF00560_full         -               0.22   16.4   9.7       2.5   13.1   0.4   3.3   1   1   2   3   3   3   0 type:complete len:486 gc:universal CAJNJA010083475.1:20348-18891(-)
+CAJNJA010015312.1.p1  -          PF00560_full         -               0.27   16.1  33.5       6.9   11.6   5.3   5.3   1   1   2   4   4   4   0 type:complete len:558 gc:universal CAJNJA010015312.1:3350-1677(-)
+CAJNJA010022130.1.p4  -          PF00560_full         -               0.36   15.8  27.3       2.9   12.9   0.0   6.0   2   2   4   6   6   6   0 type:complete len:486 gc:universal CAJNJA010022130.1:19810-18353(-)
+CAJNJA010060908.1.p28 -          PF00560_full         -               0.37   15.7   0.1      0.53   15.2   0.1   1.3   1   0   0   1   1   1   0 type:complete len:104 gc:universal CAJNJA010060908.1:11404-11715(+)
+CAJNJA010036013.1.p2  -          PF00560_full         -               0.42   15.5   2.8        49    8.9   1.7   3.4   2   1   0   2   2   2   0 type:complete len:516 gc:universal CAJNJA010036013.1:1271-2818(+)
+CAJNJA010013832.1.p3  -          PF00560_full         -               0.44   15.5   0.2      0.94   14.4   0.2   1.8   1   1   0   1   1   1   0 type:complete len:193 gc:universal CAJNJA010013832.1:8021-8599(+)
+CAJNJA010007198.1.p47 -          PF00560_full         -                1.1   14.2   0.1       1.9   13.4   0.1   1.4   1   0   0   1   1   1   0 type:complete len:110 gc:universal CAJNJA010007198.1:15835-15506(-)
+CAJNJA010007165.1.p7  -          PF00560_full         -                1.5   13.8   0.2       2.3   13.2   0.2   1.3   1   0   0   1   1   1   0 type:complete len:108 gc:universal CAJNJA010007165.1:11452-11129(-)
+CAJNJA010072384.1.p1  -          PF00560_full         -                1.8   13.5   0.3       1.8   13.5   0.3   2.1   2   1   1   3   3   2   0 type:complete len:256 gc:universal CAJNJA010072384.1:1029-1796(+)
+CAJNJA010038557.1.p1  -          PF00560_full         -                2.1   13.3   5.0       2.5   13.1   0.1   2.3   2   0   0   2   2   2   0 type:complete len:331 gc:universal CAJNJA010038557.1:157-1149(+)
+CAJNJA010061429.1.p3  -          PF00560_full         -                2.2   13.2   0.5       3.2   12.7   0.5   1.2   1   0   0   1   1   1   0 type:complete len:119 gc:universal CAJNJA010061429.1:903-1259(+)
+CAJNJA010010649.1.p1  -          PF00560_full         -                2.4   13.1   5.8        77    8.3   0.3   3.0   1   1   2   3   3   3   0 type:complete len:654 gc:universal CAJNJA010010649.1:8935-6974(-)
+CAJNJA010020739.1.p8  -          PF00560_full         -                2.7   13.0   0.1       3.5   12.6   0.1   1.3   1   0   0   1   1   1   0 type:complete len:109 gc:universal CAJNJA010020739.1:7472-7798(+)
+CAJNJA010020311.1.p8  -          PF00560_full         -                2.7   13.0   0.1       3.7   12.5   0.1   1.2   1   0   0   1   1   1   0 type:complete len:102 gc:universal CAJNJA010020311.1:1756-2061(+)
+CAJNJA010012908.1.p3  -          PF00560_full         -                  3   12.8   8.5       5.5   12.0   0.0   3.2   3   1   0   3   3   3   0 type:complete len:376 gc:universal CAJNJA010012908.1:22009-20882(-)
+CAJNJA010011675.1.p22 -          PF00560_full         -                3.1   12.8   0.1       9.9   11.1   0.0   1.9   2   1   0   2   2   2   0 type:complete len:145 gc:universal CAJNJA010011675.1:19663-20097(+)
+CAJNJA010083674.1.p1  -          PF00560_full         -                3.2   12.7   0.0        38    9.3   0.0   2.5   2   0   0   2   2   2   0 type:internal len:485 gc:universal CAJNJA010083674.1:1452-1(-)
+CAJNJA010057992.1.p1  -          PF00560_full         -                4.9   12.1   0.4   1.7e+02    7.2   0.0   2.2   2   0   0   2   2   2   0 type:complete len:208 gc:universal CAJNJA010057992.1:393-1016(+)
+CAJNJA010102121.1.p1  -          PF00560_full         -                5.3   12.0   0.0       6.5   11.7   0.0   1.3   1   0   0   1   1   1   0 type:5prime_partial len:100 gc:universal CAJNJA010102121.1:1090-791(-)
+CAJNJA010024613.1.p1  -          PF00560_full         -                6.2   11.8   7.7        67    8.5   0.1   3.0   2   1   1   3   3   3   0 type:complete len:479 gc:universal CAJNJA010024613.1:8445-7009(-)
+CAJNJA010010476.1.p2  -          PF00560_full         -                6.2   11.8   1.8        15   10.6   1.8   1.6   1   0   0   1   1   1   0 type:complete len:510 gc:universal CAJNJA010010476.1:35860-37389(+)
+CAJNJA010038897.1.p15 -          PF00560_full         -                7.1   11.6   1.7       7.9   11.5   0.2   1.8   2   0   0   2   2   1   0 type:complete len:153 gc:universal CAJNJA010038897.1:20643-21101(+)
+CAJNJA010011960.1.p4  -          PF00560_full         -                8.3   11.4   2.0        17   10.4   0.9   2.0   1   1   1   2   2   2   0 type:complete len:153 gc:universal CAJNJA010011960.1:1795-2253(+)
+CAJNJA010057874.1.p22 -          PF00560_full         -                9.4   11.2   7.6        12   10.8   7.6   1.2   1   0   0   1   1   1   0 type:complete len:103 gc:universal CAJNJA010057874.1:4881-4573(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00560_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_necroappetens_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_necroappetens_longest_orfs_PF00560_full_profile_hmmer_results.txt ../output/domains/PF00560_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_necroappetens_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:55 2021
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BGPT01001038.1.p69   -          PF07725_full         -               0.33   15.6   0.0      0.56   14.8   0.0   1.4   1   0   0   1   1   1   0 type:complete len:123 gc:universal BGPT01001038.1:124618-124250(-)
+BGPT01001450.1.p64   -          PF07725_full         -                2.3   12.9   0.8       4.1   12.1   0.8   1.4   1   0   0   1   1   1   0 type:complete len:148 gc:universal BGPT01001450.1:83029-82586(-)
+BGPT01000115.1.p280  -          PF07725_full         -                2.3   12.9   0.1       4.5   12.0   0.1   1.5   1   0   0   1   1   1   0 type:complete len:111 gc:universal BGPT01000115.1:445275-445607(+)
+BGPT01001455.1.p54   -          PF07725_full         -                4.5   12.0   0.7   1.2e+02    7.4   0.4   2.3   2   0   0   2   2   2   0 type:complete len:126 gc:universal BGPT01001455.1:133194-133571(+)
+BGPT01000820.1.p64   -          PF07725_full         -                5.4   11.7   0.5        10   10.8   0.5   1.5   1   0   0   1   1   1   0 type:complete len:136 gc:universal BGPT01000820.1:21020-20613(-)
+BGPT01002047.1.p99   -          PF07725_full         -                6.6   11.4   1.0   6.3e+02    5.1   0.1   2.2   2   0   0   2   2   2   0 type:complete len:113 gc:universal BGPT01002047.1:140555-140217(-)
+BGPT01000347.1.p211  -          PF07725_full         -                7.5   11.2   0.1       7.5   11.2   0.1   1.6   2   0   0   2   2   2   0 type:complete len:106 gc:universal BGPT01000347.1:216563-216880(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF07725_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/Cladocopium_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/Cladocopium_longest_orfs_PF07725_full_profile_hmmer_results.txt ../output/domains/PF07725_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/Cladocopium_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:29 2021
+# [ok]

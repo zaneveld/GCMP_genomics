@@ -1,0 +1,17 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNDS010002815.1.p37  -          PF18837_full         -                1.4   13.5   0.0   7.6e+02    4.8   0.0   3.0   3   0   0   3   3   3   0 type:complete len:170 gc:universal CAJNDS010002815.1:22230-22739(+)
+CAJNDS010002755.1.p111 -          PF18837_full         -                1.9   13.1   0.1       3.7   12.2   0.1   1.4   1   0   0   1   1   1   0 type:complete len:169 gc:universal CAJNDS010002755.1:276807-276301(-)
+CAJNDS010002195.1.p133 -          PF18837_full         -                2.7   12.6   0.0       4.9   11.8   0.0   1.4   1   0   0   1   1   1   0 type:complete len:180 gc:universal CAJNDS010002195.1:289680-290219(+)
+CAJNDS010002397.1.p136 -          PF18837_full         -                8.2   11.0   0.0     2e+03    3.4   0.0   2.9   3   0   0   3   3   3   0 type:complete len:185 gc:universal CAJNDS010002397.1:110776-111330(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18837_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_natans_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_natans_longest_orfs_PF18837_full_profile_hmmer_results.txt ../output/domains/PF18837_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_natans_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:48 2021
+# [ok]

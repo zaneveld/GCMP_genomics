@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+REGM01000086.1.p49   -          PF18837_full         -               0.96   11.8   0.1       5.7    9.3   0.0   2.3   2   0   0   2   2   2   0 type:complete len:410 gc:universal REGM01000086.1:947509-946280(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18837_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/A_aurita_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/A_aurita_longest_orfs_PF18837_full_profile_hmmer_results.txt ../output/domains/PF18837_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/A_aurita_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:40 2021
+# [ok]

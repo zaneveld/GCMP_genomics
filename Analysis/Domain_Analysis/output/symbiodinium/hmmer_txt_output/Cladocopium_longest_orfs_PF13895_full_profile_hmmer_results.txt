@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BGPT01000675.1.p104  -          PF13895_full         -               0.73   14.4   0.0         1   13.9   0.0   1.3   1   0   0   1   1   1   0 type:complete len:126 gc:universal BGPT01000675.1:10682-10305(-)
+BGPT01001042.1.p118  -          PF13895_full         -                1.9   13.1   6.1       2.1   12.9   6.1   1.1   1   0   0   1   1   1   0 type:complete len:109 gc:universal BGPT01001042.1:65269-65595(+)
+BGPT01000440.1.p88   -          PF13895_full         -                  2   13.0   0.2       3.2   12.3   0.1   1.4   1   1   0   1   1   1   0 type:complete len:130 gc:universal BGPT01000440.1:94834-94445(-)
+BGPT01001316.1.p20   -          PF13895_full         -                  2   13.0   0.7       2.9   12.5   0.7   1.2   1   0   0   1   1   1   0 type:complete len:303 gc:universal BGPT01001316.1:50476-51384(+)
+BGPT01001155.1.p183  -          PF13895_full         -                2.1   12.9   0.2       4.5   11.8   0.1   1.5   1   1   0   1   1   1   0 type:complete len:104 gc:universal BGPT01001155.1:1586-1275(-)
+BGPT01000136.1.p352  -          PF13895_full         -                2.2   12.8   9.1   2.2e+02    6.3   9.1   2.2   1   1   0   1   1   1   0 type:complete len:101 gc:universal BGPT01000136.1:438361-438663(+)
+BGPT01002848.1.p88   -          PF13895_full         -                2.2   12.8   2.0       3.1   12.3   2.0   1.2   1   0   0   1   1   1   0 type:complete len:130 gc:universal BGPT01002848.1:41227-40838(-)
+BGPT01000174.1.p393  -          PF13895_full         -                2.7   12.5   0.1         3   12.4   0.1   1.2   1   0   0   1   1   1   0 type:complete len:103 gc:universal BGPT01000174.1:57308-57616(+)
+BGPT01003888.1.p5    -          PF13895_full         -                2.9   12.4   0.2       3.4   12.2   0.2   1.1   1   0   0   1   1   1   0 type:complete len:131 gc:universal BGPT01003888.1:7310-6918(-)
+BGPT01002111.1.p51   -          PF13895_full         -                4.5   11.8   0.1   5.7e+02    5.0   0.0   2.3   1   1   1   2   2   2   0 type:complete len:109 gc:universal BGPT01002111.1:54798-55124(+)
+BGPT01002022.1.p30   -          PF13895_full         -                  7   11.2   4.8        16   10.0   4.8   1.6   1   0   0   1   1   1   0 type:complete len:179 gc:universal BGPT01002022.1:30726-30190(-)
+BGPT01001718.1.p40   -          PF13895_full         -                7.5   11.1   1.5        13   10.3   1.5   1.4   1   0   0   1   1   1   0 type:complete len:148 gc:universal BGPT01001718.1:55093-55536(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13895_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/Cladocopium_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/Cladocopium_longest_orfs_PF13895_full_profile_hmmer_results.txt ../output/domains/PF13895_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/Cladocopium_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:11 2021
+# [ok]

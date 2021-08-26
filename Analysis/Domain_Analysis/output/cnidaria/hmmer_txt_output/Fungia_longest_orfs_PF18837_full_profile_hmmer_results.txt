@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+xfSc0001388.p5       -          PF18837_full         -                0.4   13.7   0.0      0.76   12.8   0.0   1.4   1   0   0   1   1   1   0 type:complete len:100 gc:universal xfSc0001388:4515-4814(+)
+Sc0001064.p11        -          PF18837_full         -                1.1   12.3   0.0       1.9   11.5   0.0   1.4   1   0   0   1   1   1   0 type:complete len:215 gc:universal Sc0001064:47879-48523(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18837_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/Fungia_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/Fungia_longest_orfs_PF18837_full_profile_hmmer_results.txt ../output/domains/PF18837_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/Fungia_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:42 2021
+# [ok]

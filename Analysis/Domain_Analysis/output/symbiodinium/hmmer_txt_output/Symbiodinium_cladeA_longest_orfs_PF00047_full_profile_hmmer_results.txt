@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BGNK01001988.1.p6    -          PF00047_full         -              0.085   17.7   0.9        47    8.7   0.0   3.4   1   1   3   4   4   4   0 type:complete len:284 gc:universal BGNK01001988.1:56769-57620(+)
+BGNK01002640.1.p1    -          PF00047_full         -               0.39   15.5   0.2      0.78   14.6   0.2   1.4   1   0   0   1   1   1   0 type:complete len:331 gc:universal BGNK01002640.1:45570-46562(+)
+BGNK01000015.1.p106  -          PF00047_full         -               0.64   14.8   0.4       1.1   14.1   0.4   1.3   1   0   0   1   1   1   0 type:complete len:110 gc:universal BGNK01000015.1:376736-377065(+)
+BGNK01000097.1.p23   -          PF00047_full         -                0.9   14.3   0.0       1.3   13.8   0.0   1.2   1   0   0   1   1   1   0 type:complete len:201 gc:universal BGNK01000097.1:10486-9884(-)
+BGNK01001923.1.p30   -          PF00047_full         -                1.5   13.6   0.5       2.3   13.1   0.5   1.2   1   0   0   1   1   1   0 type:complete len:197 gc:universal BGNK01001923.1:48157-48747(+)
+BGNK01003018.1.p73   -          PF00047_full         -                  2   13.2   0.0        32    9.3   0.0   2.0   2   0   0   2   2   2   0 type:complete len:130 gc:universal BGNK01003018.1:83879-84268(+)
+BGNK01003962.1.p120  -          PF00047_full         -                2.4   12.9   0.0     3e+02    6.1   0.0   2.0   2   0   0   2   2   2   0 type:complete len:106 gc:universal BGNK01003962.1:69748-70065(+)
+BGNK01001879.1.p92   -          PF00047_full         -                2.7   12.8   5.0       3.3   12.5   5.0   1.1   1   0   0   1   1   1   0 type:complete len:109 gc:universal BGNK01001879.1:110824-111150(+)
+BGNK01000591.1.p7    -          PF00047_full         -                2.7   12.8   1.0   4.3e+02    5.6   0.0   2.5   3   0   0   3   3   3   0 type:complete len:392 gc:universal BGNK01000591.1:148055-149230(+)
+BGNK01000122.1.p47   -          PF00047_full         -                2.9   12.7   2.4        25    9.6   1.7   2.0   1   1   1   2   2   2   0 type:complete len:190 gc:universal BGNK01000122.1:11409-10840(-)
+BGNK01004132.1.p64   -          PF00047_full         -                  3   12.6   0.0       3.4   12.5   0.0   1.1   1   0   0   1   1   1   0 type:complete len:113 gc:universal BGNK01004132.1:14783-14445(-)
+BGNK01002257.1.p25   -          PF00047_full         -                4.9   11.9   0.0       8.2   11.2   0.0   1.3   1   0   0   1   1   1   0 type:complete len:224 gc:universal BGNK01002257.1:10418-11089(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00047_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/Symbiodinium_cladeA_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/Symbiodinium_cladeA_longest_orfs_PF00047_full_profile_hmmer_results.txt ../output/domains/PF00047_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/Symbiodinium_cladeA_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:58 2021
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RDEB01025430.1.p2    -          PF07725_full         -               0.42   13.8   0.0      0.97   12.6   0.0   1.6   1   0   0   1   1   1   0 type:complete len:419 gc:universal RDEB01025430.1:7559-8815(+)
+RDEB01025055.1.p20   -          PF07725_full         -               0.61   13.3   0.1       1.6   12.0   0.1   1.7   1   0   0   1   1   1   0 type:complete len:227 gc:universal RDEB01025055.1:48796-48116(-)
+RDEB01001240.1.p8    -          PF07725_full         -               0.89   12.8   0.1       2.2   11.5   0.1   1.7   1   0   0   1   1   1   0 type:complete len:296 gc:universal RDEB01001240.1:9724-8837(-)
+RDEB01010624.1.p4    -          PF07725_full         -                1.1   12.5   0.0       1.9   11.7   0.0   1.4   1   0   0   1   1   1   0 type:complete len:110 gc:universal RDEB01010624.1:887-1216(+)
+RDEB01001941.1.p2    -          PF07725_full         -                1.2   12.4   0.1       2.6   11.3   0.1   1.6   1   0   0   1   1   1   0 type:complete len:351 gc:universal RDEB01001941.1:14955-13903(-)
+RDEB01025274.1.p1    -          PF07725_full         -                1.3   12.2   0.1       3.1   11.0   0.1   1.7   1   0   0   1   1   1   0 type:complete len:409 gc:universal RDEB01025274.1:8720-7494(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF07725_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/M_capitata_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/M_capitata_longest_orfs_PF07725_full_profile_hmmer_results.txt ../output/domains/PF07725_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/M_capitata_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:23 2021
+# [ok]

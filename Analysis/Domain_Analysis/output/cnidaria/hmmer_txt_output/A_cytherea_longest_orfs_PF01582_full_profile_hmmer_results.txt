@@ -1,0 +1,52 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BLFB01003200.1.p63   -          PF01582_full         -            2.2e-32  115.6   3.1   4.2e-32  114.7   3.1   1.4   1   0   0   1   1   1   1 type:complete len:986 gc:universal BLFB01003200.1:3541125-3538168(-)
+BLFB01003200.1.p117  -          PF01582_full         -            3.2e-32  115.1   4.0     5e-32  114.5   4.0   1.2   1   0   0   1   1   1   1 type:complete len:490 gc:universal BLFB01003200.1:3526663-3525194(-)
+BLFB01003200.1.p64   -          PF01582_full         -              1e-31  113.5   4.0     2e-31  112.5   4.0   1.4   1   0   0   1   1   1   1 type:complete len:985 gc:universal BLFB01003200.1:3499845-3496891(-)
+BLFB01003200.1.p56   -          PF01582_full         -            1.4e-31  113.1   4.4   2.9e-31  112.0   4.4   1.4   1   0   0   1   1   1   1 type:complete len:1074 gc:universal BLFB01003200.1:3477216-3473995(-)
+BLFB01003200.1.p66   -          PF01582_full         -            2.2e-31  112.4   3.7   3.8e-31  111.6   3.7   1.3   1   0   0   1   1   1   1 type:complete len:982 gc:universal BLFB01003200.1:3506725-3503780(-)
+BLFB01003200.1.p67   -          PF01582_full         -            2.6e-31  112.1   2.8     5e-31  111.2   2.8   1.4   1   0   0   1   1   1   1 type:complete len:981 gc:universal BLFB01003200.1:3517691-3514749(-)
+BLFB01003200.1.p65   -          PF01582_full         -            5.6e-31  111.0   3.6   1.2e-30  109.9   3.6   1.5   1   0   0   1   1   1   1 type:complete len:984 gc:universal BLFB01003200.1:3534045-3531094(-)
+BLFB01001328.1.p167  -          PF01582_full         -            6.3e-29  104.3   2.6   7.2e-29  104.1   2.6   1.1   1   0   0   1   1   1   1 type:complete len:156 gc:universal BLFB01001328.1:528403-527936(-)
+BLFB01001526.1.p116  -          PF01582_full         -              2e-26   96.0   2.2   2.3e-26   95.9   2.2   1.1   1   0   0   1   1   1   1 type:complete len:155 gc:universal BLFB01001526.1:498343-498807(+)
+BLFB01003088.1.p13   -          PF01582_full         -            4.3e-20   75.3   0.4   5.4e-20   75.0   0.4   1.1   1   0   0   1   1   1   1 type:complete len:145 gc:universal BLFB01003088.1:29725-29291(-)
+BLFB01000626.1.p86   -          PF01582_full         -            6.7e-20   74.6   2.5   6.7e-20   74.6   2.5   1.5   2   0   0   2   2   2   1 type:complete len:217 gc:universal BLFB01000626.1:432326-432976(+)
+BLFB01002096.1.p198  -          PF01582_full         -            7.1e-20   74.6   0.2   9.5e-20   74.2   0.2   1.1   1   0   0   1   1   1   1 type:complete len:145 gc:universal BLFB01002096.1:599932-600366(+)
+BLFB01003087.1.p2    -          PF01582_full         -            8.3e-20   74.3   1.3   1.3e-19   73.7   1.3   1.2   1   0   0   1   1   1   1 type:complete len:191 gc:universal BLFB01003087.1:11051-10479(-)
+BLFB01000626.1.p96   -          PF01582_full         -            9.1e-20   74.2   1.2   1.5e-19   73.5   1.2   1.2   1   0   0   1   1   1   1 type:complete len:207 gc:universal BLFB01000626.1:445231-445851(+)
+BLFB01001979.1.p16   -          PF01582_full         -            1.7e-18   70.0   0.2   1.8e-18   70.0   0.2   1.1   1   0   0   1   1   1   1 type:complete len:111 gc:universal BLFB01001979.1:38161-37829(-)
+BLFB01000495.1.p177  -          PF01582_full         -            2.7e-18   69.4   2.1   3.8e-18   68.9   2.1   1.2   1   0   0   1   1   1   1 type:complete len:148 gc:universal BLFB01000495.1:178611-179054(+)
+BLFB01002399.1.p11   -          PF01582_full         -            7.7e-17   64.6   0.1   9.3e-17   64.3   0.1   1.2   1   0   0   1   1   1   1 type:complete len:166 gc:universal BLFB01002399.1:24835-24338(-)
+BLFB01002969.1.p115  -          PF01582_full         -            2.6e-11   46.5   0.2   2.7e-11   46.4   0.2   1.2   1   0   0   1   1   1   1 type:complete len:156 gc:universal BLFB01002969.1:808000-808467(+)
+BLFB01002969.1.p108  -          PF01582_full         -              4e-11   45.8   0.1     4e-11   45.8   0.1   1.2   1   0   0   1   1   1   1 type:complete len:161 gc:universal BLFB01002969.1:792339-792821(+)
+BLFB01002969.1.p114  -          PF01582_full         -            5.6e-10   42.1   0.1   6.1e-10   41.9   0.1   1.2   1   0   0   1   1   1   1 type:complete len:157 gc:universal BLFB01002969.1:779430-779900(+)
+BLFB01000879.1.p392  -          PF01582_full         -            1.7e-09   40.4   0.2   1.8e-09   40.4   0.2   1.2   1   0   0   1   1   1   1 type:complete len:120 gc:universal BLFB01000879.1:864579-864220(-)
+BLFB01000495.1.p438  -          PF01582_full         -              2e-09   40.2   0.2     2e-09   40.2   0.2   1.2   1   1   0   1   1   1   1 type:complete len:101 gc:universal BLFB01000495.1:1491727-1491425(-)
+BLFB01003088.1.p19   -          PF01582_full         -            4.8e-09   39.0   4.8   7.2e-09   38.4   4.8   1.4   1   1   0   1   1   1   1 type:complete len:136 gc:universal BLFB01003088.1:67627-67220(-)
+BLFB01002795.1.p206  -          PF01582_full         -            2.5e-08   36.7   0.5   3.5e-08   36.2   0.5   1.4   1   1   0   1   1   1   1 type:complete len:112 gc:universal BLFB01002795.1:271634-271299(-)
+BLFB01001142.1.p533  -          PF01582_full         -            1.8e-07   33.8   0.1   1.8e-07   33.8   0.1   1.2   1   0   0   1   1   1   1 type:complete len:136 gc:universal BLFB01001142.1:293915-293508(-)
+BLFB01000626.1.p336  -          PF01582_full         -            1.5e-06   30.8   0.1   1.5e-06   30.8   0.1   1.1   1   0   0   1   1   1   1 type:complete len:101 gc:universal BLFB01000626.1:515028-515330(+)
+BLFB01000879.1.p406  -          PF01582_full         -            5.4e-05   25.7   0.0   5.4e-05   25.7   0.0   1.1   1   0   0   1   1   1   1 type:complete len:118 gc:universal BLFB01000879.1:557932-558285(+)
+BLFB01003162.1.p269  -          PF01582_full         -            0.00065   22.1   0.0   0.00074   21.9   0.0   1.2   1   0   0   1   1   1   1 type:complete len:102 gc:universal BLFB01003162.1:580921-580616(-)
+BLFB01001633.1.p101  -          PF01582_full         -             0.0023   20.3   0.2    0.0027   20.1   0.2   1.1   1   0   0   1   1   1   1 type:complete len:111 gc:universal BLFB01001633.1:29575-29907(+)
+BLFB01001633.1.p100  -          PF01582_full         -             0.0037   19.6   0.1    0.0043   19.4   0.1   1.0   1   0   0   1   1   1   1 type:complete len:111 gc:universal BLFB01001633.1:16568-16900(+)
+BLFB01001730.1.p209  -          PF01582_full         -              0.013   17.8   0.0     0.014   17.7   0.0   1.2   1   0   0   1   1   1   0 type:complete len:112 gc:universal BLFB01001730.1:398291-397956(-)
+BLFB01001633.1.p22   -          PF01582_full         -              0.044   16.1   0.0     0.044   16.1   0.0   2.6   3   0   0   3   3   3   0 type:complete len:386 gc:universal BLFB01001633.1:22972-24129(+)
+BLFB01001633.1.p21   -          PF01582_full         -              0.055   15.8   0.0     0.055   15.8   0.0   2.8   3   0   0   3   3   3   0 type:complete len:427 gc:universal BLFB01001633.1:33227-34507(+)
+BLFB01000230.1.p426  -          PF01582_full         -               0.14   14.5   0.0      0.14   14.5   0.0   1.2   1   0   0   1   1   1   0 type:complete len:115 gc:universal BLFB01000230.1:436697-436353(-)
+BLFB01000523.1.p29   -          PF01582_full         -               0.41   12.9   1.0       1.1   11.6   0.0   2.0   2   1   0   2   2   2   0 type:complete len:682 gc:universal BLFB01000523.1:370135-372180(+)
+BLFB01002538.1.p3    -          PF01582_full         -               0.54   12.5   1.0      0.88   11.9   1.0   1.3   1   0   0   1   1   1   0 type:complete len:650 gc:universal BLFB01002538.1:32616-30667(-)
+BLFB01002538.1.p4    -          PF01582_full         -                0.9   11.8   0.9       1.4   11.2   0.9   1.2   1   0   0   1   1   1   0 type:complete len:650 gc:universal BLFB01002538.1:21440-19491(-)
+BLFB01000494.1.p14   -          PF01582_full         -                2.5   10.4  11.4       4.9    9.4  11.4   1.4   1   0   0   1   1   1   0 type:complete len:403 gc:universal BLFB01000494.1:126224-127432(+)
+BLFB01001737.1.p186  -          PF01582_full         -                 10    8.4  10.2        17    7.6  10.2   1.4   1   0   0   1   1   1   0 type:complete len:298 gc:universal BLFB01001737.1:455105-454212(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/A_cytherea_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/A_cytherea_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/A_cytherea_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:40 2021
+# [ok]
