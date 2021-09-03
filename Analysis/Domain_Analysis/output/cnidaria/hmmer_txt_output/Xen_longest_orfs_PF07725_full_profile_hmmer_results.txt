@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HiC_scaffold_16.p386  -          PF07725_full         -            8.5e-05   24.0   1.5        33    6.2   0.0   6.7   7   0   0   7   7   7   1 type:complete len:409 gc:universal HiC_scaffold_16:8510681-8511907(+)
+HiC_scaffold_6.p5617  -          PF07725_full         -            0.00062   21.2   9.8      0.86   11.2   0.3   4.3   4   0   0   4   4   4   2 type:complete len:118 gc:universal HiC_scaffold_6:21865834-21865481(-)
+HiC_scaffold_20.p2282 -          PF07725_full         -              0.011   17.2   5.3        13    7.5   0.2   3.3   3   0   0   3   3   3   0 type:complete len:154 gc:universal HiC_scaffold_20:1643996-1643535(-)
+HiC_scaffold_16.p1503 -          PF07725_full         -              0.016   16.7   2.4       9.1    7.9   0.1   4.4   5   0   0   5   5   5   0 type:complete len:188 gc:universal HiC_scaffold_16:9157120-9157683(+)
+HiC_scaffold_6.p7018  -          PF07725_full         -               0.02   16.4   7.0         8    8.1   0.2   4.0   4   0   0   4   4   4   0 type:complete len:107 gc:universal HiC_scaffold_6:21862224-21861904(-)
+HiC_scaffold_6.p3749  -          PF07725_full         -              0.035   15.7   3.2        16    7.2   0.2   3.0   3   0   0   3   3   3   0 type:complete len:143 gc:universal HiC_scaffold_6:21863211-21862783(-)
+HiC_scaffold_16.p667  -          PF07725_full         -               0.34   12.5   0.1      0.34   12.5   0.1   3.0   3   0   0   3   3   3   0 type:complete len:306 gc:universal HiC_scaffold_16:5608818-5609735(+)
+HiC_scaffold_16.p105  -          PF07725_full         -               0.38   12.4   9.0   6.8e+02    2.0   0.0   7.8   7   0   0   7   7   7   0 type:complete len:680 gc:universal HiC_scaffold_16:14511924-14513963(+)
+HiC_scaffold_23.p6613 -          PF07725_full         -               0.41   12.3   0.1      0.71   11.5   0.1   1.4   1   0   0   1   1   1   0 type:complete len:105 gc:universal HiC_scaffold_23:5351658-5351972(+)
+HiC_scaffold_6.p2049  -          PF07725_full         -                2.2    9.9   2.3        92    4.8   0.2   3.1   3   0   0   3   3   3   0 type:complete len:193 gc:universal HiC_scaffold_6:21863507-21862929(-)
+HiC_scaffold_6.p4790  -          PF07725_full         -                6.8    8.4   3.0        73    5.1   0.1   3.0   3   0   0   3   3   3   0 type:complete len:127 gc:universal HiC_scaffold_6:21866588-21866208(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF07725_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/Xen_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/Xen_longest_orfs_PF07725_full_profile_hmmer_results.txt ../output/domains/PF07725_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/Xen_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:21 2021
+# [ok]

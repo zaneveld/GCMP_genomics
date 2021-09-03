@@ -1,0 +1,49 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BGNK01003478.1.p6    -          PF00560_full         -            3.4e-33  118.6  22.7   3.8e-06   31.8   0.2   8.2   2   2   6   8   8   8   7 type:complete len:444 gc:universal BGNK01003478.1:2661-1330(-)
+BGNK01000101.1.p38   -          PF00560_full         -            3.1e-27   99.5  14.6   6.3e-05   27.9   0.0   4.9   1   1   2   4   4   4   4 type:complete len:183 gc:universal BGNK01000101.1:38783-39331(+)
+BGNK01001598.1.p3    -          PF00560_full         -            5.6e-26   95.5  41.7   6.2e-07   34.3   6.9   6.4   2   1   4   6   6   6   5 type:complete len:382 gc:universal BGNK01001598.1:88042-86897(-)
+BGNK01001687.1.p65   -          PF00560_full         -            1.2e-21   81.6   4.6   8.3e-07   33.9   0.5   4.0   1   1   3   4   4   4   4 type:complete len:117 gc:universal BGNK01001687.1:35372-35022(-)
+BGNK01000581.1.p16   -          PF00560_full         -            2.3e-19   74.3   2.8     1e-05   30.4   0.0   4.1   1   1   3   4   4   4   3 type:complete len:200 gc:universal BGNK01000581.1:184453-183854(-)
+BGNK01001516.1.p4    -          PF00560_full         -            4.7e-16   63.6  20.9      0.01   20.8   0.1   6.6   1   1   4   6   6   6   5 type:complete len:351 gc:universal BGNK01001516.1:132192-131140(-)
+BGNK01001687.1.p8    -          PF00560_full         -            6.7e-16   63.1  15.3   0.00013   26.9   3.4   6.4   3   2   2   5   5   5   4 type:complete len:287 gc:universal BGNK01001687.1:35013-34153(-)
+BGNK01003718.1.p32   -          PF00560_full         -            8.4e-15   59.6   6.7   2.5e-06   32.4   1.4   3.7   1   1   2   3   3   3   3 type:complete len:143 gc:universal BGNK01003718.1:21560-21988(+)
+BGNK01000581.1.p11   -          PF00560_full         -            1.7e-10   45.8   1.2   1.3e-05   30.1   0.1   4.0   2   1   1   3   3   3   2 type:complete len:237 gc:universal BGNK01000581.1:183546-182836(-)
+BGNK01000581.1.p60   -          PF00560_full         -            1.5e-09   42.7   6.0    0.0058   21.6   0.7   3.3   1   1   2   3   3   3   3 type:complete len:128 gc:universal BGNK01000581.1:183974-183591(-)
+BGNK01000101.1.p15   -          PF00560_full         -            4.9e-09   41.1   6.0   5.9e-05   28.0   0.2   3.4   2   1   1   3   3   3   2 type:complete len:262 gc:universal BGNK01000101.1:39549-40334(+)
+BGNK01003718.1.p5    -          PF00560_full         -            7.8e-07   34.0   8.1   1.9e-06   32.8   0.6   3.7   3   1   1   4   4   4   1 type:complete len:270 gc:universal BGNK01003718.1:22204-23013(+)
+BGNK01003778.1.p5    -          PF00560_full         -            3.3e-06   32.0  36.5      0.37   15.8   1.0   6.9   1   1   6   7   7   7   4 type:complete len:365 gc:universal BGNK01003778.1:22718-23812(+)
+BGNK01001273.1.p2    -          PF00560_full         -             0.0024   22.8   0.0         7   11.7   0.0   2.6   2   0   0   2   2   2   2 type:complete len:383 gc:universal BGNK01001273.1:87330-88478(+)
+BGNK01001273.1.p1    -          PF00560_full         -             0.0026   22.7   3.1      0.66   15.0   0.0   2.7   2   1   1   3   3   2   2 type:complete len:489 gc:universal BGNK01001273.1:104756-106222(+)
+BGNK01005961.1.p1    -          PF00560_full         -             0.0026   22.7   2.6        50    8.9   0.0   4.7   3   1   1   4   4   4   1 type:complete len:768 gc:universal BGNK01005961.1:14310-12007(-)
+BGNK01001182.1.p13   -          PF00560_full         -             0.0048   21.9   0.5        22   10.1   0.0   3.4   3   1   1   4   4   3   2 type:complete len:397 gc:universal BGNK01001182.1:155033-153843(-)
+BGNK01001042.1.p17   -          PF00560_full         -              0.005   21.8  23.0       1.8   13.6   5.0   5.1   1   1   4   5   5   5   2 type:complete len:289 gc:universal BGNK01001042.1:23234-24100(+)
+BGNK01001839.1.p8    -          PF00560_full         -             0.0077   21.2  28.6         1   14.4   0.1   6.0   2   2   4   6   6   6   2 type:complete len:523 gc:universal BGNK01001839.1:4823-3255(-)
+BGNK01000641.1.p17   -          PF00560_full         -              0.043   18.8  16.5        14   10.7   0.4   4.1   2   1   1   3   3   3   0 type:complete len:330 gc:universal BGNK01000641.1:302913-301924(-)
+BGNK01002662.1.p3    -          PF00560_full         -               0.16   17.0   0.4       4.4   12.3   0.2   2.4   2   0   0   2   2   2   0 type:complete len:415 gc:universal BGNK01002662.1:54458-53214(-)
+BGNK01000620.1.p54   -          PF00560_full         -               0.35   15.8  10.9        29    9.7   5.9   2.3   1   1   1   2   2   2   0 type:complete len:152 gc:universal BGNK01000620.1:97157-97612(+)
+BGNK01001019.1.p2    -          PF00560_full         -               0.52   15.3   7.2        15   10.7   0.3   2.9   1   1   2   3   3   3   0 type:complete len:359 gc:universal BGNK01001019.1:153766-152690(-)
+BGNK01000159.1.p191  -          PF00560_full         -               0.53   15.3   0.0      0.75   14.8   0.0   1.2   1   0   0   1   1   1   0 type:complete len:129 gc:universal BGNK01000159.1:70605-70991(+)
+BGNK01002674.1.p122  -          PF00560_full         -                1.8   13.5   1.2       2.5   13.1   1.2   1.2   1   0   0   1   1   1   0 type:complete len:106 gc:universal BGNK01002674.1:79985-80302(+)
+BGNK01005690.1.p4    -          PF00560_full         -                1.9   13.5   1.6        71    8.5   0.2   2.2   2   0   0   2   2   2   0 type:complete len:248 gc:universal BGNK01005690.1:18367-17624(-)
+BGNK01001892.1.p27   -          PF00560_full         -                2.3   13.3   0.0       6.6   11.8   0.1   1.7   2   0   0   2   2   1   0 type:complete len:215 gc:universal BGNK01001892.1:61440-62084(+)
+BGNK01000623.1.p20   -          PF00560_full         -                2.7   13.0   3.4        44    9.1   0.1   2.7   1   1   1   2   2   2   0 type:complete len:226 gc:universal BGNK01000623.1:153003-153680(+)
+BGNK01001076.1.p9    -          PF00560_full         -                2.9   12.9  11.1        53    8.9   1.1   3.3   1   1   2   3   3   3   0 type:complete len:441 gc:universal BGNK01001076.1:141824-140502(-)
+BGNK01002598.1.p79   -          PF00560_full         -                4.2   12.4   0.1       5.8   11.9   0.1   1.2   1   0   0   1   1   1   0 type:complete len:107 gc:universal BGNK01002598.1:37657-37337(-)
+BGNK01003403.1.p2    -          PF00560_full         -                4.6   12.3   0.4     2e+02    7.0   0.1   2.2   2   0   0   2   2   2   0 type:complete len:141 gc:universal BGNK01003403.1:57873-57451(-)
+BGNK01000882.1.p12   -          PF00560_full         -                5.1   12.1   1.1        13   10.8   1.1   1.7   1   0   0   1   1   1   0 type:complete len:203 gc:universal BGNK01000882.1:112682-112074(-)
+BGNK01000131.1.p1    -          PF00560_full         -                6.4   11.8   9.3        34    9.5   0.2   3.5   1   1   2   3   3   3   0 type:complete len:516 gc:universal BGNK01000131.1:296520-298067(+)
+BGNK01000117.1.p35   -          PF00560_full         -                  7   11.7   0.7        15   10.6   0.7   1.5   1   0   0   1   1   1   0 type:complete len:248 gc:universal BGNK01000117.1:206120-206863(+)
+BGNK01000584.1.p134  -          PF00560_full         -                  8   11.5   0.3        16   10.6   0.1   1.5   2   0   0   2   2   1   0 type:complete len:106 gc:universal BGNK01000584.1:218169-217852(-)
+BGNK01002732.1.p38   -          PF00560_full         -                8.1   11.5   5.9        91    8.1   0.5   3.0   1   1   3   4   4   4   0 type:complete len:152 gc:universal BGNK01002732.1:47465-47010(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00560_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/Symbiodinium_cladeA_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/Symbiodinium_cladeA_longest_orfs_PF00560_full_profile_hmmer_results.txt ../output/domains/PF00560_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/Symbiodinium_cladeA_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:50 2021
+# [ok]

@@ -1,0 +1,25 @@
+#                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name           accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#   ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SymbC1.scaffold699.p57  -          PF07725_full         -               0.13   17.5   5.5        51    9.2   0.2   3.4   3   0   0   3   3   3   0 type:complete len:174 gc:universal SymbC1.scaffold699:132775-133296(+)
+SymbC1.scaffold581.p96  -          PF07725_full         -               0.81   14.9   0.8   2.1e+02    7.3   0.0   2.5   2   0   0   2   2   2   0 type:complete len:111 gc:universal SymbC1.scaffold581:26010-26342(+)
+SymbC1.scaffold5563.p23 -          PF07725_full         -               0.88   14.8   0.2       1.6   14.0   0.2   1.5   1   0   0   1   1   1   0 type:complete len:140 gc:universal SymbC1.scaffold5563:9985-10404(+)
+SymbC1.scaffold4375.p41 -          PF07725_full         -                1.9   13.8   0.1       3.9   12.8   0.1   1.6   1   0   0   1   1   1   0 type:complete len:144 gc:universal SymbC1.scaffold4375:61384-61815(+)
+SymbC1.scaffold6186.p36 -          PF07725_full         -                2.8   13.2   0.6   3.4e+03    3.4   0.0   3.3   3   0   0   3   3   3   0 type:complete len:104 gc:universal SymbC1.scaffold6186:44723-45034(+)
+SymbC1.scaffold5822.p6  -          PF07725_full         -                  4   12.7   0.8       7.2   11.9   0.8   1.4   1   0   0   1   1   1   0 type:5prime_partial len:331 gc:universal SymbC1.scaffold5822:1-993(+)
+SymbC1.scaffold2347.p36 -          PF07725_full         -                4.9   12.4   0.2       9.3   11.6   0.2   1.4   1   0   0   1   1   1   0 type:complete len:176 gc:universal SymbC1.scaffold2347:4529-4002(-)
+SymbC1.scaffold9656.p12 -          PF07725_full         -                  5   12.4   0.0       8.3   11.7   0.0   1.4   1   0   0   1   1   1   0 type:complete len:121 gc:universal SymbC1.scaffold9656:27979-27617(-)
+SymbC1.scaffold15367.p1 -          PF07725_full         -                5.2   12.4   0.2        11   11.3   0.2   1.6   1   0   0   1   1   1   0 type:complete len:168 gc:universal SymbC1.scaffold15367:329-832(+)
+SymbC1.scaffold7448.p4  -          PF07725_full         -                6.3   12.1   0.0        12   11.2   0.0   1.5   1   0   0   1   1   1   0 type:complete len:951 gc:universal SymbC1.scaffold7448:12001-14853(+)
+SymbC1.scaffold28181.p4 -          PF07725_full         -                6.4   12.1   0.6        12   11.2   0.6   1.4   1   0   0   1   1   1   0 type:complete len:138 gc:universal SymbC1.scaffold28181:745-1158(+)
+SymbC1.scaffold994.p154 -          PF07725_full         -                8.4   11.7   0.2        12   11.2   0.2   1.3   1   0   0   1   1   1   0 type:complete len:108 gc:universal SymbC1.scaffold994:113090-113413(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF07725_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_goreau_longest_orfs_PF07725_full_profile_hmmer_results.txt ../output/domains/PF07725_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:25 2021
+# [ok]

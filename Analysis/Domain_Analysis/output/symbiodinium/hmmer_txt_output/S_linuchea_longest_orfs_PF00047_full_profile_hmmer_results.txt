@@ -1,0 +1,18 @@
+#                                                                          --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                   accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#           ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Slin_CCMP2456.scaffold36730.p1  -          PF00047_full         -            3.9e-06   31.5   0.7   5.4e-06   31.0   0.0   1.5   2   0   0   2   2   2   1 type:internal len:352 gc:universal Slin_CCMP2456.scaffold36730:1053-1(-)
+Slin_CCMP2456.scaffold2818.p75  -          PF00047_full         -               0.29   15.6   0.0      0.35   15.4   0.0   1.1   1   0   0   1   1   1   0 type:complete len:105 gc:universal Slin_CCMP2456.scaffold2818:21875-22189(+)
+Slin_CCMP2456.scaffold12842.p12 -          PF00047_full         -                1.5   13.3   7.7         2   12.9   7.7   1.1   1   0   0   1   1   1   0 type:complete len:113 gc:universal Slin_CCMP2456.scaffold12842:9305-8967(-)
+Slin_CCMP2456.scaffold3399.p18  -          PF00047_full         -                2.3   12.7   0.0       3.3   12.2   0.0   1.2   1   0   0   1   1   1   0 type:complete len:147 gc:universal Slin_CCMP2456.scaffold3399:23719-24159(+)
+Slin_CCMP2456.scaffold448.p37   -          PF00047_full         -                2.3   12.6   0.0       3.7   12.0   0.0   1.4   1   1   0   1   1   1   0 type:complete len:144 gc:universal Slin_CCMP2456.scaffold448:25205-25636(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00047_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_linuchea_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_linuchea_longest_orfs_PF00047_full_profile_hmmer_results.txt ../output/domains/PF00047_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_linuchea_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:57 2021
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NW_018149550.1.p186  -          PF18837_full         -               0.72   12.4   0.1         2   11.0   0.1   1.8   1   0   0   1   1   1   0 type:complete len:118 gc:universal NW_018149550.1:364068-364421(+)
+NW_018150086.1.p26   -          PF18837_full         -                1.1   11.8   0.3       2.6   10.6   0.3   1.6   1   0   0   1   1   1   0 type:complete len:600 gc:universal NW_018150086.1:248104-249903(+)
+NW_018148649.1.p166  -          PF18837_full         -                4.3   10.0   1.8   2.5e+02    4.3   0.0   3.3   4   1   1   5   5   5   0 type:complete len:121 gc:universal NW_018148649.1:713673-714035(+)
+NW_018149716.1.p911  -          PF18837_full         -                5.9    9.5   3.9        96    5.6   0.0   3.4   3   1   1   4   4   4   0 type:complete len:117 gc:universal NW_018149716.1:1969555-1969905(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18837_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/O_faveolata_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/O_faveolata_longest_orfs_PF18837_full_profile_hmmer_results.txt ../output/domains/PF18837_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/O_faveolata_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:43 2021
+# [ok]

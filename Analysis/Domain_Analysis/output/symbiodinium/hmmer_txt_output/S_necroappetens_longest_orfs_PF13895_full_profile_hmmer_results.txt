@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNJA010031986.1.p4  -          PF13895_full         -            1.1e-05   30.3   0.0   1.6e-05   29.7   0.0   1.2   1   0   0   1   1   1   1 type:complete len:499 gc:universal CAJNJA010031986.1:4461-5957(+)
+CAJNJA010079133.1.p1  -          PF13895_full         -             0.0033   22.2   0.3    0.0033   22.2   0.3   3.0   4   0   0   4   4   4   1 type:internal len:535 gc:universal CAJNJA010079133.1:1-1602(+)
+CAJNJA010076848.1.p1  -          PF13895_full         -                2.5   12.8   0.0       4.3   12.0   0.0   1.3   1   0   0   1   1   1   0 type:complete len:396 gc:universal CAJNJA010076848.1:1252-65(-)
+CAJNJA010048031.1.p6  -          PF13895_full         -                4.3   12.0   3.8       5.4   11.7   3.8   1.1   1   0   0   1   1   1   0 type:complete len:116 gc:universal CAJNJA010048031.1:25123-25470(+)
+CAJNJA010011643.1.p2  -          PF13895_full         -                6.2   11.5   0.1        12   10.5   0.1   1.4   1   0   0   1   1   1   0 type:complete len:524 gc:universal CAJNJA010011643.1:11914-10343(-)
+CAJNJA010038789.1.p11 -          PF13895_full         -                  8   11.1   1.2        11   10.6   1.2   1.3   1   0   0   1   1   1   0 type:complete len:112 gc:universal CAJNJA010038789.1:4436-4771(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13895_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_necroappetens_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_necroappetens_longest_orfs_PF13895_full_profile_hmmer_results.txt ../output/domains/PF13895_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_necroappetens_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:12 2021
+# [ok]

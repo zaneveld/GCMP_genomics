@@ -1,0 +1,44 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+VSDK01023965.1.p9    -          PF13519_full         -            1.4e-24   92.4   0.6   2.3e-24   91.7   0.0   1.6   2   0   0   2   2   2   1 type:complete len:378 gc:universal VSDK01023965.1:10023-11156(+)
+VSDK01017050.1.p55   -          PF13519_full         -            8.2e-23   86.6   1.3   1.2e-22   86.1   1.3   1.2   1   0   0   1   1   1   1 type:complete len:326 gc:universal VSDK01017050.1:675560-674583(-)
+VSDK01013791.1.p24   -          PF13519_full         -              8e-21   80.1   0.1   1.4e-20   79.3   0.1   1.3   1   0   0   1   1   1   1 type:complete len:553 gc:universal VSDK01013791.1:216563-218221(+)
+VSDK01000416.1.p90   -          PF13519_full         -            1.5e-16   66.1   0.1   1.9e-16   65.8   0.1   1.1   1   0   0   1   1   1   1 type:complete len:164 gc:universal VSDK01000416.1:24258-23767(-)
+VSDK01023381.1.p27   -          PF13519_full         -            1.3e-15   63.1   0.1   1.6e-15   62.8   0.1   1.1   1   0   0   1   1   1   1 type:complete len:309 gc:universal VSDK01023381.1:12768-13694(+)
+VSDK01006506.1.p34   -          PF13519_full         -            1.4e-13   56.5   0.0   1.9e-13   55.9   0.0   1.2   1   0   0   1   1   1   1 type:complete len:343 gc:universal VSDK01006506.1:330611-329583(-)
+VSDK01004217.1.p36   -          PF13519_full         -            2.2e-12   52.5   0.0   3.8e-12   51.7   0.0   1.4   1   1   0   1   1   1   1 type:complete len:201 gc:universal VSDK01004217.1:88556-89158(+)
+VSDK01011733.1.p36   -          PF13519_full         -            2.6e-12   52.3   0.0   3.7e-12   51.7   0.0   1.2   1   0   0   1   1   1   1 type:complete len:291 gc:universal VSDK01011733.1:55011-55883(+)
+VSDK01027208.1.p64   -          PF13519_full         -            8.1e-12   50.6   0.0   9.5e-12   50.4   0.0   1.2   1   0   0   1   1   1   1 type:complete len:202 gc:universal VSDK01027208.1:64506-65111(+)
+VSDK01024626.1.p15   -          PF13519_full         -            1.4e-11   49.9   0.0   1.9e-11   49.4   0.0   1.2   1   0   0   1   1   1   1 type:complete len:348 gc:universal VSDK01024626.1:105548-104505(-)
+VSDK01026672.1.p115  -          PF13519_full         -            2.4e-11   49.1   0.6   3.4e-11   48.6   0.6   1.2   1   0   0   1   1   1   1 type:complete len:223 gc:universal VSDK01026672.1:609232-608564(-)
+VSDK01006506.1.p65   -          PF13519_full         -              4e-11   48.4   0.0   5.5e-11   47.9   0.0   1.1   1   0   0   1   1   1   1 type:complete len:254 gc:universal VSDK01006506.1:281449-280688(-)
+VSDK01026672.1.p67   -          PF13519_full         -              2e-10   46.1   0.6   3.8e-10   45.2   0.6   1.4   1   0   0   1   1   1   1 type:complete len:333 gc:universal VSDK01026672.1:594227-593229(-)
+VSDK01018921.1.p33   -          PF13519_full         -            4.3e-10   45.0   0.0   6.1e-10   44.5   0.0   1.2   1   0   0   1   1   1   1 type:complete len:253 gc:universal VSDK01018921.1:327508-326750(-)
+VSDK01026672.1.p33   -          PF13519_full         -              6e-10   44.5   0.6   1.1e-09   43.6   0.6   1.4   1   0   0   1   1   1   1 type:complete len:506 gc:universal VSDK01026672.1:586687-585170(-)
+VSDK01026672.1.p37   -          PF13519_full         -            1.2e-09   43.6   0.8   2.7e-09   42.4   0.8   1.5   1   0   0   1   1   1   1 type:complete len:470 gc:universal VSDK01026672.1:604531-603122(-)
+VSDK01028281.1.p7    -          PF13519_full         -            3.5e-09   42.0   0.7   5.5e-09   41.4   0.7   1.3   1   0   0   1   1   1   1 type:complete len:486 gc:universal VSDK01028281.1:363661-362204(-)
+VSDK01024910.1.p4    -          PF13519_full         -            5.5e-09   41.4   0.0   1.1e-08   40.4   0.0   1.4   1   0   0   1   1   1   1 type:complete len:692 gc:universal VSDK01024910.1:68919-70994(+)
+VSDK01026672.1.p34   -          PF13519_full         -            1.1e-08   40.3   0.0   2.2e-08   39.4   0.0   1.4   1   0   0   1   1   1   1 type:complete len:499 gc:universal VSDK01026672.1:577870-576374(-)
+VSDK01024053.1.p1    -          PF13519_full         -            2.7e-07   35.9   0.0   5.4e-07   34.9   0.0   1.5   1   0   0   1   1   1   1 type:complete len:549 gc:universal VSDK01024053.1:23715-22069(-)
+VSDK01006714.1.p9    -          PF13519_full         -            2.7e-07   35.8   0.8   0.00021   26.3   0.1   2.4   2   0   0   2   2   2   2 type:complete len:473 gc:universal VSDK01006714.1:28793-27375(-)
+VSDK01006714.1.p39   -          PF13519_full         -            4.5e-05   28.6   0.2     5e-05   28.4   0.2   1.1   1   0   0   1   1   1   1 type:complete len:112 gc:universal VSDK01006714.1:18006-18341(+)
+VSDK01024707.1.p1    -          PF13519_full         -            0.00015   26.8   0.0   0.00022   26.3   0.0   1.2   1   0   0   1   1   1   1 type:internal len:153 gc:universal VSDK01024707.1:458-3(-)
+VSDK01022888.1.p115  -          PF13519_full         -             0.0014   23.6   0.0    0.0023   23.0   0.0   1.3   1   0   0   1   1   1   1 type:complete len:243 gc:universal VSDK01022888.1:367226-366498(-)
+VSDK01026700.1.p13   -          PF13519_full         -              0.022   19.8   0.2        15   10.4   0.0   2.3   2   0   0   2   2   2   0 type:complete len:572 gc:universal VSDK01026700.1:31859-33574(+)
+VSDK01023938.1.p52   -          PF13519_full         -              0.023   19.7   0.0     0.032   19.2   0.0   1.2   1   0   0   1   1   1   0 type:complete len:158 gc:universal VSDK01023938.1:287021-286548(-)
+VSDK01023938.1.p99   -          PF13519_full         -              0.033   19.2   0.2     0.042   18.8   0.2   1.1   1   0   0   1   1   1   0 type:complete len:128 gc:universal VSDK01023938.1:287468-287085(-)
+VSDK01007512.1.p11   -          PF13519_full         -               0.09   17.7   0.0      0.19   16.7   0.0   1.5   1   0   0   1   1   1   0 type:complete len:471 gc:universal VSDK01007512.1:186582-185170(-)
+VSDK01000621.1.p501  -          PF13519_full         -                1.7   13.6   0.0       1.7   13.6   0.0   1.2   1   0   0   1   1   1   0 type:complete len:104 gc:universal VSDK01000621.1:275796-276107(+)
+VSDK01012919.1.p152  -          PF13519_full         -                1.7   13.6   0.0       2.3   13.2   0.0   1.1   1   0   0   1   1   1   0 type:complete len:149 gc:universal VSDK01012919.1:319117-318671(-)
+VSDK01015531.1.p215  -          PF13519_full         -                6.3   11.7   0.3       8.6   11.3   0.3   1.2   1   0   0   1   1   1   0 type:complete len:122 gc:universal VSDK01015531.1:557569-557204(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13519_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_kawagutii_longest_orfs_PF13519_full_profile_hmmer_results.txt ../output/domains/PF13519_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:30 2021
+# [ok]

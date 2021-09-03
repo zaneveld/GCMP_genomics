@@ -1,0 +1,44 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LSRX01000020.1.p793  -          PF13927_full         -             0.0029   18.4   9.2    0.0034   18.1   9.2   1.3   1   0   0   1   1   1   1 type:complete len:113 gc:universal LSRX01000020.1:1729140-1729478(+)
+LSRX01000004.1.p407  -          PF13927_full         -             0.0031   18.3   1.3    0.0043   17.8   1.3   1.2   1   0   0   1   1   1   1 type:complete len:163 gc:universal LSRX01000004.1:228706-229194(+)
+LSRX01000014.1.p842  -          PF13927_full         -             0.0069   17.1  17.8    0.0087   16.8  17.8   1.1   1   0   0   1   1   1   1 type:complete len:118 gc:universal LSRX01000014.1:1770128-1770481(+)
+LSRX01000029.1.p241  -          PF13927_full         -              0.035   14.8   4.7     0.035   14.8   4.7   2.2   3   0   0   3   3   2   0 type:complete len:151 gc:universal LSRX01000029.1:1045729-1046181(+)
+LSRX01000030.1.p1464 -          PF13927_full         -                0.1   13.3  14.9      0.12   13.0  14.9   1.1   1   0   0   1   1   1   0 type:complete len:101 gc:universal LSRX01000030.1:145586-145888(+)
+LSRX01000001.1.p1989 -          PF13927_full         -               0.23   12.2  13.3      0.29   11.8  13.3   1.2   1   0   0   1   1   1   0 type:complete len:103 gc:universal LSRX01000001.1:3042138-3042446(+)
+LSRX01000021.1.p1173 -          PF13927_full         -               0.33   11.6   3.1      0.42   11.3   3.1   1.1   1   0   0   1   1   1   0 type:complete len:109 gc:universal LSRX01000021.1:1583190-1583516(+)
+LSRX01000025.1.p94   -          PF13927_full         -               0.34   11.6   4.5      0.48   11.1   4.5   1.1   1   0   0   1   1   1   0 type:complete len:386 gc:universal LSRX01000025.1:1600876-1599719(-)
+LSRX01000016.1.p1260 -          PF13927_full         -               0.36   11.5  14.3      0.58   10.8  14.3   1.4   1   0   0   1   1   1   0 type:complete len:109 gc:universal LSRX01000016.1:553340-553666(+)
+LSRX01000001.1.p519  -          PF13927_full         -               0.58   10.8  13.7      0.78   10.4  13.7   1.1   1   0   0   1   1   1   0 type:complete len:185 gc:universal LSRX01000001.1:1503582-1504136(+)
+LSRX01000025.1.p159  -          PF13927_full         -               0.62   10.7   7.7      0.81   10.4   7.7   1.1   1   0   0   1   1   1   0 type:complete len:286 gc:universal LSRX01000025.1:1487206-1486349(-)
+LSRX01000006.1.p979  -          PF13927_full         -                0.7   10.6  25.2       1.1    9.9  25.2   1.4   1   0   0   1   1   1   0 type:complete len:100 gc:universal LSRX01000006.1:1930032-1930331(+)
+LSRX01000005.1.p242  -          PF13927_full         -               0.79   10.4  87.8       2.2    8.9  17.6   4.1   4   0   0   4   4   4   0 type:complete len:213 gc:universal LSRX01000005.1:1317842-1318480(+)
+LSRX01000028.1.p268  -          PF13927_full         -               0.91   10.2  20.1       1.5    9.5  20.1   1.3   1   0   0   1   1   1   0 type:complete len:153 gc:universal LSRX01000028.1:1577432-1576974(-)
+LSRX01000027.1.p594  -          PF13927_full         -               0.91   10.2   3.9       1.2    9.8   3.9   1.2   1   0   0   1   1   1   0 type:complete len:155 gc:universal LSRX01000027.1:111688-112152(+)
+LSRX01000028.1.p318  -          PF13927_full         -               0.93   10.2   1.3       1.6    9.4   1.3   1.3   1   0   0   1   1   1   0 type:complete len:144 gc:universal LSRX01000028.1:235756-236187(+)
+LSRX01000022.1.p1552 -          PF13927_full         -               0.97   10.1   8.4       1.2    9.8   8.4   1.2   1   0   0   1   1   1   0 type:complete len:113 gc:universal LSRX01000022.1:1738495-1738833(+)
+LSRX01000009.1.p280  -          PF13927_full         -                1.1    9.9  10.1      0.31   11.7   7.0   1.6   2   0   0   2   2   2   0 type:complete len:173 gc:universal LSRX01000009.1:288139-288657(+)
+LSRX01000002.1.p1314 -          PF13927_full         -                1.6    9.4  17.9       2.4    8.8  17.9   1.3   1   0   0   1   1   1   0 type:complete len:114 gc:universal LSRX01000002.1:1041046-1041387(+)
+LSRX01000030.1.p105  -          PF13927_full         -                1.7    9.3   5.3       2.4    8.8   5.3   1.1   1   0   0   1   1   1   0 type:complete len:394 gc:universal LSRX01000030.1:1280318-1281499(+)
+LSRX01000002.1.p523  -          PF13927_full         -                  2    9.1  16.0       2.7    8.7  16.0   1.2   1   0   0   1   1   1   0 type:complete len:161 gc:universal LSRX01000002.1:207827-207345(-)
+LSRX01000019.1.p975  -          PF13927_full         -                2.2    8.9  12.8       3.2    8.4  12.8   1.3   1   0   0   1   1   1   0 type:complete len:108 gc:universal LSRX01000019.1:748583-748906(+)
+LSRX01000028.1.p326  -          PF13927_full         -                2.8    8.6  19.8       3.8    8.2  19.8   1.2   1   0   0   1   1   1   0 type:complete len:143 gc:universal LSRX01000028.1:182847-183275(+)
+LSRX01000009.1.p343  -          PF13927_full         -                2.9    8.6  26.7       4.7    7.9  26.7   1.3   1   0   0   1   1   1   0 type:complete len:154 gc:universal LSRX01000009.1:1097045-1097506(+)
+LSRX01000007.1.p1718 -          PF13927_full         -                2.9    8.6   5.7       3.5    8.3   5.7   1.1   1   0   0   1   1   1   0 type:complete len:103 gc:universal LSRX01000007.1:363153-362845(-)
+LSRX01000002.1.p1329 -          PF13927_full         -                  6    7.5  16.3         3    8.5   9.2   2.2   2   0   0   2   2   2   0 type:complete len:114 gc:universal LSRX01000002.1:2629032-2628691(-)
+LSRX01000005.1.p150  -          PF13927_full         -                7.8    7.1 110.4      0.32   11.7  14.9   5.4   5   1   0   5   5   5   0 type:complete len:299 gc:universal LSRX01000005.1:1317945-1318841(+)
+LSRX01000022.1.p1563 -          PF13927_full         -                8.1    7.1  14.0        11    6.7  13.9   1.3   1   1   0   1   1   1   0 type:complete len:113 gc:universal LSRX01000022.1:569726-569388(-)
+LSRX01000031.1.p70   -          PF13927_full         -                8.1    7.1  12.8        12    6.6  12.8   1.1   1   0   0   1   1   1   0 type:complete len:399 gc:universal LSRX01000031.1:636783-637979(+)
+LSRX01000030.1.p560  -          PF13927_full         -                9.9    6.8   9.2        15    6.3   9.2   1.3   1   0   0   1   1   1   0 type:complete len:151 gc:universal LSRX01000030.1:1140086-1140538(+)
+LSRX01000016.1.p342  -          PF13927_full         -                 10    6.8  11.9        14    6.4  11.9   1.2   1   0   0   1   1   1   0 type:complete len:185 gc:universal LSRX01000016.1:1404609-1405163(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13927_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_microadriaticum_longest_orfs_PF13927_full_profile_hmmer_results.txt ../output/domains/PF13927_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:17:49 2021
+# [ok]

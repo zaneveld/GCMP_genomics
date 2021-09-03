@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LSRX01000007.1.p102  -          PF12799_full         -            8.2e-35  119.3  35.5   3.3e-08   34.0   0.3   7.2   1   1   6   7   7   7   7 type:complete len:403 gc:universal LSRX01000007.1:635253-634045(-)
+LSRX01000001.1.p147  -          PF12799_full         -              6e-13   49.2   3.6   7.8e-05   23.1   0.4   3.6   1   1   2   3   3   3   3 type:complete len:398 gc:universal LSRX01000001.1:340879-342072(+)
+LSRX01000025.1.p86   -          PF12799_full         -            4.7e-10   39.9  13.9       0.2   12.2   0.0   5.8   2   1   4   6   6   6   6 type:complete len:413 gc:universal LSRX01000025.1:555098-556336(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF12799_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_microadriaticum_longest_orfs_PF12799_full_profile_hmmer_results.txt ../output/domains/PF12799_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:30 2021
+# [ok]

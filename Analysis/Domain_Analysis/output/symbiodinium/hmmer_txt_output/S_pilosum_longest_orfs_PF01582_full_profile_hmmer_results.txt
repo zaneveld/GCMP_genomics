@@ -1,0 +1,65 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNIZ010044909.1.p26  -          PF01582_full         -              1e-09   42.9   0.2   1.2e-09   42.8   0.2   1.1   1   0   0   1   1   1   1 type:complete len:201 gc:universal CAJNIZ010044909.1:18050-17448(-)
+CAJNIZ010006081.1.p11  -          PF01582_full         -              4e-06   31.2   1.1   5.4e-06   30.7   0.3   1.4   1   1   0   2   2   2   1 type:complete len:202 gc:universal CAJNIZ010006081.1:13668-14273(+)
+CAJNIZ010005791.1.p14  -          PF01582_full         -             0.0033   21.6   0.0    0.0045   21.1   0.0   1.2   1   0   0   1   1   1   1 type:complete len:183 gc:universal CAJNIZ010005791.1:13142-12594(-)
+CAJNIZ010026836.1.p9   -          PF01582_full         -             0.0088   20.2   0.1     0.011   19.9   0.1   1.0   1   0   0   1   1   1   1 type:complete len:127 gc:universal CAJNIZ010026836.1:47798-48178(+)
+CAJNIZ010043316.1.p69  -          PF01582_full         -             0.0089   20.2   0.0     0.013   19.6   0.0   1.2   1   0   0   1   1   1   1 type:complete len:158 gc:universal CAJNIZ010043316.1:5031-4558(-)
+CAJNIZ010014558.1.p1   -          PF01582_full         -              0.011   19.8   0.1     0.025   18.7   0.1   1.4   1   1   0   1   1   1   0 type:complete len:274 gc:universal CAJNIZ010014558.1:216569-217390(+)
+CAJNIZ010000001.1.p62  -          PF01582_full         -               0.11   16.5   0.1      0.78   13.8   0.0   2.1   2   0   0   2   2   2   0 type:complete len:708 gc:universal CAJNIZ010000001.1:799732-797609(-)
+CAJNIZ010042749.1.p78  -          PF01582_full         -               0.13   16.3  12.5      0.15   16.1  12.5   1.0   1   0   0   1   1   1   0 type:complete len:144 gc:universal CAJNIZ010042749.1:107560-107991(+)
+CAJNIZ010045367.1.p11  -          PF01582_full         -                0.2   15.8   3.9      0.19   15.8   3.9   1.0   1   0   0   1   1   1   0 type:complete len:103 gc:universal CAJNIZ010045367.1:42207-42515(+)
+CAJNIZ010036692.1.p7   -          PF01582_full         -               0.34   15.0   4.9      0.39   14.8   4.9   1.1   1   0   0   1   1   1   0 type:complete len:150 gc:universal CAJNIZ010036692.1:18091-17642(-)
+CAJNIZ010002737.1.p1   -          PF01582_full         -               0.41   14.7   0.2      0.61   14.1   0.2   1.2   1   0   0   1   1   1   0 type:complete len:192 gc:universal CAJNIZ010002737.1:11373-11948(+)
+CAJNIZ010003436.1.p12  -          PF01582_full         -               0.43   14.6   5.9      0.46   14.5   5.9   1.0   1   0   0   1   1   1   0 type:complete len:121 gc:universal CAJNIZ010003436.1:20948-20586(-)
+CAJNIZ010003296.1.p2   -          PF01582_full         -               0.43   14.6  18.8      0.56   14.3  18.8   1.2   1   0   0   1   1   1   0 type:complete len:172 gc:universal CAJNIZ010003296.1:4189-4704(+)
+CAJNIZ010026113.1.p11  -          PF01582_full         -                0.5   14.4   5.1       0.6   14.2   5.1   1.1   1   0   0   1   1   1   0 type:complete len:172 gc:universal CAJNIZ010026113.1:159186-158671(-)
+CAJNIZ010013337.1.p22  -          PF01582_full         -               0.69   14.0   8.4      0.69   14.0   8.4   1.0   1   0   0   1   1   1   0 type:complete len:107 gc:universal CAJNIZ010013337.1:87084-86764(-)
+CAJNIZ010007646.1.p77  -          PF01582_full         -               0.77   13.8  24.2      0.85   13.7  24.2   1.0   1   0   0   1   1   1   0 type:3prime_partial len:114 gc:universal CAJNIZ010007646.1:112394-112732(+)
+CAJNIZ010043474.1.p1   -          PF01582_full         -               0.82   13.7   6.4       1.1   13.4   6.4   1.2   1   0   0   1   1   1   0 type:complete len:230 gc:universal CAJNIZ010043474.1:34766-35455(+)
+CAJNIZ010047304.1.p68  -          PF01582_full         -                0.9   13.6   3.1       1.1   13.3   3.1   1.1   1   0   0   1   1   1   0 type:complete len:142 gc:universal CAJNIZ010047304.1:158404-157979(-)
+CAJNIZ010000273.1.p36  -          PF01582_full         -                0.9   13.6   0.7       1.2   13.2   0.7   1.2   1   0   0   1   1   1   0 type:complete len:126 gc:universal CAJNIZ010000273.1:14142-13765(-)
+CAJNIZ010012470.1.p2   -          PF01582_full         -               0.99   13.4  13.6       1.2   13.2  13.6   1.1   1   0   0   1   1   1   0 type:complete len:187 gc:universal CAJNIZ010012470.1:765-1325(+)
+CAJNIZ010003113.1.p52  -          PF01582_full         -                1.2   13.2   3.6       1.3   13.1   3.6   1.0   1   0   0   1   1   1   0 type:complete len:110 gc:universal CAJNIZ010003113.1:53926-53597(-)
+CAJNIZ010010569.1.p2   -          PF01582_full         -                1.2   13.1   5.8       1.5   12.9   5.8   1.1   1   0   0   1   1   1   0 type:complete len:208 gc:universal CAJNIZ010010569.1:27278-26655(-)
+CAJNIZ010000691.1.p8   -          PF01582_full         -                1.5   12.8  14.3       1.6   12.8  14.3   1.0   1   0   0   1   1   1   0 type:5prime_partial len:124 gc:universal CAJNIZ010000691.1:1-372(+)
+CAJNIZ010045659.1.p3   -          PF01582_full         -                1.6   12.7   7.0       1.6   12.7   7.0   1.1   1   0   0   1   1   1   0 type:complete len:169 gc:universal CAJNIZ010045659.1:19153-19659(+)
+CAJNIZ010022414.1.p3   -          PF01582_full         -                1.9   12.5  16.9       2.3   12.3  16.9   1.1   1   0   0   1   1   1   0 type:complete len:183 gc:universal CAJNIZ010022414.1:23812-24360(+)
+CAJNIZ010046258.1.p1   -          PF01582_full         -                1.9   12.5   6.1       2.5   12.1   6.1   1.1   1   0   0   1   1   1   0 type:complete len:282 gc:universal CAJNIZ010046258.1:5084-4239(-)
+CAJNIZ010033558.1.p60  -          PF01582_full         -                  2   12.4   0.9       2.4   12.2   0.9   1.0   1   0   0   1   1   1   0 type:complete len:159 gc:universal CAJNIZ010033558.1:29115-29591(+)
+CAJNIZ010036513.1.p41  -          PF01582_full         -                2.1   12.4  10.8       2.1   12.4  10.8   1.0   1   0   0   1   1   1   0 type:complete len:101 gc:universal CAJNIZ010036513.1:13410-13108(-)
+CAJNIZ010044021.1.p4   -          PF01582_full         -                2.4   12.2  11.6       2.7   12.0  11.6   1.0   1   0   0   1   1   1   0 type:complete len:128 gc:universal CAJNIZ010044021.1:28425-28042(-)
+CAJNIZ010028002.1.p56  -          PF01582_full         -                2.5   12.1  15.8       2.6   12.0  15.8   1.0   1   0   0   1   1   1   0 type:complete len:107 gc:universal CAJNIZ010028002.1:112591-112271(-)
+CAJNIZ010019041.1.p1   -          PF01582_full         -                2.5   12.1  10.6       3.1   11.8  10.6   1.1   1   0   0   1   1   1   0 type:complete len:181 gc:universal CAJNIZ010019041.1:1437-1979(+)
+CAJNIZ010021602.1.p6   -          PF01582_full         -                2.8   12.0  13.8       3.3   11.7  13.8   1.1   1   0   0   1   1   1   0 type:complete len:128 gc:universal CAJNIZ010021602.1:34127-34510(+)
+CAJNIZ010042942.1.p7   -          PF01582_full         -                3.1   11.8   5.3       2.8   11.9   5.3   1.2   1   0   0   1   1   1   0 type:complete len:155 gc:universal CAJNIZ010042942.1:46644-46180(-)
+CAJNIZ010020077.1.p2   -          PF01582_full         -                3.1   11.8  17.1       3.7   11.6  17.1   1.1   1   0   0   1   1   1   0 type:5prime_partial len:146 gc:universal CAJNIZ010020077.1:4772-4335(-)
+CAJNIZ010014150.1.p5   -          PF01582_full         -                3.1   11.8   7.6       3.4   11.7   7.6   1.0   1   0   0   1   1   1   0 type:5prime_partial len:106 gc:universal CAJNIZ010014150.1:1-318(+)
+CAJNIZ010016681.1.p5   -          PF01582_full         -                3.2   11.8   6.3       4.1   11.4   6.3   1.3   1   0   0   1   1   1   0 type:complete len:148 gc:universal CAJNIZ010016681.1:45213-45656(+)
+CAJNIZ010010460.1.p1   -          PF01582_full         -                3.2   11.8   4.9       3.5   11.7   4.9   1.0   1   0   0   1   1   1   0 type:complete len:134 gc:universal CAJNIZ010010460.1:10178-10579(+)
+CAJNIZ010007091.1.p9   -          PF01582_full         -                3.7   11.6   4.0       4.3   11.3   4.0   1.1   1   0   0   1   1   1   0 type:complete len:214 gc:universal CAJNIZ010007091.1:109385-108744(-)
+CAJNIZ010023069.1.p4   -          PF01582_full         -                3.8   11.5   5.9       5.3   11.1   5.9   1.3   1   0   0   1   1   1   0 type:complete len:177 gc:universal CAJNIZ010023069.1:7668-8198(+)
+CAJNIZ010000094.1.p3   -          PF01582_full         -                4.1   11.4   3.2       4.8   11.2   3.2   1.1   1   0   0   1   1   1   0 type:complete len:156 gc:universal CAJNIZ010000094.1:15145-14678(-)
+CAJNIZ010013082.1.p4   -          PF01582_full         -                4.3   11.4   3.9       5.2   11.1   3.9   1.1   1   0   0   1   1   1   0 type:complete len:158 gc:universal CAJNIZ010013082.1:7726-8199(+)
+CAJNIZ010046706.1.p12  -          PF01582_full         -                4.4   11.3   1.8         5   11.1   1.8   1.0   1   0   0   1   1   1   0 type:complete len:106 gc:universal CAJNIZ010046706.1:6263-6580(+)
+CAJNIZ010042675.1.p11  -          PF01582_full         -                4.6   11.3   6.5       5.3   11.1   6.5   1.0   1   0   0   1   1   1   0 type:complete len:138 gc:universal CAJNIZ010042675.1:14456-14043(-)
+CAJNIZ010038424.1.p5   -          PF01582_full         -                5.5   11.0   5.0       7.1   10.6   5.0   1.1   1   0   0   1   1   1   0 type:complete len:186 gc:universal CAJNIZ010038424.1:14383-14940(+)
+CAJNIZ010009429.1.p2   -          PF01582_full         -                6.5   10.8   9.9       8.7   10.3   9.9   1.1   1   0   0   1   1   1   0 type:complete len:245 gc:universal CAJNIZ010009429.1:443-1177(+)
+CAJNIZ010007914.1.p50  -          PF01582_full         -                6.7   10.7   9.9       6.9   10.7   9.9   1.0   1   0   0   1   1   1   0 type:complete len:101 gc:universal CAJNIZ010007914.1:10441-10743(+)
+CAJNIZ010043669.1.p56  -          PF01582_full         -                7.8   10.5  14.5       8.4   10.4  14.5   1.0   1   0   0   1   1   1   0 type:complete len:104 gc:universal CAJNIZ010043669.1:27548-27237(-)
+CAJNIZ010016136.1.p9   -          PF01582_full         -                8.1   10.5  16.0        13    9.8  16.0   1.3   1   0   0   1   1   1   0 type:complete len:249 gc:universal CAJNIZ010016136.1:69580-70326(+)
+CAJNIZ010043909.1.p2   -          PF01582_full         -                9.1   10.3   9.7        12    9.9   9.7   1.1   1   0   0   1   1   1   0 type:complete len:179 gc:universal CAJNIZ010043909.1:39322-38786(-)
+CAJNIZ010012470.1.p40  -          PF01582_full         -                9.2   10.3  13.5       9.3   10.2  13.5   1.0   1   0   0   1   1   1   0 type:complete len:101 gc:universal CAJNIZ010012470.1:976-1278(+)
+CAJNIZ010022929.1.p1   -          PF01582_full         -                9.5   10.2  13.3        11   10.0  13.3   1.0   1   0   0   1   1   1   0 type:3prime_partial len:114 gc:universal CAJNIZ010022929.1:3317-3655(+)
+CAJNIZ010037380.1.p1   -          PF01582_full         -                 10   10.2  15.5        14    9.7  15.5   1.2   1   0   0   1   1   1   0 type:complete len:197 gc:universal CAJNIZ010037380.1:65793-66383(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_pilosum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_pilosum_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_pilosum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:21:37 2021
+# [ok]

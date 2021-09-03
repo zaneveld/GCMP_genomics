@@ -1,0 +1,21 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNJA010031986.1.p4   -          PF00047_full         -             0.0041   21.9   0.1    0.0065   21.3   0.1   1.2   1   0   0   1   1   1   1 type:complete len:499 gc:universal CAJNJA010031986.1:4461-5957(+)
+CAJNJA010022195.1.p4   -          PF00047_full         -               0.03   19.1   0.1     0.036   18.9   0.1   1.1   1   0   0   1   1   1   0 type:complete len:118 gc:universal CAJNJA010022195.1:2034-1681(-)
+CAJNJA010013575.1.p6   -          PF00047_full         -               0.08   17.7   0.1      0.13   17.0   0.1   1.3   1   0   0   1   1   1   0 type:complete len:208 gc:universal CAJNJA010013575.1:28062-28685(+)
+CAJNJA010003336.1.p126 -          PF00047_full         -                3.1   12.5   0.1       4.5   12.0   0.1   1.2   1   0   0   1   1   1   0 type:complete len:134 gc:universal CAJNJA010003336.1:47161-46760(-)
+CAJNJA010033797.1.p20  -          PF00047_full         -                3.5   12.4   0.0       5.6   11.7   0.0   1.2   1   0   0   1   1   1   0 type:complete len:123 gc:universal CAJNJA010033797.1:2821-3189(+)
+CAJNJA010052495.1.p3   -          PF00047_full         -                5.2   11.8   0.1       7.2   11.3   0.1   1.1   1   0   0   1   1   1   0 type:complete len:141 gc:universal CAJNJA010052495.1:2686-3108(+)
+CAJNJA010040231.1.p19  -          PF00047_full         -                5.7   11.7   0.0       7.5   11.3   0.0   1.1   1   0   0   1   1   1   0 type:complete len:126 gc:universal CAJNJA010040231.1:11660-12037(+)
+CAJNJA010082542.1.p33  -          PF00047_full         -                7.3   11.3   0.0       8.2   11.2   0.0   1.0   1   0   0   1   1   1   0 type:complete len:102 gc:universal CAJNJA010082542.1:12557-12862(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00047_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_necroappetens_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_necroappetens_longest_orfs_PF00047_full_profile_hmmer_results.txt ../output/domains/PF00047_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_necroappetens_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:17:01 2021
+# [ok]

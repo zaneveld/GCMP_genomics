@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+VSDK01008768.1.p117  -          PF07725_full         -                1.3   13.8   3.6   6.1e+02    5.4   0.1   3.4   3   0   0   3   3   3   0 type:complete len:109 gc:universal VSDK01008768.1:68662-68336(-)
+VSDK01024135.1.p171  -          PF07725_full         -                1.8   13.4   2.8         4   12.3   0.0   2.4   2   0   0   2   2   2   0 type:complete len:116 gc:universal VSDK01024135.1:153951-154298(+)
+VSDK01010057.1.p619  -          PF07725_full         -                2.8   12.8   1.5       7.8   11.4   0.1   2.1   2   0   0   2   2   2   0 type:complete len:108 gc:universal VSDK01010057.1:82150-81827(-)
+VSDK01017801.1.p322  -          PF07725_full         -                3.8   12.4   0.4       9.5   11.1   0.2   1.8   2   0   0   2   2   2   0 type:complete len:114 gc:universal VSDK01017801.1:37912-37571(-)
+VSDK01005001.1.p67   -          PF07725_full         -                  4   12.3   0.0       7.8   11.4   0.0   1.5   1   0   0   1   1   1   0 type:complete len:165 gc:universal VSDK01005001.1:299807-299313(-)
+VSDK01014757.1.p9    -          PF07725_full         -                  4   12.3   0.0       7.8   11.4   0.0   1.5   1   0   0   1   1   1   0 type:complete len:165 gc:universal VSDK01014757.1:7642-7148(-)
+VSDK01027358.1.p3    -          PF07725_full         -                4.5   12.2   0.2   3.9e+02    6.0   0.0   2.2   2   0   0   2   2   2   0 type:5prime_partial len:100 gc:universal VSDK01027358.1:4746-4447(-)
+VSDK01006892.1.p93   -          PF07725_full         -                5.3   11.9   0.2       7.3   11.5   0.2   1.2   1   0   0   1   1   1   0 type:complete len:102 gc:universal VSDK01006892.1:64938-65243(+)
+VSDK01003971.1.p157  -          PF07725_full         -                6.3   11.7   0.4        12   10.8   0.4   1.5   1   0   0   1   1   1   0 type:complete len:113 gc:universal VSDK01003971.1:213480-213142(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF07725_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_kawagutii_longest_orfs_PF07725_full_profile_hmmer_results.txt ../output/domains/PF07725_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_kawagutii_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:23 2021
+# [ok]

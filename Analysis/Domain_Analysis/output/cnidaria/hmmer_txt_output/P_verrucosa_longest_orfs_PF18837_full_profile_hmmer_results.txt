@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+JAAVTL010002094.1.p1 -          PF18837_full         -              0.076   15.2   0.7      0.93   11.7   0.2   3.1   2   0   0   2   2   2   0 type:complete len:933 gc:universal JAAVTL010002094.1:2764-5562(+)
+JAAVTL010015407.1.p1 -          PF18837_full         -               0.35   13.1   0.0      0.91   11.8   0.0   1.7   2   0   0   2   2   2   0 type:complete len:331 gc:universal JAAVTL010015407.1:652-1644(+)
+JAAVTL010001278.1.p4 -          PF18837_full         -               0.84   11.9   1.5       5.9    9.2   1.1   2.3   2   0   0   2   2   2   0 type:complete len:106 gc:universal JAAVTL010001278.1:3344-3027(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18837_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/P_verrucosa_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/P_verrucosa_longest_orfs_PF18837_full_profile_hmmer_results.txt ../output/domains/PF18837_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/P_verrucosa_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:43 2021
+# [ok]

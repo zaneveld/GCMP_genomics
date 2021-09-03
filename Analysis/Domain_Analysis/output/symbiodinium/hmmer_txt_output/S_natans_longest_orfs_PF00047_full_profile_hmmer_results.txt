@@ -1,0 +1,23 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAJNDS010001855.1.p11  -          PF00047_full         -               0.19   16.3   0.5      0.25   15.9   0.5   1.2   1   0   0   1   1   1   0 type:5prime_partial len:131 gc:universal CAJNDS010001855.1:6269-5877(-)
+CAJNDS010000024.1.p40  -          PF00047_full         -               0.52   14.9   0.3      0.87   14.2   0.3   1.3   1   0   0   1   1   1   0 type:complete len:195 gc:universal CAJNDS010000024.1:80512-79928(-)
+CAJNDS010000328.1.p3   -          PF00047_full         -               0.72   14.4  11.1        12   10.4   1.0   4.6   4   1   1   5   5   5   0 type:complete len:463 gc:universal CAJNDS010000328.1:61879-60491(-)
+CAJNDS010002734.1.p819 -          PF00047_full         -               0.83   14.2   7.3       1.1   13.8   7.3   1.1   1   0   0   1   1   1   0 type:complete len:104 gc:universal CAJNDS010002734.1:986262-985951(-)
+CAJNDS010002208.1.p289 -          PF00047_full         -                1.1   13.8   0.7       1.6   13.3   0.5   1.4   1   1   0   1   1   1   0 type:complete len:150 gc:universal CAJNDS010002208.1:182077-181628(-)
+CAJNDS010002304.1.p248 -          PF00047_full         -                1.4   13.4   0.1        30    9.2   0.0   2.1   2   0   0   2   2   2   0 type:complete len:145 gc:universal CAJNDS010002304.1:109885-110319(+)
+CAJNDS010000022.1.p76  -          PF00047_full         -                  2   13.0   0.9       3.1   12.4   0.9   1.3   1   0   0   1   1   1   0 type:complete len:177 gc:universal CAJNDS010000022.1:242796-242266(-)
+CAJNDS010001435.1.p336 -          PF00047_full         -                3.1   12.3   0.1         4   12.0   0.1   1.1   1   0   0   1   1   1   0 type:complete len:100 gc:universal CAJNDS010001435.1:789082-788783(-)
+CAJNDS010000766.1.p5   -          PF00047_full         -                3.9   12.0   0.4       9.5   10.8   0.3   1.6   2   0   0   2   2   2   0 type:complete len:349 gc:universal CAJNDS010000766.1:30769-31815(+)
+CAJNDS010001846.1.p728 -          PF00047_full         -                4.1   12.0   0.0       4.9   11.7   0.0   1.1   1   0   0   1   1   1   0 type:complete len:100 gc:universal CAJNDS010001846.1:515314-515015(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00047_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_natans_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_natans_longest_orfs_PF00047_full_profile_hmmer_results.txt ../output/domains/PF00047_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_natans_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:56 2021
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                         --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                  accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#          ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Stri_CCMP2592.scaffold7.p784   -          PF13895_full         -            1.3e-05   27.1   0.0   2.3e-05   26.3   0.0   1.4   1   0   0   1   1   1   1 type:complete len:427 gc:universal Stri_CCMP2592.scaffold7:2691501-2690221(-)
+Stri_CCMP2592.scaffold15.p1489 -          PF13895_full         -              0.091   14.6   0.0      0.12   14.3   0.0   1.2   1   0   0   1   1   1   0 type:complete len:108 gc:universal Stri_CCMP2592.scaffold15:1212803-1213126(+)
+Stri_CCMP2592.scaffold3.p2598  -          PF13895_full         -               0.11   14.4   0.0      0.14   14.0   0.0   1.2   1   0   0   1   1   1   0 type:complete len:108 gc:universal Stri_CCMP2592.scaffold3:2394429-2394752(+)
+Stri_CCMP2592.scaffold16.p1011 -          PF13895_full         -                2.1   10.2   3.8       4.1    9.3   3.8   1.5   1   0   0   1   1   1   0 type:complete len:119 gc:universal Stri_CCMP2592.scaffold16:1546559-1546915(+)
+Stri_CCMP2592.scaffold16.p1462 -          PF13895_full         -                3.2    9.6   5.7       4.7    9.1   5.7   1.3   1   0   0   1   1   1   0 type:complete len:104 gc:universal Stri_CCMP2592.scaffold16:1208358-1208047(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13895_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_tridacnidorum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_tridacnidorum_longest_orfs_PF13895_full_profile_hmmer_results.txt ../output/domains/PF13895_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_tridacnidorum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:07 2021
+# [ok]

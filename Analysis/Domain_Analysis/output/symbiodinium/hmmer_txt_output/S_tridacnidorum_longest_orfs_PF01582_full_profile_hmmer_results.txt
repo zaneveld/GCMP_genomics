@@ -1,0 +1,34 @@
+#                                                                         --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                  accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#          ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Stri_CCMP2592.scaffold22.p2637 -          PF01582_full         -              0.041   15.6   3.0     0.044   15.5   3.0   1.0   1   0   0   1   1   1   0 type:complete len:107 gc:universal Stri_CCMP2592.scaffold22:1222090-1221770(-)
+Stri_CCMP2592.scaffold42.p1107 -          PF01582_full         -              0.049   15.3   0.0      0.07   14.8   0.0   1.2   1   0   0   1   1   1   0 type:complete len:130 gc:universal Stri_CCMP2592.scaffold42:1157498-1157887(+)
+Stri_CCMP2592.scaffold39.p775  -          PF01582_full         -              0.054   15.2   6.3     0.062   14.9   6.3   1.1   1   0   0   1   1   1   0 type:complete len:135 gc:universal Stri_CCMP2592.scaffold39:811878-811474(-)
+Stri_CCMP2592.scaffold32.p868  -          PF01582_full         -              0.064   14.9   1.2     0.065   14.9   1.2   1.0   1   0   0   1   1   1   0 type:complete len:116 gc:universal Stri_CCMP2592.scaffold32:421293-421640(+)
+Stri_CCMP2592.scaffold4.p1314  -          PF01582_full         -               0.33   12.6   7.6      0.45   12.1   7.6   1.2   1   0   0   1   1   1   0 type:complete len:131 gc:universal Stri_CCMP2592.scaffold4:2782362-2782754(+)
+Stri_CCMP2592.scaffold13.p814  -          PF01582_full         -               0.67   11.5  10.2      0.83   11.3  10.2   1.1   1   0   0   1   1   1   0 type:complete len:151 gc:universal Stri_CCMP2592.scaffold13:1406332-1406784(+)
+Stri_CCMP2592.scaffold31.p286  -          PF01582_full         -                  2   10.0  11.9       4.6    8.8  11.8   1.5   1   1   0   1   1   1   0 type:complete len:188 gc:universal Stri_CCMP2592.scaffold31:1396092-1395529(-)
+Stri_CCMP2592.scaffold24.p316  -          PF01582_full         -                2.3    9.8   9.0       2.6    9.6   9.0   1.1   1   0   0   1   1   1   0 type:complete len:164 gc:universal Stri_CCMP2592.scaffold24:1344033-1344524(+)
+Stri_CCMP2592.scaffold3.p1380  -          PF01582_full         -                2.5    9.7  16.7         3    9.4  16.7   1.1   1   0   0   1   1   1   0 type:complete len:140 gc:universal Stri_CCMP2592.scaffold3:2401349-2401768(+)
+Stri_CCMP2592.scaffold41.p644  -          PF01582_full         -                  3    9.4  13.5       3.6    9.1  13.5   1.1   1   0   0   1   1   1   0 type:complete len:159 gc:universal Stri_CCMP2592.scaffold41:1600792-1600316(-)
+Stri_CCMP2592.scaffold5.p1124  -          PF01582_full         -                3.9    9.0   9.0         5    8.7   9.0   1.1   1   0   0   1   1   1   0 type:complete len:128 gc:universal Stri_CCMP2592.scaffold5:2512836-2512453(-)
+Stri_CCMP2592.scaffold34.p883  -          PF01582_full         -                  4    9.0  30.0         5    8.7  30.0   1.2   1   0   0   1   1   1   0 type:complete len:123 gc:universal Stri_CCMP2592.scaffold34:1995629-1995997(+)
+Stri_CCMP2592.scaffold25.p1989 -          PF01582_full         -                4.1    9.0  10.3       4.6    8.8  10.3   1.1   1   0   0   1   1   1   0 type:complete len:102 gc:universal Stri_CCMP2592.scaffold25:1230497-1230802(+)
+Stri_CCMP2592.scaffold29.p724  -          PF01582_full         -                4.5    8.8  12.1       5.1    8.7  12.1   1.1   1   0   0   1   1   1   0 type:complete len:118 gc:universal Stri_CCMP2592.scaffold29:1252237-1252590(+)
+Stri_CCMP2592.scaffold8.p1104  -          PF01582_full         -                4.8    8.7  14.8       6.1    8.4  14.8   1.2   1   0   0   1   1   1   0 type:complete len:135 gc:universal Stri_CCMP2592.scaffold8:939366-939770(+)
+Stri_CCMP2592.scaffold9.p43    -          PF01582_full         -                4.9    8.7   7.6        12    7.5   7.6   1.6   1   0   0   1   1   1   0 type:complete len:542 gc:universal Stri_CCMP2592.scaffold9:2782071-2780446(-)
+Stri_CCMP2592.scaffold1.p1266  -          PF01582_full         -                4.9    8.7   3.7       5.5    8.6   3.7   1.1   1   0   0   1   1   1   0 type:complete len:155 gc:universal Stri_CCMP2592.scaffold1:2591609-2591145(-)
+Stri_CCMP2592.scaffold43.p1166 -          PF01582_full         -                5.5    8.6  20.1       6.8    8.3  20.1   1.1   1   0   0   1   1   1   0 type:complete len:109 gc:universal Stri_CCMP2592.scaffold43:1058671-1058345(-)
+Stri_CCMP2592.scaffold50.p597  -          PF01582_full         -                5.7    8.5   2.5       7.1    8.2   2.5   1.1   1   0   0   1   1   1   0 type:complete len:156 gc:universal Stri_CCMP2592.scaffold50:1202573-1202106(-)
+Stri_CCMP2592.scaffold50.p432  -          PF01582_full         -                6.1    8.4   2.3       7.5    8.1   2.3   1.1   1   0   0   1   1   1   0 type:complete len:178 gc:universal Stri_CCMP2592.scaffold50:601985-601452(-)
+Stri_CCMP2592.scaffold24.p38   -          PF01582_full         -                8.5    7.9   7.9        20    6.7   7.9   1.6   1   0   0   1   1   1   0 type:complete len:594 gc:universal Stri_CCMP2592.scaffold24:757485-755704(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_tridacnidorum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_tridacnidorum_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_tridacnidorum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:21:13 2021
+# [ok]

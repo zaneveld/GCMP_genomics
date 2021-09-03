@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BLFG01000573.1.p37   -          PF18837_full         -            0.00067   22.3   4.7   3.3e+02    4.1   0.0   6.2   5   0   0   5   5   5   0 type:complete len:875 gc:universal BLFG01000573.1:547049-549673(+)
+BLFG01000496.1.p17   -          PF18837_full         -              0.015   18.0   2.0   1.2e+03    2.3   0.0   7.1   8   0   0   8   8   8   0 type:complete len:1137 gc:universal BLFG01000496.1:464564-461154(-)
+BLFG01002192.1.p365  -          PF18837_full         -              0.026   17.2   3.7       4.1   10.1   0.4   2.5   2   0   0   2   2   2   0 type:complete len:116 gc:universal BLFG01002192.1:1006139-1005792(-)
+BLFG01000316.1.p68   -          PF18837_full         -                0.1   15.3   0.4   2.5e+02    4.5   0.0   4.3   4   0   0   4   4   4   0 type:complete len:961 gc:universal BLFG01000316.1:114747-117629(+)
+BLFG01002192.1.p312  -          PF18837_full         -               0.26   14.0   3.0       4.5   10.0   0.4   2.6   2   0   0   2   2   2   0 type:complete len:124 gc:universal BLFG01002192.1:983499-983128(-)
+BLFG01002192.1.p205  -          PF18837_full         -               0.36   13.5   6.3         6    9.6   0.4   2.8   2   1   0   2   2   2   0 type:complete len:156 gc:universal BLFG01002192.1:989886-989419(-)
+BLFG01001657.1.p65   -          PF18837_full         -               0.72   12.6   0.1       1.6   11.4   0.1   1.6   1   0   0   1   1   1   0 type:complete len:146 gc:universal BLFG01001657.1:28184-27747(-)
+BLFG01000316.1.p96   -          PF18837_full         -               0.75   12.5   0.0   8.1e+02    2.8   0.0   3.9   3   0   0   3   3   3   0 type:complete len:764 gc:universal BLFG01000316.1:379754-382045(+)
+BLFG01000790.1.p19   -          PF18837_full         -                1.6   11.5   2.2   6.4e+02    3.1   0.0   4.1   3   0   0   3   3   3   0 type:complete len:900 gc:universal BLFG01000790.1:171953-174652(+)
+BLFG01000393.1.p40   -          PF18837_full         -                2.2   11.0   3.1       3.9   10.2   3.1   1.3   1   0   0   1   1   1   0 type:complete len:156 gc:universal BLFG01000393.1:206802-206335(-)
+BLFG01002192.1.p376  -          PF18837_full         -                8.1    9.2   5.6         4   10.2   0.4   2.6   2   1   0   2   2   2   0 type:complete len:114 gc:universal BLFG01002192.1:1012572-1012231(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18837_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/A_hyactintus_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/A_hyactintus_longest_orfs_PF18837_full_profile_hmmer_results.txt ../output/domains/PF18837_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/A_hyactintus_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:19:44 2021
+# [ok]

@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+REGM01000023.1.p282  -          PF01582_full         -            1.1e-23   86.8   0.2   1.4e-23   86.4   0.2   1.2   1   0   0   1   1   1   1 type:complete len:145 gc:universal REGM01000023.1:1775501-1775067(-)
+REGM01000042.1.p132  -          PF01582_full         -            4.2e-19   71.7   0.2   9.5e-19   70.5   0.2   1.7   1   1   0   1   1   1   1 type:complete len:181 gc:universal REGM01000042.1:1217061-1216519(-)
+REGM01000022.1.p19   -          PF01582_full         -            6.4e-05   25.1   0.0   0.00087   21.4   0.0   2.6   3   0   0   3   3   3   1 type:complete len:1079 gc:universal REGM01000022.1:453730-450494(-)
+REGM01000105.1.p101  -          PF01582_full         -            0.00035   22.7   0.0    0.0005   22.1   0.0   1.2   1   0   0   1   1   1   1 type:complete len:183 gc:universal REGM01000105.1:635357-634809(-)
+REGM01000064.1.p169  -          PF01582_full         -            0.00086   21.4   0.0    0.0013   20.8   0.0   1.2   1   0   0   1   1   1   1 type:complete len:145 gc:universal REGM01000064.1:845236-845670(+)
+REGM01000257.1.p9    -          PF01582_full         -             0.0013   20.8   0.1      0.53   12.2   0.0   2.5   2   1   0   2   2   2   1 type:complete len:801 gc:universal REGM01000257.1:310517-308115(-)
+REGM01000542.1.p10   -          PF01582_full         -             0.0057   18.7   0.0     0.008   18.2   0.0   1.2   1   0   0   1   1   1   1 type:complete len:280 gc:universal REGM01000542.1:38500-37661(-)
+REGM01000386.1.p16   -          PF01582_full         -             0.0078   18.2   0.0    0.0078   18.2   0.0   2.2   2   1   0   2   2   2   1 type:complete len:483 gc:universal REGM01000386.1:194441-195889(+)
+REGM01000017.1.p256  -          PF01582_full         -              0.029   16.4   0.0     0.033   16.2   0.0   1.1   1   0   0   1   1   1   0 type:complete len:148 gc:universal REGM01000017.1:1240879-1240436(-)
+REGM01000250.1.p40   -          PF01582_full         -              0.043   15.8   0.2     0.062   15.3   0.2   1.3   1   0   0   1   1   1   0 type:complete len:272 gc:universal REGM01000250.1:26176-25361(-)
+REGM01000123.1.p161  -          PF01582_full         -              0.062   15.3   4.7     0.067   15.2   4.7   1.1   1   0   0   1   1   1   0 type:complete len:132 gc:universal REGM01000123.1:424625-425020(+)
+REGM01000183.1.p109  -          PF01582_full         -              0.063   15.3   4.3     0.073   15.0   4.3   1.1   1   0   0   1   1   1   0 type:complete len:130 gc:universal REGM01000183.1:435982-436371(+)
+REGM01000051.1.p219  -          PF01582_full         -               0.14   14.1   3.4      0.16   13.9   3.4   1.1   1   0   0   1   1   1   0 type:complete len:128 gc:universal REGM01000051.1:249724-249341(-)
+REGM01000065.1.p255  -          PF01582_full         -               0.37   12.7  13.6      0.41   12.6  13.6   1.1   1   0   0   1   1   1   0 type:complete len:116 gc:universal REGM01000065.1:220367-220020(-)
+REGM01000075.1.p211  -          PF01582_full         -                0.4   12.6   4.8      0.43   12.5   4.8   1.1   1   0   0   1   1   1   0 type:complete len:137 gc:universal REGM01000075.1:866598-866188(-)
+REGM01000016.1.p373  -          PF01582_full         -               0.43   12.5   3.2      0.49   12.3   3.2   1.1   1   0   0   1   1   1   0 type:complete len:139 gc:universal REGM01000016.1:1941504-1941920(+)
+REGM01000034.1.p164  -          PF01582_full         -               0.47   12.4   0.0      0.74   11.7   0.0   1.5   1   1   0   1   1   1   0 type:complete len:158 gc:universal REGM01000034.1:559441-559914(+)
+REGM01000175.1.p84   -          PF01582_full         -               0.61   12.0   0.0      0.82   11.6   0.0   1.1   1   0   0   1   1   1   0 type:complete len:127 gc:universal REGM01000175.1:36584-36204(-)
+REGM01000119.1.p334  -          PF01582_full         -                1.2   11.1   7.7       1.3   11.0   7.7   1.0   1   0   0   1   1   1   0 type:complete len:106 gc:universal REGM01000119.1:912270-912587(+)
+REGM01000026.1.p148  -          PF01582_full         -                1.2   11.0  12.5       1.7   10.5  12.5   1.2   1   0   0   1   1   1   0 type:complete len:304 gc:universal REGM01000026.1:1583689-1584600(+)
+REGM01000096.1.p258  -          PF01582_full         -                1.3   10.9  11.8       1.4   10.9  11.8   1.1   1   0   0   1   1   1   0 type:complete len:120 gc:universal REGM01000096.1:296961-296602(-)
+REGM01000154.1.p80   -          PF01582_full         -                1.4   10.8   8.7       1.4   10.8   8.7   1.1   1   0   0   1   1   1   0 type:complete len:143 gc:universal REGM01000154.1:630468-630040(-)
+REGM01000018.1.p383  -          PF01582_full         -                4.6    9.1  15.2       5.3    8.9  15.2   1.2   1   0   0   1   1   1   0 type:complete len:128 gc:universal REGM01000018.1:556893-556510(-)
+REGM01000092.1.p259  -          PF01582_full         -                7.3    8.5   8.9       7.6    8.4   8.9   1.1   1   0   0   1   1   1   0 type:complete len:117 gc:universal REGM01000092.1:221870-221520(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/A_aurita_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/A_aurita_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/A_aurita_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:41 2021
+# [ok]

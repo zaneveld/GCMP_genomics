@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BGNK01005346.1.p42   -          PF18452_full         -                1.1   13.8   1.1       1.3   13.6   1.1   1.1   1   0   0   1   1   1   0 type:complete len:102 gc:universal BGNK01005346.1:9240-8935(-)
+BGNK01000863.1.p16   -          PF18452_full         -                1.5   13.5   0.0       1.7   13.2   0.0   1.4   1   1   0   1   1   1   0 type:complete len:189 gc:universal BGNK01000863.1:67745-68311(+)
+BGNK01003471.1.p22   -          PF18452_full         -                1.9   13.1   0.6       2.3   12.8   0.6   1.2   1   0   0   1   1   1   0 type:complete len:140 gc:universal BGNK01003471.1:27230-27649(+)
+BGNK01004943.1.p1    -          PF18452_full         -                4.1   12.0   0.1       8.5   11.0   0.1   1.5   1   0   0   1   1   1   0 type:complete len:499 gc:universal BGNK01004943.1:11554-10058(-)
+BGNK01005962.1.p54   -          PF18452_full         -                4.5   11.9   0.1       5.6   11.6   0.1   1.2   1   0   0   1   1   1   0 type:complete len:105 gc:universal BGNK01005962.1:30605-30919(+)
+BGNK01002655.1.p69   -          PF18452_full         -                5.8   11.5  10.6       8.8   10.9  10.6   1.3   1   0   0   1   1   1   0 type:complete len:135 gc:universal BGNK01002655.1:76305-75901(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF18452_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/Symbiodinium_cladeA_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/Symbiodinium_cladeA_longest_orfs_PF18452_full_profile_hmmer_results.txt ../output/domains/PF18452_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/Symbiodinium_cladeA_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:40 2021
+# [ok]

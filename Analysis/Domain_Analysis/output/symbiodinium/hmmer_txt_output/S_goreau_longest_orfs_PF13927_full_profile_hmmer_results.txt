@@ -1,0 +1,65 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SymbC1.scaffold35427.p1  -          PF13927_full         -              0.058   18.6   8.3      0.43   15.7   0.3   3.4   2   2   1   3   3   3   0 type:internal len:405 gc:universal SymbC1.scaffold35427:1-1212(+)
+SymbC1.scaffold9896.p3   -          PF13927_full         -               0.23   16.6  10.3       0.5   15.5  10.3   1.6   1   0   0   1   1   1   0 type:complete len:439 gc:universal SymbC1.scaffold9896:18284-19600(+)
+SymbC1.scaffold33068.p2  -          PF13927_full         -               0.34   16.1   2.9      0.49   15.5   2.9   1.3   1   0   0   1   1   1   0 type:3prime_partial len:157 gc:universal SymbC1.scaffold33068:859-1326(+)
+SymbC1.scaffold143.p222  -          PF13927_full         -                0.4   15.8   2.0      0.44   15.7   2.0   1.1   1   0   0   1   1   1   0 type:complete len:114 gc:universal SymbC1.scaffold143:42982-42641(-)
+SymbC1.scaffold7105.p6   -          PF13927_full         -                0.4   15.8  15.3       0.4   15.8  15.3   1.7   2   0   0   2   2   2   0 type:complete len:158 gc:universal SymbC1.scaffold7105:27820-27347(-)
+SymbC1.scaffold1241.p132 -          PF13927_full         -               0.43   15.7   2.4      0.62   15.2   2.4   1.3   1   0   0   1   1   1   0 type:complete len:115 gc:universal SymbC1.scaffold1241:110938-111282(+)
+SymbC1.scaffold350.p33   -          PF13927_full         -               0.52   15.5  15.4      0.88   14.7  15.4   1.3   1   0   0   1   1   1   0 type:complete len:255 gc:universal SymbC1.scaffold350:198637-197873(-)
+SymbC1.scaffold8267.p14  -          PF13927_full         -               0.54   15.4   7.5      0.54   15.4   7.5   1.7   2   0   0   2   2   2   0 type:complete len:175 gc:universal SymbC1.scaffold8267:26420-25896(-)
+SymbC1.scaffold730.p42   -          PF13927_full         -               0.59   15.3  15.4      0.83   14.8  15.4   1.1   1   0   0   1   1   1   0 type:complete len:246 gc:universal SymbC1.scaffold730:131037-131774(+)
+SymbC1.scaffold417.p88   -          PF13927_full         -               0.62   15.2  10.5       0.9   14.7  10.5   1.3   1   0   0   1   1   1   0 type:complete len:156 gc:universal SymbC1.scaffold417:117128-117595(+)
+SymbC1.scaffold7572.p11  -          PF13927_full         -                0.7   15.1   1.7       0.7   15.1   1.7   1.5   2   0   0   2   2   2   0 type:complete len:135 gc:universal SymbC1.scaffold7572:8865-8461(-)
+SymbC1.scaffold4346.p81  -          PF13927_full         -               0.84   14.8   0.1       1.1   14.5   0.1   1.1   1   0   0   1   1   1   0 type:complete len:104 gc:universal SymbC1.scaffold4346:40050-39739(-)
+SymbC1.scaffold46.p56    -          PF13927_full         -               0.91   14.7  15.4      0.91   14.7  15.4   1.8   2   0   0   2   2   2   0 type:complete len:261 gc:universal SymbC1.scaffold46:110828-111610(+)
+SymbC1.scaffold6376.p25  -          PF13927_full         -               0.94   14.6   0.6       1.6   13.9   0.3   1.5   2   0   0   2   2   2   0 type:complete len:121 gc:universal SymbC1.scaffold6376:19463-19825(+)
+SymbC1.scaffold2783.p94  -          PF13927_full         -                1.1   14.5  12.8       1.4   14.0  12.8   1.2   1   0   0   1   1   1   0 type:complete len:101 gc:universal SymbC1.scaffold2783:23828-24130(+)
+SymbC1.scaffold224.p16   -          PF13927_full         -                1.4   14.0  14.7       1.9   13.6  14.7   1.1   1   0   0   1   1   1   0 type:complete len:338 gc:universal SymbC1.scaffold224:31293-32306(+)
+SymbC1.scaffold6366.p41  -          PF13927_full         -                1.5   14.0   7.4       1.8   13.7   7.4   1.1   1   0   0   1   1   1   0 type:complete len:101 gc:universal SymbC1.scaffold6366:45695-45997(+)
+SymbC1.scaffold8291.p24  -          PF13927_full         -                1.5   13.9  13.5       2.1   13.5  13.5   1.1   1   0   0   1   1   1   0 type:complete len:123 gc:universal SymbC1.scaffold8291:18095-18463(+)
+SymbC1.scaffold10134.p3  -          PF13927_full         -                1.5   13.9   6.0       2.1   13.5   6.0   1.2   1   0   0   1   1   1   0 type:complete len:138 gc:universal SymbC1.scaffold10134:15568-15155(-)
+SymbC1.scaffold704.p12   -          PF13927_full         -                1.6   13.8  16.1       2.2   13.4  16.1   1.1   1   0   0   1   1   1   0 type:complete len:341 gc:universal SymbC1.scaffold704:57442-58464(+)
+SymbC1.scaffold14239.p8  -          PF13927_full         -                1.7   13.8   7.3       2.2   13.4   7.3   1.3   1   0   0   1   1   1   0 type:complete len:159 gc:universal SymbC1.scaffold14239:2515-2991(+)
+SymbC1.scaffold1568.p101 -          PF13927_full         -                1.9   13.6  10.2       2.2   13.4  10.2   1.1   1   0   0   1   1   1   0 type:complete len:102 gc:universal SymbC1.scaffold1568:9669-9364(-)
+SymbC1.scaffold1123.p123 -          PF13927_full         -                  2   13.6  10.7       2.4   13.3  10.7   1.1   1   0   0   1   1   1   0 type:complete len:115 gc:universal SymbC1.scaffold1123:26673-26329(-)
+SymbC1.scaffold6834.p14  -          PF13927_full         -                  2   13.5   3.9       2.5   13.2   3.9   1.1   1   0   0   1   1   1   0 type:complete len:141 gc:universal SymbC1.scaffold6834:38154-38576(+)
+SymbC1.scaffold9884.p6   -          PF13927_full         -                2.1   13.5  16.1       3.3   12.9  16.1   1.2   1   0   0   1   1   1   0 type:complete len:456 gc:universal SymbC1.scaffold9884:18731-20098(+)
+SymbC1.scaffold3363.p59  -          PF13927_full         -                2.1   13.5  10.6       2.5   13.3  10.6   1.2   1   0   0   1   1   1   0 type:complete len:112 gc:universal SymbC1.scaffold3363:6778-7113(+)
+SymbC1.scaffold9.p1929   -          PF13927_full         -                2.5   13.3   0.7       3.6   12.7   0.7   1.2   1   0   0   1   1   1   0 type:complete len:232 gc:universal SymbC1.scaffold9:2596956-2597651(+)
+SymbC1.scaffold3541.p56  -          PF13927_full         -                2.5   13.2   0.1       3.9   12.6   0.1   1.2   1   0   0   1   1   1   0 type:complete len:107 gc:universal SymbC1.scaffold3541:4175-4495(+)
+SymbC1.scaffold2793.p32  -          PF13927_full         -                2.7   13.1  14.3       3.6   12.7  14.3   1.1   1   0   0   1   1   1   0 type:complete len:158 gc:universal SymbC1.scaffold2793:13572-14045(+)
+SymbC1.scaffold1906.p58  -          PF13927_full         -                2.7   13.1  19.4         4   12.6  19.4   1.2   1   0   0   1   1   1   0 type:complete len:148 gc:universal SymbC1.scaffold1906:75982-76425(+)
+SymbC1.scaffold505.p41   -          PF13927_full         -                3.1   12.9   4.1       4.2   12.5   4.1   1.2   1   0   0   1   1   1   0 type:complete len:175 gc:universal SymbC1.scaffold505:60535-61059(+)
+SymbC1.scaffold9022.p9   -          PF13927_full         -                3.2   12.9   3.0       4.1   12.5   3.0   1.2   1   0   0   1   1   1   0 type:complete len:110 gc:universal SymbC1.scaffold9022:23951-24280(+)
+SymbC1.scaffold6674.p2   -          PF13927_full         -                3.5   12.8  16.1       4.8   12.3  16.1   1.1   1   0   0   1   1   1   0 type:complete len:623 gc:universal SymbC1.scaffold6674:1293-3161(+)
+SymbC1.scaffold12528.p4  -          PF13927_full         -                3.6   12.7   3.5       4.5   12.4   3.5   1.2   1   0   0   1   1   1   0 type:complete len:106 gc:universal SymbC1.scaffold12528:12394-12077(-)
+SymbC1.scaffold11775.p7  -          PF13927_full         -                3.9   12.6   9.6       5.3   12.2   9.6   1.2   1   0   0   1   1   1   0 type:complete len:149 gc:universal SymbC1.scaffold11775:7367-7813(+)
+SymbC1.scaffold8936.p14  -          PF13927_full         -                4.4   12.4  11.7       5.5   12.1  11.7   1.1   1   0   0   1   1   1   0 type:complete len:104 gc:universal SymbC1.scaffold8936:1753-2064(+)
+SymbC1.scaffold10632.p13 -          PF13927_full         -                4.6   12.4   5.7       7.8   11.6   5.7   1.5   1   0   0   1   1   1   0 type:complete len:146 gc:universal SymbC1.scaffold10632:20389-20826(+)
+SymbC1.scaffold7220.p24  -          PF13927_full         -                  5   12.3   0.0       5.6   12.1   0.0   1.1   1   0   0   1   1   1   0 type:complete len:109 gc:universal SymbC1.scaffold7220:25618-25292(-)
+SymbC1.scaffold3321.p18  -          PF13927_full         -                5.1   12.2   4.5       6.6   11.9   4.5   1.3   1   0   0   1   1   1   0 type:complete len:169 gc:universal SymbC1.scaffold3321:77765-78271(+)
+SymbC1.scaffold1205.p26  -          PF13927_full         -                5.4   12.2  13.5       7.8   11.6  13.5   1.2   1   0   0   1   1   1   0 type:complete len:325 gc:universal SymbC1.scaffold1205:105844-106818(+)
+SymbC1.scaffold6460.p6   -          PF13927_full         -                5.4   12.1   5.7       8.8   11.5   5.7   1.4   1   0   0   1   1   1   0 type:complete len:223 gc:universal SymbC1.scaffold6460:7953-8621(+)
+SymbC1.scaffold701.p134  -          PF13927_full         -                  6   12.0   1.9       6.9   11.8   1.9   1.1   1   0   0   1   1   1   0 type:complete len:105 gc:universal SymbC1.scaffold701:57092-56778(-)
+SymbC1.scaffold69.p47    -          PF13927_full         -                6.3   11.9  14.3       8.6   11.5  14.3   1.1   1   0   0   1   1   1   0 type:complete len:278 gc:universal SymbC1.scaffold69:8129-8962(+)
+SymbC1.scaffold3220.p41  -          PF13927_full         -                6.3   11.9   6.4       8.9   11.4   6.4   1.3   1   0   0   1   1   1   0 type:complete len:125 gc:universal SymbC1.scaffold3220:65368-64994(-)
+SymbC1.scaffold23925.p1  -          PF13927_full         -                6.8   11.8   2.2       9.4   11.4   2.2   1.2   1   0   0   1   1   1   0 type:complete len:220 gc:universal SymbC1.scaffold23925:500-1159(+)
+SymbC1.scaffold2029.p75  -          PF13927_full         -                6.8   11.8  14.9       9.2   11.4  14.9   1.2   1   0   0   1   1   1   0 type:complete len:101 gc:universal SymbC1.scaffold2029:877-1179(+)
+SymbC1.scaffold1705.p88  -          PF13927_full         -                7.4   11.7  17.2         9   11.4  17.2   1.1   1   0   0   1   1   1   0 type:complete len:107 gc:universal SymbC1.scaffold1705:100651-100331(-)
+SymbC1.scaffold3009.p66  -          PF13927_full         -                8.6   11.5   2.1       9.8   11.3   2.1   1.1   1   0   0   1   1   1   0 type:complete len:102 gc:universal SymbC1.scaffold3009:57099-57404(+)
+SymbC1.scaffold1753.p95  -          PF13927_full         -                8.9   11.4  12.9        12   11.0  12.9   1.1   1   0   0   1   1   1   0 type:complete len:103 gc:universal SymbC1.scaffold1753:116873-116565(-)
+SymbC1.scaffold738.p129  -          PF13927_full         -                9.5   11.3   2.7        13   10.9   2.7   1.2   1   0   0   1   1   1   0 type:complete len:133 gc:universal SymbC1.scaffold738:85027-84629(-)
+SymbC1.scaffold5.p2777   -          PF13927_full         -                9.8   11.3   2.3        15   10.7   2.3   1.3   1   0   0   1   1   1   0 type:complete len:283 gc:universal SymbC1.scaffold5:4255993-4255145(-)
+SymbC1.scaffold498.p59   -          PF13927_full         -                9.8   11.3  16.3        15   10.7  16.3   1.2   1   0   0   1   1   1   0 type:complete len:201 gc:universal SymbC1.scaffold498:10720-10118(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13927_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_goreau_longest_orfs_PF13927_full_profile_hmmer_results.txt ../output/domains/PF13927_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:17:50 2021
+# [ok]

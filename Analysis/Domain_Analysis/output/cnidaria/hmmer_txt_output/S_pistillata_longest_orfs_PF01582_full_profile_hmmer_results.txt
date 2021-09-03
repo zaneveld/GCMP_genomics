@@ -1,0 +1,44 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NW_019217996.1.p10   -          PF01582_full         -            5.9e-34  120.8   1.8     1e-33  120.0   1.8   1.3   1   0   0   1   1   1   1 type:complete len:982 gc:universal NW_019217996.1:468303-465358(-)
+NW_019218199.1.p41   -          PF01582_full         -            7.1e-25   90.9   3.7   8.5e-25   90.7   3.7   1.0   1   0   0   1   1   1   1 type:complete len:162 gc:universal NW_019218199.1:285404-285889(+)
+NW_019217962.1.p70   -          PF01582_full         -            8.3e-22   80.9   4.0   9.3e-22   80.7   4.0   1.1   1   0   0   1   1   1   1 type:complete len:162 gc:universal NW_019217962.1:422894-423379(+)
+NW_019217868.1.p127  -          PF01582_full         -            1.2e-19   73.7   0.3   1.5e-19   73.4   0.3   1.0   1   0   0   1   1   1   1 type:complete len:160 gc:universal NW_019217868.1:296865-297344(+)
+NW_019217901.1.p93   -          PF01582_full         -            2.4e-17   66.2   0.2   3.1e-17   65.9   0.2   1.1   1   0   0   1   1   1   1 type:complete len:160 gc:universal NW_019217901.1:247918-247439(-)
+NW_019218209.1.p36   -          PF01582_full         -            3.4e-15   59.1   0.2     6e-15   58.3   0.2   1.6   1   1   0   1   1   1   1 type:complete len:182 gc:universal NW_019218209.1:122771-123316(+)
+NW_019217803.1.p103  -          PF01582_full         -            4.1e-12   49.0   0.4   5.4e-12   48.6   0.4   1.2   1   0   0   1   1   1   1 type:complete len:217 gc:universal NW_019217803.1:11608-10958(-)
+NW_019218106.1.p95   -          PF01582_full         -            7.6e-12   48.1   0.0   9.5e-12   47.8   0.0   1.0   1   0   0   1   1   1   1 type:complete len:101 gc:universal NW_019218106.1:160816-160514(-)
+NW_019218461.1.p20   -          PF01582_full         -            2.8e-11   46.3   0.3     4e-11   45.8   0.3   1.1   1   0   0   1   1   1   1 type:complete len:161 gc:universal NW_019218461.1:70164-69682(-)
+NW_019218461.1.p18   -          PF01582_full         -              4e-11   45.8   1.9   5.8e-11   45.3   1.9   1.1   1   0   0   1   1   1   1 type:complete len:162 gc:universal NW_019218461.1:122504-122019(-)
+NW_019218591.1.p38   -          PF01582_full         -            4.4e-09   39.1   0.2   5.7e-09   38.7   0.2   1.2   1   0   0   1   1   1   1 type:complete len:114 gc:universal NW_019218591.1:64194-64535(+)
+NW_019217901.1.p202  -          PF01582_full         -            8.4e-09   38.2   0.0   9.9e-09   37.9   0.0   1.2   1   0   0   1   1   1   1 type:complete len:102 gc:universal NW_019217901.1:375659-375354(-)
+NW_019218117.1.p99   -          PF01582_full         -            2.4e-08   36.7   0.3   2.4e-08   36.6   0.3   1.2   1   1   0   1   1   1   1 type:complete len:113 gc:universal NW_019218117.1:346368-346030(-)
+NW_019217833.1.p331  -          PF01582_full         -            5.3e-08   35.5   0.1   5.3e-08   35.5   0.1   1.2   1   0   0   1   1   1   1 type:complete len:101 gc:universal NW_019217833.1:770817-771119(+)
+NW_019218461.1.p19   -          PF01582_full         -              1e-07   34.6   2.2   1.5e-07   34.0   2.2   1.4   1   1   0   1   1   1   1 type:complete len:162 gc:universal NW_019218461.1:101954-101469(-)
+NW_019218461.1.p29   -          PF01582_full         -            1.8e-07   33.8   0.7   2.3e-07   33.5   0.7   1.3   1   1   0   1   1   1   1 type:complete len:119 gc:universal NW_019218461.1:88234-87878(-)
+NW_019217803.1.p176  -          PF01582_full         -            3.1e-07   33.0   1.2   3.8e-07   32.7   1.2   1.1   1   0   0   1   1   1   1 type:complete len:145 gc:universal NW_019217803.1:21382-20948(-)
+NW_019217824.1.p223  -          PF01582_full         -            1.8e-06   30.5   0.1     2e-06   30.4   0.1   1.1   1   0   0   1   1   1   1 type:complete len:116 gc:universal NW_019217824.1:736623-736276(-)
+NW_019219336.1.p7    -          PF01582_full         -            2.5e-06   30.0   5.9     1e-05   28.0   5.9   1.8   1   1   0   1   1   1   1 type:complete len:131 gc:universal NW_019219336.1:7828-7436(-)
+NW_019218106.1.p96   -          PF01582_full         -            3.5e-05   26.3   0.1   4.2e-05   26.0   0.1   1.0   1   0   0   1   1   1   1 type:complete len:101 gc:universal NW_019218106.1:130622-130320(-)
+NW_019217803.1.p168  -          PF01582_full         -             0.0001   24.7   1.1   0.00012   24.5   1.0   1.3   1   1   0   1   1   1   1 type:complete len:150 gc:universal NW_019217803.1:31243-30794(-)
+NW_019217821.1.p263  -          PF01582_full         -            0.00029   23.2   0.1   0.00034   23.0   0.1   1.1   1   0   0   1   1   1   1 type:complete len:118 gc:universal NW_019217821.1:896837-896484(-)
+NW_019217977.1.p46   -          PF01582_full         -              0.016   17.6   0.0      0.02   17.2   0.0   1.2   1   0   0   1   1   1   0 type:complete len:250 gc:universal NW_019217977.1:90261-89512(-)
+NW_019217800.1.p37   -          PF01582_full         -               0.11   14.7   0.0      0.27   13.5   0.0   1.6   1   0   0   1   1   1   0 type:complete len:615 gc:universal NW_019217800.1:405898-404054(-)
+NW_019217821.1.p73   -          PF01582_full         -               0.17   14.1   2.6       0.2   13.9   0.3   2.0   2   0   0   2   2   2   0 type:complete len:313 gc:universal NW_019217821.1:894514-893576(-)
+NW_019217853.1.p123  -          PF01582_full         -               0.25   13.6   0.0      0.28   13.5   0.0   1.1   1   0   0   1   1   1   0 type:complete len:148 gc:universal NW_019217853.1:916267-915824(-)
+NW_019218129.1.p76   -          PF01582_full         -               0.51   12.6   9.9      0.64   12.3   9.9   1.1   1   0   0   1   1   1   0 type:complete len:165 gc:universal NW_019218129.1:209413-209907(+)
+NW_019218415.1.p39   -          PF01582_full         -                2.1   10.6  15.5       2.5   10.3  15.5   1.0   1   0   0   1   1   1   0 type:complete len:123 gc:universal NW_019218415.1:102667-102299(-)
+NW_019218257.1.p57   -          PF01582_full         -                6.6    8.9   8.5       7.6    8.7   8.5   1.1   1   0   0   1   1   1   0 type:complete len:106 gc:universal NW_019218257.1:18223-18540(+)
+NW_019218707.1.p31   -          PF01582_full         -                8.2    8.6  10.5       8.9    8.5  10.5   1.1   1   0   0   1   1   1   0 type:complete len:116 gc:universal NW_019218707.1:33940-33593(-)
+NW_019218387.1.p21   -          PF01582_full         -                9.8    8.4  13.5        12    8.0  13.5   1.2   1   0   0   1   1   1   0 type:complete len:151 gc:universal NW_019218387.1:28755-28303(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/S_pistillata_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/S_pistillata_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/S_pistillata_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:47 2021
+# [ok]

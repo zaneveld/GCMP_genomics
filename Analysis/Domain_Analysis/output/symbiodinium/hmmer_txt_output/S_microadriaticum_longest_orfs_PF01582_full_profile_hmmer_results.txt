@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LSRX01000008.1.p268  -          PF01582_full         -             0.0072   16.9  13.2    0.0086   16.6  13.2   1.0   1   0   0   1   1   1   1 type:complete len:173 gc:universal LSRX01000008.1:2132460-2131942(-)
+LSRX01000025.1.p197  -          PF01582_full         -             0.0096   16.5  11.7     0.015   15.9  11.7   1.3   1   0   0   1   1   1   1 type:complete len:259 gc:universal LSRX01000025.1:1509879-1509103(-)
+LSRX01000001.1.p449  -          PF01582_full         -              0.019   15.5   5.1     0.028   14.9   5.1   1.2   1   0   0   1   1   1   0 type:complete len:198 gc:universal LSRX01000001.1:2984364-2983771(-)
+LSRX01000027.1.p154  -          PF01582_full         -               0.13   12.8   0.1      0.18   12.3   0.1   1.2   1   0   0   1   1   1   0 type:complete len:303 gc:universal LSRX01000027.1:1294446-1293538(-)
+LSRX01000007.1.p803  -          PF01582_full         -               0.14   12.7  10.5      0.16   12.5  10.5   1.1   1   0   0   1   1   1   0 type:complete len:135 gc:universal LSRX01000007.1:2006157-2006561(+)
+LSRX01000004.1.p458  -          PF01582_full         -               0.23   11.9   5.0      0.26   11.7   5.0   1.1   1   0   0   1   1   1   0 type:complete len:154 gc:universal LSRX01000004.1:2431028-2430567(-)
+LSRX01000013.1.p567  -          PF01582_full         -               0.25   11.8  11.3      0.26   11.7  11.3   1.1   1   0   0   1   1   1   0 type:complete len:114 gc:universal LSRX01000013.1:1028767-1028426(-)
+LSRX01000010.1.p276  -          PF01582_full         -               0.37   11.2  10.9      0.12   12.8   8.1   1.5   2   0   0   2   2   2   0 type:complete len:199 gc:universal LSRX01000010.1:841570-840974(-)
+LSRX01000005.1.p559  -          PF01582_full         -               0.66   10.4  12.8      0.87   10.0  12.8   1.3   1   0   0   1   1   1   0 type:complete len:145 gc:universal LSRX01000005.1:2157873-2158307(+)
+LSRX01000015.1.p1106 -          PF01582_full         -               0.75   10.2  11.7      0.84   10.1  11.7   1.0   1   0   0   1   1   1   0 type:complete len:111 gc:universal LSRX01000015.1:1254226-1254558(+)
+LSRX01000026.1.p556  -          PF01582_full         -                1.1    9.7   9.8       1.2    9.6   9.8   1.1   1   0   0   1   1   1   0 type:complete len:132 gc:universal LSRX01000026.1:180610-180215(-)
+LSRX01000001.1.p1113 -          PF01582_full         -                1.3    9.4  26.3       1.5    9.3  26.3   1.1   1   0   0   1   1   1   0 type:complete len:130 gc:universal LSRX01000001.1:2077826-2078215(+)
+LSRX01000030.1.p497  -          PF01582_full         -                1.6    9.2   4.2       1.9    8.9   4.2   1.1   1   0   0   1   1   1   0 type:complete len:161 gc:universal LSRX01000030.1:307560-308042(+)
+LSRX01000030.1.p1011 -          PF01582_full         -                1.6    9.2   8.4       1.9    8.9   8.4   1.1   1   0   0   1   1   1   0 type:complete len:119 gc:universal LSRX01000030.1:1394330-1394686(+)
+LSRX01000026.1.p849  -          PF01582_full         -                1.8    9.0   6.4       2.1    8.8   6.4   1.1   1   0   0   1   1   1   0 type:complete len:113 gc:universal LSRX01000026.1:1686844-1686506(-)
+LSRX01000011.1.p816  -          PF01582_full         -                2.4    8.6   4.3       2.7    8.4   4.3   1.0   1   0   0   1   1   1   0 type:complete len:102 gc:universal LSRX01000011.1:350297-349992(-)
+LSRX01000001.1.p240  -          PF01582_full         -                3.3    8.1  26.9       3.3    8.1   8.8   2.1   2   0   0   2   2   2   0 type:complete len:288 gc:universal LSRX01000001.1:1671850-1672713(+)
+LSRX01000005.1.p433  -          PF01582_full         -                4.2    7.8  15.5       5.7    7.3  15.5   1.2   1   0   0   1   1   1   0 type:complete len:160 gc:universal LSRX01000005.1:2157889-2158368(+)
+LSRX01000002.1.p98   -          PF01582_full         -                4.5    7.7  15.1      0.53   10.7  10.4   1.7   2   0   0   2   2   2   0 type:complete len:418 gc:universal LSRX01000002.1:565114-563861(-)
+LSRX01000016.1.p1369 -          PF01582_full         -                4.5    7.7   4.2       5.2    7.5   4.2   1.0   1   0   0   1   1   1   0 type:complete len:106 gc:universal LSRX01000016.1:1152996-1152679(-)
+LSRX01000004.1.p1052 -          PF01582_full         -                5.9    7.3  11.1       6.8    7.1  11.1   1.1   1   0   0   1   1   1   0 type:complete len:107 gc:universal LSRX01000004.1:2390472-2390152(-)
+LSRX01000022.1.p1468 -          PF01582_full         -                7.5    7.0  11.7       8.2    6.8  11.7   1.1   1   0   0   1   1   1   0 type:complete len:115 gc:universal LSRX01000022.1:493735-494079(+)
+LSRX01000012.1.p378  -          PF01582_full         -                9.7    6.6   4.6        13    6.1   4.6   1.3   1   0   0   1   1   1   0 type:complete len:163 gc:universal LSRX01000012.1:158026-157538(-)
+LSRX01000006.1.p153  -          PF01582_full         -                9.8    6.6  22.4         1    9.8  16.0   1.9   2   0   0   2   2   2   0 type:complete len:278 gc:universal LSRX01000006.1:1857025-1857858(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF01582_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_microadriaticum_longest_orfs_PF01582_full_profile_hmmer_results.txt ../output/domains/PF01582_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_microadriaticum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:20:59 2021
+# [ok]

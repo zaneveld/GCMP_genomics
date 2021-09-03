@@ -1,0 +1,23 @@
+#                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name           accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#   ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SymbC1.scaffold5850.p26 -          PF00047_full         -                0.5   15.6   0.7      0.57   15.4   0.7   1.1   1   0   0   1   1   1   0 type:complete len:104 gc:universal SymbC1.scaffold5850:2285-1974(-)
+SymbC1.scaffold33005.p1 -          PF00047_full         -               0.62   15.3   0.5      0.68   15.2   0.5   1.0   1   0   0   1   1   1   0 type:5prime_partial len:108 gc:universal SymbC1.scaffold33005:1332-1009(-)
+SymbC1.scaffold679.p62  -          PF00047_full         -                1.2   14.4   0.1       2.2   13.6   0.1   1.4   1   0   0   1   1   1   0 type:complete len:249 gc:universal SymbC1.scaffold679:71937-72683(+)
+SymbC1.scaffold5.p309   -          PF00047_full         -                1.9   13.7   0.1       3.5   12.9   0.1   1.3   1   0   0   1   1   1   0 type:complete len:738 gc:universal SymbC1.scaffold5:3130295-3128082(-)
+SymbC1.scaffold2747.p36 -          PF00047_full         -                3.9   12.7   0.0       4.6   12.5   0.0   1.2   1   0   0   1   1   1   0 type:complete len:151 gc:universal SymbC1.scaffold2747:88286-88738(+)
+SymbC1.scaffold22087.p2 -          PF00047_full         -                4.4   12.5   2.6       4.1   12.7   1.7   1.4   1   1   0   1   1   1   0 type:complete len:134 gc:universal SymbC1.scaffold22087:2099-1698(-)
+SymbC1.scaffold6796.p10 -          PF00047_full         -                  5   12.4   0.4       7.5   11.8   0.4   1.3   1   0   0   1   1   1   0 type:complete len:169 gc:universal SymbC1.scaffold6796:4751-4245(-)
+SymbC1.scaffold181.p186 -          PF00047_full         -                5.6   12.2   0.1       6.6   12.0   0.1   1.2   1   0   0   1   1   1   0 type:complete len:102 gc:universal SymbC1.scaffold181:58193-58498(+)
+SymbC1.scaffold7220.p24 -          PF00047_full         -                6.1   12.1   0.0       6.6   12.0   0.0   1.1   1   0   0   1   1   1   0 type:complete len:109 gc:universal SymbC1.scaffold7220:25618-25292(-)
+SymbC1.scaffold1386.p90 -          PF00047_full         -                7.7   11.8   0.0   7.9e+02    5.2   0.0   2.1   2   0   0   2   2   2   0 type:complete len:102 gc:universal SymbC1.scaffold1386:56570-56875(+)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF00047_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/S_goreau_longest_orfs_PF00047_full_profile_hmmer_results.txt ../output/domains/PF00047_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/S_goreau_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:16:55 2021
+# [ok]

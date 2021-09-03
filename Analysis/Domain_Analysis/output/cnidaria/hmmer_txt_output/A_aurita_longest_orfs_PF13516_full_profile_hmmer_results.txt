@@ -1,0 +1,56 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+REGM01000107.1.p23   -          PF13516_full         -            1.2e-33  117.2  17.4   9.6e-06   27.9   0.2   8.5   2   2   6   8   8   8   6 type:complete len:511 gc:universal REGM01000107.1:466642-468174(+)
+REGM01000086.1.p49   -          PF13516_full         -            2.7e-28  100.1  13.9   4.3e-08   35.4   0.1   9.1   1   1   8   9   9   9   6 type:complete len:410 gc:universal REGM01000086.1:947509-946280(-)
+REGM01000086.1.p44   -          PF13516_full         -            8.3e-28   98.5  11.5   0.00016   24.0   0.7   9.5   1   1   8   9   9   9   5 type:complete len:475 gc:universal REGM01000086.1:949973-948549(-)
+REGM01000107.1.p24   -          PF13516_full         -            3.2e-26   93.4  11.8     2e-07   33.3   0.0   8.0   2   2   6   8   8   8   5 type:complete len:483 gc:universal REGM01000107.1:471898-473346(+)
+REGM01000114.1.p25   -          PF13516_full         -              6e-25   89.4  36.1   0.00024   23.4   0.2   9.5   2   2   8  10  10  10   6 type:complete len:747 gc:universal REGM01000114.1:913981-916221(+)
+REGM01000237.1.p22   -          PF13516_full         -            3.9e-22   80.3  11.0     0.026   16.9   0.6  10.1   2   2   8  10  10  10   5 type:complete len:666 gc:universal REGM01000237.1:284531-282534(-)
+REGM01000041.1.p69   -          PF13516_full         -            3.4e-21   77.4  38.4    0.0092   18.3   0.1  10.0   3   2   7  10  10  10   7 type:complete len:406 gc:universal REGM01000041.1:324774-323557(-)
+REGM01000208.1.p21   -          PF13516_full         -            5.5e-20   73.5  44.4     0.074   15.4   0.1   8.7   2   2   6   8   8   8   6 type:complete len:541 gc:universal REGM01000208.1:240637-239015(-)
+REGM01000155.1.p111  -          PF13516_full         -            5.7e-18   67.0   9.5     1e-06   31.0   1.3   4.2   1   1   3   4   4   4   4 type:complete len:155 gc:universal REGM01000155.1:664030-663566(-)
+REGM01000035.1.p17   -          PF13516_full         -            3.1e-17   64.7  59.6      0.19   14.1   0.1  16.9  13   4   4  17  17  16   6 type:complete len:1443 gc:universal REGM01000035.1:877812-873484(-)
+REGM01000080.1.p90   -          PF13516_full         -            2.2e-15   58.7  14.3   0.00058   22.2   0.2   5.2   3   2   3   6   6   5   4 type:complete len:246 gc:universal REGM01000080.1:1120106-1120843(+)
+REGM01000174.1.p12   -          PF13516_full         -              1e-13   53.4  52.2    0.0016   20.8   0.2  13.6   6   4   9  15  15  15   3 type:complete len:529 gc:universal REGM01000174.1:296368-294782(-)
+REGM01000073.1.p65   -          PF13516_full         -            3.1e-13   51.8  14.1     0.015   17.6   0.0   6.7   5   2   2   7   7   6   4 type:complete len:359 gc:universal REGM01000073.1:463689-462613(-)
+REGM01001840.1.p3    -          PF13516_full         -            3.3e-11   45.4   2.4   6.4e-07   31.6   1.0   3.0   1   1   2   3   3   3   2 type:3prime_partial len:106 gc:universal REGM01001840.1:316-2(-)
+REGM01000182.1.p12   -          PF13516_full         -              2e-08   36.5  10.3       6.5    9.2   0.1   7.6   8   0   0   8   8   8   2 type:complete len:1056 gc:universal REGM01000182.1:36787-33620(-)
+REGM01000001.1.p86   -          PF13516_full         -            6.2e-06   28.5   1.0      0.61   12.5   0.2   3.5   2   0   0   2   2   2   2 type:complete len:600 gc:universal REGM01000001.1:1192804-1194603(+)
+REGM01000016.1.p77   -          PF13516_full         -            4.3e-05   25.8   7.4   0.00077   21.8   0.1   3.9   3   0   0   3   3   3   1 type:complete len:597 gc:universal REGM01000016.1:1445405-1447195(+)
+REGM01000413.1.p21   -          PF13516_full         -            0.00046   22.5   1.1         1   11.8   0.0   3.7   2   2   2   4   4   4   1 type:complete len:191 gc:universal REGM01000413.1:82156-81584(-)
+REGM01000006.1.p89   -          PF13516_full         -            0.00079   21.7   8.6       3.8   10.0   0.0   5.3   4   1   1   5   5   4   2 type:complete len:471 gc:universal REGM01000006.1:768176-766764(-)
+REGM01000113.1.p36   -          PF13516_full         -             0.0009   21.6  19.4       5.9    9.3   0.1   6.6   4   2   3   7   7   7   2 type:complete len:293 gc:universal REGM01000113.1:879862-878984(-)
+REGM01000376.1.p5    -          PF13516_full         -             0.0011   21.3  24.2      0.33   13.4   0.2   8.4   7   3   2   9   9   7   1 type:complete len:449 gc:universal REGM01000376.1:86697-88043(+)
+REGM01000247.1.p19   -          PF13516_full         -             0.0021   20.4  10.1       4.2    9.8   0.1   5.7   6   1   1   7   7   5   1 type:complete len:324 gc:universal REGM01000247.1:410133-411104(+)
+REGM01000312.1.p8    -          PF13516_full         -             0.0054   19.1  26.6       3.5   10.1   0.2   6.3   5   2   2   7   7   6   3 type:complete len:437 gc:universal REGM01000312.1:207488-208798(+)
+REGM01000019.1.p294  -          PF13516_full         -              0.006   18.9  10.2      0.82   12.1   0.4   3.2   2   1   1   3   3   3   2 type:complete len:128 gc:universal REGM01000019.1:523291-522908(-)
+REGM01000143.1.p148  -          PF13516_full         -              0.012   18.0  11.8       9.5    8.7   0.1   4.5   5   0   0   5   5   5   0 type:complete len:160 gc:universal REGM01000143.1:963408-963887(+)
+REGM01000020.1.p105  -          PF13516_full         -              0.013   17.8  29.9        13    8.2   0.1   7.7   7   2   2   9   9   7   0 type:complete len:430 gc:universal REGM01000020.1:539137-540426(+)
+REGM01000226.1.p4    -          PF13516_full         -              0.017   17.5   0.2        13    8.2   0.0   3.5   3   0   0   3   3   3   0 type:complete len:1049 gc:universal REGM01000226.1:142878-146024(+)
+REGM01000017.1.p115  -          PF13516_full         -               0.02   17.3  24.0       6.8    9.1   0.6   4.7   1   1   3   4   4   4   0 type:complete len:281 gc:universal REGM01000017.1:1379856-1380698(+)
+REGM01001289.1.p1    -          PF13516_full         -              0.038   16.4  23.3        65    6.0   0.0   6.9   6   2   1   7   7   6   0 type:complete len:257 gc:universal REGM01001289.1:6226-5456(-)
+REGM01000037.1.p32   -          PF13516_full         -              0.078   15.4   7.9        70    5.9   0.0   5.8   3   1   3   6   6   5   0 type:complete len:856 gc:universal REGM01000037.1:19925-22492(+)
+REGM01000161.1.p32   -          PF13516_full         -               0.11   14.9  10.8      0.35   13.3   0.6   4.1   3   1   1   4   4   3   0 type:complete len:447 gc:universal REGM01000161.1:38859-40199(+)
+REGM01000111.1.p25   -          PF13516_full         -               0.11   14.8   8.5       1.7   11.1   2.7   3.3   3   0   0   3   3   3   0 type:complete len:727 gc:universal REGM01000111.1:64300-62120(-)
+REGM01000136.1.p37   -          PF13516_full         -               0.14   14.5   2.4      0.14   14.5   2.4   7.4   6   3   2   8   8   7   0 type:complete len:510 gc:universal REGM01000136.1:757976-759505(+)
+REGM01000114.1.p55   -          PF13516_full         -               0.16   14.4  13.5       3.5   10.1   0.3   4.3   4   0   0   4   4   4   0 type:complete len:383 gc:universal REGM01000114.1:966271-967419(+)
+REGM01000007.1.p503  -          PF13516_full         -               0.16   14.3   0.7        29    7.1   0.0   3.1   3   1   1   4   4   4   0 type:complete len:114 gc:universal REGM01000007.1:2040932-2041273(+)
+REGM01000114.1.p113  -          PF13516_full         -                0.2   14.1   0.0        11    8.5   0.0   2.6   2   0   0   2   2   2   0 type:complete len:178 gc:universal REGM01000114.1:968799-969332(+)
+REGM01000112.1.p30   -          PF13516_full         -               0.34   13.3   0.2      0.34   13.3   0.2   8.2  10   1   2  12  12   8   0 type:complete len:560 gc:universal REGM01000112.1:293400-295079(+)
+REGM01000560.1.p9    -          PF13516_full         -               0.63   12.5   0.1       1.1   11.6   0.1   1.4   1   0   0   1   1   1   0 type:complete len:157 gc:universal REGM01000560.1:11565-11095(-)
+REGM01000019.1.p222  -          PF13516_full         -                1.4   11.3  10.2        14    8.1   1.3   3.1   2   1   1   3   3   3   0 type:complete len:146 gc:universal REGM01000019.1:549290-548853(-)
+REGM01000027.1.p23   -          PF13516_full         -                1.5   11.3  37.2        18    7.8   1.3   9.9  10   0   0  10  10  10   0 type:complete len:988 gc:universal REGM01000027.1:1720157-1723120(+)
+REGM01000118.1.p91   -          PF13516_full         -                1.6   11.1  10.9        11    8.5   1.7   3.8   4   0   0   4   4   4   0 type:complete len:227 gc:universal REGM01000118.1:911389-910709(-)
+REGM01000013.1.p154  -          PF13516_full         -                  2   10.9  15.2       2.5   10.5   0.0   4.8   6   0   0   6   6   4   0 type:complete len:233 gc:universal REGM01000013.1:1793468-1794166(+)
+REGM01000372.1.p23   -          PF13516_full         -                4.9    9.6  17.6        11    8.5   0.0   4.9   3   2   2   5   5   5   0 type:complete len:275 gc:universal REGM01000372.1:84717-83893(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13516_full_profile.hmm
+# Target file:     ../input/cnidaria/longest_orfs/transdecoder_part1/A_aurita_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/cnidaria/hmmer_txt_output/A_aurita_longest_orfs_PF13516_full_profile_hmmer_results.txt ../output/domains/PF13516_full_profile.hmm ../input/cnidaria/longest_orfs/transdecoder_part1/A_aurita_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:58 2021
+# [ok]

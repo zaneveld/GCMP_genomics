@@ -1,0 +1,52 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DF251754.1.p3        -          PF13927_full         -             0.0031   21.5  12.6    0.0036   21.3  12.6   1.1   1   0   0   1   1   1   1 type:internal len:103 gc:universal DF251754.1:307-2(-)
+DF243603.1.p10       -          PF13927_full         -              0.055   17.5   6.6     0.068   17.2   6.6   1.2   1   0   0   1   1   1   0 type:complete len:116 gc:universal DF243603.1:13004-12657(-)
+DF239698.1.p119      -          PF13927_full         -               0.11   16.5   1.4      0.12   16.3   1.4   1.3   1   0   0   1   1   1   0 type:complete len:126 gc:universal DF239698.1:74190-73813(-)
+DF239932.1.p69       -          PF13927_full         -               0.11   16.5   5.6      0.15   16.0   5.6   1.3   1   0   0   1   1   1   0 type:complete len:145 gc:universal DF239932.1:25763-25329(-)
+DF239942.1.p25       -          PF13927_full         -               0.25   15.3  15.1      0.34   14.9  15.1   1.2   1   0   0   1   1   1   0 type:complete len:170 gc:universal DF239942.1:51366-51875(+)
+DF239752.1.p63       -          PF13927_full         -               0.27   15.2   4.0      0.35   14.8   4.0   1.2   1   0   0   1   1   1   0 type:complete len:129 gc:universal DF239752.1:135185-134799(-)
+DF239157.1.p73       -          PF13927_full         -               0.28   15.1  14.4      0.35   14.8  14.4   1.2   1   0   0   1   1   1   0 type:complete len:114 gc:universal DF239157.1:98204-98545(+)
+DF239103.1.p219      -          PF13927_full         -               0.36   14.8  17.9      0.36   14.8  17.9   2.1   1   1   1   2   2   2   0 type:complete len:117 gc:universal DF239103.1:44867-45217(+)
+DF240653.1.p86       -          PF13927_full         -               0.38   14.7   9.2      0.49   14.4   9.2   1.1   1   0   0   1   1   1   0 type:complete len:102 gc:universal DF240653.1:43800-44105(+)
+DF240143.1.p8        -          PF13927_full         -               0.43   14.5  21.5       0.8   13.7  21.5   1.5   1   0   0   1   1   1   0 type:complete len:227 gc:universal DF240143.1:78568-77888(-)
+DF240804.1.p48       -          PF13927_full         -                0.6   14.1  15.5      0.84   13.6  15.5   1.2   1   0   0   1   1   1   0 type:complete len:126 gc:universal DF240804.1:47784-47407(-)
+DF243501.1.p25       -          PF13927_full         -               0.69   13.9  19.0      0.83   13.6  19.0   1.2   1   0   0   1   1   1   0 type:complete len:111 gc:universal DF243501.1:35200-35532(+)
+DF242375.1.p1        -          PF13927_full         -                1.2   13.1   4.2         2   12.4   4.2   1.3   1   0   0   1   1   1   0 type:complete len:300 gc:universal DF242375.1:4321-3422(-)
+DF239259.1.p9        -          PF13927_full         -                1.3   12.9  12.1         2   12.4  12.1   1.4   1   0   0   1   1   1   0 type:complete len:211 gc:universal DF239259.1:43035-42403(-)
+DF241409.1.p24       -          PF13927_full         -                1.5   12.8   6.0         2   12.4   6.0   1.3   1   0   0   1   1   1   0 type:complete len:146 gc:universal DF241409.1:20865-20428(-)
+DF239249.1.p41       -          PF13927_full         -                1.5   12.7   0.6       2.2   12.3   0.6   1.2   1   0   0   1   1   1   0 type:complete len:148 gc:universal DF239249.1:252382-252825(+)
+DF240000.1.p99       -          PF13927_full         -                1.9   12.5   6.5       2.5   12.1   6.5   1.2   1   0   0   1   1   1   0 type:complete len:100 gc:universal DF240000.1:104459-104758(+)
+DF241077.1.p17       -          PF13927_full         -                2.2   12.2  14.7         3   11.8  14.7   1.2   1   0   0   1   1   1   0 type:complete len:150 gc:universal DF241077.1:2787-2338(-)
+DF242219.1.p14       -          PF13927_full         -                2.6   12.0   0.2       3.3   11.6   0.2   1.2   1   0   0   1   1   1   0 type:complete len:131 gc:universal DF242219.1:19910-19518(-)
+DF239972.1.p47       -          PF13927_full         -                2.9   11.8   0.0       3.8   11.5   0.0   1.1   1   0   0   1   1   1   0 type:complete len:143 gc:universal DF239972.1:99105-99533(+)
+DF243859.1.p11       -          PF13927_full         -                  3   11.8   2.6       3.9   11.4   2.6   1.2   1   0   0   1   1   1   0 type:complete len:114 gc:universal DF243859.1:29769-29428(-)
+DF239639.1.p118      -          PF13927_full         -                3.1   11.7   7.0         4   11.4   7.0   1.1   1   0   0   1   1   1   0 type:complete len:104 gc:universal DF239639.1:96574-96885(+)
+DF239025.1.p186      -          PF13927_full         -                3.2   11.7   4.6       3.5   11.6   4.6   1.1   1   0   0   1   1   1   0 type:complete len:105 gc:universal DF239025.1:410434-410120(-)
+DF240964.1.p93       -          PF13927_full         -                3.2   11.7   2.5       4.4   11.3   2.5   1.2   1   0   0   1   1   1   0 type:complete len:112 gc:universal DF240964.1:28126-27791(-)
+DF242494.1.p18       -          PF13927_full         -                3.4   11.6   3.9         5   11.1   3.9   1.2   1   0   0   1   1   1   0 type:complete len:170 gc:universal DF242494.1:16684-16175(-)
+DF242032.1.p18       -          PF13927_full         -                3.5   11.6   4.9       4.1   11.3   4.0   1.5   2   0   0   2   2   2   0 type:complete len:197 gc:universal DF242032.1:4193-3603(-)
+DF240302.1.p91       -          PF13927_full         -                3.6   11.5  16.4       1.4   12.9  13.4   1.8   2   0   0   2   2   2   0 type:complete len:122 gc:universal DF240302.1:4960-5325(+)
+DF240738.1.p68       -          PF13927_full         -                3.7   11.5   6.5       5.2   11.0   6.5   1.2   1   0   0   1   1   1   0 type:complete len:107 gc:universal DF240738.1:32583-32263(-)
+DF243809.1.p8        -          PF13927_full         -                  4   11.4   4.3       6.5   10.7   4.3   1.3   1   0   0   1   1   1   0 type:complete len:186 gc:universal DF243809.1:30262-29705(-)
+DF239013.1.p12       -          PF13927_full         -                  4   11.4   4.2   4.9e+02    4.6   0.2   3.3   3   0   0   3   3   3   0 type:complete len:402 gc:universal DF239013.1:590345-589140(-)
+DF239548.1.p16       -          PF13927_full         -                4.4   11.3   3.0       6.6   10.7   3.0   1.3   1   0   0   1   1   1   0 type:complete len:223 gc:universal DF239548.1:42379-43047(+)
+DF240618.1.p43       -          PF13927_full         -                4.6   11.2   6.4       2.1   12.3   4.5   1.5   2   0   0   2   2   2   0 type:complete len:133 gc:universal DF240618.1:41464-41862(+)
+DF243022.1.p4        -          PF13927_full         -                4.6   11.2   3.8       6.7   10.6   3.8   1.2   1   0   0   1   1   1   0 type:complete len:194 gc:universal DF243022.1:5409-4828(-)
+DF242032.1.p23       -          PF13927_full         -                5.5   10.9  10.2       9.7   10.1  10.2   1.4   1   0   0   1   1   1   0 type:complete len:173 gc:universal DF242032.1:4321-3803(-)
+DF240430.1.p10       -          PF13927_full         -                6.1   10.8  21.4        10   10.1  21.4   1.3   1   0   0   1   1   1   0 type:complete len:274 gc:universal DF240430.1:88834-89655(+)
+DF243557.1.p19       -          PF13927_full         -                8.3   10.3   3.8        12    9.8   3.8   1.2   1   0   0   1   1   1   0 type:complete len:121 gc:universal DF243557.1:36238-35876(-)
+DF241764.1.p16       -          PF13927_full         -                8.7   10.3   4.1        10   10.1   4.1   1.2   1   0   0   1   1   1   0 type:complete len:110 gc:universal DF241764.1:17581-17910(+)
+DF241722.1.p21       -          PF13927_full         -                9.2   10.2   5.6        15    9.5   5.6   1.3   1   0   0   1   1   1   0 type:complete len:160 gc:universal DF241722.1:52992-52513(-)
+DF244136.1.p26       -          PF13927_full         -                9.7   10.1  22.6        12    9.8  22.6   1.2   1   0   0   1   1   1   0 type:complete len:109 gc:universal DF244136.1:22536-22210(-)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/domains/PF13927_full_profile.hmm
+# Target file:     ../input/symbiodinium/longest_orfs/transdecoder_part1/B_minutum_longest_orfs.pep
+# Option settings: hmmsearch --tblout ../output/symbiodinium/hmmer_txt_output/B_minutum_longest_orfs_PF13927_full_profile_hmmer_results.txt ../output/domains/PF13927_full_profile.hmm ../input/symbiodinium/longest_orfs/transdecoder_part1/B_minutum_longest_orfs.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/procedure
+# Date:            Thu Aug 26 11:18:11 2021
+# [ok]
