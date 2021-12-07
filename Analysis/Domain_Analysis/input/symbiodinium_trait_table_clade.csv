@@ -1,0 +1,6 @@
+Clade_tree_name,Species,Phylo_Classification,Num_samples_microbe,Num_samples_genome,TIR_total,TIR_total_unique,LRR_total,LRR_total_unique,Lectin_total,Lectin_total_unique,obs_asvs,ln_asvs,dominance,gini_index,simpson_e,faith_pd
+A_CCMP_2464_rt61SmicroadriaticumA1,A,Clade,18,8,4.5,4.25,296.375,257.875,65.5,58.25,141.06,4.95,0.050555556,0.990722222,0.171166667,26.32222222
+B_CCMP_2460_rt002_Sminutum,B,Clade,12,1,11,11,584,420,66,62,121.25,4.8,0.0425,0.990916667,0.21475,22.49166667
+C_CCMP_2466_rt152_tclS_goreaui,C,Clade,6,2,10,8,873,460,38.5,35.5,128,4.85,0.036666667,0.990166667,0.2305,22.25
+D_KF740689_CCMP_2556_Strenchii,D,Clade,9,1,5,4,906,579,41,40,115.2,4.75,0.071111111,0.993555556,0.141,22.7
+F_CCMP_2468_Skawagutii_rt135,F,Clade,9,1,10,10,483,311,39,34,125,4.83,0.033333333,0.990444444,0.256555556,25.23333333
