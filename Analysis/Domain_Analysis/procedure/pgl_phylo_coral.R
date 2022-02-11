@@ -7,6 +7,8 @@ library(caper)
 library(MuMIn)
 library(rr2)
 library(phytools)
+library(MASS)
+library(robustbase)
 
 #create this file only the first time then we append to it
 pgl.output = data.frame("Immune_Trait", "Diversity_Trait", "N_Microbiomes", "N_Genomes", "Model_1", "pVal_Model_1", "Rsquared_Model_1", "AIC_Model_1", "AICc_Model_1", "Model_2", "pVal_Model_2", "Rsquared_Model_2", "AIC_Model_2", "AICc_Model_2", "Model_3", "pVal_Model_3", "Rsqared_Model_3", "AIC_Model_3", "AICc_Model_3", "Model_4", "pVal_Model_4", "Rsquared_Model_4", "AIC_Model_4", "AICc_Model_4", "Minimum_AIC", "Minimum_AICc", "PIC_Model", "pVal_PIC", "Rsquared_PIC")
@@ -16,11 +18,12 @@ write.table(pgl.output,file="coral_output/PGL_coral_output_genomes.csv",append=T
 
 
 trait_table_input <-"input/coral_genome_trait_table.csv"
+
 #Pick the columns to analyze
 #y traits can be: obs_asvs, ln_asvs, dominance, gini_index, simpson_e, faith_pd
-y_trait_column <-"ln_asvs"
-#x traits can be: TIR_total, TIR_total_unique, LRR_total, LRR_total_unique, Lectin_total, Lectin_unique
-x_trait_column<-"LRR_total_unique"
+y_trait_column <-"gini_index_tissue"
+#x traits can be: TIR_total, TIR_total_unique, IL1R, LRR_total, LRR_total_unique, TLR, Lectin_total, Lectin_unique
+x_trait_column<-"TLR"
 trait_table <- read.csv(trait_table_input,header=TRUE,row.names=1)
 x_trait <-trait_table[[x_trait_column]]
 y_trait <-trait_table[[y_trait_column]]
@@ -28,11 +31,12 @@ y_trait <-trait_table[[y_trait_column]]
 #load the newick file created with the huang roy tree names
 tree <- "input/huang_roy_molecular_r2.newick"
 tree <- read.tree(tree)
-
+print(tree)
 
 #make sure that data and tree use same species names
 coral_obj <- name.check(tree,trait_table)
 coral_obj
+tree.prune <- coral_obj
 
 #take out tree tips that do not have data
 tree.prune<-drop.tip(tree, coral_obj$tree_not_data)
@@ -50,7 +54,9 @@ bm
 #first model is a simple model
 model.1_formula <-"gls(x_trait~y_trait, data=trait_table, correlation=bm)"
 model.1<-gls(x_trait~y_trait, data=trait_table, correlation=bm)
+#model.1.rlm<-rlm(model.1)
 summary(model.1)
+#summary(model.1.rlm)
 
 #extract the AIC and AICc for model 1
 model.1_aic <- AIC(model.1)
@@ -162,9 +168,9 @@ aicc.df$min_model
 trait_table_input <-"input/coral_genome_trait_table.csv"
 #Pick the columns to analyze
 #y traits can be: obs_asvs, ln_asvs, dominance, gini_index, simpson_e, faith_pd
-y_trait_column <-"ln_asvs"
-#x traits can be: TIR_total, TIR_total_unique, LRR_total, LRR_total_unique, Lectin_total, Lectin_unique
-x_trait_column<-"LRR_total_unique"
+y_trait_column <-"gini_index_tissue"
+#x traits can be: TIR_total, TIR_total_unique, IL1R, LRR_total, LRR_total_unique, Lectin_total, Lectin_unique
+x_trait_column<-"TLR"
 trait_table <- read.csv(trait_table_input,header=TRUE,row.names=1)
 x_trait <-trait_table[[x_trait_column]]
 y_trait <-trait_table[[y_trait_column]]
@@ -215,6 +221,7 @@ y_trait_positive <-positivized.results[,2]
 
 # Make a pic model that has only positive values
 pic_model <- lm(y_trait_positive ~ x_trait_positive - 1)
+pic_rlm <- rlm(y_trait_positive ~ x_trait_positive -1)
 # plot pic results
 plot(y_trait_positive ~ x_trait_positive,xlab=x_trait_column,ylab=y_trait_column,bg='gray',pch=16)
 abline(a = 0, b = coef(pic_model))
@@ -226,9 +233,15 @@ dev.off()
 
 #summarize the results
 summary(pic_model)
+summary(pic_rlm)
 rSquared_PIC <-summary(pic_model)$r.squared
 pval_PIC <- anova(pic_model)$'Pr(>F)'[1]
+pval_PIC.rlm <- anova(pic_rlm)$'Pr(>F)'[1]
 model_PIC <- "lm(y_trait_positive ~ x_trait_positive -1)"
+
+#rlm does not produce a p value. Will try doing the robust regression using "robustbase"
+robust.model = lmrob(y_trait_positive ~ x_trait_positive - 1)
+summary(robust.model)
 
 
 # plot contMap
