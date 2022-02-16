@@ -169,7 +169,9 @@ aicc.df$min_model
 trait_table_input <-"input/coral_genome_trait_table.csv"
 #Pick the columns to analyze
 #y traits can be: obs_asvs, ln_asvs, dominance, gini_index, simpson_e, faith_pd
+
 y_trait_column <-"ln_asvs"
+
 #x traits can be: TIR_total, TIR_total_unique, IL1R, LRR_total, LRR_total_unique, Lectin_total, Lectin_unique
 x_trait_column<-"TLR"
 trait_table <- read.csv(trait_table_input,header=TRUE,row.names=1)
