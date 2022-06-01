@@ -1,0 +1,103 @@
+"","W","p_val","q_val","diff_abn"
+"Unclassified Woesearchaeia",2.13917923781953,0,0,TRUE
+"Nitrosopumilaceae",30.3561480155961,0,0,TRUE
+"Thermoanaerobaculaceae",11.2938990783154,0,0,TRUE
+"Actinomarinaceae",5.5705121149701,0,0,TRUE
+"Bacteria_Actinobacteria_Acidimicrobiia_Actinomarinales_uncultured",11.4730660327706,0,0,TRUE
+"Microtrichaceae",11.2954239491693,0,0,TRUE
+"Corynebacteriaceae",3.97976086187435,0,0,TRUE
+"Mycobacteriaceae",0.280738719239432,0,0,TRUE
+"Nocardiaceae",7.48791366751059,0,0,TRUE
+"Micrococcaceae",0.0177080164670526,0,0,TRUE
+"Nocardioidaceae",0.18414001293274,0,0,TRUE
+"Bacteroidaceae",0.058299824201794,0,0,TRUE
+"Porphyromonadaceae",1.77516409534263,0,0,TRUE
+"Prevotellaceae",0.532440840194971,0,0,TRUE
+"Chitinophagaceae",0.622619110584059,0,0,TRUE
+"Saprospiraceae",8.72017533675946,0,0,TRUE
+"Amoebophilaceae",1.19993844823788,0,0,TRUE
+"Cyclobacteriaceae",8.86907693660333,0,0,TRUE
+"Unclassified Cytophagales",0.00780926334200482,0,0,TRUE
+"Crocinitomicaceae",1.08079727284424,0,0,TRUE
+"Cryomorphaceae",6.8093172135438,0,0,TRUE
+"Flavobacteriaceae",6.94059410841211,0,0,TRUE
+"NS9 marine group",1.79019060346926,0,0,TRUE
+"Unclassified Flavobacteriales",0.902669403492543,0,0,TRUE
+"Simkaniaceae",2.86118630194168,0,0,TRUE
+"Xenococcaceae",2.69656624552555,0,0,TRUE
+"Cyanobiaceae",0.0189098361031044,0,0,TRUE
+"Bacteria_Dadabacteria_Dadabacteriia_Dadabacteriales_uncultured bacterium",8.8456901700981,0,0,TRUE
+"Deinococcaceae",14.4017092544617,0,0,TRUE
+"Thermaceae",33.3791205623907,0,0,TRUE
+"Alicyclobacillaceae",0.223403621373674,0,0,TRUE
+"Bacillaceae",48.3260083646902,7.21866388895186e-12,1.44757143877089e-10,TRUE
+"Staphylococcaceae",23.7585864101002,2.18414184617945e-06,2.22782468310304e-05,TRUE
+"Aerococcaceae",11.979051472777,0,0,TRUE
+"Carnobacteriaceae",0.213683553123856,0,0,TRUE
+"Enterococcaceae",12.3923181980088,0,0,TRUE
+"Lactobacillaceae",0.467900979695627,0,0,TRUE
+"Leuconostocaceae",1.91994603810607,0,0,TRUE
+"Streptococcaceae",1.10478712512867,0,0,TRUE
+"Clostridiaceae 1",3.70278893376033,0,0,TRUE
+"Clostridiaceae 4",1.06092486510089,0,0,TRUE
+"Bacteria_Firmicutes_Clostridia_Clostridiales_Family XI",1.32611743655042,0,0,TRUE
+"Lachnospiraceae",7.72639190503222,0,0,TRUE
+"Peptostreptococcaceae",2.09363633580448,0,0,TRUE
+"Ruminococcaceae",3.78282628206594,0,0,TRUE
+"Family III",1.69867073151187,0,0,TRUE
+"Erysipelotrichaceae",0.128531189825308,0,0,TRUE
+"Veillonellaceae",1.41727099192174,0,0,TRUE
+"Fusobacteriaceae",1.37259501970939,0,0,TRUE
+"Bacteria_Planctomycetes_OM190_uncultured bacterium_uncultured bacterium",4.12172547355565,0,0,TRUE
+"Phycisphaeraceae",14.9503175834893,0,0,TRUE
+"Pirellulaceae",27.7165524567746,0,0,TRUE
+"Rubinisphaeraceae",9.55087152433341,0,0,TRUE
+"Caulobacteraceae",57.4259698824992,7.01885522326382e-14,3.57961616386455e-12,TRUE
+"Hyphomonadaceae",0.248739626295876,0,0,TRUE
+"SAR116 clade",1.86088866437324,0,0,TRUE
+"Beijerinckiaceae",0.51522420243413,0,0,TRUE
+"Hyphomicrobiaceae",9.06160312493742,0,0,TRUE
+"Rhizobiaceae",17.1493633887573,0,0,TRUE
+"Stappiaceae",2.16356486414927,0,0,TRUE
+"Unclassified Rhizobiales",9.71687162373386,0.00365168087317161,0.0137952388542039,TRUE
+"Xanthobacteraceae",1.68136120146922,0,0,TRUE
+"Rhodobacteraceae",9.17777781115444,0,0,TRUE
+"AEGEAN-169 marine group",3.8685554791796,0,0,TRUE
+"Terasakiellaceae",1.28856523386179,0,0,TRUE
+"Kiloniellaceae",8.88738824879177,0,0,TRUE
+"Clade I",3.18156088455994,0,0,TRUE
+"Clade II",5.83087191869776,0,0,TRUE
+"Sphingomonadaceae",51.3563430772922,1.54065401563929e-12,3.92866773988019e-11,TRUE
+"Unclassified Alphaproteobacteria",18.7216465423634,0,0,TRUE
+"Bacteria_Proteobacteria_Alphaproteobacteria_uncultured_uncultured bacterium",6.20676882869224,0,0,TRUE
+"Desulfobulbaceae",0.928675637374072,0,0,TRUE
+"P3OB-42",2.04815129102987,0,0,TRUE
+"Sandaracinaceae",1.11529364564946,0,0,TRUE
+"Oligoflexaceae",0.437197957995998,0,0,TRUE
+"Bacteria_Proteobacteria_Deltaproteobacteria_SAR324 clade(Marine group B)_uncultured bacterium",5.18133910872015,0,0,TRUE
+"Unclassified Deltaproteobacteria",11.5990633256626,0,0,TRUE
+"Alteromonadaceae",0.286602752310457,0,0,TRUE
+"Pseudoalteromonadaceae",0.802528317504381,0,0,TRUE
+"Burkholderiaceae",52.8430035105399,7.2260678834257e-13,2.45686308036474e-11,TRUE
+"Neisseriaceae",0.173853028007869,0,0,TRUE
+"Rhodocyclaceae",59.2386358579119,2.79329149680201e-14,2.84915732673805e-12,TRUE
+"Halieaceae",3.18714891474408,0,0,TRUE
+"Enterobacteriaceae",0.212121781344211,0,0,TRUE
+"Bacteria_Proteobacteria_Gammaproteobacteria_Gammaproteobacteria Incertae Sedis_Unknown Family",3.71810312902365,0,0,TRUE
+"Endozoicomonadaceae",3.41022675693591,0,0,TRUE
+"Pasteurellaceae",0.501150764690777,0,0,TRUE
+"Moraxellaceae",5.8429669207675,0,0,TRUE
+"Pseudomonadaceae",48.0021303869262,8.51512611041701e-12,1.44757143877089e-10,TRUE
+"Unclassified SAR86 clade",6.95137455660496,0,0,TRUE
+"Bacteria_Proteobacteria_Gammaproteobacteria_SAR86 clade_uncultured bacterium",10.776670686426,0,0,TRUE
+"Woeseiaceae",10.6086710694213,0,0,TRUE
+"Unclassified Gammaproteobacteria",21.7446285147072,0,0,TRUE
+"Vibrionaceae",2.76850705269537,0,0,TRUE
+"Xanthomonadaceae",0.845124079501919,0,0,TRUE
+"Unclassified Proteobacteria",1.43853852185272,0,0,TRUE
+"Spirochaetaceae",1.43980345625827,0,0,TRUE
+"Unclassified Bacteria",20.2963440518368,0,0,TRUE
+"Puniceicoccaceae",0.137132372686818,0,0,TRUE
+"DEV007",5.1221309403846,0,0,TRUE
+"Rubritaleaceae",14.5784144492041,0,0,TRUE
+"Unclassified Unassigned",17.923752019851,0,0,TRUE
