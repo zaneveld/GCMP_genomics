@@ -1,0 +1,169 @@
+execution:
+    uuid: 56d951a1-1927-48d8-b6dd-cbce2cfb0e70
+    runtime:
+        start: 2020-07-29T17:03:39.363504-07:00
+        end: 2020-07-29T17:03:42.305642-07:00
+        duration: 2 seconds, and 942138 microseconds
+
+action:
+    type: import
+    format: HeaderlessTSVTaxonomyFormat
+    manifest:
+    -   name: m2+silva_taxonomy.txt
+        md5sum: b6315a2ff6e190de4afade109e74e9c0
+
+transformers:
+    output:
+    -   from: HeaderlessTSVTaxonomyFormat
+        to: TSVTaxonomyDirectoryFormat
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: macosx-10.9-x86_64
+    python: |-
+        3.6.10 | packaged by conda-forge | (default, Apr 24 2020, 16:27:41)
+        [GCC Clang 9.0.1 ]
+    framework:
+        version: 2020.6.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2020.6.0|0'
+    plugins:
+        types:
+            version: 2020.6.0
+            website: https://github.com/qiime2/q2-types
+    python-packages:
+        zipp: 3.1.0
+        xopen: 0.9.0
+        widgetsnbextension: 3.5.1
+        wheel: 0.34.2
+        webencodings: 0.5.1
+        wcwidth: 0.2.5
+        urllib3: 1.25.9
+        unifrac: 0.10.0
+        tzlocal: '2.1'
+        typing-extensions: 3.7.4.2
+        traitlets: 4.3.3
+        tornado: 6.0.4
+        threadpoolctl: 2.1.0
+        testpath: 0.4.4
+        terminado: 0.8.3
+        statsmodels: 0.11.1
+        six: 1.15.0
+        setuptools: 47.3.1.post20200616
+        sepp: 4.3.10
+        Send2Trash: 1.5.0
+        seaborn: 0.10.1
+        scipy: 1.4.1
+        scikit-learn: 0.23.1
+        scikit-bio: 0.5.5
+        requests: 2.24.0
+        qiime2: 2020.6.0
+        q2templates: 2020.6.0
+        q2cli: 2020.6.0
+        q2-vsearch: 2020.6.0
+        q2-types: 2020.6.0
+        q2-taxa: 2020.6.0
+        q2-sample-classifier: 2020.6.0
+        q2-quality-filter: 2020.6.0
+        q2-quality-control: 2020.6.0
+        q2-phylogeny: 2020.6.0
+        q2-metadata: 2020.6.0
+        q2-longitudinal: 2020.6.0
+        q2-gneiss: 2020.6.0
+        q2-fragment-insertion: 2020.6.0
+        q2-feature-table: 2020.6.0
+        q2-feature-classifier: 2020.6.0
+        q2-emperor: 2020.6.0
+        q2-diversity: 2020.6.0
+        q2-diversity-lib: 2020.6.0
+        q2-demux: 2020.6.0
+        q2-deblur: 2020.6.0
+        q2-dada2: 2020.6.0
+        q2-cutadapt: 2020.6.0
+        q2-composition: 2020.6.0
+        q2-alignment: 2020.6.0
+        pyzmq: 19.0.1
+        PyYAML: 5.3.1
+        pytz: '2020.1'
+        python-dateutil: 2.8.1
+        pytest: 5.4.3
+        PySocks: 1.7.1
+        pyrsistent: 0.16.0
+        pyparsing: 2.4.7
+        pyOpenSSL: 19.1.0
+        Pygments: 2.6.1
+        pycparser: '2.20'
+        py: 1.8.2
+        ptyprocess: 0.6.0
+        psutil: 5.7.0
+        prompt-toolkit: 3.0.5
+        prometheus-client: 0.8.0
+        pluggy: 0.13.1
+        pip: 20.1.1
+        Pillow: 7.1.2
+        pickleshare: 0.7.5
+        pexpect: 4.8.0
+        patsy: 0.5.1
+        parso: 0.7.0
+        pandocfilters: 1.4.2
+        pandas: 0.25.3
+        packaging: '20.4'
+        olefile: '0.46'
+        numpy: 1.18.5
+        notebook: 6.0.3
+        nose: 1.3.7
+        networkx: '2.4'
+        nbformat: 5.0.6
+        nbconvert: 5.6.1
+        natsort: 7.0.1
+        msgpack: 1.0.0
+        more-itertools: 8.4.0
+        mistune: 0.8.4
+        matplotlib: 3.2.2
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.2.0
+        jupyter-core: 4.6.3
+        jupyter-client: 6.1.3
+        jsonschema: 3.2.0
+        joblib: 0.15.1
+        Jinja2: 2.11.2
+        jedi: 0.17.1
+        ipywidgets: 7.5.1
+        ipython: 7.15.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.3.0
+        importlib-metadata: 1.6.1
+        ijson: 3.0.4
+        idna: '2.9'
+        hdmedians: '0.13'
+        h5py: 2.10.0
+        gneiss: 0.4.6
+        future: 0.18.2
+        fastcluster: 1.1.26
+        entrypoints: '0.3'
+        emperor: 1.0.1
+        dnaio: 0.4.2
+        DendroPy: 4.2.0
+        defusedxml: 0.6.0
+        decorator: 4.4.2
+        deblur: 1.1.0
+        Cython: 0.29.20
+        cycler: 0.10.0
+        cutadapt: '2.10'
+        cryptography: 2.9.2
+        click: 7.1.2
+        chardet: 3.0.4
+        cffi: 1.14.0
+        certifi: 2020.6.20
+        CacheControl: 0.12.6
+        brotlipy: 0.7.0
+        bokeh: 2.1.1
+        bleach: 3.1.5
+        biopython: '1.77'
+        biom-format: 2.1.8
+        bibtexparser: 1.1.0
+        backcall: 0.2.0
+        attrs: 19.3.0
+        appnope: 0.1.0
