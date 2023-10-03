@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/643954at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/S_pistillata_genome/run_metazoa_odb10/metaeuk_output/rerun_results/S_pistillata_v1_genomic.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/S_pistillata_genome/run_metazoa_odb10/hmmer_output/rerun_results/643954at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       643954at33208  [M=143]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    5.8e-12   43.8   0.2      7e-12   43.5   0.2    1.1  1  NW_019218073.1:46721-46503  
+
+
+Domain annotation for each sequence (and alignments):
+>> NW_019218073.1:46721-46503  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   0.2   1.8e-15     7e-12     109     143 .]       1      35 [.       1      35 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 1.8e-15
+               643954at33208 109 eesktfItpenldeaIeeALdnpvdYnfaidkeGn 143
+                                 eesk+++t+enlde+I  +L+n+++Ynfa++ +G+
+  NW_019218073.1:46721-46503   1 EESKNWVTEENLDEKIAFCLENETNYNFALTPSGE 35 
+                                 79*****************************9995 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (143 nodes)
+Target sequences:                         3887  (626447 residues searched)
+Passed MSV filter:                        66  (0.0169797); expected 77.7 (0.02)
+Passed bias filter:                       32  (0.00823257); expected 77.7 (0.02)
+Passed Vit filter:                         6  (0.00154361); expected 3.9 (0.001)
+Passed Fwd filter:                         1  (0.000257268); expected 0.0 (1e-05)
+Initial search space (Z):               3887  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

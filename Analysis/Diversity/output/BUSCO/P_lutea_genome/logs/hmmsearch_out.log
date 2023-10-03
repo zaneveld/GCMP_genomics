@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/643954at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_lutea_genome/run_metazoa_odb10/metaeuk_output/rerun_results/p_lutea_final_2.1.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_lutea_genome/run_metazoa_odb10/hmmer_output/rerun_results/643954at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       643954at33208  [M=143]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    2.9e-13   46.1   6.6    3.6e-13   45.7   6.6    1.2  1  Sc0000125:816185-822463  
+
+
+Domain annotation for each sequence (and alignments):
+>> Sc0000125:816185-822463  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.7   6.6   3.7e-16   3.6e-13      76     142 ..      10      77 ..       1      78 [. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 45.7 bits;  conditional E-value: 3.7e-16
+            643954at33208  76 erlakea.eekeeekeekeeeekeeaeeevrkekeesktfItpenldeaIeeALdnpvdYnfaidkeG 142
+                              + l++++   ++e k++ + ++ +e  e vr++ eesk+++t+enl e+I ++L++++++nfa+  +G
+  Sc0000125:816185-822463  10 KLLNEQRdSRRMEAKKKIRLKQHQERVEHVRNAIEESKNWVTKENLGEKIAHCLEHETNHNFALSPTG 77 
+                              2222222023334444555566777778899999******************************9998 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (143 nodes)
+Target sequences:                          979  (145033 residues searched)
+Passed MSV filter:                        71  (0.072523); expected 19.6 (0.02)
+Passed bias filter:                       30  (0.0306435); expected 19.6 (0.02)
+Passed Vit filter:                        10  (0.0102145); expected 1.0 (0.001)
+Passed Fwd filter:                         1  (0.00102145); expected 0.0 (1e-05)
+Initial search space (Z):                979  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

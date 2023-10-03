@@ -1,0 +1,100 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/84980at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_damicornis_genome/run_metazoa_odb10/metaeuk_output/rerun_results/P_damicornis_v1_genomic.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_damicornis_genome/run_metazoa_odb10/hmmer_output/rerun_results/84980at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       84980at33208  [M=521]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+   1.1e-121  402.4  15.5    5.1e-71  235.2   6.4    2.7  2  NW_020846883.1:41887-36756  
+    4.9e-88  291.4   8.8      9e-84  277.3   7.8    3.1  2  NW_020846092.1:63-9317      
+
+
+Domain annotation for each sequence (and alignments):
+>> NW_020846883.1:41887-36756  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.2   6.4   1.5e-73   5.1e-71      74     235 ..       1     187 [.       1     192 [. 0.90
+   2 !  171.0   1.7   4.3e-54   1.4e-51     225     316 ..     226     317 .]     217     317 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 235.2 bits;  conditional E-value: 1.5e-73
+                84980at33208  74 agdlfdvnakseyvetiiakcidhy...............tiderleaivnrmfqrclddgkykqavGialetrrldifekai 141
+                                 agdlfdvn +seyvetiiakcid y               tid+rleaiv+rmf+rc+ddgkykqavGialetrrldife+ai
+  NW_020846883.1:41887-36756   1 AGDLFDVNGHSEYVETIIAKCIDSYtekrvykaenpdedvTIDTRLEAIVDRMFKRCFDDGKYKQAVGIALETRRLDIFEQAI 83 
+                                 89**********************954444455555555459****************************************9 PP
+
+                84980at33208 142 l.sddvsgmlayal.vamsllqnrkfrnevlrvlvklyr....pdyvnvcqcliflddpqavaeileklvk....lmayqiaf 214
+                                 l sddv gml+y+l v+msl+q+r+frn+vlrvlv+ly+    pd+++vcq  ifldd+q va+ilekl+k    lmayqiaf
+  NW_020846883.1:41887-36756  84 LkSDDVPGMLSYSLtVCMSLIQSRQFRNKVLRVLVQLYMnlatPDFISVCQVCIFLDDAQGVADILEKLIKdnetLMAYQIAF 166
+                                 649*********9659**********************666669*************************9866668******* PP
+
+                84980at33208 215 dlyesatqqflsklikilsGe 235
+                                 dlye atqqfls ++++l+  
+  NW_020846883.1:41887-36756 167 DLYEGATQQFLSSVTSVLKAT 187
+                                 *****************9876 PP
+
+  == domain 2  score: 171.0 bits;  conditional E-value: 4.3e-54
+                84980at33208 225 lsklikilsGevsielhlqflirsnktdllilkntkdavrnsvchtatviansfmhsgttsdqflrdnlewlaratnwaklta 307
+                                 + kl+ il+Ge++i lhl+flir+n++dllilkntkda rnsvchtatvians+mh+gttsd+flr+nlewl ratnwak+ta
+  NW_020846883.1:41887-36756 226 VDKLVAILGGETTIALHLEFLIRNNHADLLILKNTKDASRNSVCHTATVIANSYMHCGTTSDTFLRNNLEWLGRATNWAKFTA 308
+                                 679******************************************************************************** PP
+
+                84980at33208 308 taslGvihk 316
+                                 taslGvih+
+  NW_020846883.1:41887-36756 309 TASLGVIHR 317
+                                 ********8 PP
+
+>> NW_020846092.1:63-9317  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  277.3   7.8   2.7e-86     9e-84     316     521 .]       1     194 [.       1     194 [. 0.96
+   2 !    5.8   0.0   0.00049      0.17     359     417 ..     204     262 ..     197     289 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 277.3 bits;  conditional E-value: 2.7e-86
+            84980at33208 316 kghekealklm.sylpkd....sayseggglyalglihanhg..iidyllnqlkeaqneivrhggclglGlaalgtarqdvyeqlkf 395
+                             kghe++alklm +ylpkd    say+egggl+alglihanhg  ii+yll+qlk+a++++vrhggclglGlaa+g+arqdvyeqlk+
+  NW_020846092.1:63-9317   1 KGHEQDALKLMsTYLPKDgsggSAYQEGGGLFALGLIHANHGgkIIEYLLQQLKNATTDVVRHGGCLGLGLAAMGSARQDVYEQLKT 87 
+                             79*********55****9766679*****************999******************************************* PP
+
+            84980at33208 396 nlyqddavtGeaagialGlvmlgskaiedmvayaqetqhekilrglavgialvmygrleeadaliesllrdkdpilrrsgmytiama 482
+                             +l++ddavtGea+g+a+Glvmlgsk+   +                     +vmy+r+eeadaliesl++dkdp lr+sgmyt+ama
+  NW_020846092.1:63-9317  88 QLWEDDAVTGEACGLAMGLVMLGSKSATAI-------------------EEMVMYARMEEADALIESLMQDKDPNLRQSGMYTVAMA 155
+                             ************************975432...................2489********************************** PP
+
+            84980at33208 483 ycgsgnnkairkllhvavsdvnddvrraaveslgfllfr 521
+                             ycg+gnnkai++llhvavsdv+ddvrraav+slgfllfr
+  NW_020846092.1:63-9317 156 YCGTGNNKAIKRLLHVAVSDVSDDVRRAAVTSLGFLLFR 194
+                             **************************************8 PP
+
+  == domain 2  score: 5.8 bits;  conditional E-value: 0.00049
+            84980at33208 359 nqlkeaqneivrhggclglGlaalgtarqdvyeqlkfnlyqddavtGeaagialGlvml 417
+                             + l e+ n  vr+g++++lG+a+ gt  ++    l+    +    + + a ia  lv++
+  NW_020846092.1:63-9317 204 SLLSESYNPHVRYGAAMALGIACAGTGLKEAIALLEPMTNDPVNYVRQGALIASSLVLI 262
+                             45667777778888888888888887766666555543333333344445555555554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (521 nodes)
+Target sequences:                          676  (117830 residues searched)
+Passed MSV filter:                        16  (0.0236686); expected 13.5 (0.02)
+Passed bias filter:                       12  (0.0177515); expected 13.5 (0.02)
+Passed Vit filter:                         2  (0.00295858); expected 0.7 (0.001)
+Passed Fwd filter:                         2  (0.00295858); expected 0.0 (1e-05)
+Initial search space (Z):                676  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 3069.47
+//
+[ok]

@@ -1,0 +1,63 @@
+{
+    "parameters": {
+        "out_path": "/home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done",
+        "cpu": "1",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "True",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "True",
+        "update-data": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "in": "/home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/P_verrucosa_v1.0_genomic.fna",
+        "out": "BUSCO/P_verrucosa_genome",
+        "mode": "euk_genome_met",
+        "main_out": "/home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_verrucosa_genome",
+        "lineage_results_dir": "run_eukaryota_odb10",
+        "lineage_dataset": "/home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/eukaryota_odb10",
+        "domain": "eukaryota",
+        "max_intron": "130000",
+        "max_seq_len": "160000",
+        "metaeuk_parameters": "",
+        "metaeuk_rerun_parameters": "",
+        "contig_break": "10",
+        "scaffold_composition": "False",
+        "gene_predictor": "metaeuk"
+    },
+    "lineage_dataset": {
+        "name": "eukaryota_odb10",
+        "creation_date": "2020-09-10",
+        "number_of_buscos": "255",
+        "number_of_species": "70"
+    },
+    "versions": {
+        "hmmsearch": 3.1,
+        "bbtools": "39.01",
+        "metaeuk": "6.a5d39d9",
+        "busco": "5.5.0"
+    },
+    "results": {
+        "one_line_summary": "C:98.0%[S:92.9%,D:5.1%],F:1.2%,M:0.8%,n:255",
+        "Complete": 98.0,
+        "Single copy": 92.9,
+        "Multi copy": 5.1,
+        "Fragmented": 1.2,
+        "Missing": 0.8,
+        "n_markers": 255,
+        "domain": "eukaryota",
+        "Number of scaffolds": "18268",
+        "Number of contigs": "25712",
+        "Total length": "380505547",
+        "Percent gaps": "0.134%",
+        "Scaffold N50": "333696",
+        "Contigs N50": "75701"
+    }
+}

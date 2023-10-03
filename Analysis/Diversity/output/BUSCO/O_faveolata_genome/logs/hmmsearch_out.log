@@ -1,0 +1,77 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/84980at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/O_faveolata_genome/run_metazoa_odb10/metaeuk_output/rerun_results/O_faveolata_v1_genomic.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/O_faveolata_genome/run_metazoa_odb10/hmmer_output/rerun_results/84980at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       84980at33208  [M=521]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+   7.7e-157  519.4   8.3   7.7e-149  493.0   4.5    3.0  3  NW_018148751.1:813342-801480  
+
+
+Domain annotation for each sequence (and alignments):
+>> NW_018148751.1:813342-801480  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.1   2.7e-09   3.7e-06     208     235 ..       1      28 [.       1      36 [. 0.92
+   2 !  493.0   4.5  5.5e-152  7.7e-149     225     507 ..      93     385 ..      83     394 .. 0.96
+   3 !    4.2   0.0   0.00079       1.1     359     392 ..     404     437 ..     398     447 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 2.7e-09
+                  84980at33208 208 mayqiafdlyesatqqflsklikilsGe 235
+                                   mayqiafdlye atqqfls +++ l+  
+  NW_018148751.1:813342-801480   1 MAYQIAFDLYEGATQQFLSSVTSALQAT 28 
+                                   8********************9999865 PP
+
+  == domain 2  score: 493.0 bits;  conditional E-value: 5.5e-152
+                  84980at33208 225 lsklikilsGevsielhlqflirsnktdllilkntkdavrnsvchtatviansfmhsgttsdqflrdnlewlaratnwakl 305
+                                   ++kl+ il+Ge+si lhl+flir+n++dllilkntkd+ rnsvchtatvians+mh+gttsd+flr+nlewl ratnwak+
+  NW_018148751.1:813342-801480  93 VNKLVAILGGETSIALHLEFLIRNNHADLLILKNTKDVSRNSVCHTATVIANSYMHCGTTSDTFLRNNLEWLGRATNWAKF 173
+                                   689****************************************************************************** PP
+
+                  84980at33208 306 tataslGvihkghekealklm.sylpkd....sayseggglyalglihanhg..iidyllnqlkeaqneivrhggclglGl 379
+                                   tataslGvihkghe++alklm +ylpkd    say+egggl+alglihanhg  iidyl++qlk+a++++vrhggclglGl
+  NW_018148751.1:813342-801480 174 TATASLGVIHKGHEQDALKLMsTYLPKDgsggSAYQEGGGLFALGLIHANHGgkIIDYLIQQLKSATTDVVRHGGCLGLGL 254
+                                   *********************55****9766679*****************999*************************** PP
+
+                  84980at33208 380 aalgtarqdvyeqlkfnlyqddavtGeaagialGlvmlgsk...aiedmvayaqetqhekilrglavgialvmygrleead 457
+                                   aa+g+ r+dvyeqlk++l++ddavtGea+g+a+Glvmlgsk   aie+mv yaqetqhekilrgl++gialvmy+r+eead
+  NW_018148751.1:813342-801480 255 AAMGSGRHDVYEQLKTQLWEDDAVTGEACGLAMGLVMLGSKsatAIEEMVGYAQETQHEKILRGLSLGIALVMYARMEEAD 335
+                                   ***************************************9855579*********************************** PP
+
+                  84980at33208 458 aliesllrdkdpilrrsgmytiamaycgsgnnkairkllhvavsdvnddv 507
+                                   aliesl++dkd  lr+sgmyt+amaycg+gnnkai++llhvav   +  v
+  NW_018148751.1:813342-801480 336 ALIESLMQDKDHNLRQSGMYTVAMAYCGTGNNKAIKRLLHVAVCSFSARV 385
+                                   *******************************************9876655 PP
+
+  == domain 3  score: 4.2 bits;  conditional E-value: 0.00079
+                  84980at33208 359 nqlkeaqneivrhggclglGlaalgtarqdvyeq 392
+                                   + l e+ n  vr+g++++lG+a+ gt  +d    
+  NW_018148751.1:813342-801480 404 SLLSESYNPHVRYGAAMALGIACSGTGLKDAIAL 437
+                                   567899999****************998886655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (521 nodes)
+Target sequences:                         1394  (207850 residues searched)
+Passed MSV filter:                        27  (0.0193687); expected 27.9 (0.02)
+Passed bias filter:                       24  (0.0172166); expected 27.9 (0.02)
+Passed Vit filter:                         3  (0.00215208); expected 1.4 (0.001)
+Passed Fwd filter:                         1  (0.00071736); expected 0.0 (1e-05)
+Initial search space (Z):               1394  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 10828.99
+//
+[ok]

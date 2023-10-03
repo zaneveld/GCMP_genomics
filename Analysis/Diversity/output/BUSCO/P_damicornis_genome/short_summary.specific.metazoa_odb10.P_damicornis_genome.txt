@@ -1,0 +1,39 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2021-02-17, number of genomes: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/P_damicornis_v1_genomic.fna
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:90.8%[S:90.4%,D:0.4%],F:4.2%,M:5.0%,n:954	   
+	866	Complete BUSCOs (C)			   
+	862	Complete and single-copy BUSCOs (S)	   
+	4	Complete and duplicated BUSCOs (D)	   
+	40	Fragmented BUSCOs (F)			   
+	48	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	4393	Number of scaffolds
+	53034	Number of contigs
+	234350878	Total length
+	3.673%	Percent gaps
+	326 KB	Scaffold N50
+	25 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.5.0
+	sepp: 4.4.0
+
+Placement file versions:
+	list_of_reference_markers.eukaryota_odb10.2019-12-16.txt
+	tree.eukaryota_odb10.2019-12-16.nwk
+	tree_metadata.eukaryota_odb10.2019-12-16.txt
+	supermatrix.aln.eukaryota_odb10.2019-12-16.faa
+	mapping_taxids-busco_dataset_name.eukaryota_odb10.2019-12-16.txt
+	mapping_taxid-lineage.eukaryota_odb10.2019-12-16.txt
