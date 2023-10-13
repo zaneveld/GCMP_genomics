@@ -1,0 +1,55 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/644034at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/A_hyactintus_genome/run_metazoa_odb10/metaeuk_output/rerun_results/A_hyactintus_1.0_genomic.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/A_hyactintus_genome/run_metazoa_odb10/hmmer_output/rerun_results/644034at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       644034at33208  [M=55]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+    3.5e-17   59.3  11.3    7.4e-09   32.6   0.9    2.0  2  BLFG01002383.1:190835-192557  
+
+
+Domain annotation for each sequence (and alignments):
+>> BLFG01002383.1:190835-192557  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   3.7   4.7e-12   1.2e-08       7      25 ..       1      19 [.       1      19 [. 0.96
+   2 !   32.6   0.9   2.9e-12   7.4e-09      38      54 ..      20      36 .]      20      36 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 4.7e-12
+                 644034at33208  7 eeekemmklMGFcgFdtTK 25
+                                  ++e++mmk+MGF++Fd+TK
+  BLFG01002383.1:190835-192557  1 QDEEDMMKMMGFANFDSTK 19
+                                  69****************9 PP
+
+  == domain 2  score: 32.6 bits;  conditional E-value: 2.9e-12
+                 644034at33208 38 RqymnrkGgfnrpldfv 54
+                                  Rqymnr+Ggfnrpld+v
+  BLFG01002383.1:190835-192557 20 RQYMNRRGGFNRPLDYV 36
+                                  9***************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (55 nodes)
+Target sequences:                         2555  (630458 residues searched)
+Passed MSV filter:                        47  (0.0183953); expected 51.1 (0.02)
+Passed bias filter:                       44  (0.0172211); expected 51.1 (0.02)
+Passed Vit filter:                         8  (0.00313112); expected 2.6 (0.001)
+Passed Fwd filter:                         1  (0.000391389); expected 0.0 (1e-05)
+Initial search space (Z):               2555  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 1733.76
+//
+[ok]

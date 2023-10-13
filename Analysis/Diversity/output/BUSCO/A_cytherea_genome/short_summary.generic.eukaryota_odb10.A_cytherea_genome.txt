@@ -1,0 +1,30 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/A_cytherea_1.0_genomic.fna
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:91.8%[S:89.8%,D:2.0%],F:6.7%,M:1.5%,n:255	   
+	234	Complete BUSCOs (C)			   
+	229	Complete and single-copy BUSCOs (S)	   
+	5	Complete and duplicated BUSCOs (D)	   
+	17	Fragmented BUSCOs (F)			   
+	4	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	4046	Number of scaffolds
+	17433	Number of contigs
+	426326548	Total length
+	6.145%	Percent gaps
+	1 MB	Scaffold N50
+	50 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.5.0

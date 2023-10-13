@@ -1,0 +1,7 @@
+#run BUSCO
+#need to activate the environment
+conda activate busco
+#from the procedures folder run
+#this code uses all the eukariotic genome information as there are no individual inage information sufficiently close phylogenetically to corals to run just that.
+busco -m genome -i ../input/genomes/S_pistillata_v1_genomic.fna -o ../output/BUSCO/S_pistillata_genome --auto-lineage-euk
+#the output will produce a folder in the output folder with all the files run

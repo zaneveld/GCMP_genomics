@@ -1,0 +1,345 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/9639at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/M_capitata_genome/run_metazoa_odb10/metaeuk_output/rerun_results/M_capitata_genomic.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/M_capitata_genome/run_metazoa_odb10/hmmer_output/rerun_results/9639at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       9639at33208  [M=1755]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+   9.4e-150  499.5  12.1   4.9e-138  460.6   5.5    3.3  2  RDEB01000017.1:239-18458      
+   1.7e-135  452.2  10.1      2e-89  299.4   6.0    3.0  2  RDEB01002109.1:15110-29507    
+    3.3e-99  331.9   8.1    4.7e-69  231.9   0.1    4.1  3  RDEB01002068.1:1242-31055     
+    5.8e-10   36.0   0.3    7.9e-10   35.6   0.3    1.0  1  RDEB01000013.1:416404-468984  
+    1.2e-08   31.6   0.2    1.2e-08   31.6   0.2    1.0  1  RDEB01011491.1:2469-1163      
+      1e-07   28.6   0.4    1.3e-07   28.2   0.4    1.0  1  RDEB01000280.1:229735-227268  
+    2.9e-07   27.1   0.1    3.6e-07   26.8   0.1    1.0  1  RDEB01009038.1:62215-61916    
+    7.5e-07   25.7   0.2    8.8e-07   25.5   0.2    1.0  1  RDEB01000006.1:239016-205894  
+    1.1e-06   25.1   0.0    1.3e-06   24.9   0.0    1.0  1  RDEB01025030.1:6244-6507      
+    6.2e-06   22.7   0.2    8.2e-06   22.3   0.2    1.0  1  RDEB01000280.1:134730-137590  
+    7.3e-06   22.4   0.2      1e-05   22.0   0.2    1.1  1  RDEB01011652.1:7397-6393      
+    2.9e-05   20.4   0.1    3.4e-05   20.2   0.1    1.0  1  RDEB01001269.1:42562-42362    
+    3.8e-05   20.0   1.1    4.5e-05   19.8   1.1    1.0  1  RDEB01000055.1:57994-61131    
+    0.00099   15.4   0.1     0.0012   15.0   0.1    1.0  1  RDEB01008990.1:89447-89058    
+  ------ inclusion threshold ------
+      0.011   11.9   0.1      0.011   11.8   0.1    1.0  1  RDEB01008974.1:222909-220213  
+      0.016   11.4   0.0      0.019   11.1   0.0    1.0  1  RDEB01001737.1:19367-19735    
+      0.057    9.5   0.3      0.072    9.2   0.3    1.1  1  RDEB01000223.1:71066-52455    
+
+
+Domain annotation for each sequence (and alignments):
+>> RDEB01000017.1:239-18458  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   0.5   3.5e-12   2.1e-09    1080    1104 ..       1      25 [.       1      32 [. 0.95
+   2 !  460.6   5.5  8.1e-141  4.9e-138    1144    1567 ..      36     515 ..      32     519 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 3.5e-12
+               9639at33208 1080 deakirkayfrlaqkyhPdknpeGr 1104
+                                deak+rkayfr+aqkyhPdknp+Gr
+  RDEB01000017.1:239-18458    1 DEAKVRKAYFRMAQKYHPDKNPDGR 25  
+                                89**********************9 PP
+
+  == domain 2  score: 460.6 bits;  conditional E-value: 8.1e-141
+               9639at33208 1144 kelkpykyaGypqLiktirleteddqLfskeapllaaaselayhtvncsalnaeelrreeGlevlleafsrCvsvlsksskdl 1226
+                                 el+pykyaGyp+Liktir+eted ++fsk+apllaaasela+ht+ncsalnaeelrre+G+ev      r  ++lsks k  
+  RDEB01000017.1:239-18458   36 VELQPYKYAGYPMLIKTIRMETEDGSVFSKDAPLLAAASELAFHTINCSALNAEELRRESGMEV------RSHEILSKSRK-- 110 
+                                58*************************************************************8......78899*99987.. PP
+
+               9639at33208 1227 avqvcshitkcfavaaqfeecrekivelpelvkdlcrvlyfecvsslavdqagvlwhlllflfeydytleesgvekseesnqq 1309
+                                  qv+ hit+c++vaaqfeecreki+e+p+++kdlcrvly+         qagvlwhlllflf+ydytl+e+gveks e+nqq
+  RDEB01000017.1:239-18458  111 --QVLVHITRCYTVAAQFEECREKITEMPDIIKDLCRVLYH--------FQAGVLWHLLLFLFNYDYTLDEGGVEKSAETNQQ 183 
+                                ..58899*********************************9........599******************************* PP
+
+               9639at33208 1310 evankLa...klsvk............aarlggyalltpylarkl......eiLkllnsntenPyliWdngtraeLlefleeq 1371
+                                    +La   +l ++            a r +  +lltpy+a++l      eiLkllnsntenPyliWdn+traeL+efle++
+  RDEB01000017.1:239-18458  184 VCVKQLAcfyRLIISysadenatpenpAIRKSLSSLLTPYIAKQLsndspkEILKLLNSNTENPYLIWDNATRAELNEFLETE 266 
+                                ******95543333222222222222245666789*********97777778****************************986 PP
+
+               9639at33208 1372 q................fvfsah.keLivGeifvrvyneqptfple.......lldflksqaqyl..........v....... 1413
+                                q                f++s + +e+ivGeifvr+yn+qp fple       l++fl+s+aqyl          +       
+  RDEB01000017.1:239-18458  267 QlrkikqgecdssfgarFTYSIFsEEVIVGEIFVRIYNDQPLFPLEpikfaadLINFLGSEAQYLhslmaltsteLdfkknqk 349 
+                                4333333344444444489998736799**************99965555555999****99986333333332202222222 PP
+
+               9639at33208 1414 .....emaleaLrnviknnpgveiqcighfkllfsllvqklalevivtknkecvedialllvlvletllallsstkivkeala 1491
+                                     +maleaLrnviknnpg++ qcigh+kl+fsll  ++a e+     ++   +++   +l++et++al+s+tk+vke+++
+  RDEB01000017.1:239-18458  350 rldtsTMALEALRNVIKNNPGTDAQCIGHYKLIFSLLRMTHAKEL-----QKFALEVS-DRLLTVETMHALCSNTKLVKETMN 426 
+                                2233369******************************99999886.....34444444.356789****************** PP
+
+               9639at33208 1492 kgaviylldl.............aellakmtadklvGpkvrltlskflpavfldamrdspeaavhlfegthenpeliwndear 1561
+                                kg ++ylldl             ael++km++dkl+Gpkv+++lskflpa+f+damrds+ea+vh+feg++enpeliwn ear
+  RDEB01000017.1:239-18458  427 KGKIVYLLDLfcngtnptvrersAELFSKMMSDKLIGPKVKIILSKFLPAIFMDAMRDSAEASVHMFEGNQENPELIWNTEAR 509 
+                                ********9777777777777779*********************************************************** PP
+
+               9639at33208 1562 ekvskw 1567
+                                ekv++ 
+  RDEB01000017.1:239-18458  510 EKVCSV 515 
+                                ***985 PP
+
+>> RDEB01002109.1:15110-29507  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.2   0.1   1.7e-47     1e-44     722     843 ..       3     144 ..       1     145 [. 0.87
+   2 !  299.4   6.0   3.4e-92     2e-89     869    1079 ..     144     328 ..     142     335 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 151.2 bits;  conditional E-value: 1.7e-47
+                 9639at33208 722 lnkknvkelldv...rilvdlltlahlhtsravvptqsnvieaapdm.....ekewyy.....erkgpvsfkelkel.....y 786
+                                 l++knvke++dv   r+lvdlltlahlht+ravvp qsn++ea+p+m     ekewyy     er gp+sfke+ke+      
+  RDEB01002109.1:15110-29507   3 LTQKNVKEMMDVngiRVLVDLLTLAHLHTTRAVVPFQSNLLEASPEMmqrdtEKEWYYgnkekERLGPFSFKEVKEMaaegtL 85 
+                                 5789******964448****************************976555559*****77777789**********9333334 PP
+
+                 9639at33208 787 eaktrcwaqgldgwrslq.ipqlkwclla.gsavlnesdlatlilniliklceyfPsrd 843
+                                 +++t+cwaqg+dgwr+lq ipqlkw lla g av+ne+dla+liln+lik+ce++P+r+
+  RDEB01002109.1:15110-29507  86 RPETKCWAQGMDGWRALQtIPQLKWYLLAtGIAVMNETDLAVLILNMLIKICEFYPNRQ 144
+                                 5789***********99659******998478*************************96 PP
+
+  == domain 2  score: 299.4 bits;  conditional E-value: 3.4e-92
+                 9639at33208  869 qllltfdPilvekvatllleimqdnpel..lyltGvfffilmytGsnvlPiarflklthlkqafrseesdivqrsilgqll 947 
+                                  qllltfdPi+vekva+lll++m dnp l  lyltGvfffi+mytGsnvlPi+r+        + +s++sd++qrsilg++l
+  RDEB01002109.1:15110-29507  144 QLLLTFDPIIVEKVAVLLLDMM-DNPILprLYLTGVFFFIMMYTGSNVLPIGRY--------SSQSQQSDLFQRSILGPIL 215 
+                                  9*****************9966.8997666**********************98........4568899************ PP
+
+                 9639at33208  948 PeamvsylenygaekfaeifLGefdtPeaiWssemrrlliekiaahiadfsPrLrsntralyqylaiPvisypqLeneLfc 1028
+                                  Peamv+ylen+g                       rr++iekia+h++df+PrL+sntralyqy++iP+isypqLeneLfc
+  RDEB01002109.1:15110-29507  216 PEAMVCYLENHGKA-------------------SYRRMMIEKIASHLGDFTPRLQSNTRALYQYCPIPAISYPQLENELFC 277 
+                                  ***********964...................56********************************************** PP
+
+                 9639at33208 1029 niyyLrhlCdtakfPdWpikdpvkllkdvleaWkkevekkppsmsvdeaye 1079
+                                  ni+yLrhlCdt kfPdWpi++pv+llkd+leaWkkevekkp+++++deay+
+  RDEB01002109.1:15110-29507  278 NIFYLRHLCDTDKFPDWPIREPVRLLKDILEAWKKEVEKKPSNLTLDEAYD 328 
+                                  **************************************************6 PP
+
+>> RDEB01002068.1:1242-31055  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.4   0.3   3.7e-13   2.2e-10       1      90 [.      16      81 ..      16      88 .. 0.86
+   2 !  231.9   0.1   7.8e-72   4.7e-69     147     365 ..     103     311 ..      92     315 .. 0.91
+   3 !   64.8   0.5     2e-21   1.2e-18     396     436 ..     314     354 ..     310     356 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 37.4 bits;  conditional E-value: 3.7e-13
+                9639at33208  1 gkykrifsvgtkgittynp..levtnkwayivsiapefvltlkkkksdtlkfssehr.elltealkfrkefaerynaykhhwsdtr 83
+                               gkykrifs+g+kgittynp  levtn                 +kk+++++fs+ehr +llteal          na+k+hwsdtr
+  RDEB01002068.1:1242-31055 16 GKYKRIFSIGSKGITTYNPanLEVTN-----------------QKKIQSMTFSTEHRaDLLTEAL----------NAFKYHWSDTR 74
+                               8*****************94455565.................589**********956888776..........79********* PP
+
+                9639at33208 84 lpvvlev 90
+                               lpvvlev
+  RDEB01002068.1:1242-31055 75 LPVVLEV 81
+                               ******9 PP
+
+  == domain 2  score: 231.9 bits;  conditional E-value: 7.8e-72
+                9639at33208 147 yssdeaitslaeftvqkisrhsepvkrilcltetcllerdpatysivtlkplsevfalvfsieyvrkylstdrdsllaslldgv 230
+                                +s+de+itslaef+vqk+s      +r+lcl+etc++erdpaty iv++ pls+v                 rdsllaslldgv
+  RDEB01002068.1:1242-31055 103 FSEDEHITSLAEFKVQKLS-----PRRTLCLSETCIIERDPATYIIVSCFPLSDV-----------------RDSLLASLLDGV 164
+                                89***************97.....589*************************998.................9*********** PP
+
+                9639at33208 231 rasGnrdvhvkma.tergkrv....pvdeeveslhlkfl.......verfnanvsysGllyavtqdglfaenkeklinealeal 302
+                                rasGnrdv+vkm+ t+rg r     +vd+eves+hl+fl       verfn+n++y  ll+avtqd+lfaenkekli++a++al
+  RDEB01002068.1:1242-31055 165 RASGNRDVCVKMKpTKRGFRLapviSVDDEVESQHLRFLavppgeaVERFNCNIPYNRLLHAVTQDDLFAENKEKLITGAITAL 248
+                                ************8689***96333379***********9777777789***********************************9 PP
+
+                9639at33208 303 le......eleaqfqalrrlvaskvGfaaftqlpfreklGlkvvkalkrndeavthaaidmlcalmqpm 365
+                                 +      +le qfqa+rrlvask+Gf+a      r+klG+kvvkalkrnd++vthaaidmlcalmq +
+  RDEB01002068.1:1242-31055 249 DQttitpeDLEGQFQAIRRLVASKAGFQA------RDKLGVKVVKALKRNDDGVTHAAIDMLCALMQVI 311
+                                6422333389*****************98......9******************************976 PP
+
+  == domain 3  score: 64.8 bits;  conditional E-value: 2e-21
+                9639at33208 396 srgtgalvvsalLdfltfaLCaPysettdGkqfdalLemva 436
+                                +r+tgalvvs+lLdfltfaLC PysettdG+qfd+lLemva
+  RDEB01002068.1:1242-31055 314 NRSTGALVVSSLLDFLTFALCPPYSETTDGTQFDTLLEMVA 354
+                                689*************************************9 PP
+
+>> RDEB01000013.1:416404-468984  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.6   0.3   1.3e-12   7.9e-10    1081    1121 ..      26      66 ..      22      71 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 35.6 bits;  conditional E-value: 1.3e-12
+                   9639at33208 1081 eakirkayfrlaqkyhPdknpeGrdkfekvnkayeflcsks 1121
+                                     ++i+k+y +la kyhPdknp+  dkf+++++aye l++ +
+  RDEB01000013.1:416404-468984   26 ASEIKKSYRKLALKYHPDKNPDAGDKFKQISHAYEVLSDEK 66  
+                                    589**********************************9765 PP
+
+>> RDEB01011491.1:2469-1163  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.6   0.2     2e-11   1.2e-08    1659    1710 ..      15      79 ..       2      90 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 31.6 bits;  conditional E-value: 2e-11
+               9639at33208 1659 valacealnrlfq.....lvkqaleaelvpyllkll........eaatkaqivkalkamtrslge 1710
+                                v+ ace l ++f+     lv+qal+ elv+yll ll        +aatkaqivkalkam r+l++
+  RDEB01011491.1:2469-1163   15 VGAACEGLYKIFEknhteLVSQALQFELVQYLLGLLngtlkvenQAATKAQIVKALKAMLRDLTH 79  
+                                899******9995444449****************9444444444899************98764 PP
+
+>> RDEB01000280.1:229735-227268  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   0.4   2.2e-10   1.3e-07    1080    1119 ..      15      56 ..      11      62 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 2.2e-10
+                   9639at33208 1080 deakirkayfrlaqkyhPdkn..peGrdkfekvnkayeflcs 1119
+                                     e +irkay ++a k+hPdkn   e  +kf+++++aye l++
+  RDEB01000280.1:229735-227268   15 SEEEIRKAYRKMALKFHPDKNksSEAEEKFKEIAEAYEVLSD 56  
+                                    5889****************9444789************986 PP
+
+>> RDEB01009038.1:62215-61916  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   0.1     6e-10   3.6e-07    1081    1121 ..      28      72 ..      20      76 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 26.8 bits;  conditional E-value: 6e-10
+                 9639at33208 1081 eakirkayfrlaqkyhPdknpeGrd....kfekvnkayeflcsks 1121
+                                  +  irk y + a k+hPdknp+ ++    +f+ v++aye l++k 
+  RDEB01009038.1:62215-61916   28 QDDIRKGYRKQALKWHPDKNPDNKEqaeeRFKVVSEAYEVLSDKG 72  
+                                  567******************988522226999********9885 PP
+
+>> RDEB01000006.1:239016-205894  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   0.2   1.5e-09   8.8e-07    1076    1119 ..      12      57 ..       7      65 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 25.5 bits;  conditional E-value: 1.5e-09
+                   9639at33208 1076 eayedeakirkayfrlaqkyhPdknpeGrd....kfekvnkayeflcs 1119
+                                    +a ++  +i++ y +la k+hPdknp+ ++    kf ++++aye l++
+  RDEB01000006.1:239016-205894   12 DATQE--EIKRRYKKLAVKWHPDKNPDDKEkaqrKFMEIQEAYEILSN 57  
+                                    55544..58999**************9987333369*********986 PP
+
+>> RDEB01025030.1:6244-6507  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.9   0.0   2.2e-09   1.3e-06    1081    1119 ..      12      53 ..       5      62 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 24.9 bits;  conditional E-value: 2.2e-09
+               9639at33208 1081 eakirkayfrlaqkyhPdknpeGrd...kfekvnkayeflcs 1119
+                                + +i+k+y rla k+hPdkn +  +   +f ++++aye l +
+  RDEB01025030.1:6244-6507   12 NDEIKKSYRRLALKWHPDKNGNCEEstrIFTEIQQAYEVLID 53  
+                                4579****************876653338*********9976 PP
+
+>> RDEB01000280.1:134730-137590  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   0.2   1.4e-08   8.2e-06    1082    1119 ..      17      57 ..      12      63 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 1.4e-08
+                   9639at33208 1082 akirkayfrlaqkyhPdknpeGr...dkfekvnkayeflcs 1119
+                                      irkay r a  +hPdknp+ +   ++f+k+++ay  l++
+  RDEB01000280.1:134730-137590   17 EDIRKAYKRQALVFHPDKNPNNKeaeEQFKKISEAYTVLTD 57  
+                                    57******************87622268********99976 PP
+
+>> RDEB01011652.1:7397-6393  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   0.2   1.7e-08     1e-05    1081    1122 ..      15      58 ..      11      62 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 1.7e-08
+               9639at33208 1081 eakirkayfrlaqkyhPdkn..peGrdkfekvnkayeflcsksd 1122
+                                +  i+kay +la  +hPdkn  p   dkf+++++ay+ l+++++
+  RDEB01011652.1:7397-6393   15 DKDIKKAYKKLALIWHPDKNksPGAEDKFKEISEAYDVLSDREK 58  
+                                678****************96567899************99975 PP
+
+>> RDEB01001269.1:42562-42362  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.2   0.1   5.6e-08   3.4e-05    1080    1121 ..      16      60 ..      11      64 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 20.2 bits;  conditional E-value: 5.6e-08
+                 9639at33208 1080 deakirkayfrlaqkyhPdknp...eGrdkfekvnkayeflcsks 1121
+                                   +a+i+ a+++l+ k+hPdk       +dkf+++++ay+ l +++
+  RDEB01001269.1:42562-42362   16 TQAQIKNAFYKLSLKHHPDKHRgseASHDKFQEISEAYNVLGNHE 60  
+                                  5799****************752225689***********99876 PP
+
+>> RDEB01000055.1:57994-61131  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   1.1   7.5e-08   4.5e-05    1080    1121 ..      19      60 ..      13      67 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 7.5e-08
+                 9639at33208 1080 deakirkayfrlaqkyhPdknpeGrdkfekvnkayeflcsks 1121
+                                  ++ +i+ka+ +la kyhPdkn +     +  + aye l++ +
+  RDEB01000055.1:57994-61131   19 NDRQIKKAFRKLAMKYHPDKNKQKDAEAKFREIAYEVLSDEK 60  
+                                  6889*****************976655555566999998765 PP
+
+>> RDEB01008990.1:89447-89058  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.0   0.1   2.1e-06    0.0012    1080    1122 ..      14      59 ..      10      65 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 2.1e-06
+                 9639at33208 1080 deakirkayfrlaqkyhPdknp...eGrdkfekvnkayeflcsksd 1122
+                                   e ++++ay + a++ hPdknp      +kf+++++ ye + s s+
+  RDEB01008990.1:89447-89058   14 SEDEVKRAYKQKARECHPDKNPgdpRATEKFQALSQGYERIISSSS 59  
+                                  57889****************73225679**********9888765 PP
+
+>> RDEB01008974.1:222909-220213  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   1.9e-05     0.011    1081    1101 ..      14      34 ..       8      52 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 1.9e-05
+                   9639at33208 1081 eakirkayfrlaqkyhPdknp 1101
+                                    + +irka+ +la k hPdkn 
+  RDEB01008974.1:222909-220213   14 NKEIRKAFKKLALKLHPDKNK 34  
+                                    678*****************7 PP
+
+>> RDEB01001737.1:19367-19735  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   3.2e-05     0.019    1080    1123 ..      14      60 ..      10      66 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 3.2e-05
+                 9639at33208 1080 deakirkayfrlaqkyhPdknp...eGrdkfekvnkayeflcsksdg 1123
+                                   e ++++a+ + a++ hPdknp      +kf+ ++++y+ + s s+ 
+  RDEB01001737.1:19367-19735   14 SEDEVKRAFKQKARECHPDKNPgdpRATEKFQVLSQSYQRIISTSSS 60  
+                                  57889****************832246799********998887765 PP
+
+>> RDEB01000223.1:71066-52455  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   0.3   0.00012     0.072    1087    1119 ..       1      28 [.       1      33 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.00012
+                 9639at33208 1087 ayfrlaqkyhPdknpeGrdkfekvnkayeflcs 1119
+                                  ay +la++yhPdkn     +f++++ aye l++
+  RDEB01000223.1:71066-52455    1 AYRKLAKEYHPDKN-----QFKEISFAYEVLSN 28  
+                                  799**********9.....69999999999976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1755 nodes)
+Target sequences:                        10180  (2046449 residues searched)
+Passed MSV filter:                       332  (0.032613); expected 203.6 (0.02)
+Passed bias filter:                      202  (0.0198428); expected 203.6 (0.02)
+Passed Vit filter:                        24  (0.00235756); expected 10.2 (0.001)
+Passed Fwd filter:                        17  (0.00166994); expected 0.1 (1e-05)
+Initial search space (Z):              10180  [actual number of targets]
+Domain search space  (domZ):              17  [number of targets reported over threshold]
+# CPU time: 0.25u 0.00s 00:00:00.25 Elapsed: 00:00:00.24
+# Mc/sec: 14964.66
+//
+[ok]

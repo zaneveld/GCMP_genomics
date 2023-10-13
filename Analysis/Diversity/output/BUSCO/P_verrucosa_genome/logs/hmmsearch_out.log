@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/643954at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_verrucosa_genome/run_metazoa_odb10/metaeuk_output/rerun_results/P_verrucosa_v1.0_genomic.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_verrucosa_genome/run_metazoa_odb10/hmmer_output/rerun_results/643954at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       643954at33208  [M=143]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    5.4e-13   46.1   0.4    6.3e-13   45.9   0.4    1.1  1  JAAVTL010017541.1:58713-58540  
+
+
+Domain annotation for each sequence (and alignments):
+>> JAAVTL010017541.1:58713-58540  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.9   0.4   3.3e-16   6.3e-13     109     143 .]       1      35 [.       1      35 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 45.9 bits;  conditional E-value: 3.3e-16
+                  643954at33208 109 eesktfItpenldeaIeeALdnpvdYnfaidkeGn 143
+                                    eesk+++t+enl+e+I ++L+n+++Ynfai+ +G+
+  JAAVTL010017541.1:58713-58540   1 EESKNWVTEENLEEKIAYCLENETNYNFAITPSGE 35 
+                                    79*****************************9995 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (143 nodes)
+Target sequences:                         1916  (432710 residues searched)
+Passed MSV filter:                       102  (0.0532359); expected 38.3 (0.02)
+Passed bias filter:                       47  (0.0245303); expected 38.3 (0.02)
+Passed Vit filter:                         6  (0.00313152); expected 1.9 (0.001)
+Passed Fwd filter:                         1  (0.000521921); expected 0.0 (1e-05)
+Initial search space (Z):               1916  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 3093.88
+//
+[ok]

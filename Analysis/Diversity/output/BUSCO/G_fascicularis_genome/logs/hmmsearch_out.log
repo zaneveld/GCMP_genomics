@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/642552at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/G_fascicularis_genome/run_metazoa_odb10/metaeuk_output/rerun_results/G_fascicularis_final_1.0.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/G_fascicularis_genome/run_metazoa_odb10/hmmer_output/rerun_results/642552at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       642552at33208  [M=130]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    2.5e-25   85.0   0.2    2.7e-25   84.8   0.2    1.0  1  xfSc0000024:10147-11417  
+
+
+Domain annotation for each sequence (and alignments):
+>> xfSc0000024:10147-11417  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.8   0.2   2.2e-28   2.7e-25      38      99 ..      13      73 .]       2      73 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 84.8 bits;  conditional E-value: 2.2e-28
+            642552at33208 38 enpsgaCplcrlnlkkikytDVLiLsQFirsdGgmlprriTGLCkkqqkkieklvkmAqraG 99
+                             ++    Cp+c++++  ++y+DVL++sQF+++ G +l+rr+TG+C+kqq+k+ek++k +qr G
+  xfSc0000024:10147-11417 13 NKADIGCPICSRDI-TFTYKDVLFMSQFMSPRGYILNRRVTGVCRKQQRKLEKAIKISQRLG 73
+                             445678********.6********************************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (130 nodes)
+Target sequences:                         1242  (284828 residues searched)
+Passed MSV filter:                        28  (0.0225443); expected 24.8 (0.02)
+Passed bias filter:                       23  (0.0185185); expected 24.8 (0.02)
+Passed Vit filter:                         3  (0.00241546); expected 1.2 (0.001)
+Passed Fwd filter:                         1  (0.000805153); expected 0.0 (1e-05)
+Initial search space (Z):               1242  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

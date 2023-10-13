@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/busco_downloads/lineages/metazoa_odb10/hmms/76852at33208.hmm
+# target sequence database:        /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_rus_genome/run_metazoa_odb10/metaeuk_output/rerun_results/P_rus_genomic.fna.modified.fas
+# per-dom hits tabular output:     /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/BUSCO/P_rus_genome/run_metazoa_odb10/hmmer_output/rerun_results/76852at33208.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       76852at33208  [M=955]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+    2.8e-72  241.5   0.3    8.8e-52  173.7   0.0    2.0  2  OKRP01000071.1:153025-145772  
+
+
+Domain annotation for each sequence (and alignments):
+>> OKRP01000071.1:153025-145772  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.1   0.1   8.5e-23   2.9e-19       2      52 ..       8      59 ..       7      72 .. 0.92
+   2 !  173.7   0.0   2.6e-55   8.8e-52     208     336 ..     167     297 ..     163     301 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 66.1 bits;  conditional E-value: 8.5e-23
+                  76852at33208  2 aqefiqnaf.plvavlcseeaeevcqknnLsfvellqPFckltseahlrdps 52
+                                  a efiq+af p+vav+cse+a++vcqknnLsfve+++PFc+ltse+++ d  
+  OKRP01000071.1:153025-145772  8 AFEFIQSAFcPMVAVMCSEDADKVCQKNNLSFVEMVRPFCHLTSEGNYYDWD 59
+                                  679*****99************************************998865 PP
+
+  == domain 2  score: 173.7 bits;  conditional E-value: 2.6e-55
+                  76852at33208 208 kkhGacLtleDldrlrqfvqefavrallpyvekqirqLneqvanrkgvsrslfsatkkwFggnkpg..ekasnnaviyssd 286
+                                   ++hG cL+l+D+dr+++fv+e+  r+ll y+e+ +r Lneqv++rkg++r  fs +kkwF+g+kp+  +++   +++y+sd
+  OKRP01000071.1:153025-145772 167 RNHGLCLSLSDHDRIKIFVHELGYRGLLQYIERLMRHLNEQVVSRKGLHR-YFSGAKKWFSGGKPAglASGLVPGIMYTSD 246
+                                   58***********************************************9.578899********8334566899****** PP
+
+                  76852at33208 287 spelqlRklgDLaFlvqhYelAyqaYhsaKrdfnadqawlyyAGal.Emaa 336
+                                   +pel  RklgDLaFlvq+YelAy++Yh+aKrdfn+++aw+y+AGal  ma 
+  OKRP01000071.1:153025-145772 247 APELYQRKLGDLAFLVQNYELAYNCYHTAKRDFNNEHAWFYFAGALvRMAM 297
+                                   *********************************************835665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (955 nodes)
+Target sequences:                         3437  (573935 residues searched)
+Passed MSV filter:                       155  (0.0450975); expected 68.7 (0.02)
+Passed bias filter:                      105  (0.0305499); expected 68.7 (0.02)
+Passed Vit filter:                         9  (0.00261856); expected 3.4 (0.001)
+Passed Fwd filter:                         1  (0.000290951); expected 0.0 (1e-05)
+Initial search space (Z):               3437  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 18270.26
+//
+[ok]

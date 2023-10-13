@@ -1,0 +1,30 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/S_pistillata_v1_genomic.fna
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:93.0%[S:92.2%,D:0.8%],F:5.5%,M:1.5%,n:255	   
+	237	Complete BUSCOs (C)			   
+	235	Complete and single-copy BUSCOs (S)	   
+	2	Complete and duplicated BUSCOs (D)	   
+	14	Fragmented BUSCOs (F)			   
+	4	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	5688	Number of scaffolds
+	37615	Number of contigs
+	400120318	Total length
+	10.532%	Percent gaps
+	457 KB	Scaffold N50
+	20 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.5.0

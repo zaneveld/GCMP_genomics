@@ -1,0 +1,30 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /home/tanya/Work_files/TIR_Domains/Coral/input/genome_raw/done/P_rus_genomic.fna
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:67.1%[S:65.9%,D:1.2%],F:22.7%,M:10.2%,n:255	   
+	171	Complete BUSCOs (C)			   
+	168	Complete and single-copy BUSCOs (S)	   
+	3	Complete and duplicated BUSCOs (D)	   
+	58	Fragmented BUSCOs (F)			   
+	26	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	14982	Number of scaffolds
+	81422	Number of contigs
+	470011093	Total length
+	29.322%	Percent gaps
+	137 KB	Scaffold N50
+	5 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.5.0
