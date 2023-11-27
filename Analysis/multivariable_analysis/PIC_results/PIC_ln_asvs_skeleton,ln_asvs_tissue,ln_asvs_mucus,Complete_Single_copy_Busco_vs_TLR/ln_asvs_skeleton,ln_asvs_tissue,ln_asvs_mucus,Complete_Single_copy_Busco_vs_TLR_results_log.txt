@@ -1,0 +1,236 @@
+[1] "Phylogenetic Independent Contrast Analysis Report"
+[1] "--------------------------------------------------"
+[1] "Analyzing ln_asvs_skeleton,ln_asvs_tissue,ln_asvs_mucus,Complete_Single_copy_Busco vs. TLR"
+[1] "Trait table filepath: GCMP_TIR_only_genomes_mapping.tsv"
+[1] "Tree filepath: huang_roy_molecular_r2.newick"
+[1] "Filtering data based on column: None"
+[1] "Including data only if filter column value is: None"
+[1] "Output dir: ./PIC_results/PIC_ln_asvs_skeleton,ln_asvs_tissue,ln_asvs_mucus,Complete_Single_copy_Busco_vs_TLR/"
+[1] "Regression formula: TLR ~ ln_asvs_skeleton + ln_asvs_tissue + ln_asvs_mucus + Complete_Single_copy_Busco -1"
+[1] "--------------------------------------------------"
+Analyzing Trait Column: TLR 
+                           TLR ln_asvs_skeleton ln_asvs_tissue ln_asvs_mucus
+ACR_Acropora_hyacinthus      8         3.421000       3.739652      3.917011
+ACR_Acropora_cytherea        7         3.784190       3.286534      3.737670
+POC_Pocillopora_damicornis   5         4.588102       4.386481      3.678829
+POC_Pocillopora_verrucosa    7         4.428831       4.454347      4.070735
+MER_Orbicella_faveolata      6         4.185860       4.895349      4.060443
+POC_Stylophora               6         4.224841       3.917721      4.509288
+OCU_Galaxea_fascicularis     1         5.594711       5.558275      4.318968
+POR_Porites_lutea            8         4.127134       4.164073      3.784190
+FUN_Fungia_fungites          8         3.737670       4.454347      4.290459
+ACR_Montipora_capitata       1         4.418841       3.332205      3.878121
+POR_Porites_rus              2         5.211670       4.442651      4.309456
+                           Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus                          92.2
+ACR_Acropora_cytherea                            89.8
+POC_Pocillopora_damicornis                       91.4
+POC_Pocillopora_verrucosa                        92.9
+MER_Orbicella_faveolata                          85.1
+POC_Stylophora                                   92.2
+OCU_Galaxea_fascicularis                         88.6
+POR_Porites_lutea                                96.5
+FUN_Fungia_fungites                              91.8
+ACR_Montipora_capitata                           85.1
+POR_Porites_rus                                  65.9
+Analyzing Trait Column: ln_asvs_skeleton 
+                           TLR ln_asvs_skeleton ln_asvs_tissue ln_asvs_mucus
+ACR_Acropora_hyacinthus      8         3.421000       3.739652      3.917011
+ACR_Acropora_cytherea        7         3.784190       3.286534      3.737670
+POC_Pocillopora_damicornis   5         4.588102       4.386481      3.678829
+POC_Pocillopora_verrucosa    7         4.428831       4.454347      4.070735
+MER_Orbicella_faveolata      6         4.185860       4.895349      4.060443
+POC_Stylophora               6         4.224841       3.917721      4.509288
+OCU_Galaxea_fascicularis     1         5.594711       5.558275      4.318968
+POR_Porites_lutea            8         4.127134       4.164073      3.784190
+FUN_Fungia_fungites          8         3.737670       4.454347      4.290459
+ACR_Montipora_capitata       1         4.418841       3.332205      3.878121
+POR_Porites_rus              2         5.211670       4.442651      4.309456
+                           Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus                          92.2
+ACR_Acropora_cytherea                            89.8
+POC_Pocillopora_damicornis                       91.4
+POC_Pocillopora_verrucosa                        92.9
+MER_Orbicella_faveolata                          85.1
+POC_Stylophora                                   92.2
+OCU_Galaxea_fascicularis                         88.6
+POR_Porites_lutea                                96.5
+FUN_Fungia_fungites                              91.8
+ACR_Montipora_capitata                           85.1
+POR_Porites_rus                                  65.9
+Analyzing Trait Column: ln_asvs_tissue 
+                           TLR ln_asvs_skeleton ln_asvs_tissue ln_asvs_mucus
+ACR_Acropora_hyacinthus      8         3.421000       3.739652      3.917011
+ACR_Acropora_cytherea        7         3.784190       3.286534      3.737670
+POC_Pocillopora_damicornis   5         4.588102       4.386481      3.678829
+POC_Pocillopora_verrucosa    7         4.428831       4.454347      4.070735
+MER_Orbicella_faveolata      6         4.185860       4.895349      4.060443
+POC_Stylophora               6         4.224841       3.917721      4.509288
+OCU_Galaxea_fascicularis     1         5.594711       5.558275      4.318968
+POR_Porites_lutea            8         4.127134       4.164073      3.784190
+FUN_Fungia_fungites          8         3.737670       4.454347      4.290459
+ACR_Montipora_capitata       1         4.418841       3.332205      3.878121
+POR_Porites_rus              2         5.211670       4.442651      4.309456
+                           Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus                          92.2
+ACR_Acropora_cytherea                            89.8
+POC_Pocillopora_damicornis                       91.4
+POC_Pocillopora_verrucosa                        92.9
+MER_Orbicella_faveolata                          85.1
+POC_Stylophora                                   92.2
+OCU_Galaxea_fascicularis                         88.6
+POR_Porites_lutea                                96.5
+FUN_Fungia_fungites                              91.8
+ACR_Montipora_capitata                           85.1
+POR_Porites_rus                                  65.9
+Analyzing Trait Column: ln_asvs_mucus 
+                           TLR ln_asvs_skeleton ln_asvs_tissue ln_asvs_mucus
+ACR_Acropora_hyacinthus      8         3.421000       3.739652      3.917011
+ACR_Acropora_cytherea        7         3.784190       3.286534      3.737670
+POC_Pocillopora_damicornis   5         4.588102       4.386481      3.678829
+POC_Pocillopora_verrucosa    7         4.428831       4.454347      4.070735
+MER_Orbicella_faveolata      6         4.185860       4.895349      4.060443
+POC_Stylophora               6         4.224841       3.917721      4.509288
+OCU_Galaxea_fascicularis     1         5.594711       5.558275      4.318968
+POR_Porites_lutea            8         4.127134       4.164073      3.784190
+FUN_Fungia_fungites          8         3.737670       4.454347      4.290459
+ACR_Montipora_capitata       1         4.418841       3.332205      3.878121
+POR_Porites_rus              2         5.211670       4.442651      4.309456
+                           Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus                          92.2
+ACR_Acropora_cytherea                            89.8
+POC_Pocillopora_damicornis                       91.4
+POC_Pocillopora_verrucosa                        92.9
+MER_Orbicella_faveolata                          85.1
+POC_Stylophora                                   92.2
+OCU_Galaxea_fascicularis                         88.6
+POR_Porites_lutea                                96.5
+FUN_Fungia_fungites                              91.8
+ACR_Montipora_capitata                           85.1
+POR_Porites_rus                                  65.9
+Analyzing Trait Column: Complete_Single_copy_Busco 
+                           TLR ln_asvs_skeleton ln_asvs_tissue ln_asvs_mucus
+ACR_Acropora_hyacinthus      8         3.421000       3.739652      3.917011
+ACR_Acropora_cytherea        7         3.784190       3.286534      3.737670
+POC_Pocillopora_damicornis   5         4.588102       4.386481      3.678829
+POC_Pocillopora_verrucosa    7         4.428831       4.454347      4.070735
+MER_Orbicella_faveolata      6         4.185860       4.895349      4.060443
+POC_Stylophora               6         4.224841       3.917721      4.509288
+OCU_Galaxea_fascicularis     1         5.594711       5.558275      4.318968
+POR_Porites_lutea            8         4.127134       4.164073      3.784190
+FUN_Fungia_fungites          8         3.737670       4.454347      4.290459
+ACR_Montipora_capitata       1         4.418841       3.332205      3.878121
+POR_Porites_rus              2         5.211670       4.442651      4.309456
+                           Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus                          92.2
+ACR_Acropora_cytherea                            89.8
+POC_Pocillopora_damicornis                       91.4
+POC_Pocillopora_verrucosa                        92.9
+MER_Orbicella_faveolata                          85.1
+POC_Stylophora                                   92.2
+OCU_Galaxea_fascicularis                         88.6
+POR_Porites_lutea                                96.5
+FUN_Fungia_fungites                              91.8
+ACR_Montipora_capitata                           85.1
+POR_Porites_rus                                  65.9
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "figuring out sign of x"
+12 13 14 15 16 17 18 19 20 21 
+-1  1 -1  1 -1  1  1  1  1  1 
+[1] "PIC dataframe names: TLR"                       
+[2] "PIC dataframe names: ln_asvs_skeleton"          
+[3] "PIC dataframe names: ln_asvs_tissue"            
+[4] "PIC dataframe names: ln_asvs_mucus"             
+[5] "PIC dataframe names: Complete_Single_copy_Busco"
+[1] "PIC dataframe: c(-0.124856264502065, -0.0713545474619394, 0, -0.993138521493491, -0.130668374907356, 0.10638774648508, -2.18863330775358, -0.224536102628704, -0.547648823985022, -0.284274122857717)"                            
+[2] "PIC dataframe: c(0.0238923586896851, 0.0290222792006672, 0.0321247651120719, 0.0790890385337308, 0.0292821329375759, 0.000261136604104589, 0.395608301239227, 0.107689297241229, 0.068771699239916, 0.103245412077898)"           
+[3] "PIC dataframe: c(-0.00725535721199455, -0.0358564784607749, 0.056937477065785, -0.0337003238828785, 0.0288124987113342, -0.000452393684733319, 0.101617710817244, 0.144241359855766, -0.0152405286012164, -0.128809522724883)"    
+[4] "PIC dataframe: c(-0.00591248188014053, 0.000888898041668768, -0.0718672936330622, -0.194608263646555, -0.0150279365550458, 2.51172775627748e-05, 0.191602556188259, 0.0315569748328625, 0.00427845853917434, -0.0509819852839631)"
+[5] "PIC dataframe: c(-0.198572034065538, 0.265772484766616, -0.00566324321896677, -0.744853891120119, -0.437739055939644, -0.367506768269294, -11.1620298695433, 0.0328022894633709, -0.497096624847944, -0.682257894858523)"         
+[1] "data.frame"
+[1] "Converting formula TLR ~ ln_asvs_skeleton + ln_asvs_tissue + ln_asvs_mucus + Complete_Single_copy_Busco -1to formula"
+[1] "Fitting linear model"
+[1] "Summary lm TLR ~ ln_asvs_skeleton + ln_asvs_tissue + ln_asvs_mucus + Complete_Single_copy_Busco -1 forln_asvs_skeleton,ln_asvs_tissue,ln_asvs_mucus,Complete_Single_copy_Busco(x) and TLR(y)"
+
+Call:
+lm(formula = formula, data = pic_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.296153 -0.026984  0.001678  0.132139  0.278231 
+
+Coefficients:
+                           Estimate Std. Error t value Pr(>|t|)  
+ln_asvs_skeleton           -2.81533    1.47343  -1.911   0.1046  
+ln_asvs_tissue             -0.05106    1.08976  -0.047   0.9641  
+ln_asvs_mucus               2.56150    1.09827   2.332   0.0585 .
+Complete_Single_copy_Busco  0.14005    0.06366   2.200   0.0701 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2137 on 6 degrees of freedom
+Multiple R-squared:  0.9562,	Adjusted R-squared:  0.927 
+F-statistic: 32.75 on 4 and 6 DF,  p-value: 0.0003249
+
+[1] "Plotting  ln_asvs_skeleton (x-axis) vs.  TLR (y-axis)"
+ [1] 3.421000 3.784190 4.588102 4.428831 4.185860 4.224841 5.594711 4.127134
+ [9] 3.737670 4.418841 5.211670
+ [1] 8 7 5 7 6 6 1 8 8 1 2
+[1] "PIC df"
+[1] "TLR"                        "ln_asvs_skeleton"          
+[3] "ln_asvs_tissue"             "ln_asvs_mucus"             
+[5] "Complete_Single_copy_Busco"
+[1] "Plotting  ln_asvs_tissue (x-axis) vs.  TLR (y-axis)"
+ [1] 3.739652 3.286534 4.386481 4.454347 4.895349 3.917721 5.558275 4.164073
+ [9] 4.454347 3.332205 4.442651
+ [1] 8 7 5 7 6 6 1 8 8 1 2
+[1] "PIC df"
+[1] "TLR"                        "ln_asvs_skeleton"          
+[3] "ln_asvs_tissue"             "ln_asvs_mucus"             
+[5] "Complete_Single_copy_Busco"
+[1] "Plotting  ln_asvs_mucus (x-axis) vs.  TLR (y-axis)"
+ [1] 3.917011 3.737670 3.678829 4.070735 4.060443 4.509288 4.318968 3.784190
+ [9] 4.290459 3.878121 4.309456
+ [1] 8 7 5 7 6 6 1 8 8 1 2
+[1] "PIC df"
+[1] "TLR"                        "ln_asvs_skeleton"          
+[3] "ln_asvs_tissue"             "ln_asvs_mucus"             
+[5] "Complete_Single_copy_Busco"
+[1] "Plotting  Complete_Single_copy_Busco (x-axis) vs.  TLR (y-axis)"
+ [1] 92.2 89.8 91.4 92.9 85.1 92.2 88.6 96.5 91.8 85.1 65.9
+ [1] 8 7 5 7 6 6 1 8 8 1 2
+[1] "PIC df"
+[1] "TLR"                        "ln_asvs_skeleton"          
+[3] "ln_asvs_tissue"             "ln_asvs_mucus"             
+[5] "Complete_Single_copy_Busco"
+[1] "FastAnc ML modelfit for"    "Complete_Single_copy_Busco"
+Ancestral character estimates using fastAnc:
+      12       13       14       15       16       17       18       19 
+89.70911 89.91771 91.14550 90.61438 89.68106 89.57989 90.39312 89.13295 
+      20       21 
+85.66087 75.95630 
+
+Variances on ancestral states:
+        12         13         14         15         16         17         18 
+447.178564 150.609076  61.247913   3.510985 136.014698 261.249918   6.564612 
+        19         20         21 
+153.397654  98.792461  10.580838 
+
+Lower & upper 95% CIs:
+      lower     upper
+12 48.26178 131.15644
+13 65.86402 113.97140
+14 75.80634 106.48467
+15 86.94180  94.28695
+16 66.82250 112.53963
+17 57.89997 121.25982
+18 85.37130  95.41493
+19 64.85761 113.40830
+20 66.17957 105.14217
+21 69.58077  82.33182
+

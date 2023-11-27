@@ -1,0 +1,124 @@
+[1] "Phylogenetic Independent Contrast Analysis Report"
+[1] "--------------------------------------------------"
+[1] "Analyzing TLR,Complete_Single_copy_Busco vs. IL1R"
+[1] "Trait table filepath: GCMP_TIR_only_genomes_mapping.tsv"
+[1] "Tree filepath: huang_roy_molecular_r2.newick"
+[1] "Filtering data based on column: None"
+[1] "Including data only if filter column value is: None"
+[1] "Output dir: ./PIC_results/PIC_TLR,Complete_Single_copy_Busco_vs_IL1R/"
+[1] "Regression formula: IL1R ~ TLR * Complete_Single_copy_Busco -1"
+[1] "--------------------------------------------------"
+Analyzing Trait Column: IL1R 
+                           IL1R TLR Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus      11   8                       92.2
+ACR_Acropora_cytherea        10   7                       89.8
+POC_Pocillopora_damicornis    6   5                       91.4
+POC_Pocillopora_verrucosa     7   7                       92.9
+MER_Orbicella_faveolata       7   6                       85.1
+POC_Stylophora                8   6                       92.2
+OCU_Galaxea_fascicularis      3   1                       88.6
+POR_Porites_lutea            14   8                       96.5
+FUN_Fungia_fungites           7   8                       91.8
+ACR_Montipora_capitata        5   1                       85.1
+POR_Porites_rus               6   2                       65.9
+Analyzing Trait Column: TLR 
+                           IL1R TLR Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus      11   8                       92.2
+ACR_Acropora_cytherea        10   7                       89.8
+POC_Pocillopora_damicornis    6   5                       91.4
+POC_Pocillopora_verrucosa     7   7                       92.9
+MER_Orbicella_faveolata       7   6                       85.1
+POC_Stylophora                8   6                       92.2
+OCU_Galaxea_fascicularis      3   1                       88.6
+POR_Porites_lutea            14   8                       96.5
+FUN_Fungia_fungites           7   8                       91.8
+ACR_Montipora_capitata        5   1                       85.1
+POR_Porites_rus               6   2                       65.9
+Analyzing Trait Column: Complete_Single_copy_Busco 
+                           IL1R TLR Complete_Single_copy_Busco
+ACR_Acropora_hyacinthus      11   8                       92.2
+ACR_Acropora_cytherea        10   7                       89.8
+POC_Pocillopora_damicornis    6   5                       91.4
+POC_Pocillopora_verrucosa     7   7                       92.9
+MER_Orbicella_faveolata       7   6                       85.1
+POC_Stylophora                8   6                       92.2
+OCU_Galaxea_fascicularis      3   1                       88.6
+POR_Porites_lutea            14   8                       96.5
+FUN_Fungia_fungites           7   8                       91.8
+ACR_Montipora_capitata        5   1                       85.1
+POR_Porites_rus               6   2                       65.9
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "figuring out sign of x"
+12 13 14 15 16 17 18 19 20 21 
+ 1 -1  0 -1  1  1 -1 -1 -1 -1 
+[1] "PIC dataframe names: IL1R"                      
+[2] "PIC dataframe names: TLR"                       
+[3] "PIC dataframe names: Complete_Single_copy_Busco"
+[1] "PIC dataframe: c(-0.017733158038329, -0.0171425655633896, 0, 0.496569260746746, 0, 0.216399912899591, 2.91817774367144, 0.325198934050333, 0.463395158756557, 0.284274122857717)"                 
+[2] "PIC dataframe: c(0.124856264502065, 0.0713545474619394, 0, 0.993138521493491, 0.130668374907356, 0.10638774648508, 2.18863330775358, 0.224536102628704, 0.547648823985022, 0.284274122857717)"    
+[3] "PIC dataframe: c(0.198572034065538, -0.265772484766616, 0, 0.744853891120119, 0.437739055939644, -0.367506768269294, 11.1620298695433, -0.0328022894633709, 0.497096624847944, 0.682257894858523)"
+[1] "data.frame"
+[1] "Converting formula IL1R ~ TLR * Complete_Single_copy_Busco -1to formula"
+[1] "Fitting linear model"
+[1] "Summary lm IL1R ~ TLR * Complete_Single_copy_Busco -1 forTLR,Complete_Single_copy_Busco(x) and IL1R(y)"
+
+Call:
+lm(formula = formula, data = pic_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.145668 -0.073374  0.001162  0.128028  0.182447 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)   
+TLR                             0.62859    0.14957   4.203  0.00402 **
+Complete_Single_copy_Busco     -0.07048    0.16653  -0.423  0.68482   
+TLR:Complete_Single_copy_Busco  0.09525    0.06865   1.387  0.20787   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.132 on 7 degrees of freedom
+Multiple R-squared:  0.9867,	Adjusted R-squared:  0.9811 
+F-statistic: 173.8 on 3 and 7 DF,  p-value: 6.204e-07
+
+[1] "Plotting  TLR (x-axis) vs.  IL1R (y-axis)"
+ [1] 8 7 5 7 6 6 1 8 8 1 2
+ [1] 11 10  6  7  7  8  3 14  7  5  6
+[1] "PIC df"
+[1] "IL1R"                       "TLR"                       
+[3] "Complete_Single_copy_Busco"
+[1] "Plotting  Complete_Single_copy_Busco (x-axis) vs.  IL1R (y-axis)"
+ [1] 92.2 89.8 91.4 92.9 85.1 92.2 88.6 96.5 91.8 85.1 65.9
+ [1] 11 10  6  7  7  8  3 14  7  5  6
+[1] "PIC df"
+[1] "IL1R"                       "TLR"                       
+[3] "Complete_Single_copy_Busco"
+[1] "FastAnc ML modelfit for"    "Complete_Single_copy_Busco"
+Ancestral character estimates using fastAnc:
+      12       13       14       15       16       17       18       19 
+89.70911 89.91771 91.14550 90.61438 89.68106 89.57989 90.39312 89.13295 
+      20       21 
+85.66087 75.95630 
+
+Variances on ancestral states:
+        12         13         14         15         16         17         18 
+447.178564 150.609076  61.247913   3.510985 136.014698 261.249918   6.564612 
+        19         20         21 
+153.397654  98.792461  10.580838 
+
+Lower & upper 95% CIs:
+      lower     upper
+12 48.26178 131.15644
+13 65.86402 113.97140
+14 75.80634 106.48467
+15 86.94180  94.28695
+16 66.82250 112.53963
+17 57.89997 121.25982
+18 85.37130  95.41493
+19 64.85761 113.40830
+20 66.17957 105.14217
+21 69.58077  82.33182
+

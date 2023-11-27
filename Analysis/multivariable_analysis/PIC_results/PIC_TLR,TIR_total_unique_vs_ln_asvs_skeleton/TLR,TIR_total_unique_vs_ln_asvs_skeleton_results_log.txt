@@ -1,0 +1,123 @@
+[1] "Phylogenetic Independent Contrast Analysis Report"
+[1] "--------------------------------------------------"
+[1] "Analyzing TLR,TIR_total_unique vs. ln_asvs_skeleton"
+[1] "Trait table filepath: GCMP_TIR_only_genomes_mapping.tsv"
+[1] "Tree filepath: huang_roy_molecular_r2.newick"
+[1] "Filtering data based on column: None"
+[1] "Including data only if filter column value is: None"
+[1] "Output dir: ./PIC_results/PIC_TLR,TIR_total_unique_vs_ln_asvs_skeleton/"
+[1] "Regression formula: ln_asvs_skeleton ~ TLR + TIR_total_unique -1"
+[1] "--------------------------------------------------"
+Analyzing Trait Column: ln_asvs_skeleton 
+                           ln_asvs_skeleton TLR TIR_total_unique
+ACR_Acropora_hyacinthus            3.421000   8               16
+ACR_Acropora_cytherea              3.784190   7               17
+POC_Pocillopora_damicornis         4.588102   5               14
+POC_Pocillopora_verrucosa          4.428831   7               17
+MER_Orbicella_faveolata            4.185860   6               15
+POC_Stylophora                     4.224841   6               16
+OCU_Galaxea_fascicularis           5.594711   1               15
+POR_Porites_lutea                  4.127134   8               24
+FUN_Fungia_fungites                3.737670   8               17
+ACR_Montipora_capitata             4.418841   1               18
+POR_Porites_rus                    5.211670   2               21
+Analyzing Trait Column: TLR 
+                           ln_asvs_skeleton TLR TIR_total_unique
+ACR_Acropora_hyacinthus            3.421000   8               16
+ACR_Acropora_cytherea              3.784190   7               17
+POC_Pocillopora_damicornis         4.588102   5               14
+POC_Pocillopora_verrucosa          4.428831   7               17
+MER_Orbicella_faveolata            4.185860   6               15
+POC_Stylophora                     4.224841   6               16
+OCU_Galaxea_fascicularis           5.594711   1               15
+POR_Porites_lutea                  4.127134   8               24
+FUN_Fungia_fungites                3.737670   8               17
+ACR_Montipora_capitata             4.418841   1               18
+POR_Porites_rus                    5.211670   2               21
+Analyzing Trait Column: TIR_total_unique 
+                           ln_asvs_skeleton TLR TIR_total_unique
+ACR_Acropora_hyacinthus            3.421000   8               16
+ACR_Acropora_cytherea              3.784190   7               17
+POC_Pocillopora_damicornis         4.588102   5               14
+POC_Pocillopora_verrucosa          4.428831   7               17
+MER_Orbicella_faveolata            4.185860   6               15
+POC_Stylophora                     4.224841   6               16
+OCU_Galaxea_fascicularis           5.594711   1               15
+POR_Porites_lutea                  4.127134   8               24
+FUN_Fungia_fungites                3.737670   8               17
+ACR_Montipora_capitata             4.418841   1               18
+POR_Porites_rus                    5.211670   2               21
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "figuring out sign of x"
+12 13 14 15 16 17 18 19 20 21 
+ 1 -1  0 -1  1  1 -1 -1 -1 -1 
+[1] "PIC dataframe names: ln_asvs_skeleton"
+[2] "PIC dataframe names: TLR"             
+[3] "PIC dataframe names: TIR_total_unique"
+[1] "PIC dataframe: c(-0.0238923586896851, -0.0290222792006672, 0, -0.0790890385337308, -0.0292821329375759, 0.000261136604104589, -0.395608301239227, -0.107689297241229, -0.068771699239916, -0.103245412077898)"
+[2] "PIC dataframe: c(0.124856264502065, 0.0713545474619394, 0, 0.993138521493491, 0.130668374907356, 0.10638774648508, 2.18863330775358, 0.224536102628704, 0.547648823985022, 0.284274122857717)"                
+[3] "PIC dataframe: c(-0.128158777578884, 0.018070660835904, 0, 1.48970778224024, 0.130668374907356, 0.319940383590541, 1.09431665387679, 0.150994247132444, -0.126380497842697, -0.284274122857717)"              
+[1] "data.frame"
+[1] "Converting formula ln_asvs_skeleton ~ TLR + TIR_total_unique -1to formula"
+[1] "Fitting linear model"
+[1] "Summary lm ln_asvs_skeleton ~ TLR + TIR_total_unique -1 forTLR,TIR_total_unique(x) and ln_asvs_skeleton(y)"
+
+Call:
+lm(formula = formula, data = pic_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.071323 -0.014580 -0.006286  0.009236  0.057205 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+TLR              -0.21264    0.02300  -9.245 1.52e-05 ***
+TIR_total_unique  0.07536    0.03002   2.510   0.0363 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03515 on 8 degrees of freedom
+Multiple R-squared:  0.9485,	Adjusted R-squared:  0.9357 
+F-statistic: 73.71 on 2 and 8 DF,  p-value: 7.019e-06
+
+[1] "Plotting  TLR (x-axis) vs.  ln_asvs_skeleton (y-axis)"
+ [1] 8 7 5 7 6 6 1 8 8 1 2
+ [1] 3.421000 3.784190 4.588102 4.428831 4.185860 4.224841 5.594711 4.127134
+ [9] 3.737670 4.418841 5.211670
+[1] "PIC df"
+[1] "ln_asvs_skeleton" "TLR"              "TIR_total_unique"
+[1] "Plotting  TIR_total_unique (x-axis) vs.  ln_asvs_skeleton (y-axis)"
+ [1] 16 17 14 17 15 16 15 24 17 18 21
+ [1] 3.421000 3.784190 4.588102 4.428831 4.185860 4.224841 5.594711 4.127134
+ [9] 3.737670 4.418841 5.211670
+[1] "PIC df"
+[1] "ln_asvs_skeleton" "TLR"              "TIR_total_unique"
+[1] "FastAnc ML modelfit for" "TIR_total_unique"       
+Ancestral character estimates using fastAnc:
+      12       13       14       15       16       17       18       19 
+17.35699 16.14492 15.81278 15.50824 16.10755 18.10784 15.52189 19.76078 
+      20       21 
+18.85115 19.47086 
+
+Variances on ancestral states:
+       12        13        14        15        16        17        18        19 
+43.006997 14.484693  5.890463  0.337666 13.081091 25.125476  0.631346 14.752882 
+       20        21 
+ 9.501276  1.017603 
+
+Lower & upper 95% CIs:
+       lower    upper
+12  4.503367 30.21062
+13  8.685405 23.60444
+14 11.055806 20.56975
+15 14.369307 16.64718
+16  9.018665 23.19644
+17  8.283274 27.93240
+18 13.964524 17.07925
+19 12.232522 27.28904
+20 12.809622 24.89269
+21 17.493687 21.44804
+

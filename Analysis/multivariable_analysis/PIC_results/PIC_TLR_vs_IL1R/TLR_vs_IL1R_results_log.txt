@@ -1,0 +1,98 @@
+[1] "Phylogenetic Independent Contrast Analysis Report"
+[1] "--------------------------------------------------"
+[1] "Analyzing TLR vs. IL1R"
+[1] "Trait table filepath: GCMP_TIR_only_genomes_mapping.tsv"
+[1] "Tree filepath: huang_roy_molecular_r2.newick"
+[1] "Filtering data based on column: None"
+[1] "Including data only if filter column value is: None"
+[1] "Output dir: ./PIC_results/PIC_TLR_vs_IL1R/"
+[1] "Regression formula: IL1R ~ TLR -1"
+[1] "--------------------------------------------------"
+Analyzing Trait Column: IL1R 
+                           IL1R TLR
+ACR_Acropora_hyacinthus      11   8
+ACR_Acropora_cytherea        10   7
+POC_Pocillopora_damicornis    6   5
+POC_Pocillopora_verrucosa     7   7
+MER_Orbicella_faveolata       7   6
+POC_Stylophora                8   6
+OCU_Galaxea_fascicularis      3   1
+POR_Porites_lutea            14   8
+FUN_Fungia_fungites           7   8
+ACR_Montipora_capitata        5   1
+POR_Porites_rus               6   2
+Analyzing Trait Column: TLR 
+                           IL1R TLR
+ACR_Acropora_hyacinthus      11   8
+ACR_Acropora_cytherea        10   7
+POC_Pocillopora_damicornis    6   5
+POC_Pocillopora_verrucosa     7   7
+MER_Orbicella_faveolata       7   6
+POC_Stylophora                8   6
+OCU_Galaxea_fascicularis      3   1
+POR_Porites_lutea            14   8
+FUN_Fungia_fungites           7   8
+ACR_Montipora_capitata        5   1
+POR_Porites_rus               6   2
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "tree class:phylo"
+[1] "figuring out sign of x"
+12 13 14 15 16 17 18 19 20 21 
+ 1 -1  0 -1  1  1 -1 -1 -1 -1 
+[1] "PIC dataframe names: IL1R" "PIC dataframe names: TLR" 
+[1] "PIC dataframe: c(-0.017733158038329, -0.0171425655633896, 0, 0.496569260746746, 0, 0.216399912899591, 2.91817774367144, 0.325198934050333, 0.463395158756557, 0.284274122857717)"             
+[2] "PIC dataframe: c(0.124856264502065, 0.0713545474619394, 0, 0.993138521493491, 0.130668374907356, 0.10638774648508, 2.18863330775358, 0.224536102628704, 0.547648823985022, 0.284274122857717)"
+[1] "data.frame"
+[1] "Converting formula IL1R ~ TLR -1to formula"
+[1] "Fitting linear model"
+[1] "Summary lm IL1R ~ TLR -1 forTLR(x) and IL1R(y)"
+
+Call:
+lm(formula = formula, data = pic_df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.66332 -0.16082 -0.07410  0.04722  0.36206 
+
+Coefficients:
+    Estimate Std. Error t value Pr(>|t|)    
+TLR   1.1679     0.1096   10.65 2.11e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2743 on 9 degrees of freedom
+Multiple R-squared:  0.9265,	Adjusted R-squared:  0.9183 
+F-statistic: 113.5 on 1 and 9 DF,  p-value: 2.111e-06
+
+[1] "Plotting  TLR (x-axis) vs.  IL1R (y-axis)"
+ [1] 8 7 5 7 6 6 1 8 8 1 2
+ [1] 11 10  6  7  7  8  3 14  7  5  6
+[1] "PIC df"
+[1] "IL1R" "TLR" 
+[1] "FastAnc ML modelfit for" "TLR"                    
+Ancestral character estimates using fastAnc:
+      12       13       14       15       16       17       18       19 
+5.788535 6.542277 6.913243 6.024070 6.531375 5.321613 3.515288 5.800361 
+      20       21 
+5.112477 1.662226 
+
+Variances on ancestral states:
+       12        13        14        15        16        17        18        19 
+61.390504 20.676230  8.408364  0.482002 18.672655 35.865458  0.901217 21.059058 
+       20        21 
+13.562633  1.452581 
+
+Lower & upper 95% CIs:
+       lower     upper
+12 -9.568475 21.145545
+13 -2.370064 15.454617
+14  1.229796 12.596690
+15  4.663312  7.384827
+16 -1.938151 15.000901
+17 -6.416392 17.059617
+18  1.654612  5.375964
+19 -3.194108 14.794830
+20 -2.105709 12.330664
+21 -0.700026  4.024478
+
