@@ -3,7 +3,7 @@
 ![GCMP Logo](https://github.com/zaneveld/GCMP_Global_Disease/blob/master/GCMP_Logo_FJP_V2_JZ_rightward_arrows_r2_FJP-01.png)
 [![NSF-1942647](https://img.shields.io/badge/NSF-1942647-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1942647).
 
-A repository for validating and implementing genome skimming methods on Global Coral Microbiome Project datasets. 
+A repository for comparing innate immune gene repertoires in coral genomes to their microbiome structure using Global Coral Microbiome Project datasets. 
 
 **Contributors**
 
