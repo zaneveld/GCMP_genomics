@@ -1,6 +1,12 @@
 #Calculate BUSCO scores
 
-#Run TransDecoder
+#Run RepeatModeler across genomes
+
+
+#Run RepeatMasker across genomes
+
+#Annotate genes with Braker3
+## Braker3 will re-calculate BUSCO scores (to check for missed ORFs)
 
 #Pick longest ORF 
 
@@ -8,7 +14,7 @@
 
 #HMMR - Preprocess PFAM domains
 
-#HMMR - Search TransDecoder for PFAM domains
+#HMMR - Search gene calls from Braker3 for PFAM domains
 
 #SignalPeptide 4.1 - annotate signal peptides
 
@@ -16,5 +22,6 @@
 
 #python - Annotate TLR, IL-1R 
 
+#python/R - Compare TLR, IL-1R counts vs. microbiome
 
 
