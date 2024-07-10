@@ -1,0 +1,155 @@
+#This script runs RepeatModeler on all genomes.
+#Note that it is diffult to run this script as a loop since it creates many files and uses up much of the disk space on hyak and file number space on the server.
+#Once you have allocated time and storage for your run (typically ran using 20 cores using 120G mem for 72 hours) activates the Apptainer
+apptainer shell dfam-tetools_latest.sif 
+#Acropora cytherea
+#Move into the folder for A_cytherea and confirm that the fasta file is there.
+#Create the database for A_cytherea
+BuildDatabase -name A_cytherea_db -engine ncbi a_cytherea_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -A_cytherea_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main A_cytherea folder remove all files but .log and .fna files
+#Move to a_hyactinus folder and confirm that a fasta file is there
+Create the database for A_hyactintus
+BuildDatabase -name A_hyactintus_db -engine ncbi a_hyactintus_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -A_hyactintus_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main A_hyactintus folder remove all files but .log and .fna files
+#Move to d_cribrosa folder and confirm that a fasta file is there
+Create the database for d_cribrosa
+BuildDatabase -name d_cribrosa_db -engine ncbi Dendrophyllia_cribrosa_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -d_cribrosa_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main d_cribrosa folder remove all files but .log and .fna files
+#Move to fungia folder and confirm that a fasta file is there
+Create the database for fungia
+BuildDatabase -name fungia_db -engine ncbi fungia_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -fungia_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main fungia folder remove all files but .log and .fna files
+#Move to g_aspera folder and confirm that a fasta file is there
+Create the database for g_aspera
+BuildDatabase -name g_aspera_db -engine ncbi gasp_fasta.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -g_aspera_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main g_aspera folder remove all files but .log and .fna files
+#Move to g_fascicularis folder and confirm that a fasta file is there
+Create the database for g_fascicularis
+BuildDatabase -name g_fascicularis_db -engine ncbi g_facicularis_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -g_fascicularis_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main g_fascicularis folder remove all files but .log and .fna files
+#Move to m_capitata folder and confirm that a fasta file is there
+Create the database for m_capitata
+BuildDatabase -name m_capitata_db -engine ncbi m_capitata_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -m_capitata_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main m_capitata folder remove all files but .log and .fna files
+#Move to o_faveolata folder and confirm that a fasta file is there
+Create the database for o_faveolata
+BuildDatabase -name o_faveolata_db -engine ncbi o_faveolata_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -o_faveolata_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main o_faveolata folder remove all files but .log and .fna files
+#Move to p_damicornis folder and confirm that a fasta file is there
+Create the database for p_damicornis
+BuildDatabase -name p_damicornis_db -engine ncbi p_damicornis_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -p_damicornis_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main p_damicornis folder remove all files but .log and .fna files
+#Move to p_lutea folder and confirm that a fasta file is there
+Create the database for p_lutea
+BuildDatabase -name p_lutea_db -engine ncbi p_lutea_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -p_lutea_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main p_lutea folder remove all files but .log and .fna files
+#Move to p_rus folder and confirm that a fasta file is there
+Create the database for p_rus
+BuildDatabase -name p_rus_db -engine ncbi p_rus_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -p_rus_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main p_rus folder remove all files but .log and .fna files
+#Move to p_sinensis folder and confirm that a fasta file is there
+Create the database for p_sinensis
+BuildDatabase -name p_sinensis_db -engine ncbi platygyra_sinensis_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -p_sinensis_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main p_sinensis folder remove all files but .log and .fna files
+#Move to p_speciosa folder and confirm that a fasta file is there
+Create the database for p_speciosa
+BuildDatabase -name p_speciosa_db -engine ncbi pspe_final_0.12.fasta
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -p_speciosa_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main p_speciosa folder remove all files but .log and .fna files
+#Move to p_verrucosa folder and confirm that a fasta file is there
+Create the database for p_verrucosa
+BuildDatabase -name p_verrucosa_db -engine ncbi p_verrucosa_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -p_verrucosa_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main p_verrucosa folder remove all files but .log and .fna files
+#Move to s_pistillata folder and confirm that a fasta file is there
+Create the database for p_pistillata
+BuildDatabase -name s_pistillata_db -engine ncbi s_pistillata_genomic.fna
+#Files will be created for the database.
+#Run RepeatModeler
+RepeatModeler -engine ncbi -s_pistillata_db -threads 14
+# Output will create many file and an RM folder. 
+#Make sure that you have a consensi.fa.classified file in the RM folder. 
+#Remove all files but the consensi.fa,classified, consensi.fa, and families.stk in the RM folder.
+#In the main s_pistllata folder remove all files but .log and .fna files
