@@ -1,0 +1,419 @@
+#Run repeatmasker on Hyak
+#start with a_cyhterea
+#round 1
+RepeatMasker -pa 16 -dir a_cytherea_repeatmasker/01_simple_out -noint -xsmall a_cytherea_genomic.fna
+#round 2
+RepeatMasker -pa 16 -dir a_cytherea_repeatmasker/02_cnidaria_out -nolow -species cnidaria a_cytherea_repeatmasker/01_simple_out/a_cytherea_simple_mask.masked.fna
+#round3
+RepeatMasker -pa 16 -e ncbi -dir a_cytherea_repeatmasker/03_consensi_out -nolow -lib a_cytherea_consensi.fa.classified a_cytherea_repeatmasker/02_cnidaria_out/a_cytherea_cnidaria_mask.masked.fna
+
+mv a_cytherea_cnidaria_mask.masked.fna.cat.gz a_cytherea_consensi_mask.masked.fna.cat.gz
+mv a_cytherea_cnidaria_mask.masked.fna.masked a_cytherea_consensi_mask.masked.fna
+mv a_cytherea_cnidaria_mask.masked.fna.out a_cytherea_consensi_mask.masked.fna.out
+mv a_cytherea_cnidaria_mask.masked.fna.tbl a_cytherea_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/a_cytherea_simple_mask.fna.cat.gz 02_cnidaria_out/a_cytherea_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/a_cytherea_consensi_mask.masked.fna.cat.gz >04_full_out/a_cytherea_full_mask.cat.gz
+cat 01_simple_out/a_cytherea_simple_mask.fna.out <(cat 02_cnidaria_out/a_cytherea_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/a_cytherea_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/a_cytherea_full_mask.out
+cat 01_simple_out/a_cytherea_simple_mask.fna.out > 04_full_out/a_cytherea_simple_mask.fna.out
+cat 02_cnidaria_out/a_cytherea_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/a_cytherea_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/a_cytherea_complex_mask.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/a_cytherea_full_mask.out > 04_full_out/a_cytherea_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/a_cytherea_simple_mask.fna.out > 04_full_out/a_cytherea_simple_mask.fna.gff3
+#A_hyactintus
+
+mkdir a_hyactintus_repeatmasker
+[brownt27@n3064 a_hyactintus]$ cd a_hyactintus_repeatmasker/
+[brownt27@n3064 a_hyactintus_repeatmasker]$ mkdir 01_simple_out
+[brownt27@n3064 a_hyactintus_repeatmasker]$ mkdir 02_cnidaria_out
+[brownt27@n3064 a_hyactintus_repeatmasker]$ mkdir 03_consensi_out
+
+#round 1
+RepeatMasker -pa 16 -dir a_hyactintus_repeatmasker/01_simple_out -noint -xsmall a_hyactintus_genomic.fna
+
+mv a_hyactintus_genomic.fna.cat.gz a_hyactintus_simple_maske.fna.cat.gz
+mv a_hyactintus_genomic.fna.masked a_hyactintus_simple_mask.masked.fna
+Apptainer> mv a_hyactintus_genomic.fna.out a_hyactintus_simple_mask.fna.out
+mv a_hyactintus_genomic.fna.tbl a_hyactintus_simple_mask.fna.tbl
+#Round2
+RepeatMasker -pa 16 -dir a_hyactintus_repeatmasker/02_cnidaria_out -nolow -species cnidaria a_hyactintus_repeatmasker/01_simple_out/a_hyactintus_simple_mask.masked.fna
+mv a_hyactintus_simple_mask.masked.fna.cat.gz a_hyactintus_cnidaria_mask.masked.fna.cat.gz
+mv a_hyactintus_simple_mask.masked.fna.masked a_hyactintus_cnidaria_mask.masked.fna
+mv a_hyactintus_simple_mask.masked.fna.out a_hyactintus_cnidaria_mask.masked.fna.out
+mv a_hyactintus_simple_mask.masked.fna.tbl a_hyactintus_cnidaria_mask.masked.fna.tble
+
+#Round3
+RepeatMasker -pa 16 -e ncbi -dir a_hyactintus_repeatmasker/03_consensi_out -nolow -lib a_hyactintus_consensi.fa.classified a_hyactintus_repeatmasker/02_cnidaria_out/a_hyactintus_cnidaria_mask.masked.fna
+mv a_hyactintus_cnidaria_mask.masked.fna.cat.gz a_hyactintus_consensi_mask.masked.fna.cat.gz
+mv a_hyactintus_cnidaria_mask.masked.fna.masked a_hyactintus_consensi_mask.masked.fna
+mv a_hyactintus_cnidaria_mask.masked.fna.out a_hyactintus_consensi_mask.masked.fna.out
+mv a_hyactintus_cnidaria_mask.masked.fna.tbl a_hyactintus_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/a_hyactintus_simple_mask.fna.cat.gz 02_cnidaria_out/a_hyactintus_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/a_hyactintus_consensi_mask.masked.fna.cat.gz >04_full_out/a_hyactintus_full_mask.cat.gz
+cat 01_simple_out/a_hyactintus_simple_mask.fna.out <(cat 02_cnidaria_out/a_hyactintus_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/a_hyactintus_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/a_hyactintus_full_mask.out
+cat 02_cnidaria_out/a_hyactintus_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/a_hyactintus_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/a_hyactintus_complex_mask.out
+cat 01_simple_out/a_hyactintus_simple_mask.fna.out > 04_full_out/a_hyactintus_simple_mask.fna.out
+#creat gff3 files
+rmOutToGFF3.pl 04_full_out/a_hyactintus_full_mask.out > 04_full_out/a_cytherea_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/a_hyactintus_simple_mask.fna.out > 04_full_out/a_cytherea_simple_mask.fna.gff3
+#d_cribrosa
+[brownt27@n3064 d_cribrosa_repeatmasker]$ mkdir 01_simple_out
+[brownt27@n3064 d_cribrosa_repeatmasker]$ mkdir 02_cnidaria_out
+[brownt27@n3064 d_cribrosa_repeatmasker]$ mkdir 03_consensi_out
+#round1
+RepeatMasker -pa 16 -dir d_cribrosa_repeatmasker/01_simple_out -noint -xsmall Dendrophyllia_cribrosa_genomic.fna
+mv Dendrophyllia_cribrosa_genomic.fna.cat.gz d_cribrosa_simple_mask.fna.cat.gz
+Apptainer> mv Dendrophyllia_cribrosa_genomic.fna.masked d_cribrosa_simple_mask.masked.fna
+Apptainer> mv Dendrophyllia_cribrosa_genomic.fna.out d_cribrosa_simple_mask.fna.out
+Apptainer> mv Dendrophyllia_cribrosa_genomic.fna.tbl d_cribrosa_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir d_cribrosa_repeatmasker/02_cnidaria_out -nolow -species cnidaria d_cribrosa_repeatmasker/01_simple_out/d_cribrosa_simple_mask.masked.fna
+mv d_cribrosa_simple_mask.masked.fna.cat.gz d_cribrosa_cnidaria_mask.masked.fna.cat.gz
+mv d_cribrosa_simple_mask.masked.fna.masked d_cribrosa_cnidaria_mask.masked.fna
+mv d_cribrosa_simple_mask.masked.fna.out d_cribrosa_cnidaria_mask.masked.fna.out
+mv d_cribrosa_simple_mask.masked.fna.tbl d_cribrosa_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir d_cribrosa_repeatmasker/03_consensi_out -nolow -lib d_cribrosa_consensi.fa.classified d_cribrosa_repeatmasker/02_cnidaria_out/d_cribrosa_cnidaria_mask.masked.fna
+mv d_cribrosa_cnidaria_mask.masked.fna.cat.gz d_cribrosa_consensi_mask.masked.fna.cat.gz
+mv d_cribrosa_cnidaria_mask.masked.fna.masked d_cribrosa_consensi_mask.masked.fna
+mv d_cribrosa_cnidaria_mask.masked.fna.out d_cribrosa_consensi_mask.masked.fna.out
+mv d_cribrosa_cnidaria_mask.masked.fna.tbl d_cribrosa_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/d_cribrosa_simple_mask.fna.cat.gz 02_cnidaria_out/d_cribrosa_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/d_cribrosa_consensi_mask.masked.fna.cat.gz >04_full_out/d_cribrosa_full_mask.fna.cat.gz
+cat 01_simple_out/d_cribrosa_simple_mask.fna.out <(cat 02_cnidaria_out/d_cribrosa_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/d_cribrosa_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/d_cribrosa_full_mask.out
+cat 02_cnidaria_out/d_cribrosa_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/d_cribrosa_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/d_cribrosa_complex_mask.out
+cat 01_simple_out/d_cribrosa_simple_mask.fna.out > 04_full_out/d_cribrosa_simple_mask.fna.out
+#creat gff3 files
+rmOutToGFF3.pl 04_full_out/d_cribrosa_full_mask.out > 04_full_out/a_cytherea_full_mask.fna.gff3
+
+#fungia
+[brownt27@n3064 fungia_repeatmasker]$ mkdir 01_simple_out
+[brownt27@n3064 fungia_repeatmasker]$ mkdir 02_cnidaria_out
+[brownt27@n3064 fungia_repeatmasker]$ mkdir 03 consensi_out
+#round1
+RepeatMasker -pa 16 -dir fungia_repeatmasker/01_simple_out -noint -xsmall fungia_genomic.fna
+mv fungia_genomic.fna.cat.gz fungia_simple_mask.fna.cat.gz
+mv fungia_genomic.fna.masked fungia_simple_mask.masked.fna
+mv fungia_genomic.fna.out fungia_simple_mask.fna.out
+mv fungia_genomic.fna.tbl fungia_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir fungia_repeatmasker/02_cnidaria_out -nolow -species cnidaria fungia_repeatmasker/01_simple_out/fungia_simple_mask.masked.fna
+mv fungia_simple_mask.masked.fna.cat.gz fungia_cnidaria_mask.masked.fna.cat.gz
+mv fungia_simple_mask.masked.fna.masked fungia_cnidaria_mask.masked.fna
+mv fungia_simple_mask.masked.fna.out fungia_cnidaria_mask.masked.fna.out
+mv fungia_simple_mask.masked.fna.tbl fungia_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir fungia_repeatmasker/03_consensi_out -nolow -lib fungia_consensi.fa.classified fungia_repeatmasker/02_cnidaria_out/fungia_cnidaria_mask.masked.fna
+#combine files
+cat 01_simple_out/fungia_simple_mask.fna.cat.gz 02_cnidaria_out/fungia_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/fungia_consensi_mask.masked.fna.cat.gz >04_full_out/fungia_full_mask.fna.cat.gz
+cat 01_simple_out/fungia_simple_mask.fna.out <(cat 02_cnidaria_out/fungia_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/fungia_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/fungia_full_mask.out
+cat 02_cnidaria_out/fungia_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/fungia_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/fungia_complex_mask.out
+cat 01_simple_out/fungia_simple_mask.fna.out > 04_full_out/fungia_simple_mask.fna.out
+#create a gff3 file
+rmOutToGFF3.pl 04_full_out/fungia_full_mask.out > 04_full_out/fungia_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/fungia_simple_mask.fna.out > 04_full_out/fungia_simple_mask.fna.gff3
+#g_aspera
+[brownt27@n3064 g_aspera]$ mkdir g_aspera_repeatmasker
+[brownt27@n3064 g_aspera]$ cd g_aspera_repeatmasker/
+[brownt27@n3064 g_aspera_repeatmasker]$ mkdir 01_simple_out
+[brownt27@n3064 g_aspera_repeatmasker]$ mkdir 02_cnidaria_out
+[brownt27@n3064 g_aspera_repeatmasker]$ mkdir 03_consensi_out
+#round 1
+RepeatMasker -pa 16 -dir g_aspera_repeatmasker/01_simple_out -noint -xsmall g_aspera_genomic.fna
+mv g_aspera_genomic.fna.cat.gz g_aspera_simple_mask.fna.cat.gz
+mv g_aspera_genomic.fna.masked g_aspera_simple_mask.masked.fna
+mv g_aspera_genomic.fna.out g_aspera_simple_mask.fna.out
+mv g_aspera_genomic.fna.tbl g_aspera_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir g_aspera_repeatmasker/02_cnidaria_out -nolow -species cnidaria g_aspera_repeatmasker/01_simple_out/g_aspera_simple_mask.masked.fna
+Apptainer> mv g_aspera_simple_mask.masked.fna.cat.gz g_aspera_cnidaria_mask.masked.fna.cat.gz
+Apptainer> mv g_aspera_simple_mask.masked.fna.masked g_aspera_cnidaria_mask.masked.fna        
+Apptainer> mv g_aspera_simple_mask.masked.fna.out g_aspera_cnidaria_mask.masked.fna.out
+Apptainer> mv g_aspera_simple_mask.masked.fna.tbl g_aspera_cnidaria_mask.masked.fna.tbl
+#round 3
+RepeatMasker -pa 16 -e ncbi -dir g_aspera_repeatmasker/03_consensi_out -nolow -lib g_aspera_consensi.fa.classified g_aspera_repeatmasker/02_cnidaria_out/g_aspera_cnidaria_mask.masked.fna
+mv g_aspera_cnidaria_mask.masked.fna.cat.gz g_aspera_consensi_mask.masked.fna.cat.gz
+mv g_aspera_cnidaria_mask.masked.fna.masked g_aspera_consensi_mask.masked.fna
+mv g_aspera_cnidaria_mask.masked.fna.out g_aspera_consensi_mask.masked.fna.out
+mv g_aspera_cnidaria_mask.masked.fna.tbl g_aspera_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/g_aspera_simple_mask.fna.cat.gz 02_cnidaria_out/g_aspera_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/g_aspera_consensi_mask.masked.fna.cat.gz >04_full_out/g_aspera_full_mask.fna.cat.gz
+cat 01_simple_out/g_aspera_simple_mask.fna.out <(cat 02_cnidaria_out/g_aspera_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/g_aspera_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/g_aspera_full_mask.out
+cat 02_cnidaria_out/g_aspera_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/g_aspera_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/g_aspera_complex_mask.out
+cat 01_simple_out/g_aspera_simple_mask.fna.out > 04_full_out/g_aspera_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/g_aspera_full_mask.out > 04_full_out/g_aspera_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/g_aspera_simple_mask.fna.out > 04_full_out/g_aspera_simple_mask.fna.gff3
+#g_fascicularis
+[brownt27@n3064 g_fascicularis_repeatmasker]$ mkdir 01_simple_out
+[brownt27@n3064 g_fascicularis_repeatmasker]$ mkdir 02_cnidaria_out
+[brownt27@n3064 g_fascicularis_repeatmasker]$ mkdir 03_consensi_out
+#round 1
+RepeatMasker -pa 16 -dir g_fascicularis_repeatmasker/01_simple_out -noint -xsmall g_fascicularis_genomic.fna
+mv g_fascicularis_genomic.fna.cat.gz g_fascicularis_simple_mask.fna.cat.gz
+mv g_fascicularis_genomic.fna.masked g_fascicularis_simple_mask.masked.fna
+mv g_fascicularis_genomic.fna.out g_fascicularis_simple_mask.fna.out
+mv g_fascicularis_genomic.fna.tbl g_fascicularis_simple_mask.fna.tbl
+'#round2
+RepeatMasker -pa 16 -dir g_fascicularis_repeatmasker/02_cnidaria_out -nolow -species cnidaria g_fascicularis_repeatmasker/01_simple_out/g_fascicularis_simple_mask.masked.fna
+mv g_fascicularis_simple_mask.masked.fna.cat.gz g_fascicularis_cnidaria_mask.masked.fna.cat.gz
+mv g_fascicularis_simple_mask.masked.fna.masked g_fascicularis_cnidaria_mask.masked.fna
+mv g_fascicularis_simple_mask.masked.fna.out g_fascicularis_cnidaria_mask.masked.fna.out
+mv g_fascicularis_simple_mask.masked.fna.tbl g_fascicularis_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir g_fascicularis_repeatmasker/03_consensi_out -nolow -lib g_fascicularis_consensi.fa.classified g_fascicularis_repeatmasker/02_cnidaria_out/g_fascicularis_cnidaria_mask.masked.fna
+mv g_fascicularis_cnidaria_mask.masked.fna.cat.gz g_fascicularis_consensi_mask.masked.fna.cat.gz
+mv g_fascicularis_cnidaria_mask.masked.fna.masked g_fascicularis_consensi_mask.masked.fna
+mv g_fascicularis_cnidaria_mask.masked.fna.out g_fascicularis_consensi_mask.masked.fna.out
+mv g_fascicularis_cnidaria_mask.masked.fna.tbl g_fascicularis_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/g_fascicularis_simple_mask.fna.cat.gz 02_cnidaria_out/g_fascicularis_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/g_fascicularis_consensi_mask.masked.fna.cat.gz >04_full_out/g_fascicularis_full_mask.fna.cat.gz
+cat 01_simple_out/g_fascicularis_simple_mask.fna.out <(cat 02_cnidaria_out/g_fascicularis_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/g_fascicularis_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/g_fascicularis_full_mask.out
+cat 02_cnidaria_out/g_fascicularis_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/g_fascicularis_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/g_fascicularis_complex_mask.out
+cat 01_simple_out/g_fascicularis_simple_mask.fna.out > 04_full_out/g_fascicularis_simple_mask.fna.out
+#creat gff3 files
+rmOutToGFF3.pl 04_full_out/g_fascicularis_full_mask.out > 04_full_out/g_fascicularis_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/g_fascicularis_simple_mask.fna.out > 04_full_out/g_fascicularis_simple_mask.fna.gff3
+#m_capitata
+#round1
+RepeatMasker -pa 16 -dir m_capitata_repeatmasker/01_simple_out -noint -xsmall m_capitata_genomic.fna
+mv m_capitata_genomic.fna.cat.gz m_capitata_simple_mask.fna.cat.gz
+mv m_capitata_genomic.fna.masked m_capitata_simple_mask.masked.fna
+mv m_capitata_genomic.fna.out m_capitata_simple_mask.fna.out
+mv m_capitata_genomic.fna.tbl m_capitata_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir m_capitata_repeatmasker/02_cnidaria_out -nolow -species cnidaria m_capitata_repeatmasker/01_simple_out/m_capitata_simple_mask.masked.fna
+mv m_capitata_simple_mask.masked.fna.cat.gz m_capitata_cnidaria_mask.masked.fna.cat.gz
+mv m_capitata_simple_mask.masked.fna.masked m_capitata_cnidaria_mask.masked.fna
+mv m_capitata_simple_mask.masked.fna.out m_capitata_cnidaria_mask.masked.fna.out
+mv m_capitata_simple_mask.masked.fna.tbl m_capitata_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir m_capitata_repeatmasker/03_consensi_out -nolow -lib m_capitata_consensi.fa.classified m_capitata_repeatmasker/02_cnidaria_out/m_capitata_cnidaria_mask.masked.fna
+mv m_capitata_cnidaria_mask.masked.fna.cat.gz m_capitata_consensi_mask.masked.fna.cat.gz
+mv m_capitata_cnidaria_mask.masked.fna.masked m_capitata_consensi_mask.masked.fna
+mv m_capitata_cnidaria_mask.masked.fna.out m_capitata_consensi_mask.masked.fna.out
+mv m_capitata_cnidaria_mask.masked.fna.tbl m_capitata_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/m_capitata_simple_mask.fna.cat.gz 02_cnidaria_out/m_capitata_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/m_capitata_consensi_mask.masked.fna.cat.gz >04_full_out/m_capitata_full_mask.fna.cat.gz
+cat 01_simple_out/m_capitata_simple_mask.fna.out <(cat 02_cnidaria_out/m_capitata_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/m_capitata_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/m_capitata_full_mask.out
+cat 02_cnidaria_out/m_capitata_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/m_capitata_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/m_capitata_complex_mask.out
+cat 01_simple_out/m_capitata_simple_mask.fna.out > 04_full_out/m_capitata_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/m_capitata_full_mask.out > 04_full_out/m_capitata_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/m_capitata_simple_mask.fna.out > 04_full_out/m_capitata_simple_mask.fna.gff3
+#o_faveolata
+#round1
+RepeatMasker -pa 16 -dir o_faveolata_repeatmasker/01_simple_out -noint -xsmall o_faveolata_genomic.fna
+mv o_faveolata_genomic.fna.cat.gz o_faveolata_simple_mask.fna.cat.gz
+mv o_faveolata_genomic.fna.masked o_faveolata_simple_mask.masked.fna
+mv o_faveolata_genomic.fna.out o_faveolata_simple_mask.fna.out
+mv o_faveolata_genomic.fna.tbl o_faveolata_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir o_faveolata_repeatmasker/02_cnidaria_out -nolow -species cnidaria o_faveolata_repeatmasker/01_simple_out/o_faveolata_simple_mask.masked.fna
+mv o_faveolata_simple_mask.masked.fna.cat.gz o_faveolata_cnidaria_mask.masked.fna.cat.gz
+mv o_faveolata_simple_mask.masked.fna.masked o_faveolata_cnidaria_mask.masked.fna
+mv o_faveolata_simple_mask.masked.fna.out o_faveolata_cnidaria_mask.masked.fna.out
+mv o_faveolata_simple_mask.masked.fna.tbl o_faveolata_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir o_faveolata_repeatmasker/03_consensi_out -nolow -lib o_faveolata_consensi.fa.classified o_faveolata_repeatmasker/02_cnidaria_out/o_faveolata_cnidaria_mask.masked.fna
+mv o_faveolata_cnidaria_mask.masked.fna.cat.gz o_faveolata_consensi_mask.masked.fna.cat.gz
+mv o_faveolata_cnidaria_mask.masked.fna.masked o_faveolata_consensi_mask.masked.fna
+mv o_faveolata_cnidaria_mask.masked.fna.out o_faveolata_consensi_mask.masked.fna.out
+mv o_faveolata_cnidaria_mask.masked.fna.tbl o_faveolata_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/o_faveolata_simple_mask.fna.cat.gz 02_cnidaria_out/o_faveolata_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/o_faveolata_consensi_mask.masked.fna.cat.gz >04_full_out/o_faveolata_full_mask.fna.cat.gz
+cat 01_simple_out/o_faveolata_simple_mask.fna.out <(cat 02_cnidaria_out/o_faveolata_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/o_faveolata_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/o_faveolata_full_mask.out
+cat 02_cnidaria_out/o_faveolata_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/o_faveolata_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/o_faveolata_complex_mask.out
+cat 01_simple_out/o_faveolata_simple_mask.fna.out > 04_full_out/o_faveolata_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/o_faveolata_full_mask.out > 04_full_out/o_faveolata_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/o_faveolata_simple_mask.fna.out > 04_full_out/o_faveolata_simple_mask.fna.gff3
+#p_damicornis
+#round1
+RepeatMasker -pa 16 -dir p_damicornis_repeatmasker/01_simple_out -noint -xsmall p_damicornis_genomic.fna
+mv p_damicornis_genomic.fna.cat.gz p_damicornis_simple_mask.fna.cat.gz
+mv p_damicornis_genomic.fna.masked p_damicornis_simple_mask.masked.fna
+mv p_damicornis_genomic.fna.out p_damicornis_simple_mask.fna.out
+mv p_damicornis_genomic.fna.tbl p_damicornis_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir p_damicornis_repeatmasker/02_cnidaria_out -nolow -species cnidaria p_damicornis_repeatmasker/01_simple_out/p_damicornis_simple_mask.masked.fna
+mv p_damicornis_simple_mask.masked.fna.cat.gz p_damicornis_cnidaria_mask.masked.fna.cat.gz
+mv p_damicornis_simple_mask.masked.fna.masked p_damicornis_cnidaria_mask.masked.fna
+mv p_damicornis_simple_mask.masked.fna.out p_damicornis_cnidaria_mask.masked.fna.out
+mv p_damicornis_simple_mask.masked.fna.tbl p_damicornis_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir p_damicornis_repeatmasker/03_consensi_out -nolow -lib p_damicornis_consensi.fa.classified p_damicornis_repeatmasker/02_cnidaria_out/p_damicornis_cnidaria_mask.masked.fna
+mv p_damicornis_cnidaria_mask.masked.fna.cat.gz p_damicornis_consensi_mask.masked.fna.cat.gz
+mv p_damicornis_cnidaria_mask.masked.fna.masked p_damicornis_consensi_mask.masked.fna
+mv p_damicornis_cnidaria_mask.masked.fna.out p_damicornis_consensi_mask.masked.fna.out
+mv p_damicornis_cnidaria_mask.masked.fna.tbl p_damicornis_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/p_damicornis_simple_mask.fna.cat.gz 02_cnidaria_out/p_damicornis_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/p_damicornis_consensi_mask.masked.fna.cat.gz >04_full_out/p_damicornis_full_mask.fna.cat.gz
+cat 01_simple_out/p_damicornis_simple_mask.fna.out <(cat 02_cnidaria_out/p_damicornis_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/p_damicornis_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_damicornis_full_mask.out
+cat 02_cnidaria_out/p_damicornis_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/p_damicornis_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_damicornis_complex_mask.out
+cat 01_simple_out/p_damicornis_simple_mask.fna.out > 04_full_out/p_damicornis_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/p_damicornis_full_mask.out > 04_full_out/p_damicornis_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/p_damicornis_simple_mask.fna.out > 04_full_out/p_damicornis_simple_mask.fna.gff3
+#p_lutea
+#round 1
+RepeatMasker -pa 16 -dir p_lutea_repeatmasker/01_simple_out -noint -xsmall p_lutea_genomic.fna
+mv p_lutea_genomic.fna.cat.gz p_lutea_simple_mask.fna.cat.gz
+mv p_lutea_genomic.fna.masked p_lutea_simple_mask.masked.fna
+mv p_lutea_genomic.fna.out p_lutea_simple_mask.fna.out
+mv p_lutea_genomic.fna.tbl p_lutea_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir p_lutea_repeatmasker/02_cnidaria_out -nolow -species cnidaria p_lutea_repeatmasker/01_simple_out/p_lutea_simple_mask.masked.fna
+mv p_lutea_simple_mask.masked.fna.cat.gz p_lutea_cnidaria_mask.masked.fna.cat.gz
+mv p_lutea_simple_mask.masked.fna.masked p_lutea_cnidaria_mask.masked.fna
+mv p_lutea_simple_mask.masked.fna.out p_lutea_cnidaria_mask.masked.fna.out
+mv p_lutea_simple_mask.masked.fna.tbl p_lutea_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir p_lutea_repeatmasker/03_consensi_out -nolow -lib p_lutea_consensi.fa.classified p_lutea_repeatmasker/02_cnidaria_out/p_lutea_cnidaria_mask.masked.fna
+mv p_lutea_cnidaria_mask.masked.fna.cat.gz p_lutea_consensi_mask.masked.fna.cat.gz
+mv p_lutea_cnidaria_mask.masked.fna.masked p_lutea_consensi_mask.masked.fna
+mv p_lutea_cnidaria_mask.masked.fna.out p_lutea_consensi_mask.masked.fna.out
+mv p_lutea_cnidaria_mask.masked.fna.tbl p_lutea_consensi_mask.masked.fna.tbl
+combine files
+cat 01_simple_out/p_lutea_simple_mask.fna.cat.gz 02_cnidaria_out/p_lutea_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/p_lutea_consensi_mask.masked.fna.cat.gz >04_full_out/p_lutea_full_mask.fna.cat.gz
+cat 01_simple_out/p_lutea_simple_mask.fna.out <(cat 02_cnidaria_out/p_lutea_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/p_lutea_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_lutea_full_mask.out
+cat 02_cnidaria_out/p_lutea_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/p_lutea_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_lutea_complex_mask.out
+cat 01_simple_out/p_lutea_simple_mask.fna.out > 04_full_out/p_lutea_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/p_lutea_full_mask.out > 04_full_out/p_lutea_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/p_lutea_simple_mask.fna.out > 04_full_out/p_lutea_simple_mask.fna.gff3
+#p_rus
+#round1
+RepeatMasker -pa 16 -dir p_rus_repeatmasker/01_simple_out -noint -xsmall p_rus_genomic.fna
+mv p_rus_genomic.fna.cat.gz p_rus_simple_mask.fna.cat.gz
+mv p_rus_genomic.fna.masked p_rus_simple_mask.masked.fna
+mv p_rus_genomic.fna.out p_rus_simple_mask.fna.out
+mv p_rus_genomic.fna.tbl p_rus_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir p_rus_repeatmasker/02_cnidaria_out -nolow -species cnidaria p_rus_repeatmasker/01_simple_out/p_rus_simple_mask.masked.fna
+mv p_rus_simple_mask.masked.fna.cat.gz p_rus_cnidaria_mask.masked.fna.cat.gz
+mv p_rus_simple_mask.masked.fna.masked p_rus_cnidaria_mask.masked.fna
+mv p_rus_simple_mask.masked.fna.out p_rus_cnidaria_mask.masked.fna.out
+mv p_rus_simple_mask.masked.fna.tbl p_rus_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir p_rus_repeatmasker/03_consensi_out -nolow -lib p_rus_consensi.fa.classified p_rus_repeatmasker/02_cnidaria_out/p_rus_cnidaria_mask.masked.fna
+mv p_rus_cnidaria_mask.masked.fna.cat.gz p_rus_consensi_mask.masked.fna.cat.gz
+mv p_rus_cnidaria_mask.masked.fna.masked p_rus_consensi_mask.masked.fna
+mv p_rus_cnidaria_mask.masked.fna.out p_rus_consensi_mask.masked.fna.out
+mv p_rus_cnidaria_mask.masked.fna.tbl p_rus_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/p_rus_simple_mask.fna.cat.gz 02_cnidaria_out/p_rus_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/p_rus_consensi_mask.masked.fna.cat.gz >04_full_out/p_rus_full_mask.fna.cat.gz
+cat 01_simple_out/p_rus_simple_mask.fna.out <(cat 02_cnidaria_out/p_rus_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/p_rus_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_rus_full_mask.out
+cat 02_cnidaria_out/p_rus_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/p_rus_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_rus_complex_mask.out
+cat 01_simple_out/p_rus_simple_mask.fna.out > 04_full_out/p_rus_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/p_rus_full_mask.out > 04_full_out/p_rus_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/p_rus_simple_mask.fna.out > 04_full_out/p_rus_simple_mask.fna.gff3
+#p_sinensis
+#round1
+RepeatMasker -pa 16 -dir p_sinensis_repeatmasker/01_simple_out -noint -xsmall p_sinensis_genomic.fna
+mv p_sinensis_genomic.fna.cat.gz p_sinensis_simple_mask.fna.cat.gz
+mv p_sinensis_genomic.fna.masked p_sinensis_simple_mask.masked.fna
+mv p_sinensis_genomic.fna.out p_sinensis_simple_mask.fna.out
+mv p_sinensis_genomic.fna.tbl p_sinensis_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir p_sinensis_repeatmasker/02_cnidaria_out -nolow -species cnidaria p_sinensis_repeatmasker/01_simple_out/p_sinensis_simple_mask.masked.fna
+mv p_sinensis_simple_mask.masked.fna.cat.gz p_sinensis_cnidaria_mask.masked.fna.cat.gz
+mv p_sinensis_simple_mask.masked.fna.masked p_sinensis_cnidaria_mask.masked.fna
+mv p_sinensis_simple_mask.masked.fna.out p_sinensis_cnidaria_mask.masked.fna.out
+mv p_sinensis_simple_mask.masked.fna.tbl p_sinensis_cnidaria_mask.masked.fna.tbl
+#round 3
+RepeatMasker -pa 16 -e ncbi -dir p_sinensis_repeatmasker/03_consensi_out -nolow -lib p_sinensis_consensi.fa.classified p_sinensis_repeatmasker/02_cnidaria_out/p_sinensis_cnidaria_mask.masked.fna
+mv p_sinensis_cnidaria_mask.masked.fna.cat.gz p_sinensis_consensi_mask.masked.fna.cat.gz
+mv p_sinensis_cnidaria_mask.masked.fna.masked p_sinensis_consensi_mask.masked.fna
+mv p_sinensis_cnidaria_mask.masked.fna.out p_sinensis_consensi_mask.masked.fna.out
+mv p_sinensis_cnidaria_mask.masked.fna.tbl p_sinensis_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/p_sinensis_simple_mask.fna.cat.gz 02_cnidaria_out/p_sinensis_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/p_sinensis_consensi_mask.masked.fna.cat.gz >04_full_out/p_sinensis_full_mask.fna.cat.gz
+cat 01_simple_out/p_sinensis_simple_mask.fna.out <(cat 02_cnidaria_out/p_sinensis_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/p_sinensis_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_sinensis_full_mask.out
+cat 02_cnidaria_out/p_sinensis_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/p_sinensis_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_sinensis_complex_mask.out
+cat 01_simple_out/p_sinensis_simple_mask.fna.out > 04_full_out/p_sinensis_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/p_sinensis_full_mask.out > 04_full_out/p_sinensis_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/p_sinensis_simple_mask.fna.out > 04_full_out/p_sinensis_simple_mask.fna.gff3
+#p_speciosa
+#round1
+RepeatMasker -pa 16 -dir p_speciosa_repeatmasker/01_simple_out -noint -xsmall p_speciosa_genomic.fna
+mv p_speciosa_genomic.fna.cat.gz p_speciosa_simple_mask.fna.cat.gz
+mv p_speciosa_genomic.fna.masked p_speciosa_simple_mask.masked.fna
+mv p_speciosa_genomic.fna.out p_speciosa_simple_mask.fna.out
+mv p_speciosa_genomic.fna.tbl p_speciosa_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir p_speciosa_repeatmasker/02_cnidaria_out -nolow -species cnidaria p_speciosa_repeatmasker/01_simple_out/p_speciosa_simple_mask.masked.fna
+mv p_speciosa_simple_mask.masked.fna.cat.gz p_speciosa_cnidaria_mask.masked.fna.cat.gz
+mv p_speciosa_simple_mask.masked.fna.masked p_speciosa_cnidaria_mask.masked.fna
+mv p_speciosa_simple_mask.masked.fna.out p_speciosa_cnidaria_mask.masked.fna.out
+mv p_speciosa_simple_mask.masked.fna.tbl p_speciosa_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir p_speciosa_repeatmasker/03_consensi_out -nolow -lib p_speciosa_consensi.fa.classified p_speciosa_repeatmasker/02_cnidaria_out/p_speciosa_cnidaria_mask.masked.fna
+mv p_speciosa_cnidaria_mask.masked.fna.cat.gz p_speciosa_consensi_mask.masked.fna.cat.gz
+mv p_speciosa_cnidaria_mask.masked.fna.masked p_speciosa_consensi_mask.masked.fna
+mv p_speciosa_cnidaria_mask.masked.fna.out p_speciosa_consensi_mask.masked.fna.out
+mv p_speciosa_cnidaria_mask.masked.fna.tbl p_speciosa_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/p_speciosa_simple_mask.fna.cat.gz 02_cnidaria_out/p_speciosa_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/p_speciosa_consensi_mask.masked.fna.cat.gz >04_full_out/p_speciosa_full_mask.fna.cat.gz
+cat 01_simple_out/p_speciosa_simple_mask.fna.out <(cat 02_cnidaria_out/p_speciosa_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/p_speciosa_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_speciosa_full_mask.out
+cat 02_cnidaria_out/p_speciosa_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/p_speciosa_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_speciosa_complex_mask.out
+cat 01_simple_out/p_speciosa_simple_mask.fna.out > 04_full_out/p_speciosa_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/p_speciosa_full_mask.out > 04_full_out/p_speciosa_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/p_speciosa_simple_mask.fna.out > 04_full_out/p_speciosa_simple_mask.fna.gff3
+#p_verrucosa
+#round1
+RepeatMasker -pa 16 -dir p_verrucosa_repeatmasker/01_simple_out -noint -xsmall p_verrucosa_genomic.fna
+mv p_verrucosa_genomic.fna.cat.gz p_verrucosa_simple_mask.fna.cat.gz
+mv p_verrucosa_genomic.fna.masked p_verrucosa_simple_mask.masked.fna
+mv p_verrucosa_genomic.fna.out p_verrucosa_simple_mask.fna.out
+mv p_verrucosa_genomic.fna.tbl p_verrucosa_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir p_verrucosa_repeatmasker/02_cnidaria_out -nolow -species cnidaria p_verrucosa_repeatmasker/01_simple_out/p_verrucosa_simple_mask.masked.fna
+mv p_verrucosa_simple_mask.masked.fna.cat.gz p_verrucosa_cnidaria_mask.masked.fna.cat.gz
+mv p_verrucosa_simple_mask.masked.fna.masked p_verrucosa_cnidaria_mask.masked.fna
+mv p_verrucosa_simple_mask.masked.fna.out p_verrucosa_cnidaria_mask.masked.fna.out
+mv p_verrucosa_simple_mask.masked.fna.tbl p_verrucosa_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir p_verrucosa_repeatmasker/03_consensi_out -nolow -lib p_verrucosa_consensi.fa.classified p_verrucosa_repeatmasker/02_cnidaria_out/p_verrucosa_cnidaria_mask.masked.fna 
+mv p_verrucosa_cnidaria_mask.masked.fna.cat.gz p_verrucosa_consensi_mask.masked.fna.cat.gz
+mv p_verrucosa_cnidaria_mask.masked.fna.masked p_verrucosa_consensi_mask.masked.fna
+mv p_verrucosa_cnidaria_mask.masked.fna.out p_verrucosa_consensi_mask.masked.fna.out
+mv p_verrucosa_cnidaria_mask.masked.fna.tbl p_verrucosa_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/p_verrucosa_simple_mask.fna.cat.gz 02_cnidaria_out/p_verrucosa_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/p_verrucosa_consensi_mask.masked.fna.cat.gz >04_full_out/p_verrucosa_full_mask.fna.cat.gz
+cat 01_simple_out/p_verrucosa_simple_mask.fna.out <(cat 02_cnidaria_out/p_verrucosa_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/p_verrucosa_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_verrucosa_full_mask.out
+cat 02_cnidaria_out/p_verrucosa_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/p_verrucosa_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/p_verrucosa_complex_mask.out
+cat 01_simple_out/p_verrucosa_simple_mask.fna.out > 04_full_out/p_verrucosa_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/p_verrucosa_full_mask.out > 04_full_out/p_verrucosa_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/p_verrucosa_simple_mask.fna.out > 04_full_out/p_verrucosa_simple_mask.fna.gff3
+#s_pistillata
+#round1
+RepeatMasker -pa 16 -dir s_pistillata_repeatmasker/01_simple_out -noint -xsmall s_pistillata_genomic.fna
+mv s_pistillata_genomic.fna.cat.gz s_pistillata_simple_mask.fna.cat.gz
+mv s_pistillata_genomic.fna.masked s_pistillata_simple_mask.masked.fna
+mv s_pistillata_genomic.fna.out s_pistillata_simple_mask.fna.out
+mv s_pistillata_genomic.fna.tbl s_pistillata_simple_mask.fna.tbl
+#round2
+RepeatMasker -pa 16 -dir s_pistillata_repeatmasker/02_cnidaria_out -nolow -species cnidaria s_pistillata_repeatmasker/01_simple_out/s_pistillata_simple_mask.masked.fna
+mv s_pistillata_simple_mask.masked.fna.cat.gz s_pistillata_cnidaria_mask.masked.fna.cat.gz
+mv s_pistillata_simple_mask.masked.fna.masked s_pistillata_cnidaria_mask.masked.fna
+mv s_pistillata_simple_mask.masked.fna.out s_pistillata_cnidaria_mask.masked.fna.out
+mv s_pistillata_simple_mask.masked.fna.tbl s_pistillata_cnidaria_mask.masked.fna.tbl
+#round3
+RepeatMasker -pa 16 -e ncbi -dir s_pistillata_repeatmasker/03_consensi_out -nolow -lib s_pistillata_consensi.fa.classified s_pistillata_repeatmasker/02_cnidaria_out/s_pistillata_cnidaria_mask.masked.fna
+mv s_pistillata_cnidaria_mask.masked.fna.cat.gz s_pistillata_consensi_mask.masked.fna.cat.gz
+mv s_pistillata_cnidaria_mask.masked.fna.masked s_pistillata_consensi_mask.masked.fna
+mv s_pistillata_cnidaria_mask.masked.fna.out s_pistillata_consensi_mask.masked.fna.out
+mv s_pistillata_cnidaria_mask.masked.fna.tbl s_pistillata_consensi_mask.masked.fna.tbl
+#combine files
+cat 01_simple_out/s_pistillata_simple_mask.fna.cat.gz 02_cnidaria_out/s_pistillata_cnidaria_mask.masked.fna.cat.gz 03_consensi_out/s_pistillata_consensi_mask.masked.fna.cat.gz >04_full_out/s_pistillata_full_mask.fna.cat.gz
+cat 01_simple_out/s_pistillata_simple_mask.fna.out <(cat 02_cnidaria_out/s_pistillata_cnidaria_mask.masked.fna.out | tail -n +4) <(cat 03_consensi_out/s_pistillata_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/s_pistillata_full_mask.out
+cat 02_cnidaria_out/s_pistillata_cnidaria_mask.masked.fna.out <(cat 03_consensi_out/s_pistillata_consensi_mask.masked.fna.out | tail -n +4) >04_full_out/s_pistillata_complex_mask.out
+cat 01_simple_out/s_pistillata_simple_mask.fna.out > 04_full_out/s_pistillata_simple_mask.fna.out
+#create gff3 files
+rmOutToGFF3.pl 04_full_out/s_pistillata_full_mask.out > 04_full_out/s_pistillata_full_mask.fna.gff3
+rmOutToGFF3.pl 04_full_out/s_pistillata_simple_mask.fna.out > 04_full_out/s_pistillata_simple_mask.fna.gff3
+
