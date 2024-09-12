@@ -1,0 +1,33 @@
+#open the apptainer
+apptainer shell braker3.sif
+#each run needs
+#a_cytherea
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=a_cytherea_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add a_cytherea to the biginning
+#zip the output
+#a_hyactintus
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=a_hyactintus_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add a_hyactintus to the biginning
+#zip the output
+#d_cribrosa
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=d_cribrosa_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add d_cribrosa to the biginning
+#zip the output
+#fungia
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=fungia_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add fungia to the biginning
+#zip the output
+#g_aspera
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=g_aspera_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add g_aspera to the biginning
+#zip the output
+#g_fascicularis
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=g_fascicularis_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add g_fascicularis to the biginning
+#zip the output
+#m_capitata
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=m_capitata_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add m_capitata to the biginning
+#zip the output
+#o_faveolata
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=o_faveolata_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
