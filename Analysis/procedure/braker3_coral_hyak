@@ -31,3 +31,33 @@ braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --geno
 #zip the output
 #o_faveolata
 braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=o_faveolata_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add o_faveolata to the biginning
+#zip the output
+#p_damicornis
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=p_damicornis_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add p_damicornis to the biginning
+#zip the output
+#p_lutea
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=p_lutea_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add p_lutea to the biginning
+#zip the output
+#p_rus
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=p_rus_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add p_rus to the biginning
+#zip the output
+#p_sinensis
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=p_sinensis_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add p_sinensis to the biginning
+#zip the output
+#p_speciosa
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=p_speciosa_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add p_speciosa to the biginning
+#zip the output
+#p_verrucosa
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=p_verrucosa_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+#copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add p_verrucosa to the biginning
+#zip the output
+#s_pistillata
+braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=s_pistillata_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+
