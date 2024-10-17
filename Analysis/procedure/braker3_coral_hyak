@@ -31,6 +31,7 @@ braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --geno
 #zip the output
 #o_faveolata
 braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=o_faveolata_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+
 #copy out the breaker.aa, breaker.codingseq, and breaker.gtf and add o_faveolata to the biginning
 #zip the output
 #p_damicornis
@@ -59,3 +60,4 @@ braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --geno
 #zip the output
 #s_pistillata
 braker.pl --AUGUSTUS_CONFIG_PATH=/mmfs1/gscratch/zaneveld/Augustus_config --genome=s_pistillata_full_mask_soft.fasta --prot_seq=../Metazoa.fa --threads=20
+
