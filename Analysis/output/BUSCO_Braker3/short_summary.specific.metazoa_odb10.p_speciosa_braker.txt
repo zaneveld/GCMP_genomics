@@ -1,0 +1,39 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2024-01-08, number of genomes: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file /home/tanya/Work_files/TIR_Domains/Coral/input/braker_aa_files/p_speciosa_soft_mask_braker.codingseq
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:85.4%[S:75.3%,D:10.1%],F:6.0%,M:8.6%,n:954	   
+	814	Complete BUSCOs (C)			   
+	718	Complete and single-copy BUSCOs (S)	   
+	96	Complete and duplicated BUSCOs (D)	   
+	57	Fragmented BUSCOs (F)			   
+	83	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	79719	Number of scaffolds
+	79719	Number of contigs
+	86802852	Total length
+	0.001%	Percent gaps
+	1 KB	Scaffold N50
+	1 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.5.0
+	sepp: 4.4.0
+
+Placement file versions:
+	list_of_reference_markers.eukaryota_odb10.2019-12-16.txt
+	tree.eukaryota_odb10.2019-12-16.nwk
+	tree_metadata.eukaryota_odb10.2019-12-16.txt
+	supermatrix.aln.eukaryota_odb10.2019-12-16.faa
+	mapping_taxids-busco_dataset_name.eukaryota_odb10.2019-12-16.txt
+	mapping_taxid-lineage.eukaryota_odb10.2019-12-16.txt
