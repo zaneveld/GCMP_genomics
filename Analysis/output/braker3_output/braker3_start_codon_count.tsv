@@ -1,0 +1,31 @@
+Species_file	Number_start_codon	Grep_fasta
+g_fascicularis_soft_mask_braker.gtf	34305	
+p_rus_soft_mask_braker_filtered.gtf	28599	14982
+p_speciosa_soft_mask_braker.gtf	79291	
+p_damicornis_soft_mask_braker_filtered.gtf	23463	4393
+p_lutea_soft_mask_braker_filtered.gtf	38390	2975
+a_cyhterea_soft_mask_braker.gtf	36550	
+p_damicornis_soft_mask_braker.gtf	26852	
+a_cytherea_soft_mask_braker_filtered.gtf	31428	4046
+d_cribrosa_soft_mask_braker.gtf	47998	
+m_capitata_soft_mask_braker.gtf	46533	
+fungia_soft_mask_braker_filtered.gtf	43115	7424
+g_aspera_soft_mask_braker.gtf	53731	
+p_sinensis_soft_mask_braker.gtf	86243	
+m_capitata_soft_mask_braker_filtered.gtf	41371	27865
+p_verrucosa_soft_mask_braker.gtf	37537	
+s_pistillata_soft_mask_braker_filtered.gtf	31939	5688
+d_cribrosa_soft_mask_braker_filtered.gtf	43867	22
+p_sinensis_soft_mask_braker_filtered.gtf	77269	56369
+g_fascicularis_soft_mask_braker_filtered.gtf	31065	11269
+p_rus_soft_mask_braker.gtf	31923	
+a_hyactintus_soft_mask_braker_filtered.gtf	31966	2758
+p_verrucosa_soft_mask_braker_filtered.gtf	32697	18268
+a_hyactintus_soft_mask_braker.gtf	37271	
+s_pistillata_soft_mask_braker.gtf	35850	
+p_lutea_soft_mask_braker.gtf	42093	
+p_speciosa_soft_mask_braker_filtered.gtf	70887	2368
+o_faveolata_soft_mask_braker_filtered.gtf	31876	1933
+o_faveolata_soft_mask_braker.gtf	36018	
+fungia_soft_mask_braker.gtf	47406	
+g_aspera_soft_mask_braker_filtered.gtf	48429	5396
