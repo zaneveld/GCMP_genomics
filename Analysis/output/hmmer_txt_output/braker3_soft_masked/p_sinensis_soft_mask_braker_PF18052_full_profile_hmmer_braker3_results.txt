@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g62447.t1            -          PF18052_full         -              0.018   17.0   0.3     0.028   16.4   0.3   1.2   1   0   0   1   1   1   0 -
+g19335.t1            -          PF18052_full         -               0.18   13.8   0.2      0.65   11.9   0.3   1.7   2   0   0   2   2   2   0 -
+g24374.t1            -          PF18052_full         -               0.42   12.5  13.3      0.57   12.1  13.3   1.2   1   0   0   1   1   1   0 -
+g65252.t1            -          PF18052_full         -               0.42   12.5  13.3      0.57   12.1  13.3   1.2   1   0   0   1   1   1   0 -
+g14691.t1            -          PF18052_full         -               0.45   12.4  14.0      0.82   11.6  14.0   1.5   1   0   0   1   1   1   0 -
+g55749.t1            -          PF18052_full         -               0.46   12.4  14.0      0.84   11.5  14.0   1.5   1   0   0   1   1   1   0 -
+g18153.t1            -          PF18052_full         -               0.48   12.3  12.0      0.54   12.2  12.0   1.1   1   0   0   1   1   1   0 -
+g73194.t1            -          PF18052_full         -               0.51   12.3  37.3      0.67   11.9  37.3   1.1   1   0   0   1   1   1   0 -
+g42103.t1            -          PF18052_full         -                1.1   11.2  11.9       1.4   10.9  11.9   1.1   1   0   0   1   1   1   0 -
+g742.t1              -          PF18052_full         -                1.5   10.7  13.6       1.5   10.7  13.6   1.0   1   0   0   1   1   1   0 -
+g43753.t1            -          PF18052_full         -                2.3   10.1   7.8       2.6    9.9   7.8   1.2   1   0   0   1   1   1   0 -
+g10335.t1            -          PF18052_full         -                2.4   10.1   5.2        17    7.3   1.9   2.4   2   0   0   2   2   2   0 -
+g17705.t1            -          PF18052_full         -                2.7    9.9   7.8       4.1    9.3   7.8   1.2   1   0   0   1   1   1   0 -
+g60231.t1            -          PF18052_full         -                  3    9.7   7.7       3.1    9.7   7.7   1.1   1   0   0   1   1   1   0 -
+g3855.t1             -          PF18052_full         -                3.9    9.3  12.6       4.2    9.3  12.6   1.2   1   0   0   1   1   1   0 -
+g45002.t1            -          PF18052_full         -                  4    9.3   5.3       5.2    8.9   5.3   1.1   1   0   0   1   1   1   0 -
+g56468.t1            -          PF18052_full         -                4.7    9.1   9.5        20    7.0   1.3   2.2   2   0   0   2   2   2   0 -
+g63633.t1            -          PF18052_full         -                5.1    9.0   7.5       5.8    8.8   7.5   1.1   1   0   0   1   1   1   0 -
+g49082.t1            -          PF18052_full         -                5.6    8.8  12.2       1.4   10.8   0.6   2.0   1   1   1   2   2   2   0 -
+g36889.t1            -          PF18052_full         -                7.1    8.5   7.9        10    8.0   7.9   1.2   1   0   0   1   1   1   0 -
+g58582.t1            -          PF18052_full         -                8.1    8.3  21.6        12    7.8  21.3   1.5   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18052_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_sinensis_soft_mask_braker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/p_sinensis_soft_mask_braker_PF18052_full_profile_hmmer_braker3_results.txt ../output/PF18052_full_profile.hmm ../input/braker_aa_files/p_sinensis_soft_mask_braker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:43:45 2024
+# [ok]

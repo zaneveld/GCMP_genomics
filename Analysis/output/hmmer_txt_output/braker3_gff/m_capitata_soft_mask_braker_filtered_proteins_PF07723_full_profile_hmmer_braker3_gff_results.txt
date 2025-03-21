@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g15946.t1      -          PF07723_full         -              0.091   13.7   0.0        38    5.3   0.0   3.7   4   0   0   4   4   4   0 -
+anno1.g25308.t1      -          PF07723_full         -              0.098   13.6   0.0      0.27   12.2   0.0   1.8   1   0   0   1   1   1   0 -
+anno1.g13231.t1      -          PF07723_full         -               0.28   12.2   0.0       6.1    7.8   0.0   2.4   2   0   0   2   2   2   0 -
+anno1.g1765.t1       -          PF07723_full         -               0.39   11.7   6.5   1.9e+02    3.1   0.7   5.0   4   1   1   5   5   5   0 -
+anno1.g18470.t1      -          PF07723_full         -                3.6    8.6   4.4      0.62   11.0   0.1   1.9   2   0   0   2   2   2   0 -
+anno1.g14564.t1      -          PF07723_full         -                8.3    7.4  12.6       6.2    7.8   1.1   4.8   4   1   0   4   4   4   0 -
+anno1.g3417.t1       -          PF07723_full         -                8.6    7.4  22.6        16    6.5   0.0   5.3   3   1   2   5   5   5   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF07723_full_profile.hmm
+# Target file:     ../input/braker_aa_files/m_capitata_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/m_capitata_soft_mask_braker_filtered_proteins_PF07723_full_profile_hmmer_braker3_gff_results.txt ../output/PF07723_full_profile.hmm ../input/braker_aa_files/m_capitata_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:52:29 2025
+# [ok]

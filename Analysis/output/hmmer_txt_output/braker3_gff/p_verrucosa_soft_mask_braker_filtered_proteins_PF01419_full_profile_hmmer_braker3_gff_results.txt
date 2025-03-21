@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g24004.t1      -          PF01419_full         -            5.4e-17   63.2   0.1   9.2e-17   62.5   0.1   1.3   1   0   0   1   1   1   1 -
+anno1.g18430.t1      -          PF01419_full         -            5.8e-08   33.7   1.6     1e-07   32.8   1.6   1.5   1   0   0   1   1   1   1 -
+anno1.g5541.t1       -          PF01419_full         -            1.5e-06   29.0   0.2   2.4e-06   28.3   0.2   1.3   1   0   0   1   1   1   1 -
+anno1.g14369.t1      -          PF01419_full         -            8.3e-06   26.6   0.3   1.1e-05   26.2   0.3   1.2   1   0   0   1   1   1   1 -
+anno1.g15903.t1      -          PF01419_full         -            1.5e-05   25.8   0.1   2.4e-05   25.1   0.1   1.4   1   0   0   1   1   1   1 -
+anno1.g14370.t1      -          PF01419_full         -            1.5e-05   25.8   2.8   6.4e-05   23.7   1.3   2.2   2   1   0   2   2   2   1 -
+anno1.g14371.t1      -          PF01419_full         -            1.8e-05   25.5   1.2   2.7e-05   24.9   1.1   1.3   1   1   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF01419_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_verrucosa_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_verrucosa_soft_mask_braker_filtered_proteins_PF01419_full_profile_hmmer_braker3_gff_results.txt ../output/PF01419_full_profile.hmm ../input/braker_aa_files/p_verrucosa_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:54:24 2025
+# [ok]

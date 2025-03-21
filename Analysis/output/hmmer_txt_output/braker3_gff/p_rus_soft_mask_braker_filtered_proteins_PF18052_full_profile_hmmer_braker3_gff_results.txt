@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g22834.t1      -          PF18052_full         -              0.075   13.4   0.3     0.086   13.2   0.3   1.2   1   0   0   1   1   1   0 -
+anno1.g1437.t1       -          PF18052_full         -                0.2   12.0   2.2      0.39   11.1   2.2   1.4   1   0   0   1   1   1   0 -
+anno1.g12537.t1      -          PF18052_full         -                0.3   11.4   6.0     0.065   13.6   2.1   1.8   2   0   0   2   2   2   0 -
+anno1.g24089.t1      -          PF18052_full         -               0.44   10.9   4.0      0.52   10.7   4.0   1.1   1   0   0   1   1   1   0 -
+anno1.g28809.t1      -          PF18052_full         -                1.8    8.9  19.3       2.6    8.4  19.3   1.1   1   0   0   1   1   1   0 -
+anno1.g1998.t1       -          PF18052_full         -                1.9    8.8  21.8       2.7    8.3  21.8   1.2   1   0   0   1   1   1   0 -
+anno1.g30564.t1      -          PF18052_full         -                2.7    8.3  11.0      0.75   10.1   0.8   2.3   2   0   0   2   2   2   0 -
+anno1.g7484.t1       -          PF18052_full         -                2.7    8.3   8.9       4.3    7.6   8.9   1.3   1   0   0   1   1   1   0 -
+anno1.g1495.t1       -          PF18052_full         -                3.9    7.8   8.6       6.5    7.1   8.6   1.2   1   0   0   1   1   1   0 -
+anno1.g2283.t1       -          PF18052_full         -                5.6    7.3  11.9       2.3    8.6   5.2   2.4   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18052_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_rus_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_rus_soft_mask_braker_filtered_proteins_PF18052_full_profile_hmmer_braker3_gff_results.txt ../output/PF18052_full_profile.hmm ../input/braker_aa_files/p_rus_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:53:38 2025
+# [ok]

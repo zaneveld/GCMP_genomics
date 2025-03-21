@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g2868.t1       -          PF18016_full         -            4.1e-22   78.0   0.0   7.9e-22   77.1   0.0   1.5   1   0   0   1   1   1   1 -
+anno1.g10943.t2      -          PF18016_full         -            1.7e-21   76.0   0.2   4.3e-21   74.7   0.2   1.6   1   0   0   1   1   1   1 -
+anno1.g19872.t1      -          PF18016_full         -            0.00074   19.3   0.0    0.0013   18.4   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g2268.t1       -          PF18016_full         -             0.0057   16.4   0.1     0.012   15.3   0.1   1.5   1   0   0   1   1   1   1 -
+anno1.g1002.t1       -          PF18016_full         -             0.0059   16.4   0.4     0.015   15.1   0.0   1.8   2   0   0   2   2   2   1 -
+anno1.g13387.t1      -          PF18016_full         -             0.0079   16.0   0.0     0.019   14.8   0.0   1.6   1   0   0   1   1   1   1 -
+anno1.g18581.t1      -          PF18016_full         -              0.008   15.9   0.2     0.084   12.7   0.0   2.2   2   0   0   2   2   2   1 -
+anno1.g6010.t1       -          PF18016_full         -              0.038   13.8   0.0     0.065   13.0   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g7493.t1       -          PF18016_full         -               0.05   13.4   0.0     0.093   12.5   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g4394.t1       -          PF18016_full         -              0.071   12.9   0.0      0.32   10.8   0.0   2.1   2   0   0   2   2   2   0 -
+anno1.g4393.t1       -          PF18016_full         -              0.091   12.5   0.0      0.31   10.8   0.0   1.9   1   0   0   1   1   1   0 -
+anno1.g4391.t1       -          PF18016_full         -               0.12   12.1   0.0      0.47   10.2   0.0   2.0   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18016_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_damicornis_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_damicornis_soft_mask_braker_filtered_proteins_PF18016_full_profile_hmmer_braker3_gff_results.txt ../output/PF18016_full_profile.hmm ../input/braker_aa_files/p_damicornis_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:50:56 2025
+# [ok]

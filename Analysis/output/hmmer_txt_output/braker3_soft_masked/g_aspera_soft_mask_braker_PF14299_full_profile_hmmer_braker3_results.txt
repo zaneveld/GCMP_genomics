@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g14210.t1            -          PF14299_full         -              3e-07   31.8   2.5   3.6e-07   31.6   2.5   1.2   1   0   0   1   1   1   1 -
+g29191.t1            -          PF14299_full         -            1.2e-06   29.9   2.3   1.6e-06   29.5   2.3   1.2   1   0   0   1   1   1   1 -
+g27870.t1            -          PF14299_full         -               0.12   13.4   1.1      0.15   13.1   1.1   1.0   1   0   0   1   1   1   0 -
+g17621.t1            -          PF14299_full         -               0.27   12.2   3.7      0.56   11.2   3.7   1.4   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF14299_full_profile.hmm
+# Target file:     ../input/braker_aa_files/g_aspera_soft_mask_braker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/g_aspera_soft_mask_braker_PF14299_full_profile_hmmer_braker3_results.txt ../output/PF14299_full_profile.hmm ../input/braker_aa_files/g_aspera_soft_mask_braker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:40:54 2024
+# [ok]

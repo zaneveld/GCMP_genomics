@@ -1,0 +1,47 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g7554.t1       -          PF18017_full         -            4.5e-07   30.1   0.2   8.6e-07   29.2   0.2   1.5   1   0   0   1   1   1   1 -
+anno1.g997.t1        -          PF18017_full         -            5.2e-07   29.9   0.0   1.8e-06   28.2   0.0   1.9   1   0   0   1   1   1   1 -
+anno1.g20091.t1      -          PF18017_full         -            5.9e-06   26.5   0.0   1.4e-05   25.4   0.0   1.7   1   0   0   1   1   1   1 -
+anno1.g10310.t1      -          PF18017_full         -            1.5e-05   25.3   0.0   2.6e-05   24.5   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g4580.t1       -          PF18017_full         -            2.3e-05   24.7   0.0     4e-05   23.9   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g17462.t1      -          PF18017_full         -            0.00023   21.5   0.0   0.00042   20.6   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g18776.t1      -          PF18017_full         -            0.00063   20.0   0.0   0.00083   19.7   0.0   1.2   1   0   0   1   1   1   1 -
+anno1.g2320.t1       -          PF18017_full         -            0.00073   19.8   0.2    0.0014   19.0   0.2   1.4   1   0   0   1   1   1   1 -
+anno1.g4759.t1       -          PF18017_full         -              0.001   19.4   0.0    0.0023   18.2   0.0   1.5   1   0   0   1   1   1   1 -
+anno1.g8325.t1       -          PF18017_full         -             0.0023   18.3   0.0    0.0045   17.3   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g18254.t1      -          PF18017_full         -             0.0023   18.2   0.0    0.0041   17.4   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g28237.t1      -          PF18017_full         -             0.0032   17.8   0.1     0.043   14.2   0.0   2.0   2   0   0   2   2   2   1 -
+anno1.g11731.t1      -          PF18017_full         -             0.0042   17.4   0.0    0.0089   16.4   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g8580.t1       -          PF18017_full         -             0.0055   17.0   0.0    0.0088   16.4   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g10592.t1      -          PF18017_full         -             0.0065   16.8   0.0     0.014   15.7   0.0   1.5   1   0   0   1   1   1   1 -
+anno1.g18451.t1      -          PF18017_full         -              0.017   15.5   0.0     0.036   14.4   0.0   1.6   1   0   0   1   1   1   0 -
+anno1.g14351.t1      -          PF18017_full         -              0.026   14.8   0.0      0.26   11.7   0.0   2.2   2   0   0   2   2   2   0 -
+anno1.g28958.t1      -          PF18017_full         -              0.031   14.6   1.2     0.061   13.7   1.2   1.5   1   1   0   1   1   1   0 -
+anno1.g5802.t1       -          PF18017_full         -              0.033   14.5   0.0     0.066   13.6   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g26733.t1      -          PF18017_full         -              0.035   14.5   0.0     0.073   13.4   0.0   1.6   1   0   0   1   1   1   0 -
+anno1.g7856.t1       -          PF18017_full         -              0.039   14.3   0.1     0.074   13.4   0.1   1.4   1   0   0   1   1   1   0 -
+anno1.g14329.t1      -          PF18017_full         -              0.044   14.1   0.0     0.069   13.5   0.0   1.3   1   0   0   1   1   1   0 -
+anno1.g24908.t1      -          PF18017_full         -               0.05   14.0   0.0      0.11   12.8   0.0   1.6   1   0   0   1   1   1   0 -
+anno1.g28495.t1      -          PF18017_full         -              0.057   13.8   0.0      0.54   10.6   0.0   2.2   2   0   0   2   2   2   0 -
+anno1.g25892.t1      -          PF18017_full         -              0.064   13.6   0.0      0.13   12.6   0.0   1.5   1   0   0   1   1   1   0 -
+anno1.g3167.t1       -          PF18017_full         -              0.076   13.4   0.1      0.14   12.5   0.1   1.5   1   0   0   1   1   1   0 -
+anno1.g16774.t1      -          PF18017_full         -               0.12   12.8   0.0      0.22   11.9   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g853.t1        -          PF18017_full         -               0.16   12.3   0.0      0.34   11.3   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g12920.t1      -          PF18017_full         -               0.17   12.2   0.0      0.39   11.1   0.0   1.5   1   0   0   1   1   1   0 -
+anno1.g22164.t1      -          PF18017_full         -               0.18   12.2   0.0      0.32   11.4   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g20838.t1      -          PF18017_full         -               0.21   12.0   0.0      0.42   11.0   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g11545.t1      -          PF18017_full         -               0.29   11.5   0.1      0.65   10.4   0.1   1.5   1   0   0   1   1   1   0 -
+anno1.g15574.t1      -          PF18017_full         -               0.33   11.3   0.1       0.6   10.5   0.1   1.3   1   0   0   1   1   1   0 -
+anno1.g24261.t1      -          PF18017_full         -               0.94    9.9   2.7       5.3    7.5   0.0   3.2   4   0   0   4   4   4   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18017_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_rus_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_rus_soft_mask_braker_filtered_proteins_PF18017_full_profile_hmmer_braker3_gff_results.txt ../output/PF18017_full_profile.hmm ../input/braker_aa_files/p_rus_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:55:26 2025
+# [ok]

@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g62447.t1      -          PF18052_full         -              0.016   17.0   0.3     0.025   16.4   0.3   1.2   1   0   0   1   1   1   0 -
+anno1.g19335.t1      -          PF18052_full         -               0.16   13.8   0.2      0.58   11.9   0.3   1.7   2   0   0   2   2   2   0 -
+anno1.g24374.t1      -          PF18052_full         -               0.37   12.6  13.3      0.51   12.1  13.3   1.2   1   0   0   1   1   1   0 -
+anno1.g65252.t1      -          PF18052_full         -               0.37   12.6  13.3      0.51   12.1  13.3   1.2   1   0   0   1   1   1   0 -
+anno1.g14691.t1      -          PF18052_full         -                0.4   12.5  14.0      0.73   11.6  14.0   1.5   1   0   0   1   1   1   0 -
+anno1.g55749.t1      -          PF18052_full         -               0.41   12.4  14.0      0.75   11.6  14.0   1.5   1   0   0   1   1   1   0 -
+anno1.g18153.t1      -          PF18052_full         -               0.42   12.4  12.0      0.47   12.2  12.0   1.1   1   0   0   1   1   1   0 -
+anno1.g73194.t1      -          PF18052_full         -               0.44   12.3  37.3      0.57   11.9  37.3   1.1   1   0   0   1   1   1   0 -
+anno1.g42103.t1      -          PF18052_full         -               0.92   11.3  11.9       1.2   10.9  11.9   1.1   1   0   0   1   1   1   0 -
+anno1.g742.t1        -          PF18052_full         -                1.3   10.8  13.6       1.3   10.7  13.6   1.0   1   0   0   1   1   1   0 -
+anno1.g43753.t1      -          PF18052_full         -                  2   10.2   7.8       2.3   10.0   7.8   1.2   1   0   0   1   1   1   0 -
+anno1.g10335.t1      -          PF18052_full         -                2.1   10.1   5.2        15    7.3   1.9   2.4   2   0   0   2   2   2   0 -
+anno1.g17705.t1      -          PF18052_full         -                2.4    9.9   7.8       3.6    9.3   7.8   1.2   1   0   0   1   1   1   0 -
+anno1.g60231.t1      -          PF18052_full         -                2.6    9.8   7.7       2.7    9.7   7.7   1.1   1   0   0   1   1   1   0 -
+anno1.g3855.t1       -          PF18052_full         -                3.4    9.4  12.6       3.7    9.3  12.6   1.2   1   0   0   1   1   1   0 -
+anno1.g45002.t1      -          PF18052_full         -                3.5    9.4   5.3       4.7    9.0   5.3   1.1   1   0   0   1   1   1   0 -
+anno1.g56468.t1      -          PF18052_full         -                4.2    9.1   9.5        18    7.0   1.3   2.2   2   0   0   2   2   2   0 -
+anno1.g63633.t1      -          PF18052_full         -                4.5    9.0   7.5       5.1    8.8   7.5   1.1   1   0   0   1   1   1   0 -
+anno1.g49082.t1      -          PF18052_full         -                4.9    8.9  12.2       1.2   10.9   0.6   2.0   1   1   1   2   2   2   0 -
+anno1.g36889.t1      -          PF18052_full         -                6.4    8.5   7.9       9.3    8.0   7.9   1.2   1   0   0   1   1   1   0 -
+anno1.g58582.t1      -          PF18052_full         -                6.6    8.5  21.5       9.3    8.0  21.2   1.5   1   1   0   1   1   1   0 -
+anno1.g60503.t1      -          PF18052_full         -                 10    7.9   9.4        14    7.4   9.4   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18052_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_sinensis_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_sinensis_soft_mask_braker_filtered_proteins_PF18052_full_profile_hmmer_braker3_gff_results.txt ../output/PF18052_full_profile.hmm ../input/braker_aa_files/p_sinensis_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:53:36 2025
+# [ok]

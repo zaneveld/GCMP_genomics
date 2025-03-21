@@ -1,0 +1,6 @@
+,target_name,accession,query_name,accession,E-value_full_seq,score_full_seq,bias_full_seq,E-value,score,bias,exp,reg,clu,ov,env,dom,rep,inc,description_of_target,motif,species,gene_family,gene_id
+54,anno1.g6081.t1,-,PF14580_full,-,7.9e-23,82.3,41.8,9.3e-09,36.2,11.4,5.6,4,1,1,5,5,5,3,-,LRR,d_cribrosa,TLR,g6081
+155,anno1.g6081.t1,-,PF13855_full,-,1.6e-40,138.4,46.4,4.9e-12,46.3,6.2,7.2,4,3,2,6,6,6,5,-,LRR,d_cribrosa,TLR,g6081
+319,anno1.g6081.t1,-,PF13306_full,-,8.4e-25,89.0,21.9,3.8e-15,57.1,6.6,3.6,3,1,1,4,4,3,2,-,LRR,d_cribrosa,TLR,g6081
+413,anno1.g6081.t1,-,PF12799_full,-,5.4e-16,59.1,52.9,4.6e-05,24.0,4.3,8.5,4,3,3,8,8,8,4,-,LRR,d_cribrosa,TLR,g6081
+478,anno1.g6081.t1,-,PF01582_full_up,-,6.4e-32,112.4,2.3,1e-31,111.7,2.3,1.2,1,0,0,1,1,1,1,-,TIR,d_cribrosa,TLR,g6081

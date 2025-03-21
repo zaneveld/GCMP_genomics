@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g12929.t1            -          PF18052_full         -               0.11   13.6  15.9      0.17   13.1  15.9   1.2   1   0   0   1   1   1   0 -
+g22422.t1            -          PF18052_full         -               0.12   13.5   4.8      0.15   13.2   4.8   1.1   1   0   0   1   1   1   0 -
+g41181.t1            -          PF18052_full         -               0.19   12.9   1.1       3.8    8.6   0.1   2.6   2   0   0   2   2   2   0 -
+g9040.t1             -          PF18052_full         -               0.24   12.6   7.8      0.26   12.4   7.8   1.1   1   0   0   1   1   1   0 -
+g43218.t1            -          PF18052_full         -               0.29   12.3  15.1      0.54   11.4  15.1   1.4   1   0   0   1   1   1   0 -
+g19930.t2            -          PF18052_full         -               0.38   11.9  14.7      0.66   11.1  14.7   1.3   1   0   0   1   1   1   0 -
+g35902.t1            -          PF18052_full         -               0.45   11.6  14.3      0.54   11.4  14.3   1.1   1   0   0   1   1   1   0 -
+g7966.t1             -          PF18052_full         -               0.98   10.6   4.2       1.1   10.3   4.2   1.1   1   0   0   1   1   1   0 -
+g33448.t1            -          PF18052_full         -               0.99   10.5  11.0       1.4   10.0  11.0   1.2   1   0   0   1   1   1   0 -
+g25807.t1            -          PF18052_full         -                1.5    9.9   9.5       2.4    9.3   9.5   1.2   1   0   0   1   1   1   0 -
+g3807.t1             -          PF18052_full         -                2.3    9.3   4.1         4    8.5   4.1   1.4   1   0   0   1   1   1   0 -
+g45508.t1            -          PF18052_full         -                3.2    8.8   9.3       3.9    8.6   9.3   1.1   1   0   0   1   1   1   0 -
+g41542.t1            -          PF18052_full         -                3.8    8.6  13.5       4.1    8.5  13.5   1.0   1   0   0   1   1   1   0 -
+g2610.t1             -          PF18052_full         -                4.2    8.5  13.3      0.27   12.4   1.3   2.0   1   1   1   2   2   2   0 -
+g40446.t1            -          PF18052_full         -                5.1    8.2  27.0       2.9    9.0  24.8   1.8   2   0   0   2   2   2   0 -
+g40446.t2            -          PF18052_full         -                5.7    8.0  27.0       2.9    9.0  24.8   1.7   2   0   0   2   2   2   0 -
+g19930.t1            -          PF18052_full         -                5.7    8.0  21.2        10    7.2  21.2   1.3   1   0   0   1   1   1   0 -
+g37614.t1            -          PF18052_full         -                6.2    7.9   6.5        18    6.4   0.3   2.2   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18052_full_profile.hmm
+# Target file:     ../input/braker_aa_files/g_aspera_soft_mask_braker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/g_aspera_soft_mask_braker_PF18052_full_profile_hmmer_braker3_results.txt ../output/PF18052_full_profile.hmm ../input/braker_aa_files/g_aspera_soft_mask_braker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:43:54 2024
+# [ok]

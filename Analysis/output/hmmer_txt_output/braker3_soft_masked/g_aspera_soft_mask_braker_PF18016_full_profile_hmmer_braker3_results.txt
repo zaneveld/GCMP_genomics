@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g3622.t1             -          PF18016_full         -            3.5e-22   79.4   0.0   6.8e-22   78.5   0.0   1.4   1   0   0   1   1   1   1 -
+g863.t1              -          PF18016_full         -            4.3e-18   66.2   0.3   4.3e-18   66.2   0.3   2.1   2   0   0   2   2   2   1 -
+g24190.t1            -          PF18016_full         -            3.1e-05   24.9   0.3   3.8e-05   24.6   0.3   1.2   1   0   0   1   1   1   1 -
+g30142.t1            -          PF18016_full         -            3.3e-05   24.8   0.7   6.3e-05   23.9   0.7   1.5   1   1   0   1   1   1   1 -
+g39916.t1            -          PF18016_full         -            7.9e-05   23.6   0.1   0.00015   22.7   0.1   1.4   1   0   0   1   1   1   1 -
+g35134.t1            -          PF18016_full         -            0.00058   20.8   0.1   0.00099   20.0   0.1   1.5   1   0   0   1   1   1   1 -
+g11974.t1            -          PF18016_full         -            0.00091   20.1   0.1    0.0016   19.3   0.1   1.4   1   0   0   1   1   1   1 -
+g37622.t1            -          PF18016_full         -              0.001   20.0   0.0    0.0027   18.6   0.0   1.7   1   0   0   1   1   1   1 -
+g36992.t1            -          PF18016_full         -             0.0014   19.6   0.1     0.043   14.8   0.0   2.3   2   0   0   2   2   2   1 -
+g21586.t1            -          PF18016_full         -             0.0014   19.5   0.0    0.0031   18.4   0.0   1.6   1   0   0   1   1   1   1 -
+g27061.t1            -          PF18016_full         -             0.0019   19.1   0.0    0.0037   18.2   0.0   1.5   1   0   0   1   1   1   1 -
+g2831.t1             -          PF18016_full         -             0.0052   17.7   0.8      0.04   14.8   0.2   2.3   2   0   0   2   2   2   1 -
+g6159.t1             -          PF18016_full         -             0.0067   17.3   0.1     0.015   16.2   0.1   1.6   1   0   0   1   1   1   1 -
+g24151.t1            -          PF18016_full         -              0.012   16.5   0.6     0.037   15.0   0.1   2.0   2   0   0   2   2   2   0 -
+g14689.t1            -          PF18016_full         -              0.012   16.5   0.0     0.028   15.3   0.0   1.5   1   0   0   1   1   1   0 -
+g10159.t1            -          PF18016_full         -              0.014   16.3   0.0     0.091   13.7   0.0   2.2   2   0   0   2   2   2   0 -
+g36265.t1            -          PF18016_full         -               0.02   15.9   0.0      0.05   14.5   0.0   1.6   1   0   0   1   1   1   0 -
+g10170.t1            -          PF18016_full         -              0.048   14.6   0.0     0.073   14.0   0.0   1.3   1   0   0   1   1   1   0 -
+g10169.t1            -          PF18016_full         -              0.048   14.6   0.0     0.073   14.0   0.0   1.3   1   0   0   1   1   1   0 -
+g10161.t1            -          PF18016_full         -               0.13   13.2   0.0      0.88   10.5   0.0   2.3   2   0   0   2   2   2   0 -
+g10525.t1            -          PF18016_full         -               0.17   12.8   0.0       0.2   12.6   0.0   1.2   1   0   0   1   1   1   0 -
+g30984.t1            -          PF18016_full         -               0.23   12.4   0.0      0.53   11.2   0.0   1.5   1   0   0   1   1   1   0 -
+g10165.t1            -          PF18016_full         -               0.27   12.2   0.0      0.74   10.8   0.0   1.7   1   0   0   1   1   1   0 -
+g528.t1              -          PF18016_full         -                1.7    9.6   5.8       9.1    7.3   0.2   4.3   5   0   0   5   5   5   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18016_full_profile.hmm
+# Target file:     ../input/braker_aa_files/g_aspera_soft_mask_braker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/g_aspera_soft_mask_braker_PF18016_full_profile_hmmer_braker3_results.txt ../output/PF18016_full_profile.hmm ../input/braker_aa_files/g_aspera_soft_mask_braker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:40:58 2024
+# [ok]
