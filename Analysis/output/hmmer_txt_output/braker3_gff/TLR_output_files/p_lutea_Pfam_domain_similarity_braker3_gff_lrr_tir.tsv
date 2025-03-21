@@ -1,0 +1,9 @@
+,target_name,accession,query_name,accession,E-value_full_seq,score_full_seq,bias_full_seq,E-value,score,bias,exp,reg,clu,ov,env,dom,rep,inc,description_of_target,motif,species,gene_family,gene_id
+60,anno1.g24327.t1,-,PF14580_full,-,6.900000000000001e-23,82.4,46.0,5.6e-07,30.2,8.5,6.6,3,1,2,5,5,5,4,-,LRR,p_lutea,TLR,g24327
+81,anno1.g24326.t1,-,PF14580_full,-,1.6e-18,68.1,49.4,8.8e-06,26.3,4.1,6.7,4,1,2,6,6,5,4,-,LRR,p_lutea,TLR,g24326
+166,anno1.g24327.t1,-,PF13855_full,-,6.4e-47,158.9,52.8,3.7e-13,49.8,1.1,8.0,2,2,6,8,8,8,7,-,LRR,p_lutea,TLR,g24327
+168,anno1.g24326.t1,-,PF13855_full,-,4e-46,156.4,46.2,1.6e-12,47.7,1.8,7.9,2,2,6,8,8,8,8,-,LRR,p_lutea,TLR,g24326
+462,anno1.g24327.t1,-,PF12799_full,-,1.0999999999999998e-24,86.8,52.8,4.9e-06,27.0,0.6,8.3,2,2,5,8,8,8,4,-,LRR,p_lutea,TLR,g24327
+464,anno1.g24326.t1,-,PF12799_full,-,9.1e-23,80.7,46.4,1.1e-05,25.9,0.8,8.4,2,2,5,8,8,8,5,-,LRR,p_lutea,TLR,g24326
+575,anno1.g24327.t1,-,PF01582_full_up,-,7.6e-31,108.7,0.5,1.2000000000000001e-30,108.0,0.5,1.2,1,0,0,1,1,1,1,-,TIR,p_lutea,TLR,g24327
+576,anno1.g24326.t1,-,PF01582_full_up,-,1.5999999999999999e-29,104.3,1.1,2.7999999999999997e-29,103.5,1.1,1.3,1,0,0,1,1,1,1,-,TIR,p_lutea,TLR,g24326

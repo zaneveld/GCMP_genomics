@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g19983.t1            -          PF18052_full         -             0.0066   17.1   0.7    0.0094   16.6   0.7   1.4   1   0   0   1   1   1   1 -
+g12171.t2            -          PF18052_full         -               0.38   11.4  13.0      0.47   11.1  13.0   1.2   1   0   0   1   1   1   0 -
+g16142.t1            -          PF18052_full         -               0.88   10.2  10.5         1   10.0  10.5   1.1   1   0   0   1   1   1   0 -
+g22820.t1            -          PF18052_full         -                2.8    8.6   3.9       4.2    7.9   3.9   1.2   1   0   0   1   1   1   0 -
+g31885.t2            -          PF18052_full         -                3.4    8.3   9.1       4.7    7.8   9.1   1.2   1   0   0   1   1   1   0 -
+g31948.t1            -          PF18052_full         -                4.2    7.9   7.3       4.9    7.7   7.3   1.1   1   0   0   1   1   1   0 -
+g7767.t1             -          PF18052_full         -                4.3    7.9   7.7       5.4    7.6   7.7   1.2   1   0   0   1   1   1   0 -
+g27133.t2            -          PF18052_full         -                4.3    7.9   8.7       6.4    7.4   8.7   1.2   1   0   0   1   1   1   0 -
+g10650.t1            -          PF18052_full         -                6.5    7.3   6.8         3    8.4   1.3   2.6   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18052_full_profile.hmm
+# Target file:     ../input/braker_aa_files/a_hyactintus_soft_mask_braker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/a_hyactintus_soft_mask_braker_PF18052_full_profile_hmmer_braker3_results.txt ../output/PF18052_full_profile.hmm ../input/braker_aa_files/a_hyactintus_soft_mask_braker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:43:40 2024
+# [ok]

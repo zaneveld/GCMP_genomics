@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g31753.t1            -          PF07723_full         -             0.0094   16.6   1.2     0.021   15.4   1.2   1.5   1   0   0   1   1   1   1 -
+g31060.t1            -          PF07723_full         -              0.037   14.7   0.1       2.4    8.9   0.0   3.3   3   0   0   3   3   3   0 -
+g15453.t1            -          PF07723_full         -              0.084   13.5   0.0        89    3.8   0.0   3.7   4   0   0   4   4   4   0 -
+g30599.t1            -          PF07723_full         -               0.14   12.8   5.1        10    6.8   0.3   3.6   3   0   0   3   3   3   0 -
+g24174.t1            -          PF07723_full         -               0.15   12.7   0.0        36    5.1   0.0   2.6   2   0   0   2   2   2   0 -
+g2139.t1             -          PF07723_full         -                0.2   12.3   0.0      0.89   10.2   0.0   2.1   2   0   0   2   2   2   0 -
+g27668.t1            -          PF07723_full         -               0.37   11.5   4.8       7.3    7.3   0.3   2.4   1   1   1   2   2   2   0 -
+g8776.t1             -          PF07723_full         -                1.1    9.9   7.6        13    6.5   0.7   4.2   2   1   2   4   4   4   0 -
+g6616.t1             -          PF07723_full         -                3.4    8.4  12.4         6    7.6   1.1   4.9   5   1   0   5   5   5   0 -
+g15180.t1            -          PF07723_full         -                  8    7.2   7.1         9    7.0   0.8   4.0   4   1   0   4   4   4   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF07723_full_profile.hmm
+# Target file:     ../input/braker_aa_files/o_faveolata_soft_mask_braker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/o_faveolata_soft_mask_braker_PF07723_full_profile_hmmer_braker3_results.txt ../output/PF07723_full_profile.hmm ../input/braker_aa_files/o_faveolata_soft_mask_braker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:42:38 2024
+# [ok]

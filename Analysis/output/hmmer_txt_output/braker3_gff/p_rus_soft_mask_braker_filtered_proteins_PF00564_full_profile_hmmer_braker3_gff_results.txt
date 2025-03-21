@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g21179.t1      -          PF00564_full         -            2.2e-17   64.2   0.0   3.1e-17   63.6   0.0   1.2   1   0   0   1   1   1   1 -
+anno1.g5996.t1       -          PF00564_full         -            2.1e-12   47.9   0.0   2.7e-12   47.5   0.0   1.1   1   0   0   1   1   1   1 -
+anno1.g22660.t1      -          PF00564_full         -            4.1e-05   24.1   0.0   5.2e-05   23.8   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g9866.t1       -          PF00564_full         -            4.7e-05   24.0   0.1   6.9e-05   23.4   0.1   1.1   1   0   0   1   1   1   1 -
+anno1.g21249.t1      -          PF00564_full         -             0.0011   19.5   0.4    0.0027   18.2   0.0   1.8   2   0   0   2   2   2   1 -
+anno1.g13862.t1      -          PF00564_full         -              0.029   14.8   0.0     0.046   14.2   0.0   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF00564_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_rus_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_rus_soft_mask_braker_filtered_proteins_PF00564_full_profile_hmmer_braker3_gff_results.txt ../output/PF00564_full_profile.hmm ../input/braker_aa_files/p_rus_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:54:58 2025
+# [ok]

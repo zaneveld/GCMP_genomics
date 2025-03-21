@@ -1,0 +1,38 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g30341.t1      -          PF00564_full         -            4.7e-21   76.7   0.2   6.3e-21   76.3   0.2   1.1   1   0   0   1   1   1   1 -
+anno1.g8618.t1       -          PF00564_full         -              5e-17   63.6   0.4   9.7e-17   62.7   0.4   1.4   1   0   0   1   1   1   1 -
+anno1.g22770.t1      -          PF00564_full         -            1.6e-15   58.7   0.1   1.6e-15   58.7   0.1   2.1   2   0   0   2   2   2   1 -
+anno1.g26352.t1      -          PF00564_full         -            5.8e-14   53.6   0.0   8.3e-14   53.1   0.0   1.2   1   0   0   1   1   1   1 -
+anno1.g4942.t1       -          PF00564_full         -            1.6e-11   45.7   0.0   2.4e-11   45.1   0.0   1.2   1   0   0   1   1   1   1 -
+anno1.g7237.t1       -          PF00564_full         -            4.7e-11   44.1   0.0   8.4e-11   43.3   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g11830.t1      -          PF00564_full         -            1.4e-08   36.1   0.1   1.4e-08   36.0   0.1   1.1   1   0   0   1   1   1   1 -
+anno1.g7617.t1       -          PF00564_full         -            2.8e-06   28.6   0.3   6.1e-06   27.5   0.3   1.7   1   0   0   1   1   1   1 -
+anno1.g21762.t1      -          PF00564_full         -            4.1e-06   28.0   0.4   9.1e-06   26.9   0.4   1.7   1   0   0   1   1   1   1 -
+anno1.g34162.t1      -          PF00564_full         -              1e-05   26.7   0.6   2.4e-05   25.6   0.6   1.7   1   0   0   1   1   1   1 -
+anno1.g38354.t1      -          PF00564_full         -            2.3e-05   25.6   0.4   4.7e-05   24.6   0.4   1.6   1   0   0   1   1   1   1 -
+anno1.g31316.t1      -          PF00564_full         -            2.9e-05   25.3   0.4   7.3e-05   24.0   0.4   1.7   1   0   0   1   1   1   1 -
+anno1.g37154.t1      -          PF00564_full         -            2.9e-05   25.3   0.4   7.3e-05   24.0   0.4   1.7   1   0   0   1   1   1   1 -
+anno1.g48234.t1      -          PF00564_full         -             0.0002   22.5   0.0   0.00043   21.4   0.0   1.5   1   0   0   1   1   1   1 -
+anno1.g4546.t1       -          PF00564_full         -              0.015   16.4   2.1     0.031   15.4   2.0   1.6   1   1   0   1   1   1   0 -
+anno1.g4396.t1       -          PF00564_full         -              0.015   16.4   4.2     0.066   14.3   0.0   2.3   2   0   0   2   2   2   0 -
+anno1.g17256.t1      -          PF00564_full         -              0.016   16.3   0.0     0.042   15.0   0.0   1.6   1   0   0   1   1   1   0 -
+anno1.g32285.t1      -          PF00564_full         -              0.065   14.4   0.2      0.29   12.3   0.0   2.2   2   0   0   2   2   2   0 -
+anno1.g24046.t1      -          PF00564_full         -              0.075   14.2   0.2      0.19   12.9   0.2   1.7   1   0   0   1   1   1   0 -
+anno1.g17694.t1      -          PF00564_full         -               0.12   13.6   1.8      0.34   12.0   0.3   2.1   2   1   0   2   2   2   0 -
+anno1.g22170.t1      -          PF00564_full         -               0.17   13.0   0.0      0.38   11.9   0.0   1.6   2   0   0   2   2   2   0 -
+anno1.g32764.t1      -          PF00564_full         -               0.24   12.5   0.0      0.34   12.0   0.0   1.3   1   0   0   1   1   1   0 -
+anno1.g5581.t1       -          PF00564_full         -               0.35   12.0   0.0      0.82   10.8   0.0   1.5   1   0   0   1   1   1   0 -
+anno1.g46916.t1      -          PF00564_full         -               0.47   11.6   1.3        29    5.7   0.3   2.7   2   0   0   2   2   2   0 -
+anno1.g14802.t1      -          PF00564_full         -                3.2    8.9  15.1         2    9.5   0.2   5.5   6   1   0   6   6   6   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF00564_full_profile.hmm
+# Target file:     ../input/braker_aa_files/g_aspera_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/g_aspera_soft_mask_braker_filtered_proteins_PF00564_full_profile_hmmer_braker3_gff_results.txt ../output/PF00564_full_profile.hmm ../input/braker_aa_files/g_aspera_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:54:55 2025
+# [ok]

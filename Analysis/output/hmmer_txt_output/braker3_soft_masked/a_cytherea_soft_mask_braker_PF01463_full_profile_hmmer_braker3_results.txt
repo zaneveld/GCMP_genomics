@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g16103.t2            -          PF01463_full         -             0.0008   20.6   0.0     0.027   15.8   0.0   2.6   2   0   0   2   2   2   1 -
+g16103.t1            -          PF01463_full         -             0.0015   19.7   0.0     0.037   15.3   0.0   2.5   2   0   0   2   2   2   1 -
+g25348.t1            -          PF01463_full         -             0.0055   18.0   0.4       4.1    8.9   0.0   3.4   3   0   0   3   3   3   1 -
+g8723.t1             -          PF01463_full         -             0.0084   17.4   0.0     0.023   16.0   0.0   1.8   1   0   0   1   1   1   1 -
+g19217.t1            -          PF01463_full         -               0.23   12.8   0.0      0.58   11.5   0.0   1.8   1   0   0   1   1   1   0 -
+g25345.t2            -          PF01463_full         -               0.28   12.6   0.8        43    5.6   0.0   3.0   3   0   0   3   3   3   0 -
+g25347.t1            -          PF01463_full         -               0.38   12.1   2.3        19    6.8   0.0   3.3   3   0   0   3   3   3   0 -
+g25344.t1            -          PF01463_full         -               0.57   11.6   1.8        84    4.7   0.0   3.4   3   0   0   3   3   3   0 -
+g26328.t1            -          PF01463_full         -               0.92   10.9   0.0      0.92   10.9   0.0   2.4   3   0   0   3   3   3   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF01463_full_profile.hmm
+# Target file:     ../input/braker_aa_files/a_cytherea_soft_mask_breaker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/a_cytherea_soft_mask_breaker_PF01463_full_profile_hmmer_braker3_results.txt ../output/PF01463_full_profile.hmm ../input/braker_aa_files/a_cytherea_soft_mask_breaker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:44:14 2024
+# [ok]

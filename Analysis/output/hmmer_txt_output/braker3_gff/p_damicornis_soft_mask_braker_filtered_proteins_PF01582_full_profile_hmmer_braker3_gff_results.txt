@@ -1,0 +1,56 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g3498.t1       -          PF01582_full         -            5.6e-37  128.2   1.1   7.8e-37  127.7   1.1   1.1   1   0   0   1   1   1   1 -
+anno1.g15369.t1      -          PF01582_full         -            7.2e-34  118.0   5.8   1.3e-33  117.2   5.8   1.3   1   0   0   1   1   1   1 -
+anno1.g11612.t1      -          PF01582_full         -            8.5e-34  117.7   2.7   1.5e-33  117.0   2.7   1.3   1   0   0   1   1   1   1 -
+anno1.g3495.t1       -          PF01582_full         -            1.9e-32  113.3   1.4   3.1e-32  112.6   1.4   1.2   1   0   0   1   1   1   1 -
+anno1.g10806.t1      -          PF01582_full         -            3.4e-29  102.6   1.9     6e-29  101.8   1.9   1.3   1   0   0   1   1   1   1 -
+anno1.g14804.t1      -          PF01582_full         -            4.3e-27   95.7   1.2   7.1e-27   95.0   1.2   1.3   1   0   0   1   1   1   1 -
+anno1.g3837.t1       -          PF01582_full         -            1.2e-25   91.0   0.8   2.2e-25   90.1   0.8   1.3   1   0   0   1   1   1   1 -
+anno1.g14806.t1      -          PF01582_full         -            3.8e-25   89.3   1.9   5.8e-25   88.7   1.9   1.3   1   0   0   1   1   1   1 -
+anno1.g10695.t1      -          PF01582_full         -            1.4e-23   84.2   0.1   3.5e-23   82.9   0.1   1.6   1   0   0   1   1   1   1 -
+anno1.g23281.t2      -          PF01582_full         -            1.1e-22   81.2   1.9   1.7e-22   80.6   1.9   1.2   1   0   0   1   1   1   1 -
+anno1.g23278.t1      -          PF01582_full         -            1.6e-22   80.7   0.7   1.8e-22   80.5   0.7   1.2   1   0   0   1   1   1   1 -
+anno1.g3840.t1       -          PF01582_full         -            1.8e-22   80.6   3.6   2.2e-22   80.2   3.6   1.1   1   0   0   1   1   1   1 -
+anno1.g20129.t1      -          PF01582_full         -            6.9e-22   78.6   1.4     1e-21   78.1   1.4   1.2   1   0   0   1   1   1   1 -
+anno1.g22395.t1      -          PF01582_full         -              1e-21   78.1   3.2   1.4e-21   77.6   3.2   1.1   1   0   0   1   1   1   1 -
+anno1.g23276.t1      -          PF01582_full         -              2e-21   77.1   1.4   2.7e-21   76.7   1.4   1.2   1   0   0   1   1   1   1 -
+anno1.g9143.t1       -          PF01582_full         -            4.3e-21   76.0   1.0   6.9e-21   75.3   1.0   1.3   1   0   0   1   1   1   1 -
+anno1.g22396.t2      -          PF01582_full         -            5.9e-21   75.6   1.3   9.8e-21   74.8   1.3   1.3   1   0   0   1   1   1   1 -
+anno1.g4343.t1       -          PF01582_full         -              9e-20   71.7   4.3   1.9e-19   70.6   4.3   1.5   1   1   0   1   1   1   1 -
+anno1.g4337.t2       -          PF01582_full         -            9.2e-20   71.6   0.6   1.4e-19   71.0   0.6   1.3   1   0   0   1   1   1   1 -
+anno1.g6533.t1       -          PF01582_full         -            1.2e-19   71.3   0.5     2e-19   70.5   0.5   1.3   1   0   0   1   1   1   1 -
+anno1.g4344.t1       -          PF01582_full         -            2.4e-19   70.3   2.0   3.5e-19   69.7   2.0   1.2   1   0   0   1   1   1   1 -
+anno1.g4334.t1       -          PF01582_full         -            1.1e-17   64.8   4.9     2e-17   64.0   4.9   1.3   1   0   0   1   1   1   1 -
+anno1.g19517.t1      -          PF01582_full         -            5.5e-17   62.5   4.2   9.6e-17   61.7   4.2   1.4   1   1   0   1   1   1   1 -
+anno1.g10912.t1      -          PF01582_full         -            1.6e-16   61.0   0.0   2.2e-16   60.5   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g8200.t1       -          PF01582_full         -              3e-16   60.1   0.8     3e-16   60.1   0.8   1.6   2   0   0   2   2   2   1 -
+anno1.g8194.t1       -          PF01582_full         -            1.1e-15   58.2   0.7   1.6e-15   57.7   0.1   1.5   2   0   0   2   2   2   1 -
+anno1.g18879.t1      -          PF01582_full         -            1.6e-14   54.5  10.6   5.4e-07   29.7   0.2   4.0   3   1   1   4   4   4   3 -
+anno1.g23285.t1      -          PF01582_full         -            2.7e-14   53.7   0.2   3.7e-14   53.2   0.2   1.2   1   0   0   1   1   1   1 -
+anno1.g10913.t1      -          PF01582_full         -            2.7e-14   53.7   0.0     5e-14   52.8   0.0   1.4   1   0   0   1   1   1   1 -
+anno1.g4341.t1       -          PF01582_full         -            2.9e-13   50.3   2.0   2.9e-13   50.3   2.0   2.5   2   1   1   3   3   3   1 -
+anno1.g4338.t1       -          PF01582_full         -            6.5e-13   49.1   4.3   6.5e-13   49.1   4.3   1.6   1   1   0   1   1   1   1 -
+anno1.g10914.t1      -          PF01582_full         -            1.7e-10   41.2   0.6   1.7e-10   41.2   0.6   1.8   2   0   0   2   2   2   1 -
+anno1.g14536.t1      -          PF01582_full         -            3.5e-09   36.9   0.2   3.5e-09   36.9   0.2   1.1   1   0   0   1   1   1   1 -
+anno1.g12894.t1      -          PF01582_full         -            2.3e-07   30.9   1.1      0.01   15.6   0.1   3.1   2   0   0   2   2   2   2 -
+anno1.g4342.t1       -          PF01582_full         -              1e-06   28.8   0.1   2.3e-06   27.6   0.0   1.6   2   0   0   2   2   2   1 -
+anno1.g4335.t1       -          PF01582_full         -            1.7e-05   24.7   0.2   2.7e-05   24.1   0.2   1.3   1   0   0   1   1   1   1 -
+anno1.g4128.t1       -          PF01582_full         -              3e-05   24.0   0.8   5.8e-05   23.0   0.0   1.7   2   0   0   2   2   2   1 -
+anno1.g21965.t1      -          PF01582_full         -            0.00083   19.2   1.2    0.0012   18.7   0.0   1.8   2   0   0   2   2   2   1 -
+anno1.g22255.t1      -          PF01582_full         -             0.0071   16.2   0.2     0.017   14.9   0.0   1.7   2   0   0   2   2   1   1 -
+anno1.g2277.t1       -          PF01582_full         -               0.03   14.1  12.3      0.63    9.8   0.2   3.5   3   1   0   3   3   3   0 -
+anno1.g4391.t1       -          PF01582_full         -               0.05   13.4   0.0      0.11   12.2   0.0   1.6   1   0   0   1   1   1   0 -
+anno1.g10705.t1      -          PF01582_full         -              0.086   12.6   0.0       7.6    6.2   0.0   2.1   2   0   0   2   2   2   0 -
+anno1.g21408.t1      -          PF01582_full         -               0.55   10.0   5.6      0.87    9.3   5.6   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF01582_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_damicornis_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_damicornis_soft_mask_braker_filtered_proteins_PF01582_full_profile_hmmer_braker3_gff_results.txt ../output/PF01582_full_profile.hmm ../input/braker_aa_files/p_damicornis_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:56:28 2025
+# [ok]

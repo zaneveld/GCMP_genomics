@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+g6950.t1             -          PF18805_full         -             0.0039   17.8   1.4       3.2    8.4   0.1   3.2   2   0   0   2   2   2   2 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF18805_full_profile.hmm
+# Target file:     ../input/braker_aa_files/o_faveolata_soft_mask_braker.pep
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_soft_masked/o_faveolata_soft_mask_braker_PF18805_full_profile_hmmer_braker3_results.txt ../output/PF18805_full_profile.hmm ../input/braker_aa_files/o_faveolata_soft_mask_braker.pep 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Thu Oct 17 19:46:48 2024
+# [ok]

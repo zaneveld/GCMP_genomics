@@ -1,0 +1,47 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g4561.t1       -          PF01582_full_up      -            4.5e-34  119.0   1.3   8.8e-34  118.1   1.3   1.4   1   0   0   1   1   1   1 -
+anno1.g13288.t1      -          PF01582_full_up      -            6.7e-29  102.1   2.3     9e-29  101.6   2.3   1.1   1   0   0   1   1   1   1 -
+anno1.g27237.t1      -          PF01582_full_up      -            2.6e-28  100.2   1.8     3e-28   99.9   0.4   1.7   2   0   0   2   2   2   1 -
+anno1.g2322.t1       -          PF01582_full_up      -            4.7e-26   92.7   1.2   5.4e-26   92.5   1.2   1.0   1   0   0   1   1   1   1 -
+anno1.g30084.t1      -          PF01582_full_up      -            5.1e-26   92.6   0.2   1.1e-25   91.5   0.2   1.5   1   0   0   1   1   1   1 -
+anno1.g25360.t1      -          PF01582_full_up      -            3.3e-25   89.9   0.4     8e-25   88.7   0.4   1.5   1   0   0   1   1   1   1 -
+anno1.g16286.t1      -          PF01582_full_up      -            9.1e-24   85.2   0.7   1.4e-23   84.6   0.7   1.3   1   0   0   1   1   1   1 -
+anno1.g23764.t1      -          PF01582_full_up      -            2.4e-23   83.8   3.4   2.7e-23   83.7   3.4   1.1   1   0   0   1   1   1   1 -
+anno1.g6184.t1       -          PF01582_full_up      -            4.2e-23   83.0   1.1   7.5e-23   82.2   1.1   1.3   1   0   0   1   1   1   1 -
+anno1.g25449.t1      -          PF01582_full_up      -            1.1e-20   75.2   0.5   1.6e-20   74.6   0.5   1.2   1   0   0   1   1   1   1 -
+anno1.g29804.t1      -          PF01582_full_up      -            2.5e-19   70.7   0.2     3e-19   70.4   0.2   1.1   1   0   0   1   1   1   1 -
+anno1.g6185.t1       -          PF01582_full_up      -            1.2e-17   65.2   0.7   2.6e-17   64.0   0.7   1.5   1   0   0   1   1   1   1 -
+anno1.g20157.t1      -          PF01582_full_up      -            2.8e-17   63.9  18.7     4e-08   33.9   1.2   3.7   4   0   0   4   4   4   3 -
+anno1.g23732.t1      -          PF01582_full_up      -            9.4e-17   62.2   3.7     3e-16   60.5   3.3   1.9   1   1   0   1   1   1   1 -
+anno1.g27730.t1      -          PF01582_full_up      -            2.2e-16   61.0   1.5   3.1e-16   60.5   1.5   1.3   1   1   0   1   1   1   1 -
+anno1.g31132.t1      -          PF01582_full_up      -            1.2e-15   58.5   2.3   1.5e-15   58.2   2.3   1.1   1   0   0   1   1   1   1 -
+anno1.g6183.t1       -          PF01582_full_up      -            1.3e-15   58.4   1.0     2e-15   57.9   1.0   1.2   1   0   0   1   1   1   1 -
+anno1.g31272.t1      -          PF01582_full_up      -            2.6e-15   57.4   0.4   2.6e-15   57.4   0.4   1.1   1   0   0   1   1   1   1 -
+anno1.g24455.t1      -          PF01582_full_up      -            6.7e-15   56.1   0.4   1.2e-14   55.3   0.0   1.6   2   1   1   3   3   2   1 -
+anno1.g14769.t1      -          PF01582_full_up      -            4.3e-13   50.2   0.3   4.3e-13   50.2   0.3   2.4   1   1   1   2   2   2   1 -
+anno1.g31288.t1      -          PF01582_full_up      -            1.6e-07   31.9   0.2   1.8e-07   31.7   0.2   1.1   1   0   0   1   1   1   1 -
+anno1.g1687.t1       -          PF01582_full_up      -            5.4e-05   23.6   0.0   0.00013   22.3   0.0   1.5   1   0   0   1   1   1   1 -
+anno1.g8168.t1       -          PF01582_full_up      -            5.9e-05   23.4   1.7       1.6    8.9   0.2   3.4   3   0   0   3   3   3   2 -
+anno1.g7058.t1       -          PF01582_full_up      -            0.00019   21.8   1.7      0.37   11.0   0.0   2.8   3   0   0   3   3   3   2 -
+anno1.g30617.t1      -          PF01582_full_up      -            0.00051   20.4   0.0   0.00059   20.2   0.0   1.1   1   0   0   1   1   1   1 -
+anno1.g7376.t1       -          PF01582_full_up      -            0.00059   20.2   0.9    0.0065   16.8   0.1   2.5   2   1   0   2   2   2   1 -
+anno1.g17323.t1      -          PF01582_full_up      -            0.00065   20.0   0.0   0.00098   19.5   0.0   1.2   1   0   0   1   1   1   1 -
+anno1.g17321.t1      -          PF01582_full_up      -             0.0019   18.5   0.5     0.005   17.1   0.0   1.9   2   0   0   2   2   2   1 -
+anno1.g670.t1        -          PF01582_full_up      -             0.0037   17.6   0.0    0.0068   16.7   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g9649.t1       -          PF01582_full_up      -             0.0043   17.4   0.5    0.0057   16.9   0.1   1.5   2   0   0   2   2   2   1 -
+anno1.g30484.t1      -          PF01582_full_up      -              0.013   15.8   0.0     0.022   15.0   0.0   1.4   1   0   0   1   1   1   0 -
+anno1.g17663.t1      -          PF01582_full_up      -              0.015   15.6   0.0     0.016   15.5   0.0   1.2   1   0   0   1   1   1   0 -
+anno1.g10376.t1      -          PF01582_full_up      -              0.081   13.2   2.5      0.12   12.6   2.5   1.2   1   0   0   1   1   1   0 -
+anno1.g18158.t1      -          PF01582_full_up      -               0.13   12.5   0.8       1.1    9.4   0.0   2.6   2   1   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF01582_full_up_profile.hmm
+# Target file:     ../input/braker_aa_files/g_fascicularis_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/g_fascicularis_soft_mask_braker_filtered_proteins_PF01582_full_up_profile_hmmer_braker3_gff_results.txt ../output/PF01582_full_up_profile.hmm ../input/braker_aa_files/g_fascicularis_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:52:19 2025
+# [ok]

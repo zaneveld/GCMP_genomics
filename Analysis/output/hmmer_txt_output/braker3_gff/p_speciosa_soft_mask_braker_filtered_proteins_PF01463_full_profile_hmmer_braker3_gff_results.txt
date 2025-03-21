@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g55765.t1      -          PF01463_full         -              3e-05   26.0   0.1     9e-05   24.5   0.1   1.9   1   0   0   1   1   1   1 -
+anno1.g55725.t1      -          PF01463_full         -            5.1e-05   25.3   0.1   0.00015   23.8   0.1   1.9   1   0   0   1   1   1   1 -
+anno1.g6864.t1       -          PF01463_full         -             0.0042   19.2   0.3    0.0094   18.1   0.3   1.7   1   0   0   1   1   1   1 -
+anno1.g65018.t1      -          PF01463_full         -              0.022   17.0   0.2       3.5   10.0   0.1   3.4   3   0   0   3   3   3   0 -
+anno1.g7859.t1       -          PF01463_full         -              0.029   16.6   0.0     0.061   15.5   0.0   1.6   1   0   0   1   1   1   0 -
+anno1.g47303.t1      -          PF01463_full         -              0.046   15.9   0.2       4.6    9.6   0.1   3.3   3   0   0   3   3   3   0 -
+anno1.g36445.t1      -          PF01463_full         -              0.073   15.3   0.0       6.9    9.0   0.0   3.3   3   0   0   3   3   3   0 -
+anno1.g61928.t1      -          PF01463_full         -                0.7   12.2   0.2       6.7    9.1   0.1   2.4   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF01463_full_profile.hmm
+# Target file:     ../input/braker_aa_files/p_speciosa_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/p_speciosa_soft_mask_braker_filtered_proteins_PF01463_full_profile_hmmer_braker3_gff_results.txt ../output/PF01463_full_profile.hmm ../input/braker_aa_files/p_speciosa_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:53:58 2025
+# [ok]

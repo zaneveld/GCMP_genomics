@@ -1,0 +1,9 @@
+,target_name,accession,query_name,accession,E-value_full_seq,score_full_seq,bias_full_seq,E-value,score,bias,exp,reg,clu,ov,env,dom,rep,inc,description_of_target,motif,species,gene_family,gene_id
+68,anno1.g15369.t1,-,PF14580_full,-,2.4e-19,70.1,46.9,6.9e-09,35.8,7.4,5.2,3,1,2,5,5,4,3,-,LRR,p_damicornis,TLR,g15369
+156,anno1.g15369.t1,-,PF13855_full,-,2.4e-33,114.4,59.1,2.3e-12,46.5,7.7,8.2,3,3,5,8,8,8,6,-,LRR,p_damicornis,TLR,g15369
+219,anno1.g3495.t1,-,PF13855_full,-,3.1e-13,49.3,7.4,2.2e-07,30.4,0.6,3.9,3,2,1,4,4,3,2,-,LRR,p_damicornis,TLR,g3495
+226,anno1.g11612.t1,-,PF13855_full,-,1.9e-12,46.8,11.9,0.00018,21.0,0.5,3.9,3,0,0,3,3,3,3,-,LRR,p_damicornis,TLR,g11612
+440,anno1.g15369.t1,-,PF12799_full,-,7.1e-11,41.8,54.9,0.00016,21.4,0.6,9.2,3,3,7,10,10,8,5,-,LRR,p_damicornis,TLR,g15369
+451,anno1.g11612.t1,-,PF01582_full_up,-,1.2e-34,120.5,2.6,2.1e-34,119.7,2.6,1.3,1,0,0,1,1,1,1,-,TIR,p_damicornis,TLR,g11612
+452,anno1.g15369.t1,-,PF01582_full_up,-,1.9e-34,119.8,6.1,3.4e-34,119.0,6.1,1.3,1,0,0,1,1,1,1,-,TIR,p_damicornis,TLR,g15369
+453,anno1.g3495.t1,-,PF01582_full_up,-,7e-33,114.7,1.6,1.2e-32,114.0,1.6,1.3,1,0,0,1,1,1,1,-,TIR,p_damicornis,TLR,g3495

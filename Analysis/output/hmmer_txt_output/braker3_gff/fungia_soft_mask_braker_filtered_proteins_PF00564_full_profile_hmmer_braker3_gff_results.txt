@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+anno1.g10531.t1      -          PF00564_full         -            1.8e-17   64.9   0.1   2.2e-17   64.6   0.1   1.1   1   0   0   1   1   1   1 -
+anno1.g23248.t1      -          PF00564_full         -            9.4e-17   62.6   0.4   1.7e-16   61.7   0.4   1.4   1   0   0   1   1   1   1 -
+anno1.g29180.t1      -          PF00564_full         -            2.3e-15   58.1   4.0   2.7e-15   57.8   0.2   2.3   2   0   0   2   2   2   1 -
+anno1.g6457.t1       -          PF00564_full         -            1.2e-14   55.8   0.0   1.7e-14   55.2   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g1359.t1       -          PF00564_full         -            7.2e-11   43.4   0.0   1.3e-10   42.6   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g27212.t1      -          PF00564_full         -            7.7e-11   43.3   0.0   1.2e-10   42.7   0.0   1.2   1   0   0   1   1   1   1 -
+anno1.g5610.t1       -          PF00564_full         -            3.1e-07   31.5   0.0   5.6e-07   30.7   0.0   1.3   1   0   0   1   1   1   1 -
+anno1.g33780.t1      -          PF00564_full         -            6.1e-07   30.6   0.3   1.3e-06   29.5   0.3   1.6   1   1   0   1   1   1   1 -
+anno1.g41101.t1      -          PF00564_full         -            3.3e-05   24.9   2.8   5.7e-05   24.2   2.8   1.3   1   0   0   1   1   1   1 -
+anno1.g37780.t1      -          PF00564_full         -            5.3e-05   24.3   0.1   0.00013   23.0   0.0   1.6   1   1   0   1   1   1   1 -
+anno1.g2904.t1       -          PF00564_full         -            0.00073   20.6   0.1    0.0011   19.9   0.1   1.3   1   0   0   1   1   1   1 -
+anno1.g34623.t1      -          PF00564_full         -             0.0018   19.3   4.0    0.0053   17.8   4.0   1.7   1   0   0   1   1   1   1 -
+anno1.g30021.t1      -          PF00564_full         -              0.022   15.8   0.4        11    7.0   0.1   2.3   2   0   0   2   2   2   0 -
+anno1.g26678.t1      -          PF00564_full         -              0.033   15.2   0.4     0.033   15.2   0.4   2.0   2   1   0   2   2   2   0 -
+anno1.g26206.t1      -          PF00564_full         -              0.033   15.2   3.3     0.039   15.0   2.2   1.8   1   1   0   1   1   1   0 -
+anno1.g20588.t1      -          PF00564_full         -              0.065   14.2   0.1      0.14   13.2   0.1   1.5   1   0   0   1   1   1   0 -
+anno1.g24315.t1      -          PF00564_full         -               0.14   13.1   0.0      0.46   11.5   0.0   1.9   1   0   0   1   1   1   0 -
+anno1.g5055.t1       -          PF00564_full         -               0.22   12.5   1.7      0.54   11.2   0.3   2.2   2   1   0   2   2   2   0 -
+anno1.g1105.t2       -          PF00564_full         -               0.31   12.0   0.1      0.57   11.1   0.1   1.3   1   0   0   1   1   1   0 -
+anno1.g10227.t1      -          PF00564_full         -                5.3    8.0   9.4        11    6.9   0.3   2.7   1   1   2   3   3   3   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../output/PF00564_full_profile.hmm
+# Target file:     ../input/braker_aa_files/fungia_soft_mask_braker_filtered_proteins.fa
+# Option settings: hmmsearch --tblout ../output/hmmer_txt_output/braker3_gff/fungia_soft_mask_braker_filtered_proteins_PF00564_full_profile_hmmer_braker3_gff_results.txt ../output/PF00564_full_profile.hmm ../input/braker_aa_files/fungia_soft_mask_braker_filtered_proteins.fa 
+# Current dir:     /home/tanya/Work_files/TIR_Domains/Coral/procedure
+# Date:            Sat Feb 15 18:54:56 2025
+# [ok]

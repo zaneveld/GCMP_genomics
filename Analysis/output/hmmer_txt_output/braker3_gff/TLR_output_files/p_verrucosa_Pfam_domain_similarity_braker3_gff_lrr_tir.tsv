@@ -1,0 +1,12 @@
+,target_name,accession,query_name,accession,E-value_full_seq,score_full_seq,bias_full_seq,E-value,score,bias,exp,reg,clu,ov,env,dom,rep,inc,description_of_target,motif,species,gene_family,gene_id
+57,anno1.g23165.t1,-,PF14580_full,-,9.3e-25,88.3,33.9,1.3e-08,35.3,17.8,4.7,2,1,1,3,3,3,3,-,LRR,p_verrucosa,TLR,g23165
+74,anno1.g18027.t1,-,PF14580_full,-,4.8e-19,69.6,46.7,9.5e-09,35.8,7.5,5.2,3,1,2,5,5,4,3,-,LRR,p_verrucosa,TLR,g18027
+120,anno1.g2156.t1,-,PF14580_full,-,3.6e-11,43.8,62.1,0.0042,17.3,11.6,5.7,3,2,1,4,4,4,4,-,LRR,p_verrucosa,TLR,g2156
+141,anno1.g23165.t1,-,PF13855_full,-,1.2e-56,190.3,68.0,8.2e-15,54.9,3.1,7.3,2,2,6,8,8,8,7,-,LRR,p_verrucosa,TLR,g23165
+165,anno1.g18027.t1,-,PF13855_full,-,1.7e-37,128.3,71.9,1.1e-11,44.9,8.0,8.2,3,3,6,9,9,9,7,-,LRR,p_verrucosa,TLR,g18027
+183,anno1.g2156.t1,-,PF13855_full,-,1.7e-30,105.6,61.6,4.6e-12,46.0,12.4,7.0,4,2,3,7,7,6,5,-,LRR,p_verrucosa,TLR,g2156
+334,anno1.g23165.t1,-,PF13306_full,-,4.1e-20,73.2,8.7,1.3e-16,61.7,8.7,2.6,1,1,0,1,1,1,1,-,LRR,p_verrucosa,TLR,g23165
+400,anno1.g23165.t1,-,PF12799_full,-,2.7e-20,72.6,42.1,0.00091,19.5,1.4,7.5,2,2,5,7,7,7,5,-,LRR,p_verrucosa,TLR,g23165
+469,anno1.g23165.t1,-,PF01582_full_up,-,1.4e-35,124.1,1.4,2.3999999999999999e-35,123.3,1.4,1.3,1,0,0,1,1,1,1,-,TIR,p_verrucosa,TLR,g23165
+470,anno1.g18027.t1,-,PF01582_full_up,-,3.2e-34,119.6,5.9,5.9e-34,118.7,5.9,1.3,1,0,0,1,1,1,1,-,TIR,p_verrucosa,TLR,g18027
+471,anno1.g2156.t1,-,PF01582_full_up,-,1.6000000000000002e-33,117.3,2.9,2.9e-33,116.5,2.9,1.3,1,0,0,1,1,1,1,-,TIR,p_verrucosa,TLR,g2156
