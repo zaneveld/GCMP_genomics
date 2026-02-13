@@ -12,3 +12,8 @@ A repository for comparing innate immune gene repertoires in coral genomes to th
 [Dr. Jesse Zaneveld](https://scholar.google.com/citations?user=bMhl-ZgAAAAJ&hl=en). Associate Professor of Biology, University of Washington Bothell. Project design and mentorship.
 
 [Dylan Sonett](https://orcid.org/0000-0001-6821-4695). Development of improved mitochondrial annotation and removal protocols. 
+
+
+**Manuscript Materials**
+https://drive.google.com/drive/u/0/folders/1W-hL88cYlwQSfxaDkjTDPbyzfmpSTUyu
+
